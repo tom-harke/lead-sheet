@@ -1,0 +1,96 @@
+midi + unfold repeats requires a separate \score block for each of pdf & midi.
+Otherwise the \layout & \midi can cohabit the same \score
+    \layout ==> pdf
+    \midi   ==> midi
+
+|          | a | b  | c  | d | e     |f | g|
+| 3 flats  |   |    |    |   |       |
+| 2 flats  |   |    |    |   |       |
+| 1 flat   |   |    |    |   |       |
+|          |   |    |    |   |       |
+| 1 sharp  |   |    |    |   | minor |
+| 2 sharps |   |    |    |   |       |
+| 3 sharps |   |    |    |   |       |
+
+Keys:
+%\key d \locrian    % 3 flats
+%\key d \phrygian   % 2 flats
+%\key d \minor      % 1 flat
+%\key d \mixolydian % 1 sharp
+%\key d \major      % 2 sharps
+%\key d \lydian     % 3 sharps
+
+%\key a \phrygian   % 1 flat
+%\key a \minor      % 0
+%\key a \dorian     % 1 sharp
+%\key a \lydian     % 4 sharp
+%\key a \mixolydian % 2 sharp
+%\key a \major      % 3 sharp
+
+    %\key c \locrian    % 5 flat
+    %\key c \phrygian   % 4 flat
+    %\key c \minor      % 3 flat
+    %\key c \dorian     % 2 flat
+    %\key c \mixolydian % 1 flat
+    %\key c \lydian     % 1 sharp
+
+%\key e \locrian % 1 flat
+%\key e \phrygian % 0
+%\key e \minor % 1 sharp
+%\key e \dorian % 2 sharps
+
+2 1 2 2 1 2 2 -> minor	
+
+a \major = fis \minor
+
+\set Score.baseMoment = #(ly:make-moment 1/16)
+	\set Score.beatStructure = 4,3
+	\set Timing.baseMoment = #(ly:make-moment 1/16)
+	\set Timing.beatStructure = 4,3
+	%\set subdivideBeams = ##t
+
+Alternate names for geampara
+    vlășcencuța (it also refers to other rhythms ... even, 3/8)
+    jocul zestrei
+    jocul coprei
+    zlata
+    pandalas
+    tri săllate
+
+    hostropăţ
+    Ostropăţ,
+    Oleandra,
+    Săltatele,
+    Jocul colacilor,
+    La colaci,
+    De închinat colacii,
+    La legătoare,
+    La găluşte,
+    La daruri,
+    La jocul soacrei,
+    De îmbrăcat soacra,
+    Măringhele,
+    Geamparale,
+    La pahare,
+    Jocul zestrei,
+    De zestre,
+    Zestrea,
+    La scos zestrea,
+    De scoaterea zestrei,
+    La schimburi,
+    Jocul găinii,
+    La găină,
+    A găinii,
+    La vânzarea găinii,
+    Pentru găină,
+    Hostropăţul la găină
+
+cadaneasca = 2+2+2+3 / 16
+Кадынжа = 2+2+2+3 / 16 ???
+Kadînca = 2+2+2+3 / 16 ???
+
+tools
+    scrot --  for taking screen shots
+    mplayer
+    smplayer
+    pdfseparate

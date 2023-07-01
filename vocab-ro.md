@@ -1,0 +1,24 @@
+Babadag
+bun
+ca
+cules
+de
+Feteşti
+geampara
+ghiurghiu
+îi
+la
+-le
+-lele
+-liu
+-lor
+Murfatlar
+ostropăţ
+ostropesul
+pandelas
+Taşaul
+Turcitu
+-ua
+-ul
+viilor = vi + lor
+vin
