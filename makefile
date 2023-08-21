@@ -1,15 +1,23 @@
 #!/usr/bin/make -f
 
+# ---------------------------------------------------------------------------- (
+# Software
+MIDI = wildmidi
+PDF  = evince
+# ---------------------------------------------------------------------------- )
+
+
 include glue.mk
 
 ALL = $(patsubst %.src.ly,%,$(shell ls *.src.ly))
-
-EG = TUNE
+EG  = TUNE
 
 define ABOUT
-...
-List of tunes:
-$(TAB)$(subst $(SPACE),$(NEWLINE)$(TAB),$(ALL))
+To compile the contents of this repo to .pdf files you will need
+ - lilypond
+ - make
+ - $(MIDI)
+ - $(PDF)
 
 Real targets
 	make $(EG).pdf
@@ -27,6 +35,9 @@ Phony targets
 
 	make clean
 		to remove generated files (including .pdf and .midi)
+
+List of tunes:
+$(TAB)$(subst $(SPACE),$(NEWLINE)$(TAB),$(ALL))
 endef
 
 export ABOUT
@@ -64,7 +75,7 @@ view: ostropat.view
 %.view: %.pdf
 
 %.hear: %.midi
-	wildmidi $*.midi
+	$(MIDI) $*.midi
 
 echo:
 	@echo $(ALL)
@@ -83,7 +94,7 @@ TODO   = nokh_a_glezl_vayn fetesti ostropat
 CHORDS = tasaul norbeck1 norbeck2
 
 %.view: %.pdf
-	evince $*.pdf &
+	$(PDF) $*.pdf &
 
 clean:
 	rm -f *.pdf
@@ -91,3 +102,6 @@ clean:
 
 .PHONY: *.view *.hear clean
 .PRECIOUS: $(patsubst %,%.pdf,$(ALL))
+
+makefile.md: makefile
+	@make --quiet about > makefile.md

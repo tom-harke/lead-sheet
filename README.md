@@ -24,3 +24,11 @@ Common rhythms
  - geampara/rachenitsa (7/16 as 2+2+3)
  - joc/hora (3/8)
  - terkesh (8/8 as 3+1+2+2)
+
+Other documentation
+ - [about the makefile](makefile.md)
+ - [sources](sources.md)
+ - [todos](todo.md)
+ - Vocabulary
+    - [Bulgarian](vocab-bg.md)
+    - [Romanian](vocab-ro.md)
