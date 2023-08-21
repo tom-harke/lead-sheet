@@ -1,24 +1,33 @@
-Babadag
-bun
-ca
-cules
-de
-Feteşti
-geampara
-ghiurghiu
-îi
-la
--le
--lele
--liu
--lor
-Murfatlar
-ostropăţ
-ostropesul
-pandelas
-Taşaul
-Turcitu
--ua
--ul
-viilor = vi + lor
-vin
+Place names
+ - Babadag
+ - Feteşti
+ - Murfatlar
+ - Taşaul
+ - Turcitu
+
+Proper names
+ - ghiurghiu
+
+General words
+ - bun
+ - ca
+ - cules
+ - de
+ - îi
+ - la
+ - viilor = vi + lor
+ - vin
+
+Suffixes
+ - -le
+ - -lele
+ - -liu
+ - -lor
+ - -ua
+ - -ul
+
+Dance names
+ - geampara
+ - ostropăţ
+ - ostropesul
+ - pandelas

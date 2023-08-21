@@ -1,4 +1,4 @@
 
-Cooper
-Kljucho x2
-Harbar x2
+ - Cooper
+ - Kljucho x2
+ - Harbar x2

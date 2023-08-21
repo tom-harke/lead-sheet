@@ -104,4 +104,7 @@ clean:
 .PRECIOUS: $(patsubst %,%.pdf,$(ALL))
 
 makefile.md: makefile
-	@make --quiet about > makefile.md
+	@echo                > makefile.md
+	@echo '```'         >> makefile.md
+	@make --quiet about >> makefile.md
+	@echo '```'         >> makefile.md
