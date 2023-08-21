@@ -1,7 +1,7 @@
 % From: www.abcnotation.com
 \version "2.22.1"
 
-\include "murfatlar1.lx"
+\include "murfatlar1.src.ly"
 
 \header {
     title = \T

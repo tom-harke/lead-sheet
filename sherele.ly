@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "sherele.lx"
+\include "sherele.src.ly"
 
 \header {
     title = \T

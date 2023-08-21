@@ -7,7 +7,7 @@
 
 \version "2.22.1"
 
-\include "ostropat.lx"
+\include "ostropat.src.ly"
 
 \header {
     title = \T

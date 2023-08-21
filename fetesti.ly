@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "fetesti.lx"
+\include "fetesti.src.ly"
 
 
 

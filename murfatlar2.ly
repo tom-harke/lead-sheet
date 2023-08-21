@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "murfatlar2.lx"
+\include "murfatlar2.src.ly"
 
 \header {
     title = \T

@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "nunta.lx"
+\include "nunta.src.ly"
 
 \header {
     title = \T

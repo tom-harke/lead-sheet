@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "povlekana.lx"
+\include "povlekana.src.ly"
 
 \header {
     title = \T

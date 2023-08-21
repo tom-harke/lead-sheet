@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "varshaver.lx"
+\include "varshaver.src.ly"
 
 \header {
     title = \T

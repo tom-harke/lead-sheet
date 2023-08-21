@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "pandelasul.lx"
+\include "pandelasul.src.ly"
 
 \header {
     title = \T

@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "geampara_cooper_1.lx"
+\include "geampara_cooper_1.src.ly"
 
 \header {
     title = \T

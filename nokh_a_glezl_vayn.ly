@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "nokh_a_glezl_vayn.lx"
+\include "nokh_a_glezl_vayn.src.ly"
 
 \header {
     title = \T

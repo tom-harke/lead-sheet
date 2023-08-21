@@ -2,7 +2,7 @@
 
 include glue.mk
 
-ALL = $(patsubst %.lx,%,$(shell ls *.lx))
+ALL = $(patsubst %.src.ly,%,$(shell ls *.src.ly))
 
 EG = TUNE
 
@@ -34,7 +34,7 @@ export ABOUT
 about:
 	@echo "$$ABOUT"
 
-%.midi %.pdf: %.ly %.lx
+%.midi %.pdf: %.ly %.src.ly
 	lilypond $*.ly
 
 

@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "turcitu.lx"
+\include "turcitu.src.ly"
 
 \header {
     title = \T

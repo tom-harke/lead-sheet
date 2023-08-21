@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "barla.lx"
+\include "barla.src.ly"
 
 \header {
     title = \T

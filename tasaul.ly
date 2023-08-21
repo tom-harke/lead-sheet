@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "tasaul.lx"
+\include "tasaul.src.ly"
 
 \header {
     title = \T

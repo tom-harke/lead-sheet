@@ -5,7 +5,7 @@
 
 \version "2.22.1"
 
-\include "babadag.lx"
+\include "babadag.src.ly"
 
 \header {
     title = \T

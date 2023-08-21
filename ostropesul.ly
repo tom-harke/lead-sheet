@@ -9,7 +9,7 @@
 
 \version "2.22.1"
 
-\include "ostropesul.lx"
+\include "ostropesul.src.ly"
 
 \header {
     title = \T

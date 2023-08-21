@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "ghiurghiuliu.lx"
+\include "ghiurghiuliu.src.ly"
 
 \header {
     title = \T

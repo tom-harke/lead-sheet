@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "norbeck1.lx"
+\include "norbeck1.src.ly"
 
 \header {
     title = \T

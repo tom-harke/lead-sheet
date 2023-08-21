@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "haidim.lx"
+\include "haidim.src.ly"
 
 \header {
     title = \T
