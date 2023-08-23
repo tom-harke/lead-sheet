@@ -18,3 +18,15 @@ Todo:
         - xpose
     - turcitu
         - xpose
+
+Add
+  - terkesche
+    - [cobankat](http://www.folkloretanznoten.de/albanian)
+  - geampara
+    - čekurjankino
+    - [izgrala e mesecina](http://www.qualmendesockenoten.de/Drjanovska_racenica.pdf)
+  - lesnoto
+    - ako umram
+    - makedonsko devojce
+  - kopanitsa
+    - a [gankino](http://www.folkloretanznoten.de/bulgarisch-bulgarian)
