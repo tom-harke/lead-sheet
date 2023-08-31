@@ -1,6 +1,6 @@
 % [RO] Partitura - Pandelasul [iMwuUOUlEjk]
 
-T = "Pandelasul"
+T = "Pandelaşul"
 
 
 C =

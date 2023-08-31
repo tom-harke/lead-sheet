@@ -4,10 +4,10 @@ T = "Geamparalele lui Haidim"
 C =
 \chords {
     % X (
-    | s4..  | s4..  | s4..  | s4..
-    | s4..  | s4..  | s4..  | s4..
-    | s4..  | s4..  | s4..  | s4..
-    | s4..  | s4..  | s4..  | s4..
+    | a4..  | s4..  | a4..  | s4..
+    | d4..  | s4..  | bes4..  | s4..
+    | a4..  | s4..  | a4..  | s4..
+    | a4..  | s4..  | a4..  | s4..
     % X )
     % A (
     \repeat volta 2 {
@@ -21,13 +21,11 @@ C =
     }
     % A )
     % B (
-    \repeat volta 4 {
+    \repeat volta 2 {
         | d4..  | s4..
         | g4..:min
     }
     \alternative {
-        { a4.. }
-        { a4.. }
         { a4.. }
         { a4.. }
     }
@@ -91,12 +89,12 @@ M =
     }
     \alternative {
         { e'8 a'16 a e' a' a | e'16 a' a e' a' a a' }
-        { fis16 g bes a a g fis | e16 fis b bes a8 r16 }
+        { fis16 g bes a a g fis | e16 fis g bes a8 r16 }
     }
     % A )
     % B (
     \break \mark \default
-    \repeat volta 4 {
+    \repeat volta 2 {
         | cis'16 d' e' d' fis' d' e'
         | fis'16 d' f'8 e'16 d' cis'
         | bes16 g a bes cis' d' bes
@@ -104,6 +102,11 @@ M =
     \alternative {
         { cis'16 d' bes a a e a } { cis'16 bes a g a8 r16 }
         { cis'16 d' bes a a e a } { cis'16 bes a g a8 r16 }
+
+        % 2.23 supports better notation
+        % \volta 1,3 { ... }
+        % \volta 2,4 { ... }
+
     }
     % B )
     % C (
@@ -113,11 +116,12 @@ M =
         | d'16 e' cis'8 cis'16 bes a
         | cis'16 d' e' d' g' f' f'
         | e'16 d' d' cis' cis' bes a
+\break
         | cis'16 d' d' a d' e' d'
         | d'16 e' cis'8 cis'16 bes a
     }
     \alternative {
-        { a16 e f g bes a e | a16 e fis g a a e }
+        { a16 e f g bes a e | a16 e fis g a8 e16 }
         { a16 e f g a bes cis' | d'16 bes bes a a8 r16 }
     }
     % C )
@@ -125,7 +129,7 @@ M =
     \break \mark \default
     | fis16 g a8 b8.
     | fis16 g a8 e8.
-    | fis16 g a8 b16 b dis'
+    | fis16 g a8 b dis'16
     | e'16 fis' g' a' b' dis'' e''
 \break
     | fis16 g a8 b e16
@@ -140,7 +144,7 @@ M =
 \break
     | fis16 g a cis' b8.
     | e16 fis g a b dis' e'
-    | e'8 d'16 d' cis' bes bes
+    | e'8 d' cis'16 bes bes
     | a16 e fis g a8 r16
     % D )
 }
