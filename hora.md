@@ -29,3 +29,10 @@
 
  - [Bojarka](https://bgko.org/wp-content/uploads/2020/06/Bojarka.pdf)
  - [gasn nigun](https://www.schoellerfamily.org/scores/pdf/gasn_nigun.leadsheet.pdf)
+
+ - Foclor Muzical din Muntenia
+    - Vlăşcencuţa de la Gostinu (p 117)
+    - Vlăşcencuţa de la Slobozia (p 117)
+    - Zlata ca la Slobozia (p 117)
+    - Caragheorghe (p 187)
+    - Vlăşcencuţa de la Pietroşani (p 219)
