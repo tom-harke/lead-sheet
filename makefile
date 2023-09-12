@@ -54,7 +54,7 @@ about:
 #view: ostropesul.view
 #view: povlekana.view
 #view: nunta.view
-view: ostropat.view
+view: culesul.view
 #view: fetesti.view
 #view: ghiurgiuliu.view
 #view: babadag.view
@@ -90,7 +90,7 @@ norbeck1.pdf \
 norbeck2.pdf \
 	: geampara.rhy
 
-TODO   = nokh_a_glezl_vayn fetesti ostropat
+TODO   = nokh_a_glezl_vayn fetesti culesul
 CHORDS = tasaul norbeck1 norbeck2
 
 %.view: %.pdf

@@ -1,4 +1,4 @@
-T = "Ostropăţ / La Culesul Viilor"
+T = "La Culesul Viilor (Ostropăţ)"
 
 
 C =
