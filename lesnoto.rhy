@@ -1,0 +1,8 @@
+\time 7/16
+\set Score.beamExceptions = #'()
+\set Score.baseMoment     = #(ly:make-moment 1/16)
+\set Score.beatStructure  = 3,2,2
+
+\set Score.markFormatter  = #format-mark-box-alphabet
+
+% dee = { d,,8 d,16 a,,8 d,8 }
