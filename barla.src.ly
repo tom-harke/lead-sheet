@@ -30,7 +30,7 @@ C =
 
 M =
 \transpose d d' {
-    \include "geampara.rhy"
+    \include "lib/geampara.rhy"
 
     \key e \phrygian
 

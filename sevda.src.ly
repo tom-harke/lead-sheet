@@ -56,7 +56,7 @@ C =
 
 M =
 \transpose d d' {
-    \include "lesnoto.rhy"
+    \include "lib/lesnoto.rhy"
 
     \key d \phrygian
 

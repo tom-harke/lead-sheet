@@ -46,7 +46,7 @@ drop = <\tweak font-size #-3 e16>
 
 M =
 \transpose d d' {
-    \include "geampara.rhy"
+    \include "lib/geampara.rhy"
 
     \key e \minor
 
@@ -78,7 +78,8 @@ M =
         | e8 e16 b, e8.
     }
     % B )
-    \key a \major
+    %\key a \major
+    \key a \mixolydian
     % C (
     \break \mark \default
     \repeat volta 2 {
@@ -88,7 +89,7 @@ M =
         | b16 cis' cis' \drop b8   \drop
     }
     % C )
-    \key a \mixolydian
+    %\key a \mixolydian
     % D (
     \break \mark \default
     \repeat volta 2 {

@@ -9,7 +9,7 @@
 
 \score {
 
-    \include "layout.ly"
+    \include "lib/layout.ly"
 
     %\transpose b d
         << \C \M >>

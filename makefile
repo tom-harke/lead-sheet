@@ -84,11 +84,26 @@ all: $(patsubst %,%.view,$(ALL))
 
 *.pdf: layout.ly
 
+babadag.pdf \
+barla.pdf \
+belomorska.pdf \
+culesul.pdf \
+edinets.pdf \
+fetesti.pdf \
+geampara_cooper_1.pdf \
+ghiurghiuliu.pdf \
+haidim.pdf \
 murfatlar1.pdf \
 murfatlar2.pdf \
 norbeck1.pdf \
 norbeck2.pdf \
-	: geampara.rhy
+nunta.pdf \
+ostropesul.pdf \
+pandelasul.pdf \
+povlekana.pdf \
+tasaul.pdf \
+turcitu.pdf \
+	: lib/geampara.rhy
 
 TODO   = nokh_a_glezl_vayn fetesti culesul
 CHORDS = tasaul norbeck1 norbeck2

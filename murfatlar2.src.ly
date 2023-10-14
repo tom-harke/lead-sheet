@@ -36,7 +36,7 @@ M =
 \transpose e e' {
     \key e \phrygian % 0
 
-    \include "geampara.rhy"
+    \include "lib/geampara.rhy"
 
     \break \mark \default
     \repeat volta 2 {

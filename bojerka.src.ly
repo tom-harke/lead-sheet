@@ -62,6 +62,7 @@ M =
     \repeat volta 2 {
         | d'4 d'8 | f'4 ees'16 d'     | c'8. d'16 ees' f' | d'4.
         | d'4 d'8 | g'8. f'16 ees' d' | c'8. d'16 ees' f' | d'4.
+%\break
         | d'8. g16 a bes
         | d'8. g16 a bes
         | d'8 r d'

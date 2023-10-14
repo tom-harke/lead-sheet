@@ -86,7 +86,7 @@ B = \transpose d d {
 M =
 \transpose d d' {
 
-    \include "geampara.rhy"
+    \include "lib/geampara.rhy"
 
     \key a \phrygian
 

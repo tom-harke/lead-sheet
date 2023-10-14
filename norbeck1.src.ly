@@ -13,7 +13,7 @@ M = \transpose d d'' {
     %\key a \dorian
     \key c \major
 
-    \include "geampara.rhy"
+    \include "lib/geampara.rhy"
 
     \break \mark \default
     \repeat volta 2 {

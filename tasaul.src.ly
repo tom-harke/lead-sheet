@@ -42,7 +42,7 @@ C =
 
 M =
 \transpose d d' {
-    \include "geampara.rhy"
+    \include "lib/geampara.rhy"
 
     %\time 7/16
     %\set Score.markFormatter = #format-mark-box-alphabet

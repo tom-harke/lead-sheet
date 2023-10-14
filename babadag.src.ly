@@ -28,7 +28,7 @@ M =
 \transpose d d' {
     \key e \phrygian
 
-    \include "geampara.rhy"
+    \include "lib/geampara.rhy"
 
     \break \mark \default
     \repeat volta 2 {

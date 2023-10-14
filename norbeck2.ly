@@ -9,7 +9,7 @@
 
 \score {
 
-    \include "layout.ly"
+    \include "lib/layout.ly"
 
     \transpose a d
     \transpose cis fis
