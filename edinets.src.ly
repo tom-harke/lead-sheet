@@ -6,14 +6,58 @@ C =
 
     % A (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
+        | e4..:min
+        | a4..:min
+        | a4..:min
+        | s4..      % TODO
+        | a4..
+        | a4..:min
+        | a4..:min
+        | s4..      % TODO
+    }
+    % A )
+    % B (
+    \repeat volta 2 {
+        | e4..:min
+        | e4..:min
+        | e4..:7
+        | s4..    % TODO
+        | a4..:min
+        | a4..:min
+        | s4..     % TODO
+        | s4..     % TODO
+    }
+    % B )
+    % C (
+    \repeat volta 2 {
+        | s4..     % TODO
+        | s4..     % TODO
+        | s4..     % TODO
+        | s4..     % TODO
+        | s4..     % TODO
+        | s4..     % TODO
+        | s4..     % TODO
+        | s4..     % TODO
+    }
+    % C )
+}
+
+B = {
+
+    %\include "lib/geampara.rhy"
+    \clef bass
+    %\key e \minor
+
+    % A (
+    \repeat volta 2 {
+        | e,8 e b, e16
+        | a,8 a e  a16
+        | a,8 a e  a16
+        | b,8 dis e d16
+        | a,8 a e  a16
+        | a,8 a e  a16
+        | a,8 a e  a16
+        | b,8 dis e r16
     }
     % A )
     % B (
@@ -33,11 +77,12 @@ C =
         | s4..
         | s4..
         | s4..
+        | b,8 dis e d16
+
         | s4..
         | s4..
         | s4..
-        | s4..
-        | s4..
+        | b,8 dis e r16
     }
     % C )
 }
@@ -45,7 +90,7 @@ C =
 M =
 \transpose d d' {
     \include "lib/geampara.rhy"
-
+    %\clef treble
     %\key d \phrygian
     \key e \minor
 

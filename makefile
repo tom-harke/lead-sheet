@@ -82,7 +82,7 @@ echo:
 
 all: $(patsubst %,%.view,$(ALL))
 
-*.pdf: layout.ly
+*.pdf: lib/layout.ly
 
 babadag.pdf \
 barla.pdf \

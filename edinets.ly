@@ -5,6 +5,7 @@
 \header {
     title = \T
     tagline = ##f
+    opus = "A2 B2 C2 A2"
 }
 
 \score {
@@ -15,7 +16,11 @@
     }
 
     % \transpose d c
-        << \C \M >>
+        <<
+            \C
+            \new Staff = "melody" \M
+            \new Staff = "bass"   \B
+        >>
 
     \midi {}
 }
