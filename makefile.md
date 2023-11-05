@@ -23,9 +23,28 @@ Phony targets
 	make clean
 		to remove generated files (including .pdf and .midi)
 
+List of tunes that are playable:
+	belomorska
+	babadag
+	bojerka
+	culesul
+	kandels_hora
+	geampara_cooper_1
+	haidim
+	murfatlar1
+	murfatlar2
+	ostropesul
+	sherele
+	varshaver_freylekhs
+
 List of tunes:
+	arabam
 	babadag
 	barla
+	belomorska
+	bojerka
+	culesul
+	edinets
 	fetesti
 	geampara_cooper_1
 	ghiurghiuliu
@@ -37,10 +56,10 @@ List of tunes:
 	norbeck1
 	norbeck2
 	nunta
-	ostropat
 	ostropesul
 	pandelasul
 	povlekana
+	sevda
 	sherele
 	tasaul
 	turcitu

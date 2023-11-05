@@ -36,6 +36,9 @@ Phony targets
 	make clean
 		to remove generated files (including .pdf and .midi)
 
+List of tunes that are playable:
+$(TAB)$(subst $(SPACE),$(NEWLINE)$(TAB),$(DONE))
+
 List of tunes:
 $(TAB)$(subst $(SPACE),$(NEWLINE)$(TAB),$(ALL))
 endef
@@ -104,6 +107,22 @@ povlekana.pdf \
 tasaul.pdf \
 turcitu.pdf \
 	: lib/geampara.rhy
+
+DONE = \
+	belomorska \
+	babadag \
+	bojerka \
+	culesul \
+	kandels_hora \
+	geampara_cooper_1 \
+	haidim \
+	murfatlar1 \
+	murfatlar2 \
+	ostropesul \
+	sherele \
+	varshaver_freylekhs
+
+
 
 TODO   = nokh_a_glezl_vayn fetesti culesul
 CHORDS = tasaul norbeck1 norbeck2
