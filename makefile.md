@@ -28,6 +28,7 @@ List of tunes that are playable:
 	babadag
 	bojerka
 	culesul
+	barla
 	kandels_hora
 	geampara_cooper_1
 	haidim

@@ -5,6 +5,7 @@
 \header {
     title = \T
     tagline = ##f
+    opus = "A2 B2 C2 A2"
 }
 
 \score {
@@ -13,7 +14,7 @@
         indent = 0
     }
 
-    % \transpose d c
+    % \transpose e d
         << \C \M >>
 
     \midi {}

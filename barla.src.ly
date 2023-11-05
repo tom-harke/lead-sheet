@@ -1,3 +1,5 @@
+% from www.folkloretanznoten.de
+
 T = "Geamparalele din Bârla"
 
 
@@ -6,13 +8,13 @@ C =
     % A (
     \repeat volta 2 {
         | e4..:min | s4..  | e4..:min | s4..
-        | a4..:min | s4..  | b4..     | e4..:min
+        | a4..:min | s4..  | b4..:7   | e4..:min
     }
     % A )
     % B (
     \repeat volta 2 {
-        | e4..:min | s4..  | e4..  | a4..:min
-        | a4..:min | s4..  | b4..
+        | e4..:min | s4..  | e4..   | a4..:min
+        | a4..:min | s4..  | b4..:7
     }
     \alternative {
         { e4..:min }
@@ -21,8 +23,8 @@ C =
     % B )
     % C (
     \repeat volta 2 {
-        | g4..  | s4..  | g4..  | s4..
-        | g4..  | s4..  | b4..  | e4..:min
+        | g4..  | s4..  | g4..   | s4..
+        | g4..  | s4..  | b4..:7 | e4..:min
     }
     % C )
 }
@@ -57,7 +59,7 @@ M =
         | b8 b16 gis a b gis
 
         | a8 fis'8 e'16 dis' e'
-        | d'8 e'16 c' c' b a
+        | dis'8 e'16 c' c' b a
         | g8 g16 fis g a fis
     }
     \alternative {
