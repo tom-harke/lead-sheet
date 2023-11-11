@@ -40,13 +40,7 @@ C =
 M =
 \transpose d d' {
     \key d \minor
-
-    \time 3/8
-    \set Score.markFormatter = #format-mark-box-alphabet
-    \set Score.beamExceptions = #'()
-    \set Score.baseMoment = #(ly:make-moment 1/8)
-    \set Score.beatStructure = 2,1
-    \set strictBeatBeaming = ##t
+    \include "lib/zhok.rhy"
 
     \mark \default
     \repeat volta 2 {

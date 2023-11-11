@@ -48,16 +48,7 @@ sectionBE =
 M =
 \transpose d d' {
     \key d \phrygian
-    \time 3/8
-
-    %\set Score.baseMoment = #(ly:make-moment 1/8)
-    %\set Score.beatStructure = 2,1
-    \set strictBeatBeaming = ##t
-
-    \set Score.markFormatter = #format-mark-box-alphabet
-    \set Score.beamExceptions = #'()
-    \set Score.baseMoment = #(ly:make-moment 1/16)
-    \set Score.beatStructure = 4,2
+    \include "lib/zhok.rhy"
 
     \mark \default
     \repeat volta 2 {

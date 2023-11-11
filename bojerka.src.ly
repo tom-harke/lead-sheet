@@ -30,13 +30,7 @@ C =
 M =
 \transpose d d' {
     \key d \phrygian
-    \time 3/8
-
-    \set Score.baseMoment = #(ly:make-moment 1/8)
-    \set Score.beatStructure = 2,1
-    \set strictBeatBeaming = ##t
-
-    \set Score.markFormatter  = #format-mark-box-alphabet
+    \include "lib/zhok.rhy"
 
     % A (
     \break \mark \default
