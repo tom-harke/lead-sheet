@@ -121,6 +121,7 @@ DONE = \
 	murfatlar2 \
 	ostropesul \
 	sherele \
+	turcitu \
 	varshaver_freylekhs
 
 

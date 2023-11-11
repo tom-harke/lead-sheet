@@ -3,8 +3,10 @@
 \include "turcitu.src.ly"
 
 \header {
-    title = \T
-    tagline = ##f
+    title    = \title
+    subtitle = \subtitle
+    opus     = "A4 B2 C2 D4"
+    tagline  = ##f
 }
 
 \score {

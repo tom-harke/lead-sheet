@@ -36,6 +36,7 @@ List of tunes that are playable:
 	murfatlar2
 	ostropesul
 	sherele
+	turcitu
 	varshaver_freylekhs
 
 List of tunes:

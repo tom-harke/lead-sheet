@@ -1,5 +1,5 @@
-T = "Geamparele de la Turcitu"
-
+title    = "Geamparele de la Turcitu"
+subtitle = "Geamparalele de la Giurgiu"
 
 C =
 \chords {
@@ -8,18 +8,18 @@ C =
         | b4..:min | s4..  | a4..:min | b4..:min
     }
     \repeat volta 2 {
-        | a4..  | s4..  | e4..  | a4..
+        | a4..  | d4 a8.  | e4..:7  | a4..
     }
     \repeat volta 2 {
         | a4..  | e4..  | d4..  | a4..
-        | e4..  | a4..  | e4..
+        | e4..  | a4..  | e4..:7
     }
     \alternative {
         {| a4.. |}
         {| a4.. |}
     }
     \repeat volta 2 {
-        | d4..  | a4..  | e4..  | a4..
+        | d4..  | a4..  | e4..:7  | a4..
     }
 }
 
@@ -33,9 +33,9 @@ M =
 %   \key d \mixolydian
     \break \mark \default
     \repeat volta 2 {
-        | fis'8\prall e'16 d' c' ais c'
+        | fis'8\prall e'16 dis' c' a c'
         | b8\prall b16 fis b8 fis16
-        | c'16 d' c' b ais gis ais
+        | b16 c' c' b a gis a
         | b8\prall b16 fis b8 fis16
     }
 
