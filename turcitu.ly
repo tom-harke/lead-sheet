@@ -2,6 +2,8 @@
 
 \include "turcitu.src.ly"
 
+\include "lib/landscape.ly"
+
 \header {
     title    = \title
     subtitle = \subtitle

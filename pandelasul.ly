@@ -2,6 +2,8 @@
 
 \include "pandelasul.src.ly"
 
+\include "lib/landscape.ly"
+
 \header {
     title = \T
     tagline = ##f

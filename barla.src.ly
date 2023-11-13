@@ -13,7 +13,7 @@ C =
     % A )
     % B (
     \repeat volta 2 {
-        | e4..:min | s4..  | e4..   | a4..:min
+        | e4..:min | s4..  | e4..:7 | a4..:min
         | a4..:min | s4..  | b4..:7
     }
     \alternative {

@@ -9,22 +9,25 @@ place names
  - [Dobruja](https://en.wikipedia.org/wiki/Dobruja) region
     - [Babadag](https://en.wikipedia.org/wiki/Babadag) town
     - [Cobadin](https://en.wikipedia.org/wiki/Cobadin) village
-    - [Constanţa](https://en.wikipedia.org/wiki/Constanţa) town
-    - [Edineţ](TODO) TODO
+    - [Constanţa](https://en.wikipedia.org/wiki/Constanţa) town & county
     - [Murfatlar](https://en.wikipedia.org/wiki/Murfatlar) town
     - [Năvodari](https://en.wikipedia.org/wiki/Năvodari) town
+    - [Topraisar](https://en.wikipedia.org/wiki/Topraisar) town
     - [Tulcea](https://en.wikipedia.org/wiki/Tulcea) town & county
- - Muntenia: TODO
-    - [Feteşti](https://en.wikipedia.org/wiki/Feteşti)
- - [Topraisar](https://en.wikipedia.org/wiki/Topraisar)
+ - Muntenia:
+    - [Bârla](https://en.wikipedia.org/wiki/Bârla) village & commune (though there is 1 other place with this name)
+    - [Feteşti](https://en.wikipedia.org/wiki/Feteşti) city (though there are 3 other places with this name)
+    - [Giurgiu](https://en.wikipedia.org/wiki/Giurgiu) city & county
+ - Moldova:
+    - [Edineţ](https://en.wikipedia.org/wiki/Edineţ) town & district
  - Vadu Oii: ambiguous name of town -- there are 2 by this name
 
 Currently unknown names
  - Taşaul
- - Turcitu (not a place)
 
 Proper names
  - Ghiurghiu
+ - Turcitu seems to refer to Florea Turcitu
 
 Suffixes
  - -le
