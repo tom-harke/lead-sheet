@@ -24,46 +24,77 @@ Phony targets
 		to remove generated files (including .pdf and .midi)
 
 List of tunes that are playable:
+	ajshino
+	aleni_zvezdi
 	belomorska
 	babadag
-	bojerka
-	culesul
 	barla
+	bojerka
+	bubamara
+	bughici
+	chetvorno
+	chto_mne_gore
+	culesul
+	dorogoj
 	kandels_hora
 	geampara_cooper_1
 	haidim
+	moldova
+	moldovanskya
 	murfatlar1
 	murfatlar2
+	nakhes
 	ostropesul
+	other
+	pandalash
+	pjatorka
+	sarkantyus
 	sherele
 	turcitu
+	trisker
 	varshaver_freylekhs
 
 List of tunes:
+	ajshino
+	aleni_zvezdi
 	arabam
 	babadag
 	barla
 	belomorska
 	bojerka
+	bubamara
+	bughici
+	bukovinei
+	chetvorno
+	chto_mne_gore
 	culesul
+	dorogoj
 	edinets
 	fetesti
 	geampara_cooper_1
 	ghiurghiuliu
 	haidim
 	kandels_hora
+	moldovanskya
+	moldova
 	murfatlar1
 	murfatlar2
+	nakhes
 	nokh_a_glezl_vayn
 	norbeck1
 	norbeck2
 	nunta
 	ostropesul
+	other
+	pandalash
 	pandelasul
+	pjatorka
 	povlekana
+	sarkantyus
 	sevda
 	sherele
 	tasaul
+	trisker
 	turcitu
 	varshaver
 ```

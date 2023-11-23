@@ -109,19 +109,34 @@ turcitu.pdf \
 	: lib/geampara.rhy
 
 DONE = \
+	ajshino \
+	aleni_zvezdi \
 	belomorska \
 	babadag \
-	bojerka \
-	culesul \
 	barla \
+	bojerka \
+	bubamara \
+	bughici \
+	chetvorno \
+	chto_mne_gore \
+	culesul \
+	dorogoj \
 	kandels_hora \
 	geampara_cooper_1 \
 	haidim \
+	moldova \
+	moldovanskya \
 	murfatlar1 \
 	murfatlar2 \
+	nakhes \
 	ostropesul \
+	other \
+	pandalash \
+	pjatorka \
+	sarkantyus \
 	sherele \
 	turcitu \
+	trisker \
 	varshaver_freylekhs
 
 
