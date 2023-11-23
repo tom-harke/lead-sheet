@@ -26,6 +26,8 @@ Phony targets
 List of tunes that are playable:
 	ajshino
 	aleni_zvezdi
+	araber
+	basarabeasca
 	belomorska
 	babadag
 	barla
@@ -44,6 +46,7 @@ List of tunes that are playable:
 	murfatlar1
 	murfatlar2
 	nakhes
+	nu_sunt_negru
 	ostropesul
 	other
 	pandalash
@@ -53,13 +56,17 @@ List of tunes that are playable:
 	turcitu
 	trisker
 	varshaver_freylekhs
+	yishomah
+	zapjevala
 
 List of tunes:
 	ajshino
 	aleni_zvezdi
 	arabam
+	araber
 	babadag
 	barla
+	basarabeasca
 	belomorska
 	bojerka
 	bubamara
@@ -69,6 +76,7 @@ List of tunes:
 	chto_mne_gore
 	culesul
 	dorogoj
+	ederlezi
 	edinets
 	fetesti
 	geampara_cooper_1
@@ -84,6 +92,7 @@ List of tunes:
 	norbeck1
 	norbeck2
 	nunta
+	nu_sunt_negru
 	ostropesul
 	other
 	pandalash
@@ -97,4 +106,6 @@ List of tunes:
 	trisker
 	turcitu
 	varshaver
+	yishomah
+	zapjevala
 ```

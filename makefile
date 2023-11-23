@@ -111,6 +111,8 @@ turcitu.pdf \
 DONE = \
 	ajshino \
 	aleni_zvezdi \
+	araber \
+	basarabeasca \
 	belomorska \
 	babadag \
 	barla \
@@ -129,6 +131,7 @@ DONE = \
 	murfatlar1 \
 	murfatlar2 \
 	nakhes \
+	nu_sunt_negru \
 	ostropesul \
 	other \
 	pandalash \
@@ -137,7 +140,9 @@ DONE = \
 	sherele \
 	turcitu \
 	trisker \
-	varshaver_freylekhs
+	varshaver_freylekhs \
+	yishomah \
+	zapjevala
 
 
 
