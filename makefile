@@ -27,9 +27,11 @@ Real targets
 
 Phony targets
 	make $(EG).view
-		to view the sheet music
+		to view a particular tune
 	make $(EG).hear
-		to listen to the generated midi
+		to listen to a particular tune
+	make done
+		to view the sheet music that is in playable shape
 	make all
 		to view all the sheet music
 
@@ -51,39 +53,14 @@ about:
 %.midi %.pdf: %.ly %.src.ly
 	lilypond $*.ly
 
-
-#view: barla.view
-#view: haidim.view
-#view: ostropesul.view
-#view: povlekana.view
-#view: nunta.view
-view: culesul.view
-#view: fetesti.view
-#view: ghiurgiuliu.view
-#view: babadag.view
-#view: kandels_hora.view
-#view: murfatlar1.view
-#view: murfatlar2.view
-#view: nokh_a_glezl_vayn.view
-#view: norbeck1.view
-#view: norbeck2.view
-#view: pandelasul.view
-#view: rachenitsa1.view
-#view: sherele.view
-#view: tasaul.view
-#view: turcitu.view
-#view: varshaver_freylekhs.view
-
-
-%.view: %.pdf
-
 %.hear: %.midi
 	$(MIDI) $*.midi
 
 echo:
 	@echo $(ALL)
 
-all: $(patsubst %,%.view,$(ALL))
+all:  $(patsubst %,%.view,$(ALL))
+done: $(patsubst %,%.view,$(DONE))
 
 *.pdf: lib/layout.ly
 
@@ -116,6 +93,7 @@ DONE = \
 	belomorska \
 	babadag \
 	barla \
+	bilbilicos \
 	bojerka \
 	bubamara \
 	bughici \
@@ -126,6 +104,8 @@ DONE = \
 	kandels_hora \
 	geampara_cooper_1 \
 	haidim \
+	imate \
+	krivo_sadovsko \
 	moldova \
 	moldovanskya \
 	murfatlar1 \

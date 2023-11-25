@@ -14,9 +14,11 @@ Real targets
 
 Phony targets
 	make TUNE.view
-		to view the sheet music
+		to view a particular tune
 	make TUNE.hear
-		to listen to the generated midi
+		to listen to a particular tune
+	make done
+		to view the sheet music that is in playable shape
 	make all
 		to view all the sheet music
 
@@ -31,6 +33,7 @@ List of tunes that are playable:
 	belomorska
 	babadag
 	barla
+	bilbilicos
 	bojerka
 	bubamara
 	bughici
@@ -41,6 +44,8 @@ List of tunes that are playable:
 	kandels_hora
 	geampara_cooper_1
 	haidim
+	imate
+	krivo_sadovsko
 	moldova
 	moldovanskya
 	murfatlar1
@@ -68,6 +73,7 @@ List of tunes:
 	barla
 	basarabeasca
 	belomorska
+	bilbilicos
 	bojerka
 	bubamara
 	bughici
@@ -82,7 +88,9 @@ List of tunes:
 	geampara_cooper_1
 	ghiurghiuliu
 	haidim
+	imate
 	kandels_hora
+	krivo_sadovsko
 	moldovanskya
 	moldova
 	murfatlar1
