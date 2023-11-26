@@ -29,6 +29,7 @@ List of tunes that are playable:
 	ajshino
 	aleni_zvezdi
 	araber
+	ardeleana_timis
 	basarabeasca
 	belomorska
 	babadag
@@ -44,6 +45,7 @@ List of tunes that are playable:
 	kandels_hora
 	geampara_cooper_1
 	haidim
+	hijaz
 	imate
 	krivo_sadovsko
 	moldova
@@ -69,6 +71,7 @@ List of tunes:
 	aleni_zvezdi
 	arabam
 	araber
+	ardeleana_timis
 	babadag
 	barla
 	basarabeasca
@@ -88,6 +91,7 @@ List of tunes:
 	geampara_cooper_1
 	ghiurghiuliu
 	haidim
+	hijaz
 	imate
 	kandels_hora
 	krivo_sadovsko

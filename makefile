@@ -89,6 +89,7 @@ DONE = \
 	ajshino \
 	aleni_zvezdi \
 	araber \
+	ardeleana_timis \
 	basarabeasca \
 	belomorska \
 	babadag \
@@ -104,6 +105,7 @@ DONE = \
 	kandels_hora \
 	geampara_cooper_1 \
 	haidim \
+	hijaz \
 	imate \
 	krivo_sadovsko \
 	moldova \
