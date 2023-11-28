@@ -113,6 +113,7 @@ DONE = \
 	murfatlar1 \
 	murfatlar2 \
 	nakhes \
+	navodari \
 	nu_sunt_negru \
 	ostropesul \
 	other \

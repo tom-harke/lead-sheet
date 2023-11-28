@@ -53,6 +53,7 @@ List of tunes that are playable:
 	murfatlar1
 	murfatlar2
 	nakhes
+	navodari
 	nu_sunt_negru
 	ostropesul
 	other
@@ -90,6 +91,7 @@ List of tunes:
 	fetesti
 	geampara_cooper_1
 	ghiurghiuliu
+	guguleana
 	haidim
 	hijaz
 	imate
@@ -100,6 +102,7 @@ List of tunes:
 	murfatlar1
 	murfatlar2
 	nakhes
+	navodari
 	nokh_a_glezl_vayn
 	norbeck1
 	norbeck2
