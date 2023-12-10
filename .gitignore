@@ -1,5 +1,7 @@
 *.midi
 *.pdf
-*.png
 foo
 bar
+fodder/
+src
+images/

@@ -85,6 +85,14 @@ tasaul.pdf \
 turcitu.pdf \
 	: lib/geampara.rhy
 
+sibiu.pdf \
+	: lib/invartita.rhy
+
+ardeleana.pdf \
+ardeleana_timis.pdf \
+guguleana.pdf \
+	: lib/ardeleana.rhy
+
 DONE = \
 	ajshino \
 	aleni_zvezdi \

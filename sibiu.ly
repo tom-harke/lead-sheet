@@ -1,8 +1,8 @@
 \version "2.22.1"
 
-\include "template.src.ly"
+\include "sibiu.src.ly"
 
-\include "lib/landscape.ly"
+\include "lib/landscape_26.ly"
 
 \header {
     title = \Title
@@ -13,7 +13,6 @@
 
     \layout {
         indent = 0
-        ragged-last = ##t
     }
 
     << \Chords \new Staff {<< \Layout\Melody >>}  >>

@@ -1,0 +1,17 @@
+% This is essentially the same as invartita.rhy, except for the beaming.
+% I'm not sure if there is any differences between invartitas and
+% ardeleanas, or if the beaming matters, but so far I've seen the
+% slighly different beaming correlate like this
+
+\time 10/16
+
+\set Score.beamExceptions = #'()
+\set strictBeatBeaming = ##t
+
+%\set Score.baseMoment     = #(ly:make-moment 1/32)
+%\set Score.beatStructure  = 8,12
+
+\set Score.baseMoment     = #(ly:make-moment 1/16)
+\set Score.beatStructure  = 4,3,3
+
+\set Score.markFormatter  = #format-mark-box-alphabet

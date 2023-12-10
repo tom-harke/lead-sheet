@@ -1,14 +1,14 @@
-T = "(rachinitsa/geampara)"
+Title = "(rachinitsa/geampara)"
 
 
-C =
+Chords =
 \chords {
 }
 
 
-M =
+Melody =
 \transpose d d' {
-    \include "geampara.rhy"
+    \include "lib/geampara.rhy"
 
     \key d \phrygian
 
@@ -24,3 +24,6 @@ M =
     % X )
 }
 
+
+Layout = {
+}

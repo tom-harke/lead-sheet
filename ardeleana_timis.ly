@@ -2,7 +2,7 @@
 
 \include "ardeleana_timis.src.ly"
 
-\include "lib/landscape_7.ly"
+\include "lib/landscape.ly"
 
 \header {
     title = \Title
@@ -10,11 +10,9 @@
 }
 
 \score {
-
     \layout {
         indent = 0
     }
-
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 }
 

@@ -1,11 +1,17 @@
 Dance names
- - geampara
- - ostropăţ
- - ostropesul
- - pandelas
+ - 7/16 where 7 = 2+2+3
+   - geampara
+   - ostropăţ
+   - ostropesul
+   - pandelash
+   - (bulgarian rachenitsa)
+ - 7/16 where 7 = 3+2+2
+ - cadânească: 9/16
 
-place names
- - Bârla: TODO -- 2 towns by this name
+Place names in Moldova:
+ - [Edineţ](https://en.wikipedia.org/wiki/Edineţ) town & district
+
+Place names in Romania
  - [Dobruja](https://en.wikipedia.org/wiki/Dobruja) region
     - [Babadag](https://en.wikipedia.org/wiki/Babadag) town
     - [Cobadin](https://en.wikipedia.org/wiki/Cobadin) village
@@ -18,9 +24,13 @@ place names
     - [Bârla](https://en.wikipedia.org/wiki/Bârla) village & commune (though there is 1 other place with this name)
     - [Feteşti](https://en.wikipedia.org/wiki/Feteşti) city (though there are 3 other places with this name)
     - [Giurgiu](https://en.wikipedia.org/wiki/Giurgiu) city & county
- - Moldova:
-    - [Edineţ](https://en.wikipedia.org/wiki/Edineţ) town & district
- - Vadu Oii: ambiguous name of town -- there are 2 by this name
+ - Moldavia:
+    - [Suceava](https://en.wikipedia.org/wiki/Suceava) town & county
+ - Transylvania:
+    - [Sibiu](https://en.wikipedia.org/wiki/Suceava) town
+ - TODO:
+    - Vadu Oii: ambiguous name of town -- there are 2 by this name
+    - Bârla: TODO -- 2 towns by this name
 
 Currently unknown names
  - Taşaul
