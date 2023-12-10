@@ -1,14 +1,12 @@
-T = "(lesnoto)"
+Title = "(lesnoto)"
 
 
-C =
-\chords {
+Chords = \chords {
 }
 
 
-M =
-\transpose d d' {
-    \include "lesnoto.rhy"
+Melody = \transpose d d' {
+    \include "lib/lesnoto.rhy"
 
     \key d \phrygian
 
@@ -24,3 +22,4 @@ M =
     % X )
 }
 
+Layout = {}
