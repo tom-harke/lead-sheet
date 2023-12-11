@@ -50,7 +50,7 @@ Melody = \transpose d d' {
         | b8 cis' cis'8.
         | cis'16 fis' cis' fis' cis'8.
         | b16 cis' cis' b a gis eis
-        | fis4 fis16 gis a
+        | fis4 ~ fis16 gis a
 
         | b8 cis' e'\prall d'16
         | cis'16 b cis' e' b8\prall a16
@@ -81,7 +81,7 @@ Melody = \transpose d d' {
     % D )
     % E (
     \repeat volta 2 {
-        | b16 cis' a8\prall a16 b cis'
+        | b16 cis' a8\prall ~ a16 b cis'
         | a16 e b cis' a8\prall e16
         | b16 cis' cis' b a gis eis
         | fis8\prall fis16 cis fis8.

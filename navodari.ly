@@ -16,8 +16,6 @@
         %ragged-last = ##t
     }
 
-    %\transpose d g
-    %\transpose fis d
     \transpose fis e
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 }

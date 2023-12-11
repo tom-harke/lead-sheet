@@ -121,7 +121,7 @@ Melody = \transpose d d' {
     }
     \alternative {
         {| e'8 fis' g'8. gis' |}
-        {| s16 s s s s16. s s s |}
+        {| e'4 dis8. e, |} % TODO {| e'4 \gliss dis8. \gliss e, |}
     }
     % C )
 }

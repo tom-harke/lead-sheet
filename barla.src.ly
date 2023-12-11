@@ -44,7 +44,7 @@ M =
         }
         | e16 fis g ais b dis' e'
         \repeat unfold 2 {
-            | fis'8 e'16 dis' c' b a
+            | fis'8\mordent e'16 dis' c' b a
         }
         | g8 g16 fis g a fis
         | e4 r8 b16
@@ -53,10 +53,10 @@ M =
     % B (
     \break \mark \default
     \repeat volta 2 {
-        | b8 a'8 g'16 fis' g'
-        | fis'8 fis'16 dis' e' fis' e'
-        | d'8 d'16 b c' d' c'
-        | b8 b16 gis a b gis
+        | b8 a'8\prall g'16 fis' g'
+        | fis'8\prall fis'16 dis' e' fis' e'
+        | d'8\prall d'16 b c' d' c'
+        | b8\prall b16 gis a b gis
 
         | a8 fis'8 e'16 dis' e'
         | dis'8 e'16 c' c' b a
