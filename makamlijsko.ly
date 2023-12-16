@@ -1,7 +1,10 @@
 \version "2.22.1"
 
-Title = "Makamlijsko Horo"
-
+\header {
+    title    = "Makamlijsko Horo"
+    arranger = "Order: ABCDEFG EF"
+    tagline  = ##f
+}
 
 Chords = \chords {
     % A (
@@ -63,7 +66,7 @@ Chords = \chords {
 
 
 Melody = \transpose d d' {
-    %\include "lib/lesnoto.rhy"
+    \set Score.markFormatter  = #format-mark-box-alphabet
     \time 6/8
     \key d \major
 
@@ -125,17 +128,31 @@ Melody = \transpose d d' {
         | fis4. ~ fis8 r4
     }
     % D )
+
     % E (
     \break \mark \default
     \repeat volta 2 {
         | a8 b cis' d'4 cis'8 ~
         | cis'8 b cis' a4.
     }
-    \alternative {
-        { b4 a8 a b cis' | d'8 b cis' a4 a8 }
-        { b4 a8 g fis e | a4 e8 4. }
-    }
+
+    % This part is really clunky...
+    % Normally I'd try to use the superior notation
+    %   \alternative {
+    %       { b4 a8 a b cis' | d'8 b cis' a4 a8 }
+    %       { b4 a8 g fis e | a4 e8 4. }
+    %   }
+    % but it can't handle the "1, 3." and "2, 4." markup.
+    % Instead we have to use low level \set commands
+    % Newer versions than 2.22.1 have a nicer syntax
+
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    { b4 a8 a b cis' | d'8 b cis' a4 a8 }
+    \set Score.repeatCommands = #'((volta #f) (volta "2, 4.") end-repeat)
+    { b4 a8 g fis e | a4 e8 4. }
+    \set Score.repeatCommands = #'((volta #f))
     % E )
+
     % F (
     \break \mark \default
     \repeat volta 4 {
@@ -145,6 +162,7 @@ Melody = \transpose d d' {
         | a4 e8 a4.
     }
     % F )
+
     \key g \major
     % G (
     \break \mark \default
@@ -153,80 +171,24 @@ Melody = \transpose d d' {
         | c'8 b a b b b
         | a8 b c' ~ c' b a
     }
-    \alternative {
-        { b8 b b a gis fis }
-        { b8 b b b b b }
-    }
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    { b8 b b a gis fis }
+    \set Score.repeatCommands = #'((volta #f) (volta "2, 4.") end-repeat)
+    { b8 b b b b b }
+    \set Score.repeatCommands = #'((volta #f))
     % G )
-}
-
-Layout = {
-    \set Score.markFormatter  = #format-mark-box-alphabet
-    % A (
-    \break \mark \default \repeat volta 2 { | s2.*12 }
-    % A )
-    % B (
-    \break \mark \default \repeat volta 2 { | s2.*12 }
-    % B )
-    % C (
-    \break \mark \default \repeat volta 2 { | s2.*8 }
-    % C )
-    % D (
-    \break \mark \default \repeat volta 2 { | s2.*8 }
-    % D )
-    % E (
-    \break\mark\default\repeat volta 2 {|s2.*2}
-        %\alternative {{s2.*2} {s2.*2} }
-		\set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
-        { s2.*2 }
-		\set Score.repeatCommands = #'((volta #f) (volta "2, 4.") end-repeat)
-        { s2.*2 }
-        \set Score.repeatCommands = #'((volta #f))
-    % E )
-    % F (
-    \break\mark\default \repeat volta 4 { | s2.*4 }
-    % F )
-    % G (
-    \break \mark \default \repeat volta 2 { | s2.*3 }
-
-% ======================================== (
-% The following is really wonky.
-% The structure is equivalent to
-    %\alternative {
-    %   { s2. } % 1st alt
-    %   { s2. } % 2nd alt
-    %}
-% but the 'repeatCommands' seems to act like '\alternate { ... '}
-
-		\set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
-        { s2. }
-		\set Score.repeatCommands = #'((volta #f) (volta "2, 4.") end-repeat)
-        { s2. }
-        \set Score.repeatCommands = #'((volta #f))
-    %}
-% ======================================== )
-    % G )
-}
-
-
-
-
-%\include "lib/landscape.ly"
-
-\header {
-    title = \Title
-    tagline = ##f
-    arranger = "Order: ABCDEFG EF"
 }
 
 \score {
+    % Generate sheet music
     \layout {
         indent = 0
     }
-    << \Chords \new Staff {<< \Layout\Melody >>}  >>
+    << \Chords \Melody >>
 }
 
 \score {
+    % Generate MIDI file
     \unfoldRepeats
     << \Chords \Melody >>
     \midi {}
