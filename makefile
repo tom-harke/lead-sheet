@@ -155,3 +155,71 @@ makefile.md: makefile
 	@echo '```'         >> makefile.md
 	@make --quiet about >> makefile.md
 	@echo '```'         >> makefile.md
+
+# ---------------------------------------------------------------------------- (
+# Songs with rhythm like geamparas: 7 = 2+2+3
+GEAMPARA =\
+	babadag \
+	culesul \
+	haidim \
+	murfatlar1 \
+	murfatlar2 \
+	norbeck1 \
+	nunta \
+	pandalash \
+	tasaul \
+	norbeck2 \
+	geampara_cooper_1 \
+	hijaz \
+	pandelasul \
+
+
+G = $(patsubst %,%.pdf,$(GEAMPARA))
+
+geampara.book.pdf: $G
+	pdfunite $G $@
+# ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
+EVEN =\
+	bubamara \
+	bughici \
+	dorogoj \
+	ederlezi \
+	moldova \
+	moldovanskya \
+	other \
+	trisker \
+	yishomah \
+
+E = $(patsubst %,%.pdf,$(EVEN))
+
+even.book.pdf: $E
+	pdfunite $E $@
+
+# ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
+# Songs with rhythm like lesnos: 7 = 3+2+2
+# Eg, četvorno šopsko horo is included though I don't think of it as a lesno.
+LESNO =\
+	aleni_zvezdi \
+	chetvorno \
+	imate \
+	sevda \
+	zapjevala \
+
+L = $(patsubst %,%.pdf,$(LESNO))
+
+lesno.book.pdf: $L
+	pdfunite $L $@
+
+# ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
+MISC =\
+	arabam \
+	krivo_sadovsko \
+
+M = $(patsubst %,%.pdf,$(MISC))
+
+misc.book.pdf: $M
+	pdfunite $M $@
+# ---------------------------------------------------------------------------- )

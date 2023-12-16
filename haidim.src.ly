@@ -63,9 +63,12 @@ M =
     | e'4..  ~ e'4..
     | f'4..  ~ f'4..
     | f'4..  ~ f'4 g'8.
+
     | a'8 e' ~ e'8.
     | a8 a8 ~ a8.
-    | a,8 a,8 ~ a,8. ~ a,4..
+    | a,8 a,8 ~ a,8.
+    ~ a,4..
+\break
     | a8 a e16 e e
     | a8 a e16 e e
     | a8 a e16 e e
@@ -109,6 +112,7 @@ M =
 
     }
     % B )
+\pageBreak
     % C (
     \break \mark \default
     \repeat volta 2 {

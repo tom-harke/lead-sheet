@@ -2,6 +2,8 @@
 
 \include "kandels_hora.src.ly"
 
+\include "lib/landscape.ly"
+
 \header {
     title = \T
     tagline = ##f

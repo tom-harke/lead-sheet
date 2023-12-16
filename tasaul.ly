@@ -2,6 +2,8 @@
 
 \include "tasaul.src.ly"
 
+\include "lib/landscape.ly"
+
 \header {
     title = \T
     tagline = ##f
