@@ -39,11 +39,12 @@ M =
     % A (
     \break \mark \default
     \repeat volta 2 {
-        \repeat unfold 3 {
+        \repeat percent 3 {
             | b16 ais g fis g fis e
         }
         | e16 fis g ais b dis' e'
-        \repeat unfold 2 {
+\break
+        \repeat percent 2 {
             | fis'8\mordent e'16 dis' c' b a
         }
         | g8 g16 fis g a fis

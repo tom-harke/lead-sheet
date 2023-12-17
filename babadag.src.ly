@@ -41,7 +41,7 @@ M =
     \break \mark \default
     \repeat volta 2 {
         | d'8\prall c'16 b a gis a
-        \repeat unfold 2 {
+        \repeat percent 2 {
             | b8\prall a16 gis f8 d16
         }
     }

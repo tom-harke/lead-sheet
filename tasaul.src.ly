@@ -6,10 +6,11 @@ T = "Geamparale de la Taşaul"
 C =
 \chords {
 
-    \repeat volta 2 {
-        | s4..*7
+    \repeat volta 4 {
+        | s4..*3
     }
     \alternative {
+        {| s4.. |}
         {| s4.. |}
         {| s4.. |}
     }
@@ -30,10 +31,11 @@ C =
         {| s4.. |}
     }
 
-    \repeat volta 2 {
-        | s4..*7
+    \repeat volta 3 {
+        | s4..*3
     }
     \alternative {
+        {| s4.. |}
         {| s4.. |}
         {| s4.. |}
     }
@@ -44,32 +46,21 @@ M =
 \transpose d d' {
     \include "lib/geampara.rhy"
 
-    %\time 7/16
-    %\set Score.markFormatter = #format-mark-box-alphabet
-    %\set Score.beamExceptions = #'()
-    %\set Score.baseMoment = #(ly:make-moment 1/16)
-    %\set Score.beatStructure = 4,3
-    %\set Score.beatStructure = 2,2,3
-
     \key b \dorian
 
     \break \mark \default
-    \repeat volta 2 {
-        \repeat unfold 2 {
-            \repeat unfold 3 {
-                | fis'16 cis' a' gis' gis' cis' g'
-            }
-        }
-        \alternative {
-            {| fis'16 cis' d' eis' fis' gis' a' \break |}
-            {}
+    \repeat volta 4 {
+        \repeat percent 3 {
+            | fis'16 cis' a' gis' gis' cis' g'
         }
     }
-    \alternative {
-        {| fis'8 fis'16 cis' fis' fis' cis' |}
-        {| fis'8 r ais8. |}
-    }
-
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    {| fis'16 cis' d' eis' fis' gis' a' |}
+    \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
+    {| fis'8 fis'16 cis' fis' fis' cis' |}
+    \set Score.repeatCommands = #'((volta #f) (volta "4.") end-repeat)
+    {| fis'8 r ais8. |}
+    \set Score.repeatCommands = #'((volta #f))
 
     \break \mark \default
     \repeat volta 2 {
@@ -104,19 +95,16 @@ M =
     }
 
     \break \mark \default
-    \repeat volta 2 {
-        \repeat unfold 2 {
-            \repeat unfold 3 {
-                | b16 fis d' cis' cis' fis c'
-            }
-        }
-        \alternative {
-            {| b16 fis g bes b cis' d' \break |}
-            {| |}
+    \repeat volta 4 {
+        \repeat percent 3 {
+            | b16 fis d' cis' cis' fis c'
         }
     }
-    \alternative {
-        {| b8 b16 fis b b fis |}
-        {| b16 c' cis' d' dis' e' f' |}
-    }
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    {| b16 fis g bes b cis' d' |}
+    \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
+    {| b8 b16 fis b b fis |}
+    \set Score.repeatCommands = #'((volta #f) (volta "4.") end-repeat)
+    {| b16 c' cis' d' dis' e' f' |}
+    \set Score.repeatCommands = #'((volta #f))
 }
