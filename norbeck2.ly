@@ -10,12 +10,7 @@
 }
 
 \score {
-
     \include "lib/layout.ly"
-
-    \transpose a d
-    \transpose cis fis
-        << \C \M >>
-
+    << \C \M >>
     \midi {}
 }
