@@ -18,6 +18,7 @@ Place names in Romania
     - [Constanţa](https://en.wikipedia.org/wiki/Constanţa) town & county
     - [Murfatlar](https://en.wikipedia.org/wiki/Murfatlar) town
     - [Năvodari](https://en.wikipedia.org/wiki/Năvodari) town
+    - Taşaul: lake next to Năvodari
     - [Topraisar](https://en.wikipedia.org/wiki/Topraisar) town
     - [Tulcea](https://en.wikipedia.org/wiki/Tulcea) town & county
  - Muntenia:

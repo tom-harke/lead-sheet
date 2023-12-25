@@ -14,3 +14,12 @@
     - [Geamparale de la Fetești](https://www.youtube.com/watch?v=l_Sx1STodlU)
     - [Geamparale de la Fetești ⧸ Geamparale de la Dobrogene](https://www.youtube.com/watch?v=llynsHOzdvU)
     - [Geamparalele de la Fetești](https://www.youtube.com/watch?v=sifXMhNAuXA)
+
+ - Playalong - Sheet music
+    - [Fetesti](https://www.youtube.com/watch?v=TGnYfJU0Tyk)
+    - [Fetesti](https://www.youtube.com/watch?v=DT9JYhtCERY)
+    - [Fetesti](https://www.youtube.com/watch?v=n1CXOOxkyaE)
+
+ - Playalong - Space Invaders
+    - [Geamparalele de la Fetesti](https://www.youtube.com/watch?v=TGnYfJU0Tyk)
+

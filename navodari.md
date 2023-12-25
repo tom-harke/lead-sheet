@@ -1,2 +1,7 @@
+# Pandelaşul de la Năvodari
 
-http://www.folkloretanznoten.de/PandelasulDelaNavodari.pdf
+[Geampara](geampara.md) rhythm.
+
+Sources:
+ - [sheet music](http://www.folkloretanznoten.de/PandelasulDelaNavodari.pdf)
+ - [recording](https://szkojani.bandcamp.com/album/elixir)
