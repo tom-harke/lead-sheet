@@ -1,7 +1,11 @@
-*.midi
-*.pdf
-foo
 bar
 fodder/
-src
+foo
 images/
+*.gif
+*.jpg
+*.midi
+*.pdf
+*.png
+*.tmp
+src
