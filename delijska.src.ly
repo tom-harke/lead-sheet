@@ -3,7 +3,60 @@
 Title = "Delijska Račenitsa"
 
 
-Chords = \chords {}
+Chords = \chords {
+    % A (
+    \repeat volta 3 {
+        | d4..  | s4..  | ees4..
+    }
+    \alternative {
+        {| d4.. }
+        {| d4.. }
+        {| d4.. }
+    }
+    | c4..:min  | d4..  | ees4..  | d4..
+    % A )
+    % B (
+    \repeat volta 2 {
+        | c4..:min
+        | d4..
+        | ees4..
+    }
+    \alternative {
+        { d4.. }
+        { d4.. }
+    }
+    % B )
+    % C (
+    \repeat volta 2 {
+        | d4..  | s4..  | ees4..  | g4..:min
+        | d4..  | s4..  | ees4..
+    }
+    \alternative {
+        { d4.. }
+        { d4.. }
+    }
+    % C )
+    % D (
+    \repeat volta 2 {
+        | d4..  | s4..  | ees4..
+    }
+    \alternative {
+        { d4.. }
+        { d4.. }
+    }
+    % D )
+    % E (
+    \repeat volta 2 {
+        | d4..
+        | s4..
+        | c4..:min
+    }
+    \alternative {
+        { d4.. }
+        { s4.. }
+    }
+    % E )
+}
 
 
 Melody = \transpose d d' {
