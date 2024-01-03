@@ -150,7 +150,7 @@ clean:
 .PHONY: *.view *.hear clean
 .PRECIOUS: $(patsubst %,%.pdf,$(ALL))
 
-makefile.md: makefile
+makefile.md: Makefile
 	@echo                > makefile.md
 	@echo '```'         >> makefile.md
 	@make --quiet about >> makefile.md
@@ -173,6 +173,9 @@ GEAMPARA =\
 	hijaz \
 	pandelasul \
 
+GEAMPARA =\
+	tasaul \
+	turcitu \
 
 G = $(patsubst %,%.pdf,$(GEAMPARA))
 

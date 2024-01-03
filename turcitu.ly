@@ -6,8 +6,8 @@
 
 \header {
     title    = \title
-    subtitle = \subtitle
-    opus     = "A4 B2 C2 D4"
+    arranger = \markup{aka: \subtitle}
+    opus     = \Order
     tagline  = ##f
 }
 
@@ -17,12 +17,13 @@
         indent = 0
         ragged-last = ##f
     }
-    %\transpose c bes,
+    \transpose b d
     << \C \M >>
 }
 
 \score {
     \unfoldRepeats
+    \transpose b d
     << \C \M >>
     \midi {}
 }

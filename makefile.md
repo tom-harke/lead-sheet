@@ -72,6 +72,7 @@ List of tunes:
 	aleni_zvezdi
 	arabam
 	araber
+	ardeleana
 	ardeleana_timis
 	babadag
 	barla
@@ -85,18 +86,25 @@ List of tunes:
 	chetvorno
 	chto_mne_gore
 	culesul
+	delijska
 	dorogoj
 	ederlezi
 	edinets
 	fetesti
+	geampara_53323
+	geampara_7885
 	geampara_cooper_1
 	ghiurghiuliu
+	guguleana.7
 	guguleana
 	haidim
 	hijaz
 	imate
 	kandels_hora
 	krivo_sadovsko
+	kucata1
+	majko
+	makamlijsko
 	moldovanskya
 	moldova
 	murfatlar1
@@ -110,13 +118,20 @@ List of tunes:
 	nu_sunt_negru
 	ostropesul
 	other
+	pandalas.2
 	pandalash
 	pandelasul
 	pjatorka
 	povlekana
+	rachenitsa1
+	rachenitsa2
+	rachenitsa3
 	sarkantyus
 	sevda
 	sherele
+	sibiu
+	suceava
+	svatbarska
 	tasaul
 	trisker
 	turcitu
