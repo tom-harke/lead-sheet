@@ -7,7 +7,9 @@ C =
 \chords {
 
     \repeat volta 4 {
-        | s4..*3
+        | fis4..:min
+        | s4..
+        | s4..
     }
     \alternative {
         {| s4.. |}
@@ -16,19 +18,29 @@ C =
     }
 
     \repeat volta 2 {
-        | s4..*7
+        | b4..
+        | s4..
+        | e4..
+        | fis4:min b8.:min
+
+        | b4..
+        | s4..
+        | e4 fis8.:7
     }
     \alternative {
-        {| s4.. |}
-        {| s4.. |}
+        {| b4.. |}
+        {| b4.. |}
     }
 
     \repeat volta 2 {
-        | s4..*7
+        | e4..:7 | a4..
+        | e4..:7 | a4..
+        | e4..:7 | a4..
+        | fis4..:7
     }
     \alternative {
-        {| s4.. |}
-        {| s4.. |}
+        {| b4.. |}
+        {| b4.. |}
     }
 
     \repeat volta 3 {
@@ -64,12 +76,12 @@ M =
 
     \break \mark \default
     \repeat volta 2 {
-        | b8 fis'16 fis' fis' b fis' % dup
+        | b8 fis'8 fis'16 b fis' % dup
         | fis'16 b g' b fis'8 fis'16
         | e'16 b e' b d'8 d'16
         | cis'8 cis'16 ais b cis' d'
 \break
-        | b8 fis'16 fis' fis' b fis' % dup
+        | b8 fis'8 fis'16 b fis' % dup
         | b'16 ais' g' fis' e' d' cis'
         | e'16 d' d' cis' cis' a cis'
     }

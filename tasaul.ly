@@ -11,6 +11,6 @@
 
 \score {
     \include "lib/layout.ly"
-    << \C \M >>
+    \transpose b d << \C \M >>
     \midi {}
 }
