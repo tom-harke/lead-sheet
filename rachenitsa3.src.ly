@@ -1,7 +1,7 @@
 %  Adapted from a pdf on the internet
 % â č ƙ š ŭ ž
 
-Title = "(râčenitsa bez ime)"
+Title = "(răčenica bez ime)"
 
 
 Melody = \transpose c c' \relative c' {
