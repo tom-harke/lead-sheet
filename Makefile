@@ -176,8 +176,13 @@ GEAMPARA =\
 GEAMPARA =\
 	tasaul \
 	turcitu \
+	dobrogeana \
+	geampara_53323 \
 
 G = $(patsubst %,%.pdf,$(GEAMPARA))
+
+foo:
+	echo $G
 
 geampara.book.pdf: $G
 	pdfunite $G $@
