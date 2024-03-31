@@ -191,5 +191,5 @@ Melody = \transpose d d' {
     % Generate MIDI file
     \unfoldRepeats
     << \Chords \Melody >>
-    \midi {}
+	\midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 180 4) } }
 }
