@@ -2,10 +2,10 @@ T = "Geamparalele ca la Nuntă"
 
 
 C = \chords {
-	% A (
+    % A (
     \repeat volta 2 {
         | a4..:min
-        | d4..
+        | d4..:7
         | g4..
         | g4..
     }
@@ -13,47 +13,47 @@ C = \chords {
         {| a4..:min  | d4..  | b4..:7  | e4..:min |}
         {| a4..:min  | s4..  | b4..:7  | e4..:min |}
     }
-	% )
-	% B (
+    % )
+    % B (
     \repeat volta 2 {
         | g4..
         | s4..
-        | d4..
+        | d4..:7
         | g4..
         | g4..
         | s4..
-        | d4..
+        | d4..:7
     }
     \alternative {
         { g4.. }
         { g4.. }
     }
-	% )
-	% C (
-    \repeat volta 4 {
+    % )
+    % C (
+    \repeat volta 3 {
         | c4..
         | g4..
         | d4..
     }
-    \alternative {
-        { g4.. }
-        { g4 g8.:7 }
-        { g4.. }
-        { g4.. }
-    }
-	% )
-	% D (
-    \repeat volta 4 {
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    { g4.. }
+    \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
+    { g4 g8.:7 }
+    \set Score.repeatCommands = #'((volta #f) (volta "4.") end-repeat)
+    { g4.. }
+    \set Score.repeatCommands = #'((volta #f))
+    % )
+    % D (
+    \repeat volta 3 {
         | e4..
         | s4..
     }
     \alternative {
         {| e4..     | s4.. |}
         {| d4..:min | e4.. |}
-        {| e4..     | s4.. |}
         {| d4..:min | e4.. |}
     }
-	% )
+    % )
 }
 
 
@@ -62,7 +62,7 @@ M = \transpose d d' {
 
     \key e \minor
 
-	% A (
+    % A (
     \break \mark \default
     \repeat volta 2 {
         | a16 b  a  gis a b c'   % rep1
@@ -86,8 +86,8 @@ M = \transpose d d' {
             | e8 e16 b, e8 r16
         |}
     }
-	% )
-	% B (
+    % A )
+    % B (
     \break \mark \default
     \repeat volta 2 {
         \repeat unfold 2 {
@@ -109,45 +109,50 @@ M = \transpose d d' {
         { g8 r d16 d d }
         { g8 r g16 fis g }
     }
-	% )
-	% C (
+    % B )
+    % C (
     \break \mark \default
-    \repeat volta 4 {
+    \repeat volta 3 {
         | e'8 e'16 dis' e' fis' e'
         | d'8 d'16 cis' d' e' d'
         | c'8 c'16 b c' d' c'
     }
-    \alternative {
-        { b8 b16 g b8 b16 }
-        { b8 r g16 g g }
-        { b8 b16 g b8 b16 }
-        { b8 r b16 a g }
-    }
-	% )
-	% D (
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    { b8 b16 g b8 b16 }
+    \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
+    { b8 r g16 g g }
+    \set Score.repeatCommands = #'((volta #f) (volta "4.") end-repeat)
+    { b8 r b16 a g }
+    \set Score.repeatCommands = #'((volta #f))
+    % C )
+    % D (
     \break \mark \default
-    \repeat volta 4 {
+    \repeat volta 3 {
         | b8   a16   gis a b a    % rep
         | gis8 gis16 f   f8  e16 % rep
     }
-    \alternative {
-        {|
-            | b8   a16   gis a b a    % rep
-            | gis8 gis16 f f8 e16 % rep
-\break
-        |}
-        {|
-            | e8 f16 f d cis d
-            | e8 r e16 e e
-        |}
-        {|
-            | b8   a16   gis a b a    % rep
-            | gis8 gis16 f f8 e16 % rep
-        |}
-        {|
-            | e8 f16 f d cis d
-            | e8 r e16 fis g
-        |}
-    }
-	% )
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    {|
+        | b8   a16   gis a b a    % rep
+        | gis8 gis16 f f8 e16 % rep
+        \break
+    |}
+    \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
+    {|
+        | e8 f16 f d cis d
+        | e8 r e16 e e
+    |}
+    \set Score.repeatCommands = #'((volta #f) (volta "4.") end-repeat)
+    {|
+        | e8 f16 f d cis d
+        | e8 r e16 fis g
+    |}
+    \set Score.repeatCommands = #'((volta #f))
+
+    % )
 }
+
+%    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+%    \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
+%    \set Score.repeatCommands = #'((volta #f) (volta "4.") end-repeat)
+%    \set Score.repeatCommands = #'((volta #f))
