@@ -41,3 +41,9 @@ Check out collection by:
     https://musescore.com/user/22481556/sheetmusic
 
 https://musescore.com/user/22481556/scores/6127263
+
+    %\key g \phrygian % 3 flat
+    %\key g \locrian % 4 flat
+    %\key g \lydian % 2 sharp
+    %\key g \mixolydian % 0
+    %\key g \major # 1 sharp

@@ -64,35 +64,11 @@ Misc
  - [Fakebook Bulgarian Music](https://bgko.org/wp-content/uploads/2020/06/Fakebook_Bulgarian_Music.pdf)
 
 Videos
- - [Geamparalele de la Fetesti](https://www.youtube.com/watch?v=DT9JYhtCERY)
- - [Geamparaua de la Murfatlar](https://www.youtube.com/watch?v=2TriYCRri-g)
- - [Geamparalele de la Murfatlar](https://www.youtube.com/watch?v=to5tHrATYBw)
- - [Geampara de Nuntă](https://www.youtube.com/watch?v=T9lCpe8sahM)
- - [Geamparalele ca la Nuntă](https://www.youtube.com/watch?v=RBALhU9kR08)
- - [Geamparalele din Tasaul de Sile Ungureanu](https://www.youtube.com/watch?v=DjYG4gOK6kY)
- - [Geamparalele de la Topraisar](https://www.youtube.com/watch?v=mhPswzypt1E)
- - [Geampara din Tulcea](https://www.youtube.com/watch?v=ow2ZzvRhU-k)
- - [Geamparale de la Vadulat](https://www.youtube.com/watch?v=XPOB6FRBYeI)
- - [Hostropat & Joc Moldovenesc -  M Gheras](https://www.youtube.com/watch?v=UGWklVRP98g)
- - [Hostropat](https://www.youtube.com/watch?v=J1xL_FJzCeI)
- - [Hostropat](https://www.youtube.com/watch?v=Z-HnbbUzM0c)
- - [Hostropățul](https://www.youtube.com/watch?v=Wan5JocuAvE)
- - [Hostropeţ Moldova](https://www.youtube.com/watch?v=GKa2y6AXkmA)
- - [Kutsata](https://www.youtube.com/watch?v=mYcsxpN7Xwk)
-
  - [Orchestra ansamblului Ciprian Porumbescu din Suceava - Jocul zestrei](https://www.youtube.com/watch?v=4EzMkomWFxw)
- - [Geampara](https://www.youtube.com/watch?v=G1SarxkNpKw)
- - [Hostropat](https://www.youtube.com/watch?v=16iIvvR0TUs)
- - [Bun îi Vinul Ghiurghiuliu](https://www.youtube.com/watch?v=UsyzcLII8Tk)
- - [Dobrogeanca](https://www.youtube.com/watch?v=ZlfbWp3shxw)
- - [Vitalie Vataman - Geamparalele de la Babadag de Ion Onoriu](https://www.youtube.com/watch?v=MbMZPdiMbX8)
 
-Vidoes (Patritura)
- - [Bun ii vinul ghiurghiuliu](https://www.youtube.com/watch?v=FiiIkw4c1Nc)
- - [Pandelasul](https://www.youtube.com/watch?v=iMwuUOUlEjk)
- - [Ostropat](https://www.youtube.com/watch?v=IPO68-oaQBM)
- - [Geamparale](https://www.youtube.com/watch?v=TJyu2KFT9oI)
- - [Geamparale](https://www.youtube.com/watch?v=TJyu2KFT9oI)
+
+
+Videos (Patritura)
  - [Musamaua](https://www.youtube.com/watch?v=1Rjx4GhD96A)
  - [Sarba Buzau](https://www.youtube.com/watch?v=-VTj1fVzW-k)
  - [Cadaneasca](https://www.youtube.com/watch?v=nhNTpINPv1A)
@@ -115,11 +91,9 @@ Vidoes (Patritura)
  - [Nane Cocha](https://www.youtube.com/watch?v=vvqZkUR08u0)
 
 Unsorted
-
-
-
-Other
- - [Гагаузкая свадьба 2 (7/16)](https://www.youtube.com/watch?v=02iaSh_2738)
+ - [Lazarsko](https://www.youtube.com/watch?v=SjhkrZMY1Ek)
+ - [Bistrishka K](https://www.youtube.com/watch?v=mVlEjBoTza8)
+ - [Pazardjishka K](https://www.youtube.com/watch?v=UGU3kNdFnhE)
 
 French-ish
  - [Pique la Baleine](https://www.youtube.com/watch?v=t3bX8lLwkp4)
@@ -133,39 +107,11 @@ Audio
 Dance
  - [Rustemul Din Oltenia (6/8)](https://www.youtube.com/watch?v=_3XP4-Y3A4c)
 
-Playalong - View of Keyboard
- - [Geampara Dobrogeana Ion Onoriu Geamparalele de la Babadag partea II](https://www.youtube.com/watch?v=Fpq3C3U2nWs)
- - [Geampara Bulgărească Partea I](https://www.youtube.com/watch?v=NyApmS_4Ikk)
- - [Geampara Bulgărească Partea II,III,IV](https://www.youtube.com/watch?v=azwtg7u1Omg)
- - [Geampara(Găina) 27](https://www.youtube.com/watch?v=YTfzU127i5M)
- - [Geampara (Leliță Ioană)](https://www.youtube.com/watch?v=fbCGwYxhWh0)
- - [Geampara (murfatlar?)](https://www.youtube.com/watch?v=zUJEibpLWw4)
- - [Geampara](https://www.youtube.com/watch?v=b6AxRG6kASU)
-
-Playalong - Space Invaders
- - [Geamparalele de la Fetesti](https://www.youtube.com/watch?v=TGnYfJU0Tyk)
-
 Playalong - Sheet music
- - [Taraf de Akácfa - Geamparale](https://www.youtube.com/watch?v=kAX5rt5lHrY)
  - [Cărăşelul (2/4)](https://www.youtube.com/watch?v=R-iC35Gtodg)
  - [Atabarı (3/4)](https://www.youtube.com/watch?v=3WaTSjCRrF8)
  - [Nihavent Longa (4/4)](https://www.youtube.com/watch?v=HP-9-LVLIIk)
  - [Misirlou (4/4 terkische)](https://www.youtube.com/watch?v=-KH0DQpYjd4)
- - [Geamparale Dobrogene](https://www.youtube.com/watch?v=vHvDRd_p7HI)
- - [La Rachiu - Geampara](https://www.youtube.com/watch?v=qvCd9OYDwdA)
- - [Geamparalele din București](https://www.youtube.com/watch?v=QW0gNzz7_EQ)
- - [Geamparalele Ocarina](https://www.youtube.com/watch?v=bNUa9ZoZjAQ)
- - [Vlăşcencuta](https://www.youtube.com/watch?v=DS3ZcNEBN4w)
- - [Medley (Murfatlar+?)](https://www.youtube.com/watch?v=kFdzUFjehe0)
- - [Fetesti](https://www.youtube.com/watch?v=TGnYfJU0Tyk)
- - [Fetesti](https://www.youtube.com/watch?v=DT9JYhtCERY)
- - [Fetesti](https://www.youtube.com/watch?v=n1CXOOxkyaE)
- - [G](https://www.youtube.com/watch?v=__hZtOKxVOk)
- - [G](https://www.youtube.com/watch?v=OZpPx0mhILE)
- - [G](https://www.youtube.com/watch?v=90ClMwjciZk)
- - [Geamparale de la Clejani](https://www.youtube.com/watch?v=w3hrpElc2fA)
- - [Geamparale de la Babadag](https://www.youtube.com/watch?v=m1iX9tInkn8)
- - TODO: [G](https://www.youtube.com/watch?v=kAX5rt5lHrY)
 
 Etc
  - [Lark Camp library](https://library.larkcamp.org)

@@ -94,3 +94,8 @@ tools
     mplayer
     smplayer
     pdfseparate
+    gtklp -- for printing .gif's
+
+firefox file:///home/dev/github/lead-sheet/lilypond/html/Documentation/web/manuals.html
+
+Erik Butterworth & Marcus Moscoff -- huge db of tunes -- http://goldov.com/butterw/emdb/
