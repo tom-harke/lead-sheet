@@ -231,3 +231,6 @@ M = $(patsubst %,%.pdf,$(MISC))
 misc.book.pdf: $M
 	pdfunite $M $@
 # ---------------------------------------------------------------------------- )
+
+docs:
+	firefox file:///usr/share/doc/lilypond/html/Documentation/web/manuals.html
