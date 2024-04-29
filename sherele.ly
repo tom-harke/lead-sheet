@@ -16,7 +16,7 @@
         ragged-last = ##f
     }
 
-    \transpose g d << \C \M >>
+    \transpose g g << \C \M >>
 
     \midi {}
 }

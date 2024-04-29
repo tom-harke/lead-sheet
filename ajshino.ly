@@ -15,6 +15,7 @@
         indent = 0
     }
 
+    \transpose a d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

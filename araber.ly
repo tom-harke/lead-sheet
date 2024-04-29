@@ -2,7 +2,7 @@
 
 \include "araber.src.ly"
 
-\include "lib/landscape.ly"
+\include "lib/landscape_27.ly"
 
 \header {
     title    = \title
@@ -16,6 +16,7 @@
         indent = 0
         ragged-last = ##f
     }
+	\transpose e d
     << \Chords \new Staff { << \Layout \Melody >> } >>
 }
 

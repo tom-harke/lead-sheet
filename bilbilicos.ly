@@ -14,6 +14,7 @@
         indent = 0
         ragged-last = ##f
     }
+	\transpose e d
     << \Chords \new Staff { << \Layout \Melody >> } >>
 }
 

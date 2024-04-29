@@ -1,4 +1,5 @@
-Title    = "Ajshino Oro"
+% â č ƙ š ŭ ž
+Title    = "Ajšino Oro"
 Rhythm   = { c4 c,8 c,4 c,4 }
 % Albania
 
