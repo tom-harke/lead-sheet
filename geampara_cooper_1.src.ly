@@ -1,4 +1,4 @@
-T = "Rachenitsa (from Cooper, #1)"
+T = "(răčenica bez ime) (from Cooper, #1)"
 
 C =
 \chords {
