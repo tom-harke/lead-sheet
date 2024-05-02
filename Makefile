@@ -127,6 +127,13 @@ EVEN += varshaver     # 1 Done
 EVEN += yishomah      # 1 Done
 EVEN += chto_mne_gore # 1 Done
 EVEN += pjatorka      # 1 Done
+# du zolst nit geyn
+# ot azoy
+# ale brider
+# nakht in gan eydn
+# kozak konya napuvat
+# verhovina
+# hora  muntilor
 
 E = $(patsubst %,%.pdf,$(EVEN))
 
@@ -140,7 +147,9 @@ even.book.pdf: $E
 LESNO += ako_umram    # 1 TODO
 LESNO += aleni_zvezdi # 1 Done
 LESNO += chetvorno    # 1 Done
+#LESNO += hamisha        # 1 Done
 LESNO += imate        # 1 Done
+LESNO += jovano       # 1 TODO chords
 LESNO += majko        # 1
 LESNO += makedonske   # 1 TODO
 LESNO += sevda        # 2 TODO de-arrange (out-of-order)
@@ -172,6 +181,7 @@ ZHOK += bojerka           # 1 Done
 ZHOK += kandels_hora      # 2 TODO
 ZHOK += nokh_a_glezl_vayn # 2 TODO
 ZHOK += bukovinei         # 1 Done
+# baym rebn
 
 Z = $(patsubst %,%.pdf,$(ZHOK))
 
