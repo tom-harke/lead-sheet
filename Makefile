@@ -79,6 +79,8 @@ makefile.md: Makefile
 GEAMPARA += babadag      # 1 Done
 GEAMPARA += barla        # 1 Done
 GEAMPARA += belomorska   # 1 Done
+#GEAMPARA += din bucharest (from Cooper + ?)
+GEAMPARA += chekurjankino # 3 TODO
 GEAMPARA += culesul      # 2 Done
 GEAMPARA += dobrogeana   # 1
 GEAMPARA += edinets      # 2
@@ -114,25 +116,26 @@ geampara.book.pdf: $G
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 EVEN += basarabeasca  # 1 Done (does this belong here?)
-EVEN += bubamara      # 1 Done
+EVEN += bubamara      # 1 Done (3 lines only)
 EVEN += bughici       # 1 Done
-EVEN += dorogoj       # 1 Done
+EVEN += dorogoj       # 1 Done (3 lines only)
 EVEN += ederlezi      # 1
-EVEN += moldova       # 1 Done
+EVEN += moldova       # 1 Done (3 lines only)
 EVEN += moldovanskya  # 1 Done
 EVEN += nakhes        # 1 Done
 EVEN += other         # 1 Done
+#EVEN += tantz tantz
 EVEN += trisker       # 1 Done
 EVEN += varshaver     # 1 Done
 EVEN += yishomah      # 1 Done
 EVEN += chto_mne_gore # 1 Done
 EVEN += pjatorka      # 1 Done
+EVEN += kozak         # (2 lines only)
+EVEN += verxovina     # (3 lines only)
 # du zolst nit geyn
 # ot azoy
 # ale brider
 # nakht in gan eydn
-# kozak konya napuvat
-# verhovina
 # hora  muntilor
 
 E = $(patsubst %,%.pdf,$(EVEN))
@@ -144,14 +147,20 @@ even.book.pdf: $E
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like lesnos: 7 = 3+2+2
 # Eg, četvorno šopsko horo is included though I don't think of it as a lesno.
+#LESNO += ajde jano
 LESNO += ako_umram    # 1 TODO
 LESNO += aleni_zvezdi # 1 Done
 LESNO += chetvorno    # 1 Done
 #LESNO += hamisha        # 1 Done
 LESNO += imate        # 1 Done
 LESNO += jovano       # 1 TODO chords
+LESNO += koj_ti_gi    # 1
+#LESNO += ljiljiano mome
 LESNO += majko        # 1
-LESNO += makedonske   # 1 TODO
+LESNO += makedonsko   # 1 TODO
+LESNO += ratevka  # 2
+#LESNO += samiotissa
+#LESNO += satovchensko horo
 LESNO += sevda        # 2 TODO de-arrange (out-of-order)
 LESNO += snijeg       # 1 TODO
 LESNO += zapjevala    # 1 Done
@@ -162,6 +171,12 @@ lesno.book.pdf: $L
 	pdfunite $L $@
 
 # ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
+# Songs with rhythm 11 = 4+3+4
+# ---------------------------------------------------------------------------- )
+#KOPANITSA += karlov's gankino horo
+#KOPANITSA += ovchepolsko oro
+#KOPANITSA += ishu bjelo nedo
 # ---------------------------------------------------------------------------- (
 # Songs with terkish rhythm: 8 = (3+1)+2+2
 TERKISH += ajshino    # 1 Done
@@ -177,11 +192,12 @@ terkish.book.pdf: $T
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with zhok rhythm: 3 = 2+1
-ZHOK += bojerka           # 1 Done
-ZHOK += kandels_hora      # 2 TODO
-ZHOK += nokh_a_glezl_vayn # 2 TODO
-ZHOK += bukovinei         # 1 Done
-# baym rebn
+ZHOK += baym_rebin          # !
+ZHOK += bojerka             # 1 Done
+ZHOK += bukovinei           # 1 Done
+ZHOK += kandels_hora        # 2 TODO
+ZHOK += mayne_tayere_odessa # 1 Done
+ZHOK += nokh_a_glezl_vayn   # 2 TODO
 
 Z = $(patsubst %,%.pdf,$(ZHOK))
 
@@ -201,6 +217,21 @@ A = $(patsubst %,%.pdf,$(ARDELEANA))
 
 ardeleana.book.pdf: $A
 	pdfunite $A $@
+
+# ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
+
+# TODO: waltzes
+
+#WALTZ += alta sierra
+#WALTZ += meridith and scott
+#WALTZ += metsakukkia
+#WALTZ += steciak's
+#WALTZ += tommy bhetty's
+#WALTZ += utpick
+#WALTZ += valse a PA
+#WALTZ += valse de pastouriaux
+#WALTZ += valse des jouets
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (

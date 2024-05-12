@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "template.src.ly"
+\include "tantz_tantz.src.ly"
 
 \include "lib/landscape.ly"
 
@@ -13,13 +13,13 @@
 
     \layout {
         indent = 0
-        ragged-last = ##t
         \context {
             \Voice
             \consists "Ambitus_engraver"
         }
     }
 
+	\transpose e d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

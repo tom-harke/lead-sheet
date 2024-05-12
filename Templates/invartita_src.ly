@@ -1,13 +1,11 @@
-T = "(învârtita)"
+Title = "(învârtita)"
 
 
-C =
-\chords {
+Chords = \chords {
 }
 
 
-M =
-\transpose d d' {
+Melody = \transpose d d' {
     \include "lib/invartita.rhy"
 
     \key d \phrygian

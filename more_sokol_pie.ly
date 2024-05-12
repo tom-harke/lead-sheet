@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "template.src.ly"
+\include "more_sokol_pie.src.ly"
 
 \include "lib/landscape.ly"
 
@@ -14,10 +14,6 @@
     \layout {
         indent = 0
         ragged-last = ##t
-        \context {
-            \Voice
-            \consists "Ambitus_engraver"
-        }
     }
 
     << \Chords \new Staff {<< \Layout\Melody >>}  >>

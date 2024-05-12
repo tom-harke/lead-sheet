@@ -1,16 +1,18 @@
-T = "(todo)"
+Title = "(žok)"
 
 
-C =
-\chords {
+Chords = \chords {
+
+    % It seems that most of the time a given chord applies to 2 bars of music
+    % Hence the apparent mismatch of Chords vs Melody
+
     \repeat volta 2 {
         | s2.*4
     }
 }
 
 
-M =
-\transpose d d' {
+Melody = \transpose d d' {
     \key d \phrygian
     \time 3/8
 
@@ -25,3 +27,5 @@ M =
     \break
 }
 
+Layout = {
+}

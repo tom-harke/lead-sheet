@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "template.src.ly"
+\include "kozak.src.ly"
 
 \include "lib/landscape.ly"
 
@@ -13,11 +13,7 @@
 
     \layout {
         indent = 0
-        ragged-last = ##t
-        \context {
-            \Voice
-            \consists "Ambitus_engraver"
-        }
+%        ragged-last = ##t
     }
 
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
