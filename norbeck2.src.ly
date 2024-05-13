@@ -17,10 +17,11 @@ C =
 
 
 M =
-\transpose d d' {
+\transpose e e' {
     \include "lib/geampara.rhy"
 
-    \key d \dorian
+    %\key d \dorian
+    \key d \major
 
     \break \mark \default
     \repeat volta 2 {

@@ -1,5 +1,8 @@
 T = "La Culesul Viilor (Ostropăţ)"
 
+Cdrop = <\tweak font-size #-3 c16>
+Ddrop = <\tweak font-size #-3 d16>
+Edrop = <\tweak font-size #-3 e16>
 
 C =
 \chords {
@@ -123,12 +126,12 @@ M =
     % D (
     \break \mark \default
     \repeat volta 2 {
-        | e'16 e e' e d' c' b
+        | e'16 \Edrop e' \Edrop d' c' b
         | c'16^.^> dis e fis g gis a
-        | d'16 d d' d c' b a
+        | d'16 \Ddrop d' \Ddrop c' b a
         | b16^.^> c dis e fis g b
 
-        | c'16 c c' c c' b a
+        | c'16 \Cdrop c' \Cdrop c' b a
         | c'16 b a g fis e dis
         | fis16 b, c dis e fis g
     }

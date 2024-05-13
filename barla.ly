@@ -7,7 +7,7 @@
 \header {
     title = \T
     tagline = ##f
-    opus = "A2 B2 C2 A2"
+    opus = \markup{A{\super2} B{\super2} C{\super2} A{\super2}}
 }
 
 \score {
@@ -16,7 +16,7 @@
         indent = 0
     }
 
-    % \transpose e d
+    %\transpose e d
         << \C \M >>
 
     \midi {}
