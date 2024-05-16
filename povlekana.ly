@@ -2,6 +2,8 @@
 
 \include "povlekana.src.ly"
 
+\include "lib/landscape_25.ly"
+
 \header {
     title = \T
     tagline = ##f
@@ -9,13 +11,9 @@
 
 \score {
 
-    \layout {
-        indent = 0
-        ragged-last = ##f
-    }
+    \include "lib/layout.ly"
 
-    % \transpose a d
-        << \C \M >>
+    << \C \M >>
 
     \midi {}
 }

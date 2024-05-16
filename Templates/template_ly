@@ -11,14 +11,7 @@
 
 \score {
 
-    \layout {
-        indent = 0
-        ragged-last = ##t
-        \context {
-            \Voice
-            \consists "Ambitus_engraver"
-        }
-    }
+    \include "lib/layout.ly"
 
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 

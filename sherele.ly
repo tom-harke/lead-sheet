@@ -11,12 +11,9 @@
 
 \score {
 
-    \layout {
-        indent = 0
-        ragged-last = ##f
-    }
+    \include "lib/layout.ly"
 
-    \transpose g g << \C \M >>
+    << \C \M >>
 
     \midi {}
 }

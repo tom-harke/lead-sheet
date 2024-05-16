@@ -10,10 +10,7 @@
 }
 
 \score {
-    \layout {
-        indent = 0
-    }
-    % \transpose e d
+    \include "lib/layout.ly"
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 }
 

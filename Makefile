@@ -76,7 +76,7 @@ makefile.md: Makefile
 
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like geamparas: 7 = 2+2+3
-GEAMPARA += babadag      # 1 Done
+GEAMPARA += babadag2    # 1 Done
 GEAMPARA += barla        # 1 Done
 GEAMPARA += belomorska   # 1 Done
 #GEAMPARA += din bucharest (from Cooper + ?)

@@ -11,11 +11,8 @@
 }
 
 \score {
+    \include "lib/layout.ly"
 
-    \layout {
-        indent = 0
-        ragged-last = ##f
-    }
     << \Chords \new Staff { << \Layout \Melody >> } >>
 }
 

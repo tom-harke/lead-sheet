@@ -20,7 +20,6 @@ M =
 \transpose e e' {
     \include "lib/geampara.rhy"
 
-    %\key d \dorian
     \key d \major
 
     \break \mark \default

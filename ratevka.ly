@@ -11,13 +11,7 @@
 
 \score {
 
-    \layout {
-        indent = 0
-        \context {
-            \Voice
-            \consists "Ambitus_engraver"
-        }
-    }
+    \include "lib/layout.ly"
 
 	\transpose fis d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>

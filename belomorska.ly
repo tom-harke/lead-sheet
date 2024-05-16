@@ -11,17 +11,9 @@
 
 \score {
 
-    \layout {
-        indent = 0
-        % ragged-last = ##t
- \context {
-    \Voice
-    \consists "Ambitus_engraver"
-  }
-    }
+    \include "lib/layout.ly"
 
-    % \transpose d c
-        << \C \M >>
+    << \C \M >>
 
     \midi {}
 }

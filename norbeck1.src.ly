@@ -10,7 +10,6 @@ C =
 
 
 M = \transpose d d'' {
-    %\key a \dorian
     \key c \major
 
     \include "lib/geampara.rhy"

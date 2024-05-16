@@ -42,7 +42,6 @@ Melody = \transpose c c'' {
         | b,16 cis b, a,4
     }
 % E
-    %\key a \mixolydian
     \repeat volta 2 {
         | fis16 e dis c b, a,8
         | b,16 c a, b, c dis e
@@ -53,7 +52,6 @@ Melody = \transpose c c'' {
         { | b,16 c a, b,4 }
     }
 % F
-    %\key a \mixolydian
     \repeat volta 2 {
         | cis16 d a, cis8 cis16 a,
         | b,8 a,16 cis8 cis16 a,

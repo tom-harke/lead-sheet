@@ -15,12 +15,7 @@
 }
 
 \score {
-
-    \layout {
-        indent = 0
-        ragged-last = ##f
-    }
-
+    \include "lib/layout.ly"
     \transpose e d
         << \C \M >>
 

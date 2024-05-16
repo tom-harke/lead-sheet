@@ -11,12 +11,9 @@
 
 \score {
 
-    \layout {
-        indent = 0
-    }
+    \include "lib/layout.ly"
 
-    % \transpose d c
-        << \C \M >>
+    << \C \M >>
 
     \midi {}
 }

@@ -181,9 +181,7 @@ Melody = \transpose d d' {
 
 \score {
     % Generate sheet music
-    \layout {
-        indent = 0
-    }
+    \include "lib/layout.ly"
     << \Chords \Melody >>
 }
 
