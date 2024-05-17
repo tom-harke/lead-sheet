@@ -81,6 +81,7 @@ GEAMPARA += barla        # 1 Done
 GEAMPARA += belomorska   # 1 Done
 #GEAMPARA += din bucharest (from Cooper + ?)
 GEAMPARA += chekurjankino # 3 TODO
+GEAMPARA += comida       # 1 Done -- 3 lines
 GEAMPARA += culesul      # 2 Done
 GEAMPARA += dobrogeana   # 1
 GEAMPARA += edinets      # 2
@@ -118,8 +119,10 @@ geampara.book.pdf: $G
 EVEN += basarabeasca  # 1 Done (does this belong here?)
 EVEN += bubamara      # 1 Done (3 lines only)
 EVEN += bughici       # 1 Done
+EVEN += caval
 EVEN += dorogoj       # 1 Done (3 lines only)
 EVEN += ederlezi      # 1
+EVEN += heiser
 EVEN += moldova       # 1 Done (3 lines only)
 EVEN += moldovanskya  # 1 Done
 EVEN += nakhes        # 1 Done
@@ -173,15 +176,16 @@ lesno.book.pdf: $L
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm 11 = 4+3+4
-# ---------------------------------------------------------------------------- )
 #KOPANITSA += karlov's gankino horo
 #KOPANITSA += ovchepolsko oro
 #KOPANITSA += ishu bjelo nedo
+# ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with terkish rhythm: 8 = (3+1)+2+2
 TERKISH += ajshino    # 1 Done
 TERKISH += araber     # 1 Done
 TERKISH += bilbilicos # 1 Done
+TERKISH += buena      # 1 Done -- 3 lines
 TERKISH += sherele    # 1 Done
 
 T = $(patsubst %,%.pdf,$(TERKISH))
@@ -208,6 +212,7 @@ zhok.book.pdf: $Z
 # ---------------------------------------------------------------------------- (
 # Songs with ardeleana/invartita rhythm: 10 = 4+6 or 7 = 3+4
 ARDELEANA += ardeleana
+ARDELEANA += ardeleana_5654345
 ARDELEANA += ardeleana_timis # ? Done
 ARDELEANA += guguleana
 ARDELEANA += nu_sunt_negru
