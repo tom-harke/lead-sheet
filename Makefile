@@ -123,6 +123,7 @@ EVEN += caval
 EVEN += dorogoj       # 1 Done (3 lines only)
 EVEN += ederlezi      # 1
 EVEN += heiser
+EVEN += lebedik
 EVEN += moldova       # 1 Done (3 lines only)
 EVEN += moldovanskya  # 1 Done
 EVEN += nakhes        # 1 Done
