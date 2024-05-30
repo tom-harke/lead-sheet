@@ -1,0 +1,16 @@
+\time 11/16
+
+\set Score.subdivideBeams = ##t
+
+
+\set Score.beamExceptions = #'()
+
+
+\set Score.baseMoment     = #(ly:make-moment 1/16)
+\set Score.beatStructure  = 2,2,3,2,2
+
+
+\set Score.baseMoment     = #(ly:make-moment 1/32)
+\set Score.beatStructure  = 4,4,6,4,4
+
+\set Score.markFormatter  = #format-mark-box-alphabet
