@@ -3,18 +3,28 @@ Title   = "Jovano Jovanke"
 % sources
 %  - MNP
 %  - Ključo
+%
+% Currently this is close to MNP
 
 Chords = \chords {
-    \repeat unfold 2 { | s4..*2 }
+    \repeat unfold 2 {| b4.. | s |}
     \alternative {
-         {| s4..*2}
-         {| s4..*2}
+         {| a4..:min b |}
+         {| a4..:min b |}
     }
-    | s4..*4
+    | b8. a4:min
+    | b4..
+    | b8. e4:min
+    | b4..
     \repeat volta 2 {
-        | s4..*4
-        | s4..*4
-        | s4..
+        | g4..    | g8. a4:min
+        | b4..:7  | b8.:7 e4:min
+
+        | e4..:min | a4..:min
+        | a8. b4:7
+        | b8.:7 a4:min
+
+        | b4..
     }
 }
 
