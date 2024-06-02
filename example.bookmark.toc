@@ -1,0 +1,69 @@
+[ /Title (Rhythm)
+  /Count 3
+  /View [/XYZ null null 0]
+  /OUT pdfmark
+ 
+    [ /Title (Ardeleana)
+      /Count 0
+      /View [/XYZ null null 0]
+      /OUT pdfmark
+ 
+    [ /Title (Geampara)
+      /Count 0
+      /View [/XYZ null null 0]
+      /OUT pdfmark
+ 
+    [ /Title (Lesnoto)
+      /Count 12
+      /View [/XYZ null null 0]
+      /OUT pdfmark
+ 
+        [ /Title (Ako Umram)            /Page 1 /View [/Fit] /OUT pdfmark
+        [ /Title (Aleni Zvezdi)         /Page 2 /View [/Fit] /OUT pdfmark
+        [ /Title (Chetvorno Shopsko Horo) /Page 3 /View [/Fit] /OUT pdfmark
+        [ /Title (Imate Li Vino)        /Page 4 /View [/Fit] /OUT pdfmark
+        [ /Title (Jovano Jovanke)       /Page 5 /View [/Fit] /OUT pdfmark
+        [ /Title (Koj Ti Gi Dade Tie Crni Oči)        /Page 6 /View [/Fit] /OUT pdfmark
+        [ /Title (Majko Majko)          /Page 7 /View [/Fit] /OUT pdfmark
+        [ /Title (Makedonsko Devojče)       /Page 8 /View [/Fit] /OUT pdfmark
+        [ /Title (Ratevka)              /Page 9 /View [/Fit] /OUT pdfmark
+        [ /Title (Sevda)                /Page 11 /View [/Fit] /OUT pdfmark
+        [ /Title (Snijeg Pade Na Behar Na Voće)           /Page 13 /View [/Fit] /OUT pdfmark
+        [ /Title (Zapjevala Sojka Ptict)        /Page 14 /View [/Fit] /OUT pdfmark
+
+[ /Title (Keys)
+  /Count 4
+  /View [/XYZ null null 0]
+  /OUT pdfmark
+ 
+    [ /Title (Major)
+      /Count 1
+      /View [/XYZ null null 0]
+      /OUT pdfmark
+        [ /Title (Aleni Zvezdi)         /Page 2 /View [/Fit] /OUT pdfmark
+
+    [ /Title (Minor)
+      /Count 2
+      /View [/XYZ null null 0]
+      /OUT pdfmark
+        [ /Title (Ako Umram)            /Page 1 /View [/Fit] /OUT pdfmark
+        [ /Title (Makedonsko Devojče)       /Page 8 /View [/Fit] /OUT pdfmark
+ 
+    [ /Title (Mixolydian)
+      /Count 1
+      /View [/XYZ null null 0]
+      /OUT pdfmark
+        [ /Title (Chetvorno Shopsko Horo) /Page 3 /View [/Fit] /OUT pdfmark
+ 
+    [ /Title (Altered Phrygian)
+      /Count 8
+      /View [/XYZ null null 0]
+      /OUT pdfmark
+        [ /Title (Imate Li Vino)        /Page 4 /View [/Fit] /OUT pdfmark
+        [ /Title (Jovano Jovanke)       /Page 5 /View [/Fit] /OUT pdfmark
+        [ /Title (Koj Ti Gi Dade Tie Crni Oči)        /Page 6 /View [/Fit] /OUT pdfmark
+        [ /Title (Majko Majko)          /Page 7 /View [/Fit] /OUT pdfmark
+        [ /Title (Ratevka)              /Page 9 /View [/Fit] /OUT pdfmark
+        [ /Title (Sevda)                /Page 11 /View [/Fit] /OUT pdfmark
+        [ /Title (Snijeg Pade Na Behar Na Voće)           /Page 13 /View [/Fit] /OUT pdfmark
+        [ /Title (Zapjevala Sojka Ptict)        /Page 14 /View [/Fit] /OUT pdfmark
