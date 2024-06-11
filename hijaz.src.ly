@@ -6,6 +6,7 @@ Bar    = { s8 s8 s8 s16 }
 Melody = {
     \include "lib/geampara.rhy"
 	\key a \mixolydian % 2 sharp
+%	\key a \phrygian
 	\transpose c c' {
 		% A
 		\repeat volta 2 {
@@ -35,6 +36,7 @@ Melody = {
 		\repeat percent 2 {
 			| a'8 a'8 a'16 a' a'
 		}
+	\key a \mixolydian % 2 sharp
 		% E
 		\repeat volta 2 {
 			| bes'8 a'16 g' fis' e' fis'

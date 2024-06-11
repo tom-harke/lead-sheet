@@ -1,4 +1,4 @@
-title    = "Zapjevala Sojka Ptica"
+Title    = "Zapjevala Sojka Ptica"
 
 Melody = \transpose c c' {
 	\key d \phrygian

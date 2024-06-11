@@ -1,4 +1,4 @@
-T = "Kandel's Hora"
+Title = "Kandel's Hora"
 
 C =
 \chords {

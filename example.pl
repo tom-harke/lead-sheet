@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-#use constant 'lesnoto';
+use Data::Dumper;
 
 my $hash = [
 	[qw| ajshino                 terkish      phrygian    |],
@@ -114,6 +114,7 @@ my $fullname = {
 	phrygian => 'Phrygian',
 	# Rhythms
 	ardeleana => 'Ardeleana / Învârtita',
+	geampara => 'Geampara / Răčenica',
 };
 
 foreach my $tune (@$hash) {
@@ -149,21 +150,20 @@ foreach my $tune (@$hash) {
 
 my $r_count = keys %$rhythm;
 print &group('Rhythm',$r_count);
-foreach my $r (sort keys %$rhythm) {
-	my $name = @{$rhythm->{$r}};
-	$name = $fullname->{$name} || $name;
-	print &group($r,$name,'   ');
-	foreach my $s (sort @{$rhythm->{$r}}) {
+#print Dumper $fullname;
+foreach my $name (sort keys %$rhythm) {
+	my $count = @{$rhythm->{$name}};
+	print &group($fullname->{$name} || $name,$count,'   ');
+	foreach my $s (sort @{$rhythm->{$name}}) {
 		print &song($s,1);
 	}
 }
 
 print &group('Mode',1);
-foreach my $m (sort keys %$mode) {
-	my $name = @{$mode->{$m}};
-	$name = $fullname->{$name} || $name;
-	print &group($m,$name,'   ');
-	foreach my $s (sort @{$mode->{$m}}) {
+foreach my $name (sort keys %$mode) {
+	my $count = @{$mode->{$name}};
+	print &group($fullname->{$name} || $name,$count,'   ');
+	foreach my $s (sort @{$mode->{$name}}) {
 		print &song($s,1);
 	}
 }

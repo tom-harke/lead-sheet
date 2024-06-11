@@ -5,14 +5,21 @@
 \include "lib/landscape.ly"
 
 \header {
-    title = \T
+    title = \Title
     tagline = ##f
+
+
 }
 
 \score {
 
-    \include "lib/layout.ly"
+%    \include "lib/layout.ly"
 
+
+    \layout {
+        indent = 0
+        ragged-last = ##t
+    }
 
     << \C \M >>
     \midi {}

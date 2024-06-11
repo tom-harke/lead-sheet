@@ -1,4 +1,4 @@
-T = "Edineţ Hostropăţ"
+Title = "Edineţ Hostropăţ"
 
 
 C =

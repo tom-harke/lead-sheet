@@ -1,4 +1,4 @@
-T = "La Culesul Viilor (Ostropăţ)"
+Title = "La Culesul Viilor (Ostropăţ)"
 
 Cdrop = <\tweak font-size #-3 c16>
 Ddrop = <\tweak font-size #-3 d16>

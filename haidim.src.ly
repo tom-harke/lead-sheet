@@ -1,4 +1,4 @@
-T = "Geamparalele lui Haidim"
+Title = "Geamparalele lui Haidim"
 
 
 C =

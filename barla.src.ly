@@ -1,6 +1,6 @@
 % from www.folkloretanznoten.de
 
-T = "Geamparalele din Bârla"
+Title = "Geamparalele din Bârla"
 
 
 C =

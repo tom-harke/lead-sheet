@@ -1,4 +1,4 @@
-T = "(geampara fără nume) (from Norbeck, #1)"
+Title = "(geampara fără nume) (from Norbeck, #1)"
 
 
 C =

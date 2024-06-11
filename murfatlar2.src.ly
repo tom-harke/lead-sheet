@@ -1,6 +1,6 @@
 % https://musescore.com/pianosnake/scores/6287743
 
-T = "Geamparalele de la Murfatlar"
+Title = "Geamparalele de la Murfatlar"
 
 
 C =

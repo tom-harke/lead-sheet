@@ -1,4 +1,4 @@
-T = "Hora Bukovinei"
+Title = "Hora Bukovinei"
 
 
 C =

@@ -1,4 +1,4 @@
-T = "Geamparalele ca la Nuntă"
+Title = "Geamparalele ca la Nuntă"
 
 
 C = \chords {

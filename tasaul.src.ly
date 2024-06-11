@@ -1,6 +1,6 @@
 % https://www.scribd.com/document/398868773/Geamparale-de-La-Tasaul#
 
-T = "Geamparale de la Taşaul"
+Title = "Geamparale de la Taşaul"
 
 bdrop   = <\tweak font-size #-3 b16>
 edrop   = <\tweak font-size #-3 e16>

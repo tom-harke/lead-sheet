@@ -1,4 +1,4 @@
-Title    = \markup{Ukrainian Kolomeyka}
+Title    = "Ukrainian Kolomeyka"
 Opus = "קאָלעמײקע"
 Melody = \transpose c c' {
     \key d \phrygian

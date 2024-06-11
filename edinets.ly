@@ -3,7 +3,7 @@
 \include "edinets.src.ly"
 
 \header {
-    title = \T
+    title = \Title
     tagline = ##f
     opus = "A2 B2 C2 A2"
 }

@@ -5,7 +5,7 @@
 \include "lib/landscape_7.ly"
 
 \header {
-    title = \T
+    title = \Title
     tagline = ##f
 }
 

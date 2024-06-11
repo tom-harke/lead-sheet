@@ -1,7 +1,7 @@
 % From BGKO's website mashup of 3 disparate documents
 % T = "Geamparalele de la Fetesti"
 
-T = "Geamparale de la Feteşti"
+Title = "Geamparale de la Feteşti"
 
 
 C = \chords {

@@ -1,4 +1,4 @@
-title    = "Nu Sunt Negru, Ca Țiganu"
+Title    = "Nu Sunt Negru, Ca Țiganu"
 subtitle = "(I'm not black like a Gypsy)"
 
 Melody = \transpose c c' {

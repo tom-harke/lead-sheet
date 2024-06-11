@@ -1,7 +1,11 @@
 \version "2.22.1"
 
+\include "makamlijsko.src.ly"
+
+\include "lib/landscape.ly"
+
 \header {
-    title    = "Makamlijsko Horo"
+    title    = \Title
     arranger = "Order: ABCDEFG EF"
     tagline  = ##f
 }

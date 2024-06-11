@@ -6,7 +6,7 @@
 
 
 \header {
-    title = \T
+    title = \Title
     tagline = ##f
 }
 

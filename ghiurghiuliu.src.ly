@@ -1,4 +1,4 @@
-T = "Bun îi Vinul Ghiurghiuliu"
+Title = "Bun îi Vinul Ghiurghiuliu"
 
 
 C =

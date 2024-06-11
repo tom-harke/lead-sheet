@@ -1,4 +1,4 @@
-T = "Geamparaua de la Murfatlar"
+Title = "Geamparaua de la Murfatlar"
 
 
 C = \chords {

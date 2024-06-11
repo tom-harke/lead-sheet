@@ -1,4 +1,4 @@
-T = "Ostropesul"
+Title = "Ostropesul"
 
 
 C =

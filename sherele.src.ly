@@ -1,4 +1,4 @@
-T = "Sherele"
+Title = "Sherele"
 
 C =
 \chords {

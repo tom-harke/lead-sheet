@@ -1,4 +1,4 @@
-title    = "Geamparele de la Turcitu"
+Title    = "Geamparele de la Turcitu"
 subtitle = "Geamparalele de la Giurgiu"
 Order    = \markup{A{\super 4}B{\super 2}C{\super 2}D{\super 4}}
 

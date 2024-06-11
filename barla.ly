@@ -5,7 +5,7 @@
 \include "lib/landscape_27.ly"
 
 \header {
-    title = \T
+    title = \Title
     tagline = ##f
     opus = \markup{A{\super2} B{\super2} C{\super2} A{\super2}}
 }

@@ -1,4 +1,4 @@
-title = "Araber Tantz"
+Title = "Araber Tantz"
 subtitle  = "טאַנץ אַראַבער"
 %	"125 BPM"
 %	"11.46.7. Based on transcription from http://manchesterklezmer.org"
