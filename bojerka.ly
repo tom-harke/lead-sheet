@@ -13,6 +13,7 @@
 
     \include "lib/layout.ly"
 
+	\transpose g d
     << \C \M >>
 
     \midi {}

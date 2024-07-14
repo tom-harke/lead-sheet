@@ -13,7 +13,8 @@
 
     \include "lib/layout.ly"
 
-    \transpose c a
+%    \transpose c a
+    \transpose c d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}
