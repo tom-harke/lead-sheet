@@ -2,22 +2,22 @@
 
 \include "edinets.src.ly"
 
+\include "lib/landscape_25.ly"
+
 \header {
-    title = \Title
+    title   = \Title
     tagline = ##f
-    opus = "A2 B2 C2 A2"
+    opus    = "A2 B2 C2 A4"
 }
 
 \score {
 
     \include "lib/layout.ly"
 
-    % \transpose d c
-        <<
-            \C
-            \new Staff = "melody" \M
-            \new Staff = "bass"   \B
-        >>
+    <<
+        \Chords
+        \new Staff = "melody" \Melody
+    >>
 
     \midi {}
 }

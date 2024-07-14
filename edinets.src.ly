@@ -1,7 +1,7 @@
 Title = "Edineţ Hostropăţ"
 
 
-C =
+Chords =
 \chords {
 
     % A (
@@ -33,65 +33,35 @@ C =
         | s4..     % TODO
         | s4..     % TODO
         | s4..     % TODO
-        | s4..     % TODO
-        | s4..     % TODO
-        | s4..     % TODO
-        | s4..     % TODO
-        | s4..     % TODO
+    }
+    \alternative {
+        {| s4.. }
+        {| s4.. }
     }
     % C )
 }
 
 B = {
-
-    %\include "lib/geampara.rhy"
     \clef bass
-    %\key e \minor
 
     % A (
     \repeat volta 2 {
-        | e,8 e b, e16
-        | a,8 a e  a16
-        | a,8 a e  a16
-        | b,8 dis e d16
-        | a,8 a e  a16
-        | a,8 a e  a16
-        | a,8 a e  a16
-        | b,8 dis e r16
-    }
-    % A )
-    % B (
-    \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-    }
-    % B )
-    % C (
-    \repeat volta 2 {
         | s4..
         | s4..
         | s4..
         | b,8 dis e d16
-
         | s4..
         | s4..
         | s4..
         | b,8 dis e r16
     }
-    % C )
+    % A )
 }
 
-M =
+Melody =
 \transpose d d' {
     \include "lib/geampara.rhy"
     %\clef treble
-    %\key d \phrygian
     \key e \minor
 
     % A (
@@ -100,12 +70,37 @@ M =
         | e16 fis g ais b g e
         | fis16 g a8 a8\prall g16
         | fis16 g a8 a8\prall fis16
-        | g16 a fis g e ees d
+        <<
+        {| g16 a fis g e ees d }
+        \new Staff \with {
+             \remove Ambitus_engraver
+             \remove Time_signature_engraver
+             alignAboveContext = "main"
+             \magnifyStaff #2/3
+%            firstClef = ##f
+        }{
+            \clef bass
+            \transpose e e, {| b,8 dis e d16 }
+        }
+
+        >>
 \break
         | cis16 d e8 e8\prall e16
         | fis16 g a8 a8\prall g16
         | fis16 g a8 a8\prall fis16
-        | g16 a fis g e8 r16
+        <<
+        {| g16 a fis g e8 r16 }
+        \new Staff \with {
+             \remove Ambitus_engraver
+             \remove Time_signature_engraver
+             \remove "Ambitus_engraver"
+             alignAboveContext = "main"
+             \magnifyStaff #2/3
+        }{
+            \clef bass
+            \transpose e e, {| b,8 dis e r16 }
+        }
+        >>
     }
     % A )
     % B (
@@ -125,16 +120,13 @@ M =
     % C (
     \break \mark \default
     \repeat volta 2 {
-        \repeat unfold 2 {
-            | gis8 a a\prall gis16
-            | fis16 g a fis g8\prall d16
-            | gis8 a a\prall fis16
-        }
-        \alternative {
-            {| g16 a fis g e ees d \break }
-            {| g16 a fis g e8 r16 }
-        }
+        | gis8 a a\prall gis16
+        | fis16 g a fis g8\prall d16
+        | gis8 a a\prall fis16
+    }
+    \alternative {
+        {| g16 a fis g e ees d }
+        {| g16 a fis g e8 r16 }
     }
     % C )
 }
-
