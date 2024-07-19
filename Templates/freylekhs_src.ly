@@ -1,7 +1,7 @@
-T = "(todo)"
+Title = "(todo)"
 
 
-C =
+Chords =
 \chords {
     \repeat volta 2 {
         | s2*8
@@ -9,7 +9,7 @@ C =
 }
 
 
-M =
+Melody =
 \transpose d d' {
     \key d \phrygian
     \time 2/4
@@ -21,3 +21,4 @@ M =
     \break
 }
 
+Layout = {}
