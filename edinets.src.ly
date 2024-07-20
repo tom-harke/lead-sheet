@@ -1,5 +1,6 @@
 Title = "Edineţ Hostropăţ"
 
+% TODO: for each a chord, determine whether it's major or minor
 
 Chords =
 \chords {
@@ -120,7 +121,7 @@ Melody =
     % C (
     \break \mark \default
     \repeat volta 2 {
-        | gis8 a a\prall gis16
+        | gis8 a a\prall g16 % source has gis16 but I think g16 sounds better
         | fis16 g a fis g8\prall d16
         | gis8 a a\prall fis16
     }

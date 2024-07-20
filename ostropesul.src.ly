@@ -17,11 +17,14 @@ C =
     % B )
     % C (
     \repeat volta 2 {
-        \repeat unfold 2 {
+        \repeat volta 2 {
             | d4 ees8.
             | c4:min d8.
             | d4 ees8.
-            | d4..
+        }
+        \alternative {
+            {| d4..}
+            {| d4..}
         }
     }
     % C )
@@ -65,13 +68,13 @@ M =
     % C (
     \break \mark \default
     \repeat volta 2 {
-        \repeat unfold 2 {
+        \repeat volta 2 {
             | fis16 a g fis ees d c
             | b,16 c d ees fis8 d16
             | fis16 a g fis ees d c
         }
         \alternative {
-            {| d16 ees fis g a8. \break |}
+            {| d16 ees fis g a8. |}
             {| d8 d16 a, d8. |}
         }
     }
