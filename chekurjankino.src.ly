@@ -1,38 +1,45 @@
 % â č ƙ š ŭ ž
 Title  = "Čekurjankino Horo"
 
+gdrop   = <\tweak font-size #-3 g16>
+edrop   = <\tweak font-size #-3 e16>
 
 Melody = \transpose c c' {
    \include "lib/geampara.rhy"
+   % A
    \repeat volta 2 {
       | a8 d'16 e' e'8 d'16
       | d'16 e' e' a g' f' e'
       | c'16 d' d' f' e'8 d'16
       | c'8 b16 g a8 g16
    }
+   % B
    \repeat volta 2 {
-      | g8 a16 b c'8 g16
-      | c'16 d' c' b a8 g16
-      | g8 a16 b c' b g
+      | g8 a16 b c'8 \gdrop
+      | c'16 d' c' b a8 \gdrop
+      | g8 a16 b c' b \gdrop
    }
    \alternative {
-      { a8 a16 g d'8 g16 }
+      { a8 a16 \gdrop d'8 \gdrop }
       { a8 a16 d' a8. }
    }
+   % C
    \repeat volta 2 {
-      | c'16 g c' d' e'8 e'16
+      | c'16 \gdrop c'16 d' e'8 e'16
       | e'8 e' e' d'16
       | g'8 d' d'16 e' d'
-      | c'4 c'8 g16
+      | c'4 c'8 \gdrop
    }
+   % D
    \repeat volta 2 {
       | fis'16 g' d'8 d'16 e' d'
-      | c'16 d' c' b a8 g16
+      | c'16 d' c' b a8 \gdrop
    }
    \alternative {
-      { c'8 c'16 g c' d' e' | d'4 d'8 g16 }
+      { c'8 c'16 \gdrop c' d' e' | d'4 d'8 \gdrop }
       { d'16 c' c' b a b g | a8 a16 g g a b }
    }
+   % E
    \repeat volta 2 {
       | c'4..
       | b4..
@@ -44,19 +51,21 @@ Melody = \transpose c c' {
    }
    \alternative {
       { a8 a16 g g a b }
-      { a8 a16 e a8. }
+      { a8 a16 \edrop a8. }
    }
+   % F
    \repeat volta 2 {
       | d'16 c' c' b a b g
-      | a8 a16 e a b c'
+      | a8 a16 \edrop a b c'
       | b16 a b8 g16 fis e
-      | a8 a16 e a8.
+      | a8 a16 \edrop a8.
 
       | a8 g16 fis e fis g
-      | a8 a16 e a b c'
+      | a8 a16 \edrop a b c'
       | b16 a b8 g16 fis e
-      | a8 a16 e a8.
+      | a8 a16 \edrop a8.
    }
+   % G
    \repeat volta 2 {
       | g8 aes16 b g8\prall f16
       | g16 d e f g8\prall d16
@@ -68,15 +77,17 @@ Melody = \transpose c c' {
       | c'8 c'16 d' d' c' b
       | b16 aes g f g8.\prall
    }
+   % H
    \repeat volta 4 {
       | g8 e'16 f' f' ees' d'
-      | d'8 d'16 ees' ees' d c'
+      | d'8 d'16 ees' ees' d' c'
       | c'8 c'16 d' d' c' b
    }
    \alternative {
       { b16 aes g f g d' g }
       { b16 aes g f g8.\prall }
    }
+   % I
    \repeat volta 2 {
       \repeat unfold 2 {
          | g16 a a e fis g a
@@ -90,12 +101,14 @@ Melody = \transpose c c' {
       { bes16 g a e' a8\prall e16 }
       { cis'16 bes a g a8 r16 }
    }
+   % J
    \repeat volta 2 {
       | d'16 cis' d' e' e' d' cis'
       | cis'8 cis'16 d' d' cis' bes
       | bes16 d e fis g a bes
       | cis'16 bes a g a8\prall r16
    }
+   % K
    \repeat volta 2 {
       \repeat unfold 2 {
          | cis'16 bes a g a8\mordent e16
