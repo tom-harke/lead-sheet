@@ -74,11 +74,9 @@ Melody =
         <<
         {| g16 a fis g e ees d }
         \new Staff \with {
-             \remove Ambitus_engraver
+             \magnifyStaff #2/3
              \remove Time_signature_engraver
              alignAboveContext = "main"
-             \magnifyStaff #2/3
-%            firstClef = ##f
         }{
             \clef bass
             \transpose e e, {| b,8 dis e d16 }
@@ -89,19 +87,9 @@ Melody =
         | cis16 d e8 e8\prall e16
         | fis16 g a8 a8\prall g16
         | fis16 g a8 a8\prall fis16
-%       <<
         {| g16 a fis g e8 r16 }
-%       \new Staff \with {
-%            \remove Ambitus_engraver
-%            \remove Time_signature_engraver
-%            \remove "Ambitus_engraver"
-%            alignAboveContext = "main"
-%            \magnifyStaff #2/3
-%       }{
-%           \clef bass
-%           \transpose e e, {| b,8 dis e r16 }
-%       }
-%       >>
+%       consider adding ossia in parallel with last bar
+%       << ... {\transpose e e, {| b,8 dis e r16 }} >>
     }
     % A )
     % B (
