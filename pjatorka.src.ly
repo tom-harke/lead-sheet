@@ -8,7 +8,7 @@ Melody = \transpose c c' {
     \repeat volta 2 {
         | e'2 e'
         | g'4 f' e' d'
-        | f'4 e'2. ~
+        | f'4 e' ~ e'2 ~
         | e'4 e a c'
 
         | e'2 e'
@@ -17,7 +17,7 @@ Melody = \transpose c c' {
         | b4 e b c'
         | d'2. d'4
         | e'2. b4
-        | d'4 c'2. ~
+        | d'4 c' ~ c'2 ~
         | c'4 e' g' f'
         | e'2 d'
         | c'2 b
@@ -39,7 +39,7 @@ Melody = \transpose c c' {
         | e'2. e'4
         | a'2. g'4
 
-        | g'4 f'2. ~
+        | g'4 f' ~ f'2 ~
         | f'4 d' e' f'
         | e'2 d'
         | c'2 b
@@ -69,8 +69,8 @@ Chords = \chords {
 }
 Layout = {
     \set Score.markFormatter = #format-mark-box-letters
-    \mark \default
     \partial 4. s4.
+    \mark \default
     \repeat volta 2 {
       | s1*8
       \break
