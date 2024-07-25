@@ -68,11 +68,11 @@ clean:
 .PHONY: *.view *.hear clean
 .PRECIOUS: $(patsubst %,%.pdf,$(ALL))
 
-makefile.md: Makefile
-	@echo                > makefile.md
-	@echo '```'         >> makefile.md
-	@make --quiet about >> makefile.md
-	@echo '```'         >> makefile.md
+Doc/makefile.md: Makefile
+	@echo                > Doc/makefile.md
+	@echo '```'         >> Doc/makefile.md
+	@make --quiet about >> Doc/makefile.md
+	@echo '```'         >> Doc/makefile.md
 
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like geamparas: 7 = 2+2+3
@@ -83,6 +83,7 @@ GEAMPARA += belomorska   # 1 Done
 GEAMPARA += chekurjankino # 3 TODO
 GEAMPARA += comida       # 1 Done -- 3 lines
 GEAMPARA += culesul      # 2 Done
+GEAMPARA += delijska     # 1 Done
 GEAMPARA += dobrogeana   # 1
 GEAMPARA += edinets      # 2
 GEAMPARA += fetesti      # 2 TODO
