@@ -2,7 +2,7 @@
 
 \include "fetesti.src.ly"
 
-\include "lib/landscape_25.ly"
+\include "landscape_25.ly"
 
 
 \header {

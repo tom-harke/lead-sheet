@@ -2,7 +2,7 @@
 
 \include "chto_mne_gore.src.ly"
 
-\include "lib/landscape_7.ly"
+\include "landscape_7.ly"
 
 \header {
     title = \Title
@@ -11,7 +11,7 @@
 
 \score {
 
-    \include "lib/layout.ly"
+    \include "layout.ly"
 
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 

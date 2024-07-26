@@ -2,7 +2,7 @@
 
 \include "edinets.src.ly"
 
-\include "lib/landscape_27.ly"
+\include "landscape_27.ly"
 
 \header {
     title   = \Title

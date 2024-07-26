@@ -2,7 +2,7 @@
 
 \include "gankino.src.ly"
 
-\include "lib/landscape.ly"
+\include "landscape.ly"
 
 \header {
     title = \Title
@@ -11,7 +11,7 @@
 
 \score {
 
-    \include "lib/layout.ly"
+    \include "layout.ly"
 
 	\transpose fis d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>

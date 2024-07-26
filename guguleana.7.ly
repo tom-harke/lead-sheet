@@ -2,7 +2,7 @@
 
 \include "guguleana.7.src.ly"
 
-\include "lib/landscape_30.ly"
+\include "landscape_30.ly"
 
 \header {
     title = \Title
@@ -10,7 +10,7 @@
 }
 
 \score {
-    \include "lib/layout.ly"
+    \include "layout.ly"
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 }
 

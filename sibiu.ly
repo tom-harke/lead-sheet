@@ -2,7 +2,7 @@
 
 \include "sibiu.src.ly"
 
-\include "lib/landscape_26.ly"
+\include "landscape_26.ly"
 
 \header {
     title = \Title
@@ -11,7 +11,7 @@
 
 \score {
 
-    \include "lib/layout.ly"
+    \include "layout.ly"
 
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 

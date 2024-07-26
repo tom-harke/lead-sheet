@@ -1,7 +1,7 @@
 \version "2.22.1"
 
 \include "nunta.src.ly"
-\include "lib/landscape.ly"
+\include "landscape.ly"
 
 \header {
     title = \Title
@@ -10,7 +10,7 @@
 
 \score {
 
-    \include "lib/layout.ly"
+    \include "layout.ly"
 
     % \transpose d c
         << \C \M >>

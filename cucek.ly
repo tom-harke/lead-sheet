@@ -2,7 +2,7 @@
 
 \include "cucek.src.ly"
 
-\include "lib/landscape.ly"
+\include "landscape.ly"
 
 \header {
     title = \Title
@@ -12,7 +12,7 @@
 
 \score {
 
-    \include "lib/layout.ly"
+    \include "layout.ly"
 
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 

@@ -2,13 +2,13 @@
 
 \include "kandels_hora.src.ly"
 
-\include "lib/landscape.ly"
+\include "landscape.ly"
 
 \header {
     title = \Title
     tagline = ##f
 }
 
-\include "lib/layout.ly"
+\include "layout.ly"
 
 << \C \M >>

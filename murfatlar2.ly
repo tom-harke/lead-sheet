@@ -2,7 +2,7 @@
 
 \include "murfatlar2.src.ly"
 
-\include "lib/landscape.ly"
+\include "landscape.ly"
 
 \header {
     title = \Title
@@ -11,7 +11,7 @@
 
 \score {
 
-    \include "lib/layout.ly"
+    \include "layout.ly"
 
     \transpose e d << \C \M >>
 

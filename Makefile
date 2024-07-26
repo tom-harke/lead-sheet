@@ -9,7 +9,7 @@ PDF  = evince
 
 include glue.mk
 
-ALL = $(patsubst %.src.ly,%,$(shell ls *.src.ly))
+ALL = $(patsubst Music/%.src.ly,%,$(shell ls Music/*.src.ly))
 EG  = TUNE
 
 define ABOUT
@@ -42,8 +42,8 @@ export ABOUT
 about:
 	@echo "$$ABOUT"
 
-%.midi %.pdf: %.ly %.src.ly
-	lilypond $*.ly
+%.midi %.pdf: %.ly Music/%.src.ly
+	lilypond --include=Lib --include=Music $*.ly
 
 %.hear: %.midi
 	$(MIDI) $*.midi
@@ -256,12 +256,12 @@ misc.book.pdf: $M
 # ---------------------------------------------------------------------------- (
 # Dependencies on libraries
 
-%.pdf: lib/layout.ly
+%.pdf: Lib/layout.ly
 
 # If the layout for a rhythm changes, update all tunes for the sake of consistency
 
 define rhythm =
-$1.pdf: lib/$2.rhy
+$1.pdf: Lib/$2.rhy
 endef
 
 $(foreach tune,$(GEAMPARA), $(eval $(call rhythm,$(tune),geampara)))

@@ -2,7 +2,7 @@
 
 \include "povlekana.src.ly"
 
-\include "lib/landscape_25.ly"
+\include "landscape_25.ly"
 
 \header {
     title = \Title
@@ -11,7 +11,7 @@
 
 \score {
 
-    \include "lib/layout.ly"
+    \include "layout.ly"
 
     << \C \M >>
 

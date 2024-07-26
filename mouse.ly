@@ -2,7 +2,7 @@
 
 \include "mouse.src.ly"
 
-\include "lib/landscape_27.ly"
+\include "landscape_27.ly"
 
 \header {
     title = \Title
@@ -11,7 +11,7 @@
 
 \score {
 
-    \include "lib/layout.ly"
+    \include "layout.ly"
 
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 

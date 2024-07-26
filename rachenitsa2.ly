@@ -2,7 +2,7 @@
 
 \include "rachenitsa2.src.ly"
 
-\include "lib/landscape_24.ly"
+\include "landscape_24.ly"
 
 \header {
     title = \Title
@@ -11,7 +11,7 @@
 
 \score {
 
-    \include "lib/layout.ly"
+    \include "layout.ly"
 
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 

@@ -2,7 +2,7 @@
 
 \include "makamlijsko.src.ly"
 
-\include "lib/landscape.ly"
+\include "landscape.ly"
 
 \header {
     title    = \Title
@@ -185,7 +185,7 @@ Melody = \transpose d d' {
 
 \score {
     % Generate sheet music
-    \include "lib/layout.ly"
+    \include "layout.ly"
     << \Chords \Melody >>
 }
 
