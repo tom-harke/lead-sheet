@@ -50,7 +50,7 @@ Melody = \transpose g g' {
    \repeat volta 2 {
       | d'4. ~ d'4 e'8
       | c'4. ~ c'4 d'8
-      | d4.  ~ d8 a \times 2/3 { c'16 b a }
+      | b4.  ~ b8 a \times 2/3 { c'16 b a }
       | gis8 a4 ~ a4.
    }
    \repeat volta 2 {
