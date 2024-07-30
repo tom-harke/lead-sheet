@@ -1,11 +1,11 @@
 \version "2.22.1"
 
-\include "template.src.ly"
+\include "khupe.src.ly"
 
-\include "landscape.ly"
+\include "landscape_27.ly"
 
 \header {
-    title = \Title
+    title   = \Title
     tagline = ##f
 }
 
