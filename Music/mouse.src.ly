@@ -2,7 +2,9 @@
 % Authors claim it's from 'Freedonia' and 'may have been adapted from a Yiddish folk dance'
 % Todo: find the original Yiddish tune, adjust/replace
 
-Title = "The Mouse Dance (Kolomeike)"
+Title    = "The Mouse Dance"
+Subtitle = "Kolomeike"
+
 
 
 Chords = \chords {
@@ -40,6 +42,7 @@ Chords = \chords {
 
 
 Melody = \transpose d d'' {
+    \include "kolomeike.rhy"
     \key d \minor
     \time 4/4
 

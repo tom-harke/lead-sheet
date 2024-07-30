@@ -1,0 +1,17 @@
+\time 4/4
+
+\set Score.subdivideBeams = ##t
+
+% (
+% this doesn't work like I want
+\set Score.beamExceptions = #'()
+\set strictBeatBeaming = ##t
+
+\set Score.baseMoment = #(ly:make-moment 1/4)
+\set Score.beatStructure = 1,1,1,1
+
+\set Score.baseMoment = #(ly:make-moment 1/8)
+\set Score.beatStructure = 2,2,2,2
+% )
+
+\set Score.markFormatter  = #format-mark-box-alphabet

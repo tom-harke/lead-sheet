@@ -5,8 +5,9 @@
 \include "landscape_27.ly"
 
 \header {
-    title = \Title
-    tagline = ##f
+    title    = \Title
+    arranger = \Subtitle
+    tagline  = ##f
 }
 
 \score {
