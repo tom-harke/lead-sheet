@@ -14,11 +14,7 @@ Chords = \chords {
 
 Melody = \transpose d d' {
     \key d \phrygian
-    \time 3/8
-
-    \set Score.baseMoment = #(ly:make-moment 1/8)
-    \set Score.beatStructure = 2,1
-    \set strictBeatBeaming = ##t
+    \include "zhok.rhy"
 
     \mark \default
     \repeat volta 2 {
