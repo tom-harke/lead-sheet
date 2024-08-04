@@ -1,7 +1,10 @@
 % from Henrik Norbeck
+% http://www.norbeck.nu/abc/display.asp?rhythm=rachenitsa&ref=1
+% composed by Ivan Shibilev ?
 
 Title = "Delijska Račenitsa"
 
+adrop   = <\tweak font-size #-3 a,16>
 
 Chords = \chords {
     % A (
@@ -66,67 +69,67 @@ Melody = \transpose d d' {
 
     % A (
     \repeat volta 3 {
-        | d8 fis16 g a8 a16
-        | a8 a a\prall g16
-        | a16 bes bes8 a8 g16
+        | d8[ fis16 g] a8 a16
+        | a8[ a] a\prall g16
+        | a16[ bes bes8] a8 g16
     }
     \alternative {
-        {| g16 a g fis ees d c |}
-        {| g8 a8 r8. |}
-        {| g16 a g fis ees d c |}
+        {| g16[ a g fis] ees d c |}
+        {| g8[ a8] r8. |}
+        {| g16[ a g fis] ees d c |}
     }
-    | c8 d16 ees ees8 ees16
-    | d8 ees8 fis8 g16
-    | a16 g g fis ees d c
-    | d16 a, d8 d8.
+    | c8[ d16 ees] ees8 ees16
+    | d8[ ees8] fis8 g16
+    | a16[ g g fis] ees d c
+    | d16[ \adrop d8] d8.
     % A )
     % B (
     \repeat volta 2 {
-        | c8 d16 ees ees8 ees16
-        | d8 ees fis g16
-        | a16 g g fis ees d c
+        | c8[ d16 ees] ees8 ees16
+        | d8[ ees] fis g16
+        | a16[ g g fis] ees d c
     }
     \alternative {
-        { d16 ees fis g a8\prall d16 }
-        { d16 a, d8 d8. }
+        { d16[ ees fis g] a8\prall d16 }
+        { d16[ \adrop d8] d8. }
     }
     % B )
     % C (
     \repeat volta 2 {
         | d'4..
         | d'4..
-        | bes16 c' bes a g fis g
-        | a16 bes bes d bes8 d16
+        | bes16[ c' bes a] g fis g
+        | a16[ bes bes d] bes8 d16
 
-        | a8 bes c' d'16
-        | c'8 bes a g16
-        | g16 a g fis ees d c
+        | a8[ bes] c' d'16
+        | c'8[ bes] a g16
+        | g16[ a g fis] ees d c
     }
     \alternative {
-        { d16 ees fis g a bes c' }
-        { d16 a, d8 d8. }
+        { d16[ ees fis g] a bes c' }
+        { d16[ \adrop d8] d8. }
     }
     % C )
     % D (
     \repeat volta 2 {
-        | a8 bes c' d'16
-        | c'8 bes a g16
-        | g16 a g fis ees d c
+        | a8[ bes] c' d'16
+        | c'8[ bes] a g16
+        | g16[ a g fis] ees d c
     }
     \alternative {
-        { d16 ees fis g a8\prall d16 }
-        { d16 a, d8 d8. }
+        { d16[ ees fis g] a8\prall d16 }
+        { d16[ \adrop d8] d8. }
     }
     % D )
     % E (
     \repeat volta 2 {
-        | g16 a fis8 g16 a g
-        | fis16 a, d ees fis8\prall d16
-        | g16 a, fis8 ees16 d c
+        | g16[ a fis8] g16 a g
+        | fis16[ \adrop d ees] fis8\prall d16
+        | g16[ \adrop fis8] ees16 d c
     }
     \alternative {
-        { d16 ees fis g a8\prall d16 }
-        { d16 a, d8 d8. }
+        { d16[ ees fis g] a8\prall d16 }
+        { d16[ \adrop d8] d8. }
     }
     % E )
 % }

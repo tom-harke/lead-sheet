@@ -2,7 +2,7 @@
 
 \include "delijska.src.ly"
 
-\include "landscape_25.ly"
+\include "landscape_24.ly"
 
 \header {
     title = \Title
