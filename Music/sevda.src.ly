@@ -80,42 +80,17 @@ M =
     % B (
     \break \mark \default
     \repeat volta 2 {
-        |
-            <a c'>8
-            <bes d'>16
-            <bes d'>
-            <a c'>
-            <bes d'>
-            <c' ees'>
-        |
-            <a c'>8
-            <g bes>16
-            <fis a>4
-        |
-            <g bes>8
-            <g bes>16
-            <a c'>8
-            <g bes>8
-
-        |
-            <fis a>8
-            <ees g>16
-            <d fis>4
+        | a8 bes16 bes a bes c'
+        | a8 g16 fis4
+        | g8 bes16 a8 g8
+        | fis8 ees16 d4
 \break
-        |
-            <fis a>16
-            <g bes>~<g bes>
-            <a c'>8
-            <g bes>8
-        |
-            <fis a>8
-            <ees g>16
-            <fis a>8
-            <ees g>8
+        | fis16 g~g a8 g8
+        | fis8 ees16 fis8 ees8
     }
     \alternative {
-        {| <d fis>4.. ~| <d fis>8 <c ees>16 <d fis> <ees g> <fis a> <g bes> |}
-        {| <d fis>4.. ~| <d fis>16 r r d ees fis g |}
+        {| d4.. | r8 c16 d   ees fis g |}
+        {| d4.. | r8.    d16 ees fis g |}
     }
     % B )
     % C (
