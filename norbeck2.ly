@@ -5,12 +5,16 @@
 \include "landscape.ly"
 
 \header {
-    title = \Title
-    tagline = ##f
+    title    = \Title
+    subtitle    = \Subtitle
+    tagline  = ##f
+    arranger = \Arranger
+    opus     = \Order
 }
 
 \score {
     \include "layout.ly"
-    << \C \M >>
+	\transpose e d
+    << \Chords \new Staff { << \Layout \Melody >> } >>
     \midi {}
 }

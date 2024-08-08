@@ -7,7 +7,7 @@
 \header {
     title = \Title
     tagline = ##f
-    opus = \markup{A{\super2} B{\super2} C{\super2} A{\super2}}
+    opus = \Order
 }
 
 \score {

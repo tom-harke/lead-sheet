@@ -76,34 +76,35 @@ Doc/makefile.md: Makefile
 
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like geamparas: 7 = 2+2+3
-GEAMPARA += babadag2    # 1 Done
-GEAMPARA += barla        # 1 Done
-GEAMPARA += belomorska   # 1 Done
+GEAMPARA += culesul       # 2 Done
+GEAMPARA += chekurjankino # 2 TODO
+GEAMPARA += fetesti       # 2 TODO
+GEAMPARA += haidim        # 2 Done
+GEAMPARA += marcus        # 2
+GEAMPARA += nunta         # 2
+GEAMPARA += pandalash     # 2 Done
+GEAMPARA += norbeck1      # 2 TODO chords
+
+GEAMPARA += babadag2      # 1 Done
+GEAMPARA += barla         # 1 Done
+GEAMPARA += belomorska    # 1 Done
 #GEAMPARA += din bucharest (from Cooper + ?)
-GEAMPARA += chekurjankino # 3 TODO
-GEAMPARA += comida       # 1 Done -- 3 lines
-GEAMPARA += culesul      # 2 Done
-GEAMPARA += delijska     # 1 Done
-GEAMPARA += dobrogeana   # 1
-GEAMPARA += edinets      # 2
-GEAMPARA += fetesti      # 2 TODO
-GEAMPARA += ghiurghiuliu # 1
-GEAMPARA += haidim       # 2 Done
-GEAMPARA += hijaz        # 1 Done
-GEAMPARA += marcus       # 3
-GEAMPARA += murfatlar1   # 1 Done
-GEAMPARA += murfatlar2   # 1 Done
-GEAMPARA += navodari     # 1 Done
-GEAMPARA += nunta        # 2
-GEAMPARA += ostropesul   # 1 Done
-GEAMPARA += pandalash    # 2 Done
-GEAMPARA += pandelasul   # 1
-GEAMPARA += povlekana    # 2
-GEAMPARA += tasaul       # 1 TODO chords
-GEAMPARA += turcitu      # 1 Done
+GEAMPARA += comida        # 1 Done -- 3 lines
+GEAMPARA += delijska      # 1 Done
+GEAMPARA += dobrogeana    # 1
+GEAMPARA += edinets       # 1
+GEAMPARA += ghiurghiuliu  # 1
+GEAMPARA += hijaz         # 1 Done
+GEAMPARA += murfatlar1    # 1 Done
+GEAMPARA += murfatlar2    # 1 Done
+GEAMPARA += navodari      # 1 Done
+GEAMPARA += ostropesul    # 1 Done
+GEAMPARA += pandelasul    # 1
+GEAMPARA += povlekana     # 1
+GEAMPARA += tasaul        # 1 TODO chords
+GEAMPARA += turcitu       # 1 Done
 # Those without names
 GEAMPARA += geampara_53323    # 1
-GEAMPARA += norbeck1          # 2 TODO chords
 GEAMPARA += norbeck2          # 1 TODO chords
 GEAMPARA += geampara_cooper_1 # 1
 
@@ -114,7 +115,7 @@ G = $(patsubst %,%.pdf,$(GEAMPARA))
 
 
 geampara.book.pdf: $G
-	pdfunite $G $@
+	pdfunite blank.PDF $G $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 EVEN += basarabeasca  # 1 Done (does this belong here?)
@@ -154,6 +155,10 @@ even.book.pdf: $E
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like lesnos: 7 = 3+2+2
 # Eg, četvorno šopsko horo is included though I don't think of it as a lesno.
+
+LESNO += ratevka  # 2
+LESNO += sevda        # 2 TODO de-arrange (out-of-order)
+
 #LESNO += ajde jano
 LESNO += ako_umram    # 1 TODO
 LESNO += aleni_zvezdi # 1 Done
@@ -165,17 +170,15 @@ LESNO += koj_ti_gi    # 1
 #LESNO += ljiljiano mome
 LESNO += majko        # 1
 LESNO += makedonsko   # 1 TODO
-LESNO += ratevka  # 2
 #LESNO += samiotissa
 #LESNO += satovchensko horo
-LESNO += sevda        # 2 TODO de-arrange (out-of-order)
 LESNO += snijeg       # 1 TODO
 LESNO += zapjevala    # 1 Done
 
 L = $(patsubst %,%.pdf,$(LESNO))
 
 lesno.book.pdf: $L
-	pdfunite $L $@
+	pdfunite blank.PDF $L $@
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (

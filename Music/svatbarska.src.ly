@@ -1,8 +1,9 @@
-Title = "Svatbarska Račenitsa"
-Order = \markup "A2 B2 C2 D2 E2 C2"
+Title    = "Svatbarska Rəčenica"
+Subtitle = "(needs work)"
+Order    = "A² B² C² D² E² C²"
 
-Chords =
-\chords {
+
+Chords = \chords {
     % A (
     \repeat volta 2 {
         | s4..
@@ -26,42 +27,41 @@ Chords =
     % B )
     % C (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
+        | d4..
+        | ees4 d8.
+        | c4:min d8.
     }
     \alternative {
-        { s4.. }
-        { s4.. }
+        {| ees4 d8. }
+        {| ees4 d8. }
     }
     % C )
     % D (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
+        | ees4 d8.
+        | d4..
+        | c4..:min
     }
     \alternative {
-        { s4.. }
-        { s4.. }
+        { d4.. }
+        { d4.. }
     }
     % D )
     % E (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
+        | ees4..
+        | d4..
+        | ees4..
     }
     \alternative {
-        { s4.. }
-        { s4.. }
+        { d4.. }
+        { d4.. }
     }
     % E )
 }
 
 
-Melody =
-\transpose d d' {
+Melody = \transpose d d' {
     \include "geampara.rhy"
 
     \key a \minor

@@ -1,15 +1,47 @@
-Title = "(geampara fără nume) (from Norbeck, #1)"
+Title    = "geampara fără nume"
+Arranger = "Norbeck's #1"
+Subtitle = "(needs work)"
+Order    = "A² B² A² C²"
 
 
-C =
-\chords {
-%   \repeat volta 2 {
-%       | s4..*8
-%   }
+
+variation = #(
+    define-music-function
+    (parser location arg1 arg2)
+    (ly:music? ly:music?)
+    #{
+		<<
+        { $arg1 }
+        \new Staff \with {
+             \magnifyStaff #2/3
+             \remove Time_signature_engraver
+             \remove Clef_engraver
+             alignAboveContext = "main"
+        }
+		{ $arg2 }
+		>>
+    #}
+)
+
+
+Chords = \chords {
+   \repeat volta 2 {
+       | a4..  | s4..
+       | a4..  | s4..
+       | e4..  | c4..
+       | c4..  | b4..
+   }
+   \repeat volta 2 {
+       | s4..*8
+   }
+   \repeat volta 2 {
+       | s4..*8
+   }
 }
 
 
-M = \transpose d d'' {
+
+Melody = \transpose d d'' {
     \key c \major
 
     \include "geampara.rhy"
@@ -17,13 +49,25 @@ M = \transpose d d'' {
     \break \mark \default
     \repeat volta 2 {
         | b,16 c c8 c8 c16        % Bccc ccc
-        | e16 dis dis c c b, a,   % eddc cBA
-        | b,16 c e8 a,16 b, c     % Bce2 ABc
-        | e16 dis dis c c b, a,   % eddc cBA
+
+		\variation
+			{	| e16 dis dis c c b, a,   % eddc cBA
+        		| b,16 c e8 a,16 b, c    % Bce2 ABc
+        		| e16 dis dis c c b, a,   % eddc cBA
+			}
+			{	| e16 dis c8 c16 b, a,    % edcc cBA
+        		| b,16 c e e, a, b, c    % BceE ABc
+        		| e16 dis c8 c16 b, a,    % edcc cBA
+			}
         \break
         | dis16 e fis dis e fis g % defd efg
-        | a8 g16 fis e dis c      % a2gf edc
-        | dis8 c16 b, a, b, c       % d2cB ABc
+		\variation
+        	{	| a8 g16 fis e dis c      % a2gf edc
+        		| dis8 c16 b, a, b, c     % d2cB ABc
+			}
+        	{	| a8 g16 fis e8 c16       % aagf eec
+        		| e16 dis c8 a,16 b, c    % edcc ABc
+			}
         | b,4..
     }
 
@@ -38,19 +82,6 @@ M = \transpose d d'' {
         | a8 g e c16              % aagg ee=c
         | e8 c8 a,16 b, c         % eecc ABc
         | b,4..
-    }
-
-    \break \mark \default
-    \repeat volta 2 {
-        | b,16 c c8 c8 c16        % Bccc ccc
-        | e16 dis c8 c16 b, a,    % edcc cBA
-        | b,16 c e e, a, b, c     % BceE ABc
-        | e16 dis c8 c16 b, a,    % edcc cBA
-        \break
-        | dis16 e fis dis e fis g % defd efg
-        | a8 g16 fis e8 c16       % aagf eec
-        | e16 dis c8 a,16 b, c       % edcc ABc
-        | b,4..                   % B4-B3 
     }
 
     \break \mark \default

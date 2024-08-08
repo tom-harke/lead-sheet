@@ -1,5 +1,7 @@
 Title = "Geamparele de la Babadag (2)"
 
+edrop   = <\tweak font-size #-3 e16>
+bdrop   = <\tweak font-size #-3 b,16>
 
 C =
 \chords {
@@ -32,10 +34,10 @@ M =
 
     \break \mark \default
     \repeat volta 2 {
-        | e16 f gis a b c' e
-        | b8\prall b16 e b8 e16
+        | e16 f gis a b c' \edrop
+        | b8\prall b16 \edrop b8 \edrop
         | d'16 c' c' b a gis a
-        | b8\prall b16 e b8 e16
+        | b8\prall b16 \edrop b8 \edrop
     }
 
     \break \mark \default
@@ -59,7 +61,7 @@ M =
         | b8\prall a16 gis f8 d16
     }
     \alternative {
-        {| e8\prall e16 b, e fis gis |}
-        {| e8\prall e16 b, e8. |}
+        {| e8\prall e16 \bdrop e fis gis |}
+        {| e8\prall e16 \bdrop e8. |}
     }
 }

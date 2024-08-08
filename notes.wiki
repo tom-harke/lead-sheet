@@ -99,3 +99,42 @@ tools
 firefox file:///home/dev/github/lead-sheet/lilypond/html/Documentation/web/manuals.html
 
 Erik Butterworth & Marcus Moscoff -- huge db of tunes -- http://goldov.com/butterw/emdb/
+
+% â č ƙ š ŭ ž
+
+## Lilypond
+drops macro
+```
+edrop   = <\tweak font-size #-3 e16>
+```
+alt syntax
+```
+  \repeat volta 2 {
+    ...
+  }
+  \alternative {
+    { ... }
+    { ... }
+  }
+```
+
+### non-standard repeats
+See Avram Bughici's Freylekhs for an example.
+
+Prologue:
+```
+voltaAdLib = \markup { 1, 3. }
+```
+
+For one of the sections, instead of `alternative`, use:
+```
+\set Score.repeatCommands = #(list(list 'volta voltaAdLib) 'start-repeat)
+{ s2*3 }
+\set Score.repeatCommands = #'((volta #f) (volta "2, 4.") end-repeat)
+{ s2*3 }
+\set Score.repeatCommands = #'((volta #f))
+```
+Other sections can use `alternative`.
+
+### paren
+```\parenthesize TERM```

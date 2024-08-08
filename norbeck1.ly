@@ -5,19 +5,33 @@
 \include "landscape.ly"
 
 \header {
-    title = \Title
-    tagline = ##f
+    title    = \Title
+    subtitle = \Subtitle
+    tagline  = ##f
+    arranger = \Arranger
+    opus     = \Order
 }
 
 \score {
 
-    \include "layout.ly"
-
-    << \C \M >>
-
-    \midi {
-        \unfoldRepeats
-        %\tempo 8 = 220 % typical?
-        \tempo 8 = 110
+    \layout {
+        % don't put the ambitus engraver in \layout, else it can't be overwritten in ossia
+        indent = 0
+        ragged-last = ##f
+        \context {
+            \Voice
+        }
     }
+
+    <<
+        \Chords
+        \new Staff = "melody"
+		\with {
+            \consists "Ambitus_engraver"
+        }{
+            \Melody
+    }
+    >>
+
+    \midi {}
 }

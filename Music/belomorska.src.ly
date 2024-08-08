@@ -1,4 +1,4 @@
-Title = "Belomorska Ruchinitsa"
+Title = "Belomorska Rəčenica"
 
 
 C =
@@ -12,7 +12,11 @@ C =
     % A )
     % B (
     \repeat volta 2 {
-        | e4:min d8. | a4..:min | e4:min d8. | e8:min a8:min g8.
+        | e4:min d8.
+        | e4:min d8.
+		| e4:min d8.
+		| e8:min a8:min g8.
+
         | g4..       | a4..:min | e4:min d8. | e4..:min
     }
     % B )

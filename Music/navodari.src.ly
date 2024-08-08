@@ -9,13 +9,13 @@ Chords = \chords {
     % A )
     % B (
     \repeat volta 2 {
-        | fis4..:min | s4..     | cis4..:7 | fis4..:min
-        | fis4..:min | b4..:min | cis4..:7 | fis4..:min
+        | fis4..:min  | s4..     | cis4..:7 | fis4..:min
+        | fis4..:min7 | b4..:min | cis4..:7 | fis4..:min
     }
     % B )
     % C (
     \repeat volta 2 {
-        | fis4..:min | b4..:min | cis4..:7 | fis4..:min
+        | fis4..:min7 | b4..:min | cis4..:7 | fis4..:min
     }
     % C )
     % D (

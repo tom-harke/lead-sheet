@@ -6,8 +6,9 @@
 
 \header {
     title   = \Title
+    subtitle   = \Subtitle
     tagline = ##f
-    opus    = "A2 B2 C2 A4"
+    opus    = \Order
 }
 
 \score {

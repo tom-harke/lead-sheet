@@ -1,4 +1,4 @@
-Title = "Marcus Răčenica"
+Title = "Marcus Rəčenica"
 
 % Based on Dennis Godfrey's transcription of
 % the playing of Marcus Moscoff & Erik Butterworth

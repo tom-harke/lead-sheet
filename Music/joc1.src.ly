@@ -1,4 +1,5 @@
-Title = "(joc fără nume)"
+Title    = "joc fără nume"
+Subtitle = "joc"
 
 
 
@@ -38,7 +39,8 @@ Chords = \chords {
 
 
 Melody = \transpose d d' {
-    \key d \minor
+    %\key d \minor
+    \key d \dorian
     \include "zhok.rhy"
 
     % A (
@@ -67,16 +69,16 @@ Melody = \transpose d d' {
     \repeat volta 2 {
         | d4. ~
         | d4.
-        | f8 f e16 d
-        | f8 f e16 d
+		\repeat percent 2 {| f8 f e16 d }
+        %| f8 f e16 d
         | cis4. ~
         | cis4.
         | a,8 bes, cis16 d
         | e8 f gis16 a
         | d4 a8
         | gis8. f16 e d
-        | f8 f e16 d
-        | f8 f e16 d
+		\repeat percent 2 {| f8 f e16 d }
+        %| f8 f e16 d
         | g4.
         | bes4.
         | a8. d16 f a

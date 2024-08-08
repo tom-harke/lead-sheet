@@ -1,4 +1,5 @@
 Title = "Joc din Suceava"
+Order    = "A² B² C⁴"
 
 
 Chords = \chords {
@@ -51,7 +52,7 @@ Melody = \transpose d d' {
         | cis16 d e fis g fis g
         | a16 g g fis g fis g
         | a16 g a b a g fis
-        | e8-. b,-. e8.-.
+        | e8-. b,-. e8-. r16
     }
     % A )
     % B (
@@ -60,7 +61,7 @@ Melody = \transpose d d' {
         | b8-. d'16 c' b8\prall a16
         | b8-. d'16 c' b8\prall a16
         | a16 g a b c' b a
-        | a16 g b c' d'8.-.
+        | a16 g b c' d'8-. r16
 
         | b8-. d'16 c' b8\prall a16
         | b8-. d'16 c' b8\prall a16
@@ -74,13 +75,13 @@ Melody = \transpose d d' {
     % C (
     \mark \default
     \repeat volta 2 {
-        | a8.\prall b16 a g fis
-        | e16 fis g a b8.-.
+        | a8.\prall[ b16] a g fis
+        | e16 fis g a b8-. r16
         | b16 d' c' b a g fis
     }
     \alternative {
-        {| e16 fis g a b8.-. }
-        {| fis16 e e b, e8.-. }
+        {| e16 fis g a b8-. r16 }
+        {| fis16 e e b, e8-. r16 }
     }
     % C )
 }

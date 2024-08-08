@@ -1,4 +1,5 @@
-Title = "(răčenica bez ime) (from Cooper, #1)"
+Title    = "rəčenica bez ime"
+Arranger = "Cooper"
 
 C =
 \chords {

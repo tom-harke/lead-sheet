@@ -1,9 +1,10 @@
-Title = "Edineţ Hostropăţ"
+Title    = "Edineţ Hostropăţ"
+Subtitle = "(chords need work)"
+Order    = "A² B² C⁴ A²"
 
 % TODO: for each a chord, determine whether it's major or minor
 
-Chords =
-\chords {
+Chords = \chords {
 
     % A (
     \repeat volta 2 {
@@ -22,7 +23,7 @@ Chords =
         | e4..:min
         | e4..:min
         | e4..:7
-        | s4..    % TODO
+        | a4..:min
         | a4..:min
         | a4..:min
         | s4..     % TODO
@@ -31,9 +32,9 @@ Chords =
     % B )
     % C (
     \repeat volta 2 {
-        | a4..:min % TODO check
+        | a4..:min
         | d4:7 g8.
-        | a4..:min % TODO check
+        | a4..:min
     }
     \alternative {
         {| s4.. } % TODO indicate ossia 1

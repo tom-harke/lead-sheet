@@ -1,6 +1,7 @@
 % from www.folkloretanznoten.de
 
 Title = "Geamparalele din Bârla"
+Order = "A² B² C² A²"
 
 
 C =

@@ -49,7 +49,7 @@ Melody =
     {
         | c'2
         | ees'2
-        \repeat unfold 2 {
+        \repeat percent 2 {
             | c'16 b c' d' ees'4
         }
     }

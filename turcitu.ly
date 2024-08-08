@@ -6,7 +6,7 @@
 
 \header {
     title    = \Title
-    arranger = \markup{aka: \subtitle}
+    arranger = \Subtitle
     opus     = \Order
     tagline  = ##f
 }
@@ -15,12 +15,12 @@
 
     \include "layout.ly"
     \transpose b d
-    << \C \M >>
+    << \Chords \Melody >>
 }
 
 \score {
     \unfoldRepeats
     \transpose b d
-    << \C \M >>
+    << \Chords \Melody >>
     \midi {}
 }

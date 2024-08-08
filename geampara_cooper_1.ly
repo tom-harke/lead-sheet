@@ -6,6 +6,7 @@
 
 \header {
     title = \Title
+    arranger = \Arranger
     tagline = ##f
 
 

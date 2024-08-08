@@ -1,7 +1,7 @@
 % from http://www.tousauxbalkans.net/Geamparele/1
 % â č ƙ š ŭ ž
 
-Title  = "(geampara fără nume)"
+Title = "geampara fără nume"
 
 Melody = \transpose a a' {
     \include "geampara.rhy"

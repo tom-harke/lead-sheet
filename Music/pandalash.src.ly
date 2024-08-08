@@ -2,10 +2,15 @@
 %	 Presented by Nikolay Kolev at Balkanalia 2010
 %	 \markup { (A\raise #1 2 B\raise #1 2 )\raise #1 2 C\raise #1 4 D\raise #1 2 (E\raise #1 2 F\raise #1 4 )\raise #1 2 A\raise #1 2 B\raise #1 2  }
 
+% TODO: convert from relative to absolute
+% TODO: deduplicate A (rm variation)
+% TODO: deduplicate B
+
 Title    = "Pandalaš"
 AltTitle = "пандалаш"
 
-drop = <\tweak font-size #-3 e16>
+edrop = <\tweak font-size #-3 e16>
+edroprel = <\tweak font-size #-3 e,16>
 
 Melody = \relative c'' {
     \include "geampara.rhy"
@@ -50,33 +55,33 @@ Melody = \relative c'' {
 	\repeat volta 2 {
 		\mark \default
 		| cis16 d d cis b cis ~ cis
-		| a16 e b'8 g16 a e
+		| a16 \edrop b'8 g16 a e
 		| a16 g g fis e g a
-		| a8 a16 e b'8.
+		| a8 a16 \edrop b'8.
 \break
 		| e16 d ~ d cis b cis ~ cis
-		| a16 e b'8 g16 a e
+		| a16 \edrop b'8 g16 a e
 		| a16 g ~ g fis e g a
-		| a8 a16 e b'8.
+		| a8 a16 \edrop b'8.
 	}
 	%)
 	%( E
 	\break
 	\repeat volta 2 {
 		\mark \default
-		| d16  e, cis' e, b'8 e,16
-		| d'16 e, cis' e, b'8 e,16
-		| d'16 e, cis' e, d' e cis
-		| d16  e, cis' e, b'8 e,16
+		| d16  \edroprel cis' \edroprel b'8 \edroprel
+		| d'16 \edroprel cis' \edroprel b'8 \edroprel
+		| d'16 \edroprel cis' \edroprel d' e cis
+		| d16  \edroprel cis' \edroprel b'8 \edroprel
 	}
 	\break
 	%)
 	%( F
 	\repeat volta 2 {
 		\mark \default
-		| a8 a16 e cis' d e
-		| cis16 e, a8 a16 e ~ e
-		| a8 a16 e b' cis a
+		| a8 a16 \edrop cis' d e
+		| cis16 \edroprel a8 a16 e ~ e
+		| a8 a16 \edrop b' cis a
 		| b16 g a8 a16 e ~ e
 	}
 	%)

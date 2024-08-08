@@ -14,7 +14,8 @@
 \include "landscape.ly"
 
 \header {
-    title = \Title
+    title   = \Title
+    opus    = \Order
     tagline = ##f
 }
 
@@ -22,7 +23,7 @@
 
     \include "layout.ly"
 
-    << \C \M >>
+    << \Chords \Melody >>
 
     \midi {}
 }

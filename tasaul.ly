@@ -2,7 +2,7 @@
 
 \include "tasaul.src.ly"
 
-\include "landscape.ly"
+\include "landscape_27.ly"
 
 \header {
     title = \Title
@@ -11,6 +11,7 @@
 
 \score {
     \include "layout.ly"
-    \transpose b c << \C \M >>
+%\transpose g a
+    \transpose b c << \Chords \Melody >>
     \midi {}
 }

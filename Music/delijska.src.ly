@@ -2,7 +2,7 @@
 % http://www.norbeck.nu/abc/display.asp?rhythm=rachenitsa&ref=1
 % composed by Ivan Shibilev ?
 
-Title = "Delijska Račenitsa"
+Title = "Delijska Rəčenica"
 
 adrop   = <\tweak font-size #-3 a,16>
 

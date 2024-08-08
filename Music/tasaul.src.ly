@@ -7,8 +7,7 @@ edrop   = <\tweak font-size #-3 e16>
 fisdrop = <\tweak font-size #-3 fis16>
 cisdrop = <\tweak font-size #-3 cis'16>
 
-C =
-\chords {
+Chords = \chords {
 
 	% A (
     \repeat volta 4 {
@@ -67,8 +66,7 @@ C =
 }
 
 
-M =
-\transpose d d' {
+Melody = \transpose d d' {
     \include "geampara.rhy"
 
     \key b \dorian
@@ -133,7 +131,7 @@ M =
         }
     }
     \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
-    {| b16 fis g bes b cis' d' |}
+    {| b16 fis g ais b cis' d' |}
     \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
     {| b8 b16 \fisdrop b b \fisdrop |}
     \set Score.repeatCommands = #'((volta #f) (volta "4.") end-repeat)

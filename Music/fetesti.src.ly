@@ -2,6 +2,7 @@
 % T = "Geamparalele de la Fetesti"
 
 Title = "Geamparale de la Feteşti"
+Subtitle = "(needs work)"
 
 
 C = \chords {
