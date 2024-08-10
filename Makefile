@@ -203,17 +203,18 @@ terkish.book.pdf: $T
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with zhok rhythm: 3 = 2+1
+ZHOK += kandels_hora        # 2 TODO
+ZHOK += nokh_a_glezl_vayn   # 2 TODO
 ZHOK += baym_rebin          # !
 ZHOK += bojerka             # 1 Done
 ZHOK += bukovinei           # 1 Done
-ZHOK += kandels_hora        # 2 TODO
 ZHOK += mayne_tayere_odessa # 1 Done
-ZHOK += nokh_a_glezl_vayn   # 2 TODO
+ZHOK += joc1
 
 Z = $(patsubst %,%.pdf,$(ZHOK))
 
 zhok.book.pdf: $Z
-	pdfunite $Z $@
+	pdfunite blank.PDF $Z $@
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (

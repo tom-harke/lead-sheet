@@ -36,8 +36,8 @@ C =
         | s4.
         | g4.
         | c4.:min | s4.
-        | d4.     | s4 g8:min
-        | s4.
+        | d4.:7   | s4.
+        | g4.:min
     }
     \alternative {
         {| s4 f8 }
