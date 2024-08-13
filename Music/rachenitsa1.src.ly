@@ -1,4 +1,4 @@
-Title = "bez ime"
+Title    = "rəčenica bez ime"
 
 % From Kljuco
 
