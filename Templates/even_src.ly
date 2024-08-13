@@ -1,7 +1,7 @@
 Title  = "(TODO)"
 
 Melody = \transpose c c' {
-    \include "lib/even.rhy"
+    \include "Lib/even.rhy"
 	\key f \major
 	\repeat volta 2 {
 		| s1
