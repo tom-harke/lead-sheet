@@ -8,7 +8,7 @@ Chords =
 
 Melody =
 \transpose d d' {
-    \include "lib/geampara.rhy"
+    \include "geampara.rhy"
 
     \key d \phrygian
 

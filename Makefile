@@ -90,6 +90,7 @@ GEAMPARA += barla         # 1 Done
 GEAMPARA += belomorska    # 1 Done
 #GEAMPARA += din bucharest (from Cooper + ?)
 GEAMPARA += comida        # 1 Done -- 3 lines
+GEAMPARA += daeni         # 1 Done?
 GEAMPARA += delijska      # 1 Done
 GEAMPARA += dobrogeana    # 1
 GEAMPARA += edinets       # 1
@@ -103,6 +104,7 @@ GEAMPARA += pandelasul    # 1
 GEAMPARA += povlekana     # 1
 GEAMPARA += tasaul        # 1 TODO chords
 GEAMPARA += turcitu       # 1 Done
+GEAMPARA += tiganica      # 1 Done
 # Those without names
 GEAMPARA += geampara_53323    # 1
 GEAMPARA += norbeck2          # 1 TODO chords
