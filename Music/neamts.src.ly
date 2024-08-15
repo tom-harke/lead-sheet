@@ -145,8 +145,6 @@ Melody = \transpose d d' {
     | d'16 cis' cis' ais b r r
 }
 
-
-
 Layout = {
     \repeat volta 2 {
         | s4..
@@ -154,8 +152,8 @@ Layout = {
         | s4..
         | s4..
 
-        | s4..
 \break
+        | s4..
         | s4..
     }
     \alternative {
@@ -173,50 +171,51 @@ Layout = {
     | s4..
     | s4..
     | s4..
-    \bar "||"
-    | s4..
-
 \break
-
-    | s4..
-    | s4..
-    | s4..
     \bar "||"
     | s4..
-    | s4..
-\break
 
-    | s4..
-    | s4..
-    \bar "||"
-    | s4..
-    | s4..
-    | s4..
 
-\break
-
-    | s4..
-    \bar "||"
-    | s4..
-    | s4..
-    | s4..
-    | s4..
-    \bar "||"
-    | s4..
-\break
-
-    | s4..
-    | s4..
-    | s4..
-    \bar "||"
     | s4..
     | s4..
     | s4..
 \break
+    \bar "||"
     | s4..
+    | s4..
+
+    | s4..
+    | s4..
+\break
+    \bar "||"
+    | s4..
+    | s4..
+    | s4..
+
+
+    | s4..
+\break
+    \bar "||"
+    | s4..
+    | s4..
+    | s4..
+    | s4..
+\break
+    \bar "||"
+    | s4..
+
+    | s4..
+    | s4..
+    | s4..
+\break
+    \bar "||"
+    | s4..
+    | s4..
+    | s4..
+    | s4..
+\break
     | s4..
     | s4..
     | s4..
     | s4..
 }
-
