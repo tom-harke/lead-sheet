@@ -5,106 +5,100 @@ Title    = "rəčenica bez ime"
 Order    = "A² B⁴ C²"
 
 % Todo
-%  - convert 7/8 to 7/16
 %  - what's the tonic?
 %     - have [C] land on it
 %  - is it phrygian?
 %     - if so xpose to D
 
 Melody = \transpose c c' \relative c' {
-    \set Score.markFormatter = #format-mark-box-letters
+    \include "geampara.rhy"
 
     \key c \major
 
-    \time 7/8
-    \set Staff.baseMoment = #(ly:make-moment 1 8)
-    \set Staff.beatStructure = #'(2 2 3)
-
     % A (
     \repeat volta 2 {
-        | a4 a'4 g8 a8 g8
-        | fis4 fis8 e8 fis8 e8 d8
-        | e8 fis g fis g f e
-        | e4 e8 d cis bes a
-        | a8 cis e a g a g
-        | fis4 fis8 e fis e d
-        | e8 fis g fis g f e
+        | a8 a'8 g16 a16 g16
+        | fis8 fis16 e16 fis16 e16 d16
+        | e16 fis g fis g f e
+        | e8 e16 d cis bes a
+        | a16 cis e a g a g
+        | fis8 fis16 e fis e d
+        | e16 fis g fis g f e
     }
     \alternative {
-        { e4 e8 d e4. }
-        { e4 r4 e8 f fis }
+        { e8 e16 d e8. }
+        { e8 r8 e16 f fis }
     }
     % A )
     % B (
     \repeat volta 2 {
-        | g8 f e d cis bes a
-        | bes2 bes8 a g
-        | a8 bes cis d d cis bes
+        | g16 f e d cis bes a
+        | bes4 bes16 a g
+        | a16 bes cis d d cis bes
     }
     \alternative {
-        {| a8 bes cis d e f fis }
-        {| a,4 a8 e a4. }
+        {| a16 bes cis d e f fis }
+        {| a,8 a16 e a8. }
     }
     % B )
     % C (
     \repeat volta 2 {
-        | f'4 d d4.\turn
-        | f4 g8 f g f e
-        | e4 cis cis4.\turn
-        | e4 f8 e f e d
-        | d4 bes bes4.\turn
-        | d4 e8 d e d cis
-        | a8 cis e a g bes a
-        | g8 f e d cis bes a
+        | f'8 d d8.\turn
+        | f8 g16 f g f e
+        | e8 cis cis8.\turn
+        | e8 f16 e f e d
+        | d8 bes bes8.\turn
+        | d8 e16 d e d cis
+        | a16 cis e a g bes a
+        | g16 f e d cis bes a
     }
     % C )
 }
 
 Chords = \chords {
     \repeat volta 2 {
-        | a2..:7
-        | d2..:7
-        | g2..:min
-        | a2..
-        | a2..:7
-        | d2..:7
-        | g2..:min
+        | a4..:7 | d4..:7 | g4..:min | a4..
+        | a4..:7 | d4..:7 | g4..:min
     }
-    \alternative { { a2.. } { a2.. } }
+    \alternative { { a4.. } { a4.. } }
     \repeat volta 2 {
-        a2.. | g:min | s
+        a4.. | g:min | s
     }
     \alternative {
-        {| a2.. }
-        {| a2.. }
+        {| a4.. }
+        {| a4.. }
     }
-    \repeat volta 2 { d2..:min | s | a | s | g:min | s | a | s }
+    \repeat volta 2 {
+        | d4..:min | s | a | s
+        | g:min    | s | a | s
+    }
 }
 
 Layout = {
     \break\mark \default
     \repeat volta 2 {
-        | s2..*7
+        | s4..*4
+        \break
+        | s4..*3
     }
     \alternative {
-        {| s2.. }
-        {| s2.. }
+        {| s4.. }
+        {| s4.. }
     }
     \break \mark \default
     \repeat volta 2 {
-        | s2..*3
+        | s4..*3
     }
     \alternative {
-        {| s2.. }
-        {| s2.. }
+        {| s4.. }
+        {| s4.. }
     }
     \break\mark \default
     \repeat volta 2 {
-        | s2..*4
+        | s4..*4
         \break
-        | s2..*4
+        | s4..*4
     }
 }
 
-Rhythm = { c4 c4 c4 c8 }
-%)
+Rhythm = { c8 c8 c8 c16 }
