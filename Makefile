@@ -124,6 +124,8 @@ geampara.book.pdf: $G
 	pdfunite blank.PDF $G $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
+EVEN += heiser        # 2
+
 EVEN += basarabeasca  # 1 Done (does this belong here?)
 EVEN += bubamara      # 1 Done (3 lines only)
 EVEN += bughici       # 1 Done
@@ -131,31 +133,32 @@ EVEN += caval
 EVEN += changu
 EVEN += dorogoj       # 1 Done (3 lines only)
 EVEN += ederlezi      # 1
-EVEN += heiser
+EVEN += khupe
 EVEN += kolomeyka_1
 EVEN += lebedik
 EVEN += moldova       # 1 Done (3 lines only)
 EVEN += moldovanskya  # 1 Done
 EVEN += nakhes        # 1 Done
 EVEN += other         # 1 Done
-#EVEN += tantz tantz
+EVEN += tantz_tantz
 EVEN += trisker       # 1 Done
 EVEN += varshaver     # 1 Done
 EVEN += yishomah      # 1 Done
 EVEN += chto_mne_gore # 1 Done
 EVEN += pjatorka      # 1 Done
+
 EVEN += kozak         # (2 lines only)
 EVEN += verxovina     # (3 lines only)
-# du zolst nit geyn
-# ot azoy
-# ale brider
-# nakht in gan eydn
-# hora  muntilor
+# EVEN: du zolst nit geyn
+# EVEN: ot azoy
+# EVEN: ale brider
+# EVEN: nakht in gan eydn
+# EVEN: hora  muntilor
 
 E = $(patsubst %,%.pdf,$(EVEN))
 
 even.book.pdf: $E
-	pdfunite $E $@
+	pdfunite blank.PDF $E $@
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
@@ -199,6 +202,7 @@ TERKISH += ajshino    # 1 Done
 TERKISH += araber     # 1 Done
 TERKISH += bilbilicos # 1 Done
 TERKISH += buena      # 1 Done -- 3 lines
+TERKISH += noche_al_lunar #
 TERKISH += sherele    # 1 Done
 
 T = $(patsubst %,%.pdf,$(TERKISH))

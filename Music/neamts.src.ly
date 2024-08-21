@@ -1,5 +1,6 @@
-Title = "Dans de Nuntă - Hostropăţ din Neamţ"
-Order = "A² B⁴ C²"
+Title = "Hostropăţ din Neamţ - Dans de Nuntă"
+Subtitle = "(needs work)"
+Order = "A² B⁴ A²"
 
 % Todo:
 %  - what scale?
@@ -9,14 +10,10 @@ Chords = \chords {
 
     % A
     \repeat volta 2 {
-        | e4:min cis8.:dim
-        | a4 d8.
-        | e4:min a8.
-        | d8 g8:dim d8.
-        | e4:min cis8.:dim
-        | d4:dim a8.
-        | a4 e8.:min
-        | fis4:7 b8.:min
+        | e4:min cis8.:dim | a4 d8.
+        | e4:min a8.       | d8 g8:dim d8.
+        | e4:min cis8.:dim | d4:dim a8.
+        | a4 e8.:min       | fis4:7 b8.:min
     }
 
     % B
@@ -28,19 +25,6 @@ Chords = \chords {
     \alternative {
         {| fis4 b8.:min }
         {| fis4 b8.:min }
-    }
-
-    % C
-    \repeat volta 2 {
-        | e4:min cis8.:dim
-        | a4 d8.
-        | e4:min a8.
-        | d8 g8:dim d8.
-
-        | e4:min cis8.:dim
-        | d4:dim a8.
-        | a4 e8.:min
-        | fis4:7 b8.:min
     }
 }
 
@@ -59,13 +43,16 @@ Melody = \transpose d d {
         | d'16 cis' d' e' fis'8\trill d'16
 
         | e'8\prall e'16 d'16 e' d' cis'
-
         | cis'16 d' e' f' gis' a' b'
         | c''16 b' a' gis' f' e' d'
         | d'16 cis' cis' ais b r r
     }
 % Variation
 % | c''16 b'     a'   gis' f' e' d'
+% | c''8\mordent a'16 gis' f' e' d'
+
+% Variations
+% | c''16 b' a' gis' f' e' d'
 % | c''8\mordent a'16 gis' f' e' d'
 
     % B
@@ -77,23 +64,6 @@ Melody = \transpose d d {
     \alternative {
         {| d'16 cis' cis' b fis'8\prall b16 }
         {| d'16 cis' cis' ais b r r }
-    }
-
-    % C
-    \repeat volta 2 {
-        | e'8.\trill d'16 e' d' cis'
-        | a8 b16 cis' d'8\prall cis'16
-        | e'8\prall d'16 cis' a b cis'
-        | d'16 cis' d' e' fis'8\trill d'16
-
-        | e'8\prall e'16 d' e' d' cis'
-        | cis'16 d' e' f' gis' a' b'
-        | c''16 b' a' gis' f' e' d'
-        | d'16 cis' cis' ais b r r
-
-        % Variations
-        % | c''16 b' a' gis' f' e' d'
-        % | c''8\mordent a'16 gis' f' e' d'
     }
 }
 
@@ -114,13 +84,5 @@ Layout = {
     \alternative {
            {| s4.. |}
            {| s4.. |}
-    }
-
-    % C
-    \break \mark \default
-    \repeat volta 2 {
-        | s4..*4
-        \break \bar "||"
-        | s4..*4
     }
 }

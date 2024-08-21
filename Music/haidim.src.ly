@@ -63,15 +63,14 @@ M =
     | e'4..  ~ e'4..
     | f'4..  ~ f'4..
     | f'4..  ~ f'4 g'8.
+\break
 
     | a'8 e' ~ e'8.
     | a8 a8 ~ a8.
     | a,8 a,8 ~ a,8.
     ~ a,4..
-\break
-    | a8 a e16 e e
-    | a8 a e16 e e
-    | a8 a e16 e e
+
+    \repeat percent 3 {| a8 a e16 e e }
     | a8 a8 a8 r16
     % X )
     % A (
