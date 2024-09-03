@@ -96,6 +96,7 @@ GEAMPARA += dobrogeana    # 1
 GEAMPARA += edinets       # 1
 GEAMPARA += ghiurghiuliu  # 1
 GEAMPARA += hijaz         # 1 Done
+GEAMPARA += mala_loka     # 1 ?
 GEAMPARA += murfatlar1    # 1 Done
 GEAMPARA += murfatlar2    # 1 Done
 GEAMPARA += navodari      # 1 Done
@@ -113,6 +114,7 @@ GEAMPARA += geampara_cooper_1 # 1
 GEAMPARA += rachenitsa1 # 1
 GEAMPARA += rachenitsa2 # 1
 GEAMPARA += rachenitsa3 # 1
+GEAMPARA += rachenitsa_3654 # 1 TODO chords (2 lines only)
 
 
 
@@ -179,6 +181,7 @@ LESNO += koj_ti_gi    # 1
 #LESNO += ljiljiano mome
 LESNO += majko        # 1
 LESNO += makedonsko   # 1 TODO
+LESNO += more_sokol_pie # 1
 #LESNO += samiotissa
 #LESNO += satovchensko horo
 LESNO += snijeg       # 1 TODO
