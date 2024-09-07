@@ -289,13 +289,14 @@ balkanalia-2024.book.pdf: $(BALK2)
 EJC += kandels_hora # 2
 EJC += baym_rebin   # 1
 EJC += kishiniever  # 1
-EJC += mouse
+EJC += mouse        # 1
 EJC += odesa        # 1
-#EJC += papiroseen
+EJC += papirossen   # 1
 EJC += tantz_tantz  # 1
-EJC += ukrainian
+EJC += ukrainian    # 1
 EJC += varshaver    # 1
 EJC += joc1         # 1 aka Roumanian Hora
+EJC += freylekh_1   # 1
 
 EJC2 = $(patsubst %,%.pdf,$(EJC))
 
