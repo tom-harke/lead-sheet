@@ -44,7 +44,6 @@ Chords = \chords {
 Melody = \transpose d d'' {
     \include "kolomeike.rhy"
     \key d \minor
-    \time 4/4
 
 	% A (
     \repeat volta 2 {

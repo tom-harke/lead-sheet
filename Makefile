@@ -285,6 +285,24 @@ balkanalia-2024.book.pdf: $(BALK2)
 	pdfunite $(BALK2) $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
+#EJC += firn di mekhutonim aheym
+EJC += kandels_hora # 2
+EJC += baym_rebin   # 1
+EJC += kishiniever  # 1
+EJC += mouse
+EJC += odesa        # 1
+#EJC += papiroseen
+EJC += tantz_tantz  # 1
+EJC += ukrainian
+EJC += varshaver    # 1
+EJC += joc1         # 1 aka Roumanian Hora
+
+EJC2 = $(patsubst %,%.pdf,$(EJC))
+
+klezmer-man.book.pdf: $(EJC2)
+	pdfunite blank.PDF $(EJC2) $@
+# ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
 # Dependencies on libraries
 
 %.pdf: Lib/layout.ly
