@@ -1,20 +1,20 @@
 Title  = "(TODO)"
 
 Melody = \transpose c c' {
-    \include "Lib/even.rhy"
+    \include "even.rhy"
 	\key f \major
 	\repeat volta 2 {
-		| s1
+		| s2
 	}
 }
 Chords = \chords {
 	\repeat volta 2 {
-		| s1
+		| s2
 	}
 }
 Layout = {
 	\break \mark \default
 	\repeat volta 2 {
-		| s1
+		| s2
 	}
 }

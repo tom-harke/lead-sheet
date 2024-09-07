@@ -8,7 +8,7 @@ Chords =
 
 Melody =
 \transpose d d' {
-    \include "lib/kopenitsa.rhy"
+    \include "kopenitsa.rhy"
 
     \key d \phrygian
 

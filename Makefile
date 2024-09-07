@@ -271,6 +271,20 @@ misc.book.pdf: $M
 	pdfunite $M $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
+BALK += devoiko
+BALK += neshto
+BALK += olimpijski
+BALK += ramush
+BALK += sanuva
+BALK += vchera
+BALK += zhiti
+
+BALK2 = $(patsubst %,%.pdf,$(BALK))
+
+balkanalia-2024.book.pdf: $(BALK2)
+	pdfunite $(BALK2) $@
+# ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
 # Dependencies on libraries
 
 %.pdf: Lib/layout.ly
