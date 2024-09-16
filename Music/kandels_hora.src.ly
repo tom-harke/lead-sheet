@@ -1,4 +1,5 @@
 Title = "Kandel's Hora"
+Order = "A² B² C D² B²"
 
 C =
 \chords {
@@ -26,12 +27,6 @@ C =
         | d2.   | d2.
         | g4.:min | d4.  | g4.:min | d4.
 
-    }
-    \repeat volta 2 {
-        | g2.:min d
-        | c4.:min d d2.
-        | g2.:min c4.:min d
-        | c2.:min d
     }
 }
 
@@ -65,20 +60,21 @@ M =
     \break
     \mark \default
     \repeat volta 2 {
-        \repeat unfold 2 {
+        \repeat percent 2 {
             | g4. ~ g4 a16 bes
         }
-        \repeat unfold 2 {
+        \repeat percent 2 {
             | g4 a16 bes
         }
         | g4.  ~ g4 d8
     }
+
     \break
     \mark \default
     \repeat volta 2 {
-        | g8 a bes | bes4 bes8 | bes4.  ~ bes4 bes8
+        | g8 a bes | bes4 bes8 | bes4. ~ | bes4 bes8
 
-        \repeat unfold 2 {
+        \repeat percent 2 {
             | bes8. a32 bes a16 g
         }
         | c'8. bes16 a g
@@ -86,7 +82,7 @@ M =
         \break
 
         | fis8 g a
-        | g8. d'16 g d'
+        | a8. d'16 a d'
         | a4.
         ~ a4 d8
 
@@ -96,8 +92,5 @@ M =
         ~ g4 d8
 
     }
-    \break
-    \mark \default
-    \sectionBE
 }
 

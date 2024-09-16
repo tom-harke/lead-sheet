@@ -216,11 +216,11 @@ terkish.book.pdf: $T
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with zhok rhythm: 3 = 2+1
-ZHOK += kandels_hora        # 2 TODO
 ZHOK += nokh_a_glezl_vayn   # 2 TODO
 ZHOK += baym_rebin          # !
 ZHOK += bojerka             # 1 Done
 ZHOK += bukovinei           # 1 Done
+ZHOK += kandels_hora        # 1
 ZHOK += mayne_tayere_odessa # 1 Done
 ZHOK += joc1
 
@@ -285,9 +285,9 @@ balkanalia-2024.book.pdf: $(BALK2)
 	pdfunite $(BALK2) $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
-#EJC += firn di mekhutonim aheym
-EJC += kandels_hora # 2
 EJC += baym_rebin   # 1
+EJC += mekhutonim   # ?
+EJC += kandels_hora # 1
 EJC += kishiniever  # 1
 EJC += mouse        # 1
 EJC += odesa        # 1
@@ -300,7 +300,7 @@ EJC += freylekh_1   # 1
 
 EJC2 = $(patsubst %,%.pdf,$(EJC))
 
-klezmer-man.book.pdf: $(EJC2)
+ejc.book.pdf: $(EJC2)
 	pdfunite blank.PDF $(EJC2) $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (

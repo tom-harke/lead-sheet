@@ -6,28 +6,24 @@ Title = "Freylekh #1"
 %  - Cooper's book where he calls it 'sherele'
 %  - EJC jam, called 'freylakhs #1'
 
-Melody = {
+Melody = \transpose d d'' {
     \include "two.rhy"
 
 	\key d \phrygian
-	\relative c' {
+	%\relative c'' {
 		\repeat volta 2 {
-			| d16 c b c   d8 ees8     | d2
+			| d16 c b, c   d8 ees8    | d2
 			| fis16 ees d ees fis8 g  | a2
-			| a16   bes c8 c c        | c16 bes bes a   a   g   g   fis
+			| a16   bes c'8 c' c'        | c'16 bes bes a   a   g   g   fis
 			| fis16 g   a8 a a        | a16 g   g   fis fis ees ees d
-			| c16 b c d ees g fis ees | d2
+			| c16 b, c d ees g fis ees | d2
 		}
-%	}
-%	\relative c'' {
 		\repeat volta 2 {
-			| g8. d32 g bes8. g32 bes | d2
-			| d16 c c bes bes a a g   | a2
-			| a8. bes16 c8 d          | ees2
-			| d16 c c bes bes a a g   | g8. a32 bes g4
+			| g,8. d,32 g, bes,8. g,32 bes, | d2
+			| d16 c c bes, bes, a, a, g,   | a,2
+			| a,8. bes,16 c8 d          | ees2
+			| d16 c c bes, bes, a, a, g,   | g,8. a,32 bes, g,4
 		}
-%	}
-%	\relative c'' {
 		\repeat volta 2 {
 			| a16 g fis8 fis16 ees d8
 			| d16 g fis g a8 d
@@ -37,22 +33,15 @@ Melody = {
 			{ | ees16 d c ees d8 d8 | }
 			{ | ees16 d c ees d8 r8 | a8 r8 d4 | }
 		}
-	}
+	% }
 }
 Layout = {
-	\set Score.markFormatter = #format-mark-box-letters
-	\mark \default
-	\repeat volta 2 {
-		\repeat unfold 10 { | s2 | }
-	}
-	\break
-	\mark \default
-	\repeat volta 2 {
-		\repeat unfold 8 { | s2 | }
-	}
-	\break
-	\mark \default
-	\repeat volta 2 { \repeat unfold 3 { | s2 | } }
+	\break \mark \default
+	\repeat volta 2 {| s2*10 |}
+	\break \mark \default
+	\repeat volta 2 {| s2*8  |}
+	\break \mark \default
+	\repeat volta 2 {| s2*3  |}
 	\alternative {
 		{ | s2 | }
 		{ | s2 | s2 | }

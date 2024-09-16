@@ -2,10 +2,11 @@
 
 \include "kandels_hora.src.ly"
 
-\include "landscape.ly"
+\include "landscape_26.ly"
 
 \header {
     title = \Title
+    opus    = \Order
     tagline = ##f
 }
 

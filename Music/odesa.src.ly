@@ -81,8 +81,8 @@ Melody = \transpose d d' {
         | r8 d' d' d'
         | d'8 d' d' d'
         | d'8 c' b d'
-        | c'8 bes a c'
-        | bes8 a gis bes
+        | c'8 b a c'
+        | b8 a gis b
         | a8 gis f4
         | e8 f a16 gis f8
         | gis4 a

@@ -5,10 +5,10 @@ C =
 \chords {
     \repeat volta 2 {
         \repeat unfold 2 {
-            | d2:min | d4:min g:min | d4:min s | d2:min
+            | d2:min | s4 g:min | d4:min s | s2
         }
         \alternative {
-            {| d2:min | s | d2:min | d4:min a:7 |}
+            {| d2:min | s | d2:min | a2:7 |}
             {| a2:7   | s | a2:7   | d:min      |}
         }
     }

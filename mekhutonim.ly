@@ -1,8 +1,8 @@
 \version "2.22.1"
 
-\include "tantz_tantz.src.ly"
+\include "mekhutonim.src.ly"
 
-\include "landscape.ly"
+\include "landscape_23.ly"
 
 \header {
     title = \Title
@@ -13,7 +13,6 @@
 
     \include "layout.ly"
 
-	%\transpose e d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}
