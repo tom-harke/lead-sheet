@@ -6,7 +6,7 @@ Chords = \chords {
 
 
 Melody = \transpose d d' {
-    \include "lib/lesnoto.rhy"
+    \include "lesnoto.rhy"
 
     \key d \phrygian
 

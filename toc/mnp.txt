@@ -1,0 +1,63 @@
+# Contents of Makedonsko Narodni Pesme (sp????)
+
+a, bre, ludo ac'amija	9/8	MNP 30
+ajde k'e te prašam	7/8	MNP 20
+ajde slušaj, kaleš bre, anbo	3/4	MNP 3
+ax, mori mažu	2/4	MNP 26
+bil'ana platno beleše	3/4	MNP 11
+blaguno dejče	7/8	MNP 14
+bog da bie	2/4	MNP 26
+bolen leži mlad stojan	7/8	MNP 15
+bolen mi leži mile pop-ordanov	7/8	MNP 28
+bulbul pee na sabajle	*	MNP 10
+čereša se od koren korneše	2/4	MNP 22
+crna se čuma zadade	*	MNP 17
+dafina bolna legnala	3/4	MNP 15
+da sum bystra voda	*	MNP 7
+digin si mome očite	*	MNP 32
+elaj, libe, elaj	5/8	MNP 23
+ergen odef, majko	7/8	MNP 8
+go pratile dedo v planina	3/8	MNP 13
+il'čovice, mlada nevesto	7/8	MNP 27
+jas te prativ na voda, kalino	7/8	MNP 29
+jovano, jovanke	7/8	MNP 16
+kako što e tad čaša	7/8	MNP 22+23
+karanfilo fil filo	7/8	MNP 31
+kaži, kaži, libe stašo	*	MNP 6
+kaži, vaske ergova	2/4	MNP 21
+k'erko koj čuka na porta	7/8	MNP 18
+liveta, moma ubava	7/8	MNP 6
+lulela je jana	3/4	MNP 10
+magdo, mori, magdaleno	5/8	MNP 25
+magla pala nane	3/4	MNP 11
+mare, mori, mare	3+2/4	MNP 16
+marika, moma ubava	*	MNP 4
+marika na stol sedeše	*	MNP 9
+maro, marike, fidan bojlnke	7	MNP 7
+mirjano, mori, mirjan	2/4	MNP 5
+moma sedi na penceri	4/4	MNP 9
+more, sokol pie voda na vardarot	7/8	MNP 24
+more tri godini (temjano)	7/8	MNP 30
+na src'e mi leži, mila mamo	9/8	MNP 22
+ne se fak'aj, done, donke	7/8	MNP 21
+ne si go prodavaj kol'o	9/8	MNP 14
+nit jadime nit pieme	*	MNP 19
+oj, ovčarče	*	MNP 12
+pileto mi pee	7/8	MNP 9
+podigni si, bre, neveste	7/8	MNP 29
+poubavo devojče	7/8	MNP 32
+sade ti se čudam cveto	7/8	MNP 28
+sadila, jana, ran bel bosilok	2/4	MNP 24
+sanok' le nado	4/8	MNP 31
+sanok' mi bilbil prepea	2/4	MNP 27
+se skarale se stepale	2/4	MNP 17
+se smejat, majko	2/4	MNP 12
+što mi e milo, em drago	2/4	MNP 4
+što mi e milo, em drago	9/8	MNP 3
+site devojčin'a	7/8	MNP 25
+si zasakav belo done	*	MNP 8
+snošti ja vidov, mamo, mori	9/8	MNP 20
+snošti sakav da ti dojdam	7/8	MNP 18
+tamo daleko voda mi doteče	2/4	MNP 19
+bitola moj roden kraj	7/8	MNP 13
+zašto mi se srdiš, libe	3/4	MNP 5
