@@ -9,10 +9,12 @@ Chords = \chords {
         | d2:min | s2
         | d2:min | s2
         | d2:min | s2
+
         | d2:min | s2
         | d2:min | s2
+        | a2:7   | s2
         | d2:min | s2
-        | d2:min | s2
+
         | a2:7   | s2
     }
 	\alternative {
@@ -44,7 +46,7 @@ Chords = \chords {
 
 Melody = \transpose d d' {
     \key d \dorian
-    \time 2/4
+    \include "two.rhy"
 
 	\partial 4. { a,8 d f }
 	% A (

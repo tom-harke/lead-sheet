@@ -38,8 +38,7 @@ TAG = {
 
 M =
 \transpose d d' {
-    \time 2/4
-    \set Score.markFormatter = #format-mark-box-alphabet
+    \include "two.rhy"
 
     \key d \dorian
     \mark \default \repeat volta 2 {

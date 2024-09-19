@@ -301,7 +301,7 @@ EJC += freylekh_1   # 1
 EJC2 = $(patsubst %,%.pdf,$(EJC))
 
 ejc.book.pdf: $(EJC2)
-	pdfunite blank.PDF $(EJC2) $@
+	pdfunite $(EJC2) $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Dependencies on libraries

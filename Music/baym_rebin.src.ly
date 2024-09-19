@@ -28,7 +28,7 @@ Melody = \transpose g g' {
    \repeat volta 2 {
       \repeat unfold 2 {
          | a,8. d16 fis a
-         | gis8 a4
+         | gis8 a~a
          | a8 b \times 2/3 { c'16 b a }
          | g8 fis e16 d
       }
@@ -36,7 +36,7 @@ Melody = \transpose g g' {
          {
             | a,8. d16 fis a
             | gis8 a \times 2/3 { c'16 b a }
-            | gis8 a4
+            | gis8 a~a
             | g8 fis e16 d
          }
          {
@@ -51,7 +51,7 @@ Melody = \transpose g g' {
       | d'4. ~ d'4 e'8
       | c'4. ~ c'4 d'8
       | b4.  ~ b8 a \times 2/3 { c'16 b a }
-      | gis8 a4 ~ a4.
+      | gis8 a~a ~ a4.
    }
    \repeat volta 2 {
       \repeat unfold 2 {

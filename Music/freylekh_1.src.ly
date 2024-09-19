@@ -9,7 +9,7 @@ Title = "Freylekh #1"
 Melody = \transpose d d'' {
     \include "two.rhy"
 
-	\key d \phrygian
+	%\key d \phrygian
 	%\relative c'' {
 		\repeat volta 2 {
 			| d16 c b, c   d8 ees8    | d2
