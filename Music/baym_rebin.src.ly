@@ -22,8 +22,7 @@ Chords = \chords {
 }
 
 Melody = \transpose g g' {
-%  \key d \phrygian
-  \key d \mixolydian
+   \key d \mixolydian
    \include "zhok.rhy"
    \repeat volta 2 {
       \repeat unfold 2 {
@@ -55,7 +54,7 @@ Melody = \transpose g g' {
    }
    \repeat volta 2 {
       \repeat unfold 2 {
-         \repeat unfold 2 {
+         \repeat percent 2 {
             | fis8. d16 e fis
             | g8 fis e16 d
          }

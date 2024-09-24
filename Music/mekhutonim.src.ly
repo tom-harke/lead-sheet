@@ -6,30 +6,30 @@ Chords = \chords {
 
     % A (
     \repeat volta 2 {
-        | d8. c:min | d4.       | d4.:7 | g4.:min
-        | s4.       | c4.:min   | s4.   | d8. c:min
-        | d4.       | s4.       | s4.   | c4.:min
-        | d4.       | s8. c:min | d4.   | s4.
+        | d8. c:min | d4.       | d4.:7   | g4.:min
+        | g4.:min   | c4.:min   | c4.:min | d8. c:min
+        | d4.       | s4.       | d4.     | c4.:min
+        | d4.       | s8. c:min | d4.     | s4.
     }
     % A )
     % B (
     \repeat volta 2 {
         | g8.:min d:7 | g4.:min   | g4.:min | s4.
-        | c4.:min     | s4.       | s4.     | s4.
-        | d4.         | d4.       | s4.     | s4.
-        | s4.         | s4.       | s4.     | s8. c:min
+        | c4.:min     | s4.       | c4.:min | s4.
+        | d4.         | s4.       | d4.     | s4.
+        | d4.         | s4.       | d4.     | s8. c:min
         | d4.         | s4.       | d4.     | c4.:min
         | d4.         | s8. c:min | d4.     | s4.
     }
     % B )
     % C (
     \repeat volta 2 {
-        | g4.:min | s4.     | s4.     | s8. f:7
+        | g4.:min | s4.     | g4.:min | s8. f:7
         | bes4.   | s8. d:7 | g4.:min | s8. bes:7
         | ees4.   | s8. g:7 | c4.:min | s4.
-        | d4.     | s4.     | s4.     | s8. c:min
+        | d4.     | s4.     | d4.     | s8. c:min
         | d4.     | s4.     | d4.     | c4.:min
-        | d4.     | d4.     | d4.     | s4.
+        | d4.     | s4.     | d4.     | s4.
     }
     % C )
 }
@@ -52,7 +52,7 @@ Melody = \transpose d d' {
         | fis4 \times 2/3 {ees16 d c}
 
         | d8. fis16 a g
-        | fis8. g16 c' bes
+        | fis8. a16 c' bes
         | a8. c'16 ees' d'
         | c'8. bes16 a g
 

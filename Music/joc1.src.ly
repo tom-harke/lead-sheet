@@ -48,11 +48,13 @@ Melody = \transpose d d' {
         | gis8. a16 b a
         | gis8. f16 e d
         | a8 r a
-        | a8. d16 f g
+        | a8. d16 f a
+
         | d'8. c'16 b a
         | gis8. f16 e d
         | a8 r a
         | a8 r a
+
         | gis8. a16 b a
         | gis8. f16 e d
         | g8 g g
@@ -141,14 +143,13 @@ Layout = {
     % B (
     \mark \default
     \repeat volta 2 {
-        | s4.*5
-        | s4.*6
-        | s4.*5
+        | s4.*8
+\break
+        | s4.*8
     }
     \alternative {
         {| s4. s4.  }
         {| s4. }
     }
-    \break
     % B )
 }

@@ -15,17 +15,15 @@ C =
         | g2.:min   | c4.:min d
         | c2.:min   | d
     }
+    | g2.:min
+    | g2.:min
+    | g2.:min
+    | g2.:min
     \repeat volta 2 {
-        | g2.:min
-        | g2.:min
-        | g2.:min
-        | g2.:min
-    }
-    \repeat volta 2 {
-        | g2.  |        g2.
-        | g2.  | c8.:min d | d4.
-        | d2.   | d2.
-        | g4.:min | d4.  | g4.:min | d4.
+        | g2.             | g2.
+        | g2.             | c4.:min | d4.
+        | d2.             | d2.
+        | g4.:min | d4.:7 | g2.:min
 
     }
 }
@@ -59,15 +57,13 @@ M =
 
     \break
     \mark \default
-    \repeat volta 2 {
-        \repeat percent 2 {
-            | g4. ~ g4 a16 bes
-        }
-        \repeat percent 2 {
-            | g4 a16 bes
-        }
-        | g4.  ~ g4 d8
+    \repeat percent 2 {
+        | g4. ~ g4 a16 bes
     }
+    \repeat percent 2 {
+        | g4 a16 bes
+    }
+    | g4.  ~ g4 d8
 
     \break
     \mark \default

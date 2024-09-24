@@ -1,4 +1,4 @@
-%	 \markup { \concat { \note #"4" #1 "= 132"  }}
+%     \markup { \concat { \note #"4" #1 "= 132"  }}
 
 Title = "Freylekh #1"
 
@@ -9,64 +9,66 @@ Title = "Freylekh #1"
 Melody = \transpose d d'' {
     \include "two.rhy"
 
-	%\key d \phrygian
-	%\relative c'' {
-		\repeat volta 2 {
-			| d16 c b, c   d8 ees8    | d2
-			| fis16 ees d ees fis8 g  | a2
-			| a16   bes c'8 c' c'        | c'16 bes bes a   a   g   g   fis
-			| fis16 g   a8 a a        | a16 g   g   fis fis ees ees d
-			| c16 b, c d ees g fis ees | d2
-		}
-		\repeat volta 2 {
-			| g,8. d,32 g, bes,8. g,32 bes, | d2
-			| d16 c c bes, bes, a, a, g,   | a,2
-			| a,8. bes,16 c8 d          | ees2
-			| d16 c c bes, bes, a, a, g,   | g,8. a,32 bes, g,4
-		}
-		\repeat volta 2 {
-			| a16 g fis8 fis16 ees d8
-			| d16 g fis g a8 d
-			| a16 g fis8 fis16 ees d8
-		}
-		\alternative {
-			{ | ees16 d c ees d8 d8 | }
-			{ | ees16 d c ees d8 r8 | a8 r8 d4 | }
-		}
-	% }
+    %\key d \phrygian
+    \repeat volta 2 {
+        | d8 c b, c   d4 ees4     | d2~d
+        | fis8 ees d ees fis4 g   | a2~a
+        | a8   bes c'4 c' c'      | c'8 bes bes a   a   g   g   fis
+        | fis8 g   a4 a a         | a8 g   g   fis fis ees ees d
+        | c8 b, c d ees g fis ees | d2~d
+    }
+    \repeat volta 2 {
+        | g,4. d,16 g, bes,4. g,16 bes, | d2~d
+        | d8 c c bes, bes, a, a, g,    | a,2~a,
+        | a,4. bes,8 c4 d              | ees2~ees
+        | d8 c c bes, bes, a, a, g,    | g,4. a,16 bes, g,2
+    }
+    \repeat volta 2 {
+        | a8 g fis4 fis8 ees d4
+        | d8 g fis g a4 d
+        | a8 g fis4 fis8 ees d4
+    }
+    \alternative {
+        { | ees8 d c ees d4 d4 | }
+        { | ees8 d c ees d4 r4 | a4 r4 d2 | }
+    }
 }
 Layout = {
-	\break \mark \default
-	\repeat volta 2 {| s2*10 |}
-	\break \mark \default
-	\repeat volta 2 {| s2*8  |}
-	\break \mark \default
-	\repeat volta 2 {| s2*3  |}
-	\alternative {
-		{ | s2 | }
-		{ | s2 | s2 | }
-	}
+    \break \mark \default
+    \repeat volta 2 {|
+        s1*6
+        \break
+        s1*4
+    |}
+    \break \mark \default
+    \repeat volta 2 {| s1*8  |}
+    \break \mark \default
+    \repeat volta 2 {| s1*3  |}
+    \alternative {
+        { | s1 | }
+        { | s1 | s1 | }
+    }
 }
 
 Chords = \chords {
-	{
-		\repeat volta 2 {
-			| d2 | s2 | s2 | s2
-			| s2 | s2 | s2 | s2
-			| c2:min | d2
-		}
-	}
-	{
-		\repeat volta 2 {
-			| g2:min | s2 | s2 | d2
-			| s2     | s2 | s2 | g2:min
-		}
-	}
-	{
-		\repeat volta 2 { | g2:min | d2 | s2 | }
-		\alternative {
-			{ | c2:min | }
-			{ | c4:min d | a d | }
-		}
-	}
+    {
+        \repeat volta 2 {
+            | d1 | s1 | s1 | s1
+            | s1 | s1 | s1 | s1
+            | c1:min | d1
+        }
+    }
+    {
+        \repeat volta 2 {
+            | g1:min | s1 | s1 | d1
+            | s1     | s1 | s1 | g1:min
+        }
+    }
+    {
+        \repeat volta 2 { | g1:min | d1 | s1 | }
+        \alternative {
+            { | c1:min | }
+            { | c2:min d | a d | }
+        }
+    }
 }

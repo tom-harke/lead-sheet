@@ -6,7 +6,7 @@
 
 \header {
     title       = \Title
-    arranger    = \Subtitle
+   %arranger    = \Subtitle
     tagline     = ##f
     ragged-last = ##t
 }
