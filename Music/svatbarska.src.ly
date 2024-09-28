@@ -1,10 +1,32 @@
 Title    = "Svatbarska Rəčenica"
-Subtitle = "(needs work)"
+Subtitle = "(needs chords)"
 Order    = "A² B² C² D² E² C²"
+
+% Here's the palette of chords
+% ┌────┬───────┬───────┬───────┐
+% │    │ major │ minor │ hijaz │
+% ├────┼───────┼───────┼───────┤
+% │I   │       │ :min  │       │
+% │II  │ :min  │ :dim  │       │
+% │III │ :min  │       │ :dim  │
+% │IV  │       │ :min  │ :min  │
+% │V   │       │ :min  │ :dim  │
+% │VI  │ :min  │       │ :aug  │
+% │VII │ :dim  │       │ :min  │
+% └────┴───────┴───────┴───────┘
+%
+% ┌───────┬──────┬──────┬──────┬──────┬──────┬──────┬──────┐
+% │       │ I    │ II   │ III  │ IV   │ V    │ VI   │ VII  │
+% ├───────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┤
+% │ major │ _    │ :min │ :min │ _    │ _    │ :min │ :dim │
+% │ minor │ :min │ :dim │ _    │ :min │ :min │ _    │ _    │
+% │ hijaz │ _    │ _    │ :dim │ :min │ :dim │ :aug │ :min │
+% └───────┴──────┴──────┴──────┴──────┴──────┴──────┴──────┘
 
 
 Chords = \chords {
     % A (
+    % a:min b:dim c d:min e:min f g
     \repeat volta 2 {
         | s4..
         | s4..
@@ -26,6 +48,7 @@ Chords = \chords {
     }
     % B )
     % C (
+    % a b:min c:min d e f:min g:dim
     \repeat volta 2 {
         | d4..
         | ees4 d8.
@@ -48,6 +71,7 @@ Chords = \chords {
     }
     % D )
     % E (
+    % a b c:dim d:min e:dim f:aug g:min
     \repeat volta 2 {
         | ees4..
         | d4..
@@ -59,6 +83,7 @@ Chords = \chords {
     }
     % E )
 }
+Chords = \chords {}
 
 
 Melody = \transpose d d' {

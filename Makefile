@@ -103,6 +103,7 @@ GEAMPARA += navodari      # 1 Done
 GEAMPARA += ostropesul    # 1 Done
 GEAMPARA += pandelasul    # 1
 GEAMPARA += povlekana     # 1
+GEAMPARA += svatbarska    # 1
 GEAMPARA += tasaul        # 1 TODO chords
 GEAMPARA += turcitu       # 1 Done
 GEAMPARA += tiganica      # 1 Done
