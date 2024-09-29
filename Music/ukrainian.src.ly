@@ -1,5 +1,11 @@
-Title = "Ukrainian Freylach"
+Title = "Ukrainian Freylekh"
 
+% pick-ups in smaller font
+puG   = <\tweak font-size #-4 g8>
+puA   = <\tweak font-size #-4 a8>
+puB   = <\tweak font-size #-4 b8>
+puC   = <\tweak font-size #-4 c'8>
+puDES = <\tweak font-size #-4 des'8>
 
 Chords =
 \chords {
@@ -44,7 +50,7 @@ Melody =
     \include "two.rhy"
     %\key g \phrygian
 
-    \partial 4. g8 a b
+    \partial 4. \puG \puA \puB
     % A (
     {
         | c'2
@@ -58,15 +64,15 @@ Melody =
     \repeat volta 2 {
         | g8 ees' d' c' | b8 c' d' ees' | d'8 c'  ~ c'4 ~ c'2
         | g8 ees' d' c' | b8 aes g aes  | g8  f   ~ f4  ~ f2
-        | f8 e f g      | aes8 g aes b  | c'8 b   ~ b4  | r8 b c' des'
+        | f8 e f g      | aes8 g aes b  | c'8 b   ~ b4  | r8\puB\puC\puDES
         | d'8 c' c' b   | b8 aes aes g  | g2            | r2
     }
     % B )
     % C (
     \repeat volta 2 {
         | b4 c'       | d'4 c'8   b  | r8  b  ~ b c'   | d'8 ees' d' c'
-        | b4 c'       | d'4 ees'8 d' | d'8 c' ~ c'4    | r8 c' b c'
-        | d'8 c' c' b | b8 aes aes g | g16 aes b8 ~ b4 | r8 c' b c'
+        | b4 c'       | d'4 ees'8 d' | d'8 c' ~ c'4    | r8\puC\puB\puC
+        | d'8 c' c' b | b8 aes aes g | g16 aes b8 ~ b4 | r8\puC\puB\puC
         | d'8 c' c' b | b8 aes aes g | g2              ~ g2
     }
     % C )
@@ -74,6 +80,7 @@ Melody =
 
 Layout = {
     \partial 4. s4.
+	\bar "||"
     % A (
     \mark \default
     { | s2*4 }
@@ -81,7 +88,11 @@ Layout = {
     % A )
     % B (
     \mark \default
-    \repeat volta 2 { | s2*16 }
+    \repeat volta 2 {
+		| s2*8
+		\break
+		| s2*8
+	}
     \break
     % B )
     % C (
