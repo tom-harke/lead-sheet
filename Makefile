@@ -76,15 +76,18 @@ Doc/makefile.md: Makefile
 
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like geamparas: 7 = 2+2+3
+GEAMPARA += alfanska      # 2? TODO
 GEAMPARA += culesul       # 2 Done
 GEAMPARA += chekurjankino # 2 TODO
 GEAMPARA += fetesti       # 2 TODO
 GEAMPARA += haidim        # 2 Done
 GEAMPARA += marcus        # 2
+#GEAMPARA += mileva        # 2 ?
 GEAMPARA += nunta         # 2
 GEAMPARA += pandalash     # 2 Done
 GEAMPARA += norbeck1      # 2 TODO chords
 
+GEAMPARA += babadag1      # 1 Done
 GEAMPARA += babadag2      # 1 Done
 GEAMPARA += barla         # 1 Done
 GEAMPARA += belomorska    # 1 Done
@@ -103,6 +106,7 @@ GEAMPARA += navodari      # 1 Done
 GEAMPARA += ostropesul    # 1 Done
 GEAMPARA += pandelasul    # 1
 GEAMPARA += povlekana     # 1
+GEAMPARA += serbian       # 1
 GEAMPARA += svatbarska    # 1
 GEAMPARA += tasaul        # 1 TODO chords
 GEAMPARA += turcitu       # 1 Done

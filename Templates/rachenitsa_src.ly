@@ -1,4 +1,4 @@
-Title = "(Răčenica/Geampara)"
+Title = "(Rəčenica/Geampara)"
 
 
 Chords =

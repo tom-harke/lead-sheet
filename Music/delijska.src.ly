@@ -1,6 +1,11 @@
-% from Henrik Norbeck
-% http://www.norbeck.nu/abc/display.asp?rhythm=rachenitsa&ref=1
-% composed by Ivan Shibilev ?
+% 1.
+%   Henrik Norbeck
+%   http://www.norbeck.nu/abc/display.asp?rhythm=rachenitsa&ref=1
+% 2.
+%   John Chambers
+%   http://trillian.mit.edu/~jc/music/abc/Bulgaria/Rach_Delijska.abc
+
+% composed(?) / recorded by Ivan Shibilev
 
 Title = "Delijska Rəčenica"
 
@@ -145,6 +150,7 @@ Layout = {
         {| s4.. }
         {| s4.. }
     }
+	\bar "||"
     | s4..*4
     % A )
     % B (

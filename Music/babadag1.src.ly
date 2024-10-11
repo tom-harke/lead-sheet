@@ -1,4 +1,4 @@
-Title = "Geamparalele de la Babadag"
+Title = "Geamparalele de la Babadag (1)"
 Subtitle = "(need chords; ++)"
 
 % Simplified from a score on Free-scores.com
@@ -12,8 +12,7 @@ Chords =
 }
 
 
-Melody =
-\transpose d d' {
+Melody = \transpose d d' {
     \include "geampara.rhy"
 
     \key a \major
@@ -67,7 +66,7 @@ Melody =
         	| a16 e e' d' e d' r
         	| cis'8\trill cis'16 a b cis' d'
    	 	}
-		| e'8\trill d'16 cis' b cis' a
+		| e'8\trill d'16 cis' b c' a
 		| b8\prall b16 fis b32 ais b ais b16
     }
     % X )

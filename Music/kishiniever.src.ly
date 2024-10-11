@@ -77,8 +77,8 @@ Melody = \relative c' {
 		| e8 d e4
 		| d8 c d4
 		| c8 b8 ~ b4
-		| d4 c8 b
-		| d4 c8 b
+		\repeat percent 2 {| d4 c8 b }
+		% | d4 c8 b
 		| d2
 		| g4 g
 		| d8 e f g
