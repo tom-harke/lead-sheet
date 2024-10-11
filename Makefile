@@ -98,6 +98,7 @@ GEAMPARA += delijska      # 1 Done
 GEAMPARA += dobrogeana    # 1
 GEAMPARA += edinets       # 1
 GEAMPARA += ghiurghiuliu  # 1
+GEAMPARA += bulchenska    # 1
 GEAMPARA += hijaz         # 1 Done
 GEAMPARA += mala_loka     # 1 ?
 GEAMPARA += murfatlar1    # 1 Done
@@ -118,7 +119,6 @@ GEAMPARA += geampara_cooper_1 # 1
 
 GEAMPARA += rachenitsa1 # 1
 GEAMPARA += rachenitsa2 # 1
-GEAMPARA += rachenitsa3 # 1
 GEAMPARA += rachenitsa_3654 # 1 TODO chords (2 lines only)
 
 
