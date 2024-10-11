@@ -1,7 +1,12 @@
-%  Adapted from a pdf on the internet
 % â č ƙ š ŭ ž
 
-Title    = "rəčenica bez ime"
+% Sources
+%  1. A pdf on the internet (sorry)
+%     It had chords, but no name
+%  2. Norbeck
+%     It had a name (Bulčenska) but no chords
+
+Title    = "Bulčenska Rəčenica"
 Order    = "A² B⁴ C²"
 
 % Todo
