@@ -1,23 +1,26 @@
 Title    = "Mileva Rəčenica"
-Subtitle = "(need chords)"
+Subtitle = "(need chords / alternate [C] and [D])"
 Order    = "..."
 
 % 2 quite different versions
 %   - Norbeck
-%      attributes it to Ivan Milev
-%   - (other)
-% Below is basically Norbeck's
+%      - attributes it to Ivan Milev
+%      - aha! Norbeck isn't using fis, he's using f.  His notation is misleading
+%   - Patrick Duplenne
+%      - [A] and [B] are essentially the same
+%      - [C] and [D] are completely different
+%   - Joseph Chordmichael
+%      - thesession.org/tunes/9315
+%      - has trills
+%      - [A][B] agree. [C][D] more like Duplenne
+%
+% Below is basically Norbeck's melody, with chords & trills added
 
 Chords = \chords {
     % A (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
-        | s4..
+        | e4..  | s4..  | f4..  | e4..
+        | e4..  | s4..  | d4..
     }
     \alternative {
         { s4.. }
@@ -26,13 +29,11 @@ Chords = \chords {
     % A )
     % B (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
+        | f4..  | e4..  | d4..
     }
     \alternative {
-        { s4.. }
-        { s4.. }
+        { e4.. }
+        { e4.. }
     }
     % B )
     % C (
@@ -71,33 +72,33 @@ Melody = \transpose e e' {
 
     % A (
     \repeat volta 2 {
-    	\repeat unfold 2 {
-        	| gis8 a b b16
-        	| b8 b b a16
+        \repeat unfold 2 {
+            | gis8 a b\prall b16
+            | b8 b b\prall a16
         }
-    	\alternative {
-			{
-        		| b16 d' c' b a gis a
-        		| b8 r r e16
-			}
-			{
-        		| gis16 b a gis fis e d
-			}
-    	}
+        \alternative {
+            {
+                | b16 d' c' b a gis a
+                | b8\prall r r e16
+            }
+            {
+                | gis16 b a gis f e d
+            }
+        }
     }
     \alternative {
-        { e16 fis gis a b8 e16 }
+        { e16 f gis a b8 e16 }
         { e8 e16 b, e8. }
     }
     % A )
     % B (
     \repeat volta 2 {
-        | <b \tweak font-size #-3 d'>16 c' c' b a8 a16
-        | a16 b b a gis8 gis16
-        | gis16 a a gis fis e d
+        | <b \tweak font-size #-3 d'>16 c' c' b a8\prall a16
+        | a16 b b a gis8\prall gis16
+        | gis16 a a gis f e d
     }
     \alternative {
-        { e16 fis gis a b8 e16 }
+        { e16 f gis a b8\prall e16 }
         { e8 e16 b, e8. }
     }
     % B )
@@ -108,25 +109,25 @@ Melody = \transpose e e' {
         | c'16 a c'8 c' c'16
         | c'8 c' c' b16
 \break
-        | e16 fis d e fis gis a
-        | b16 c' c' b a gis fis
-        | gis16 a a gis fis e d
+        | e16 f d e f gis a
+        | b16 c' c' b a gis f
+        | gis16 a a gis f e d
     }
     \alternative {
-        { e16 fis gis a b8 e16 }
+        { e16 f gis a b8 e16 }
         { e8 e16 b, e8. }
     }
     % C )
     % D (
     \repeat volta 2 {
-        | e16 fis d e fis gis a
-        | b16 c' c' b a gis fis
-        | gis16 a a gis fis e d
-        | e16 fis gis a b8 e16
+        | e16 f d e f gis a
+        | b16 c' c' b a gis f
+        | gis16 a a gis f e d
+        | e16 f gis a b8 e16
 
         | a8 a a16 b c'
-        | d'16 c' c' b a gis fis
-        | gis16 a a gis fis e d
+        | d'16 c' c' b a gis f
+        | gis16 a a gis f e d
         | e8 e16 b,16 e8.
     }
     % D )
@@ -137,7 +138,9 @@ Layout = {
     % A (
     \break \mark \default
     \repeat volta 2 {
-        | s4..*7
+        | s4..*4
+\break
+        | s4..*3
     }
     \alternative {
         { s4.. }
@@ -157,7 +160,9 @@ Layout = {
     % C (
     \break \mark \default
     \repeat volta 2 {
-        | s4..*7
+        | s4..*4
+\break
+        | s4..*3
     }
     \alternative {
         { s4.. }
@@ -167,7 +172,9 @@ Layout = {
     % D (
     \break \mark \default
     \repeat volta 2 {
-        | s4..*8
+        | s4..*4
+\break
+        | s4..*4
     }
     % D )
 }

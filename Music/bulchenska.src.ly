@@ -5,6 +5,8 @@
 %     It had chords, but no name
 %  2. Norbeck
 %     It had a name (Bulčenska) but no chords
+%     Attributes to Ivo Papasov
+
 
 Title    = "Bulčenska Rəčenica"
 Order    = "A² B⁴ C²"
