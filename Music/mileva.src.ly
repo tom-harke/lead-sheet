@@ -1,5 +1,5 @@
 Title    = "Mileva Rəčenica"
-Subtitle = "(need chords / alternate [C] and [D])"
+Subtitle = "(needs chords)"
 Order    = "..."
 
 % 2 quite different versions
@@ -14,7 +14,10 @@ Order    = "..."
 %      - has trills
 %      - [A][B] agree. [C][D] more like Duplenne
 %
-% Below is basically Norbeck's melody, with chords & trills added
+% Below
+%  - [A][B] is the common melody (chords are mine, pralls based on Chordmichael)
+%  - [C][D] is from Norbeck only
+%  - [E] is from Duplenne/Chordmichael
 
 Chords = \chords {
     % A (
@@ -68,7 +71,7 @@ Chords = \chords {
 
 Melody = \transpose e e' {
     \include "geampara.rhy"
-%    \key e \minor
+    \key e \phrygian
 
     % A (
     \repeat volta 2 {
@@ -79,7 +82,7 @@ Melody = \transpose e e' {
         \alternative {
             {
                 | b16 d' c' b a gis a
-                | b8\prall r r e16
+                | b8\prall b r e16
             }
             {
                 | gis16 b a gis f e d
@@ -88,7 +91,7 @@ Melody = \transpose e e' {
     }
     \alternative {
         { e16 f gis a b8 e16 }
-        { e8 e16 b, e8. }
+        { e8\prall e16 b, e8\prall r16 }
     }
     % A )
     % B (
@@ -99,9 +102,10 @@ Melody = \transpose e e' {
     }
     \alternative {
         { e16 f gis a b8\prall e16 }
-        { e8 e16 b, e8. }
+        { e8\prall e16 b, e8\prall r16 }
     }
     % B )
+
     % C (
     \repeat volta 2 {
         | b8 c'16 d' d'8 d'16
@@ -131,6 +135,29 @@ Melody = \transpose e e' {
         | e8 e16 b,16 e8.
     }
     % D )
+
+    % Alt C (
+    \break \mark \default
+    \repeat volta 2 {
+        | a16 f d' d' d'8 d'16
+        | d'8 d' d'\prall c'16
+        | a16 e c'8\prall c' c'16
+        | c'8 c' c'\prall b16
+        | e16 f d e f gis a
+        | b16 c' c' b a gis f
+    }
+    \alternative {
+        {
+			| gis16 a a gis f e d
+			| e16 f gis a b8\prall b16
+		}
+        {
+			| d'16 c' c' b a gis f
+			| gis16 a a gis f e d
+			| e8\prall e16 b, e8 r16
+		}
+    }
+    % Alt C )
 }
 
 

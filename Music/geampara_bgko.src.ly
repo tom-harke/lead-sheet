@@ -1,5 +1,12 @@
-Title = "geampara"
+Title    = "Geampara fără nume"
 
+% From
+% BGKO
+
+% TODO
+%  [C] fold into volta 4
+%  [D] key change ?
+%  [E] consider folding, simplifying bar 38
 
 Chords = \chords {
     % A (
@@ -163,12 +170,20 @@ Layout = {
     % A )
     % B (
     \break \mark \default
-    \repeat volta 2 { | s4..*7 }
+    \repeat volta 2 {
+		| s4..*4
+		\break
+		| s4..*3
+	}
     \alternative { { s4.. } { s4.. } }
     % B )
     % C (
     \break \mark \default
-    \repeat volta 2 { | s4..*7 }
+    \repeat volta 2 {
+		| s4..*4
+		\break
+		| s4..*3
+	}
     \alternative { { s4.. } { s4.. } }
     % C )
     % D (
@@ -179,7 +194,9 @@ Layout = {
     % E (
     \break \mark \default
     \repeat volta 2 {
-        | s4..*8
+		| s4..*4
+		\break
+		| s4..*4
     }
     % E )
 }
