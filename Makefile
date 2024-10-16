@@ -64,6 +64,9 @@ all:  $(patsubst %,%.view,$(ALL))
 clean:
 	rm -f *.pdf
 	rm -f *.midi
+	rm -f *.aux
+	rm -f *.log
+	rm -rf tmp-ly
 
 .PHONY: *.view *.hear clean
 .PRECIOUS: $(patsubst %,%.pdf,$(ALL))
@@ -74,6 +77,11 @@ Doc/makefile.md: Makefile
 	@make --quiet about >> Doc/makefile.md
 	@echo '```'         >> Doc/makefile.md
 
+# ---------------------------------------------------------------------------- (
+blurb.%.pdf: blurb.%.tex
+	lualatex --shell-escape blurb.$*.tex
+
+# ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like geamparas: 7 = 2+2+3
 GEAMPARA += alfanska      # 2? TODO
@@ -131,8 +139,8 @@ G = $(patsubst %,%.pdf,$(GEAMPARA))
 
 
 
-geampara.book.pdf: $G
-	pdfunite blank.PDF $G $@
+geampara.book.pdf: $G blurb.geampara.pdf
+	pdfunite blurb.geampara.pdf $G $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 EVEN += heiser        # 2

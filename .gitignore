@@ -10,3 +10,6 @@ images/
 *.tmp
 src
 lilypond
+*.aux
+*.log
+tmp-ly/

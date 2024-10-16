@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{lyluatex}
+\thispagestyle{empty}
+\begin{document}
+The rhythm of these tunes is parsed either as
+\lilypond{\time 7/16 d'16[ d' d' d'] d'[ d' d']}
+or
+\lilypond{\time 7/16 d'16[ d'] d'[ d'] d'[ d' d']}
+
+Arpegiating Chords...
+
+\begin{description}
+\item[major]
+A way to play both major and minor chords:
+\lilypond{\clef bass \time 7/16 d8[ d'] a[ d'16]}
+
+\item[7] TODO
+\item[TODO] opposite of 7
+\end{description}
+
+\begin{tabular}{|l|l|}
+chord & consider \\
+\hline
+major & \lilypond{\clef bass \time 7/16 a,8[ a] e[ a16]} \\
+minor &  \\
+\hline
+7     & \lilypond{\clef bass \time 7/16 a,8[ a] c[ e16]} \\
+      & \lilypond{\clef bass \time 7/16 a,8[ a] c[ a16]} \\
+\hline
+un7   & \lilypond{\clef bass \time 7/16 a,8[ a] b[ d16]} ?? \\
+\end{tabular}
+
+Ornaments
+
+\medskip
+\begin{lilypond}
+\score {
+\relative c' {
+\time 4/4
+\clef treble
+c4 d8 e f8 g a b | c4 b8 a g8 f e d |
+c8 g' e g c,8 g' e g | c,4 e c r \bar "|."
+}
+} % end of score
+\end{lilypond}
+\end{document}
+
+% lualatex --shell-escape eg.lua.tex
