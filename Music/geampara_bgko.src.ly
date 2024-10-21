@@ -1,4 +1,5 @@
 Title    = "Geampara fără nume"
+Subtitle = "(from BGKO)"
 
 % From
 % BGKO
@@ -6,7 +7,6 @@ Title    = "Geampara fără nume"
 % TODO
 %  [C] fold into volta 4
 %  [D] key change ?
-%  [E] consider folding, simplifying bar 38
 
 Chords = \chords {
     % A (
@@ -14,9 +14,9 @@ Chords = \chords {
         | fis4..:min
         | cis4..:min
         | d4 e8.
-        | a4 ais8.:dim
-        | b4:min eis8.:dim
-        | fis4 b8.:min
+        | a4..
+        | b4..:min
+        | a4..
         | e4..
     }
     \alternative {
@@ -29,9 +29,9 @@ Chords = \chords {
         | d4 e8.
         | a4..
         | d4 e8.
-        | a4 ais8.:dim
-        | b4:min eis8.:dim
-        | fis4:min b8.:min
+        | a4..
+        | b4..
+        | a4..
         | e4..
     }
     \alternative {
@@ -41,10 +41,6 @@ Chords = \chords {
     % B )
     % C (
     \repeat volta 2 {
-        | e4..
-        | fis4..:min
-        | e4..
-        | a4..
         | e4..
         | fis4..:min
         | e4..
@@ -67,11 +63,8 @@ Chords = \chords {
     % D )
     % E (
     \repeat volta 2 {
-        | a4..  | s4..
+        | a4..  | e4 a8.
         | e4..  | a4..
-        | a4..  | s4 dis8.:dim
-        | e4..
-        | a4 cis8.:min
     }
     % E )
 }
@@ -119,15 +112,10 @@ Melody = \transpose d d' {
         | e8 e d'16 cis' b
         | d'16 cis' cis' b a b cis'
         | d'16 cis' cis' e d' cis' b
-        | a16 cis' b a gis a fis
-
-        | e8 e8 d'16 cis' b
-        | d'16 cis' cis' b a b cis'
-        | d'16 cis' cis' e d' cis' b
     }
     \alternative {
-        { a16 cis' b a gis a fis }
-        { a8 a16 e a8 r16 }
+        { a16 cis' b a gis a fis } % 3x (1st-3rd)
+        { a8 a16 e a8 r16 }        % 1x (4th)
     }
     % C )
     % D (
@@ -147,13 +135,11 @@ Melody = \transpose d d' {
         | cis'16 d' e' fis' e' d' cis' % DUP
         | b16 cis' d' fis' e'8 a16
         | e'8 d'16 cis' b cis' d'      % DUP
-        | e'8 e'16 a e'8 e'16
-
-        | cis'16 d' e' fis' e' d' cis' % DUP
-        | b16 cis' d' fis' e' e'~e'
-        | e'8 d'16 cis' b cis' d'      % DUP
-        | e'8 e'16 a e' fis' gis'
     }
+    \alternative {
+        {| e'8 e'16 a e'8 e'16 }
+        {| e'8 e'16 a e' fis' gis' }
+	}
     % E )
 }
 
@@ -180,8 +166,6 @@ Layout = {
     % C (
     \break \mark \default
     \repeat volta 2 {
-		| s4..*4
-		\break
 		| s4..*3
 	}
     \alternative { { s4.. } { s4.. } }
@@ -194,9 +178,8 @@ Layout = {
     % E (
     \break \mark \default
     \repeat volta 2 {
-		| s4..*4
-		\break
-		| s4..*4
+		| s4..*3
     }
+    \alternative { { s4.. } { s4.. } }
     % E )
 }

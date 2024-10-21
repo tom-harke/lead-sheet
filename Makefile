@@ -128,6 +128,7 @@ GEAMPARA += tiganica      # 1 Done
 GEAMPARA += geampara_53323    # 1
 GEAMPARA += norbeck2          # 1 TODO chords
 GEAMPARA += geampara_cooper_1 # 1
+GEAMPARA += geampara_bgko     # 1
 
 GEAMPARA += rachenitsa1 # 1
 GEAMPARA += rachenitsa2 # 1
@@ -289,17 +290,18 @@ misc.book.pdf: $M
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 BALK += devoiko
-BALK += neshto
+BALK += zhiti
 BALK += olimpijski
 BALK += ramush
 BALK += sanuva
+BALK += neshto
 BALK += vchera
-BALK += zhiti
 
 BALK2 = $(patsubst %,%.pdf,$(BALK))
 
-balkanalia-2024.book.pdf: $(BALK2)
-	pdfunite $(BALK2) $@
+balkanalia-2024.book.pdf: $(BALK2) blurb.balkanalia-2024.pdf
+	pdfunite blurb.balkanalia-2024.pdf $(BALK2) $@
+
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 EJC += baym_rebin   # 1

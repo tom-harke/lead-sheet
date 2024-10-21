@@ -2,10 +2,11 @@
 
 \include "geampara_bgko.src.ly"
 
-\include "landscape.ly"
+\include "landscape_25.ly"
 
 \header {
     title = \Title
+    subtitle = \Subtitle
     tagline = ##f
 }
 
@@ -13,7 +14,9 @@
 
     \include "layout.ly"
 
-	\transpose a d
+	% either of the 2 transpositions seems find:
+	%\transpose a ees
+	\transpose a f
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}
