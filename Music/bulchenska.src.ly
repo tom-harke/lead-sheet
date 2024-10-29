@@ -1,5 +1,7 @@
 % â č ƙ š ŭ ž
 
+% =' yields ъ
+
 % Sources
 %  1. A pdf on the internet (sorry)
 %     It had chords, but no name
@@ -8,7 +10,7 @@
 %     Attributes to Ivo Papasov
 
 
-Title    = "Bulčenska Rəčenica"
+Title    = "Bulčenska Rъčenica"
 Order    = "A² B⁴ C²"
 
 % Todo

@@ -1,4 +1,4 @@
-Title = "Giuševska Rəčenica"
+Title = "Giuševska Rъčenica"
 
 % Sources
 %  1. from abc by John Chambers <jc@trillian.mit.edu>

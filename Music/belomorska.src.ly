@@ -1,4 +1,4 @@
-Title = "Belomorska Rəčenica"
+Title = "Belomorska Rъčenica"
 
 
 C =
@@ -112,9 +112,9 @@ M =
     % E (
     \break \mark \default
     \repeat volta 2 {
-        | cis'16 \drop bes \drop a d'    e16
+        | cis'16 \drop bes \drop a d'    \drop
         | cis'16 \drop bes \drop a bes cis'
-        | d'16   \drop e'  \drop cis' d' e16
+        | d'16   \drop e'  \drop cis' d' \drop
         | cis'16 \drop bes \drop a8      \drop
     }
     % E )

@@ -1,4 +1,4 @@
-Title = "Serbian Rəčenica"
+Title = "Serbian Rъčenica"
 Order = "(A² B⁴)² C² (A² B⁴)² C⁴"
 
 Chords =

@@ -1,5 +1,7 @@
-Title = "(Rəčenica/Geampara)"
+Title = "(Rъčenica/Geampara)"
 
+% =' yields ъ
+% do I want rъčenica or rəčenica
 
 Chords =
 \chords {

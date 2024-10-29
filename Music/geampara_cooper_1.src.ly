@@ -1,4 +1,4 @@
-Title    = "rəčenica bez ime"
+Title    = "Rъčenica bez ime"
 Arranger = "Cooper"
 
 C =

@@ -1,4 +1,4 @@
-Title    = "Svatbarska Rəčenica"
+Title    = "Svatbarska Rъčenica"
 Subtitle = "(needs chords)"
 Order    = "A² B² C² D² E² C²"
 

@@ -1,4 +1,5 @@
-\documentclass{article}
+\documentclass[landscape, 12pt]{article}
+\usepackage[landscape]{geometry}
 \usepackage{lyluatex}
 \thispagestyle{empty}
 \begin{document}
@@ -32,6 +33,8 @@ un7   & \lilypond{\clef bass \time 7/16 a,8[ a] b[ d16]} ?? \\
 
 Ornaments
 
+\end{document}
+
 \medskip
 \begin{lilypond}
 \score {
@@ -43,6 +46,5 @@ c8 g' e g c,8 g' e g | c,4 e c r \bar "|."
 }
 } % end of score
 \end{lilypond}
-\end{document}
 
 % lualatex --shell-escape eg.lua.tex

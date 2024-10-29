@@ -5,7 +5,7 @@
 % Todo
 %  - articulations
 
-Title    = "rəčenica bez ime"
+Title    = "Rъčenica bez ime"
 
 Melody = \transpose c c' {
 	\set Score.markFormatter = #format-mark-box-letters

@@ -7,7 +7,7 @@
 
 % composed(?) / recorded by Ivan Shibilev
 
-Title = "Delijska Rəčenica"
+Title = "Delijska Rъčenica"
 
 adrop   = <\tweak font-size #-3 a,16>
 

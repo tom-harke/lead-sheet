@@ -1,4 +1,4 @@
-Title = "Alfanska Rəčenica"
+Title = "Alfanska Rъčenica"
 
 Order = "A⁴ B⁴ C⁴ D⁴ E⁴ F⁴ G⁴ H⁴ I⁴ J⁴ K⁴"
 
