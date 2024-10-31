@@ -11,13 +11,8 @@ Subtitle = "(from BGKO)"
 Chords = \chords {
     % A (
     \repeat volta 2 {
-        | fis4..:min
-        | cis4..:min
-        | d4 e8.
-        | a4..
-        | b4..:min
-        | a4..
-        | e4..
+        | fis4..:min | cis4..:min | d4 e8.  | a4..
+        | b4..:min   | a4..       | e4..
     }
     \alternative {
         { a4 cis8.:min }
@@ -26,13 +21,8 @@ Chords = \chords {
     % A )
     % B (
     \repeat volta 2 {
-        | d4 e8.
-        | a4..
-        | d4 e8.
-        | a4..
-        | b4..
-        | a4..
-        | e4..
+        | d4 e8.   | a4..  | d4 e8.  | a4..
+        | b4..:min | a4..  | e4..
     }
     \alternative {
         { a4.. }
