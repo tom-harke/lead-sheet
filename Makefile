@@ -85,6 +85,7 @@ blurb.%.pdf: blurb.%.tex
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like geamparas: 7 = 2+2+3
 GEAMPARA += alfanska      # 2? TODO
+GEAMPARA += bulcenska     # 2? TODO
 GEAMPARA += culesul       # 2 Done
 GEAMPARA += chekurjankino # 2 TODO
 GEAMPARA += fetesti       # 2 TODO
