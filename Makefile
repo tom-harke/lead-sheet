@@ -128,12 +128,14 @@ GEAMPARA += tiganica      # 1 Done
 # Those without names
 GEAMPARA += geampara_53323    # 1
 GEAMPARA += norbeck2          # 1 TODO chords
-GEAMPARA += geampara_cooper_1 # 1
 GEAMPARA += geampara_bgko     # 1
 
 GEAMPARA += rachenitsa1 # 1
 GEAMPARA += rachenitsa2 # 1
 GEAMPARA += rachenitsa_3654 # 1 TODO chords (2 lines only)
+GEAMPARA += rachenitsa_cooper_1 # 1
+#GEAMPARA += rachenitsa_cooper_2 # 1
+#GEAMPARA += rachenitsa_cooper_3 # 1
 
 
 
