@@ -138,3 +138,7 @@ Other sections can use `alternative`.
 
 ### paren
 ```\parenthesize TERM```
+
+
+Roderick Charles Lawford's 2018 thesis on Roma music says:
+ - the geampara wedding dance appears to be derived from the name of an idiophone called a çalpare in Turkish. It is a castanet historically played by boy dancers (tr. köçek) (personal communication with John O’Connell, 5 November 2015). The etymology is confirmed by an entry in dexonline, an online lexicographical resource for the Romanian language, which states that, apart from being a Romanian dance, the word also refers to a type of castanet (‘patru bucățele de lemn cu care păcănesc dansatoarele’ [en.  ‘four pieces of wood which the dancers rattle’]). The Turkish equivalent, çalpara, in turn, comes from the Persian čarpare (four piece). See Dicționarul explicativ al limbii române at www.dexonline.ro [Accessed 5 November 2015].
