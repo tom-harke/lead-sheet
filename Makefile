@@ -81,6 +81,9 @@ Doc/makefile.md: Makefile
 blurb.%.pdf: blurb.%.tex
 	lualatex --shell-escape blurb.$*.tex
 
+blurb90.%.pdf: blurb.%.pdf
+	pdfjam --angle 90 blurb.$*.pdf --outfile blurb90.$*.pdf
+
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like geamparas: 7 = 2+2+3
@@ -90,6 +93,7 @@ GEAMPARA += culesul       # 2 Done
 GEAMPARA += chekurjankino # 2 TODO
 GEAMPARA += fetesti       # 2 TODO
 GEAMPARA += giushevska    # 2
+GEAMPARA += godfather     #  2
 GEAMPARA += haidim        # 2 Done
 GEAMPARA += marcus        # 2
 GEAMPARA += mileva        # 2 ?
@@ -101,7 +105,6 @@ GEAMPARA += babadag1      # 1 Done
 GEAMPARA += babadag2      # 1 Done
 GEAMPARA += barla         # 1 Done
 GEAMPARA += belomorska    # 1 Done
-#GEAMPARA += bulcenska    # 1
 GEAMPARA += bulchenska    # 1
 #GEAMPARA += din bucharest (from Cooper + ?)
 GEAMPARA += comida        # 1 Done -- 3 lines
@@ -122,9 +125,13 @@ GEAMPARA += povlekana     # 1
 GEAMPARA += serbian       # 1
 GEAMPARA += svatbarska    # 1
 GEAMPARA += tasaul        # 1 TODO chords
+GEAMPARA += trakijska
 GEAMPARA += turcitu       # 1 Done
 GEAMPARA += tiganica      # 1 Done
 #GEAMPARA += varbishka     # ?
+GEAMPARA += vassils
+GEAMPARA += west_rhodope
+
 # Those without names
 GEAMPARA += geampara_53323    # 1
 GEAMPARA += norbeck2          # 1 TODO chords
@@ -143,8 +150,9 @@ G = $(patsubst %,%.pdf,$(GEAMPARA))
 
 
 
-geampara.book.pdf: $G blurb.geampara.pdf
-	pdfunite blurb.geampara.pdf $G $@
+geampara.book.pdf: $G blurb90.geampara.pdf
+	echo pdfunite blurb90.geampara.pdf $G $@
+	pdfunite tmp.pdf $G $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 EVEN += heiser        # 2
@@ -259,6 +267,7 @@ ARDELEANA += ardeleana_timis # ? Done
 ARDELEANA += guguleana
 ARDELEANA += nu_sunt_negru
 ARDELEANA += sibiu
+ARDELEANA += zlatna
 
 A = $(patsubst %,%.pdf,$(ARDELEANA))
 

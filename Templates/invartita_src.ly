@@ -6,7 +6,7 @@ Chords = \chords {
 
 
 Melody = \transpose d d' {
-    \include "lib/invartita.rhy"
+    \include "invartita.rhy"
 
     \key d \phrygian
 
@@ -20,5 +20,8 @@ Melody = \transpose d d' {
         {| s16 s s s s16. s s s |}
     }
     % X )
+}
+
+Layout = {
 }
 
