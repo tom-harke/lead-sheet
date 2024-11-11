@@ -1,4 +1,4 @@
-Title = "Vassil' Rъčenica"
+Title = "Vassil's Rъčenica"
 
 drop   = <\tweak font-size #-3 e16>
 

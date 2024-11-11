@@ -1,5 +1,5 @@
 Title    = "Rъčenica bez ime"
-Arranger = "Cooper"
+Arranger = "From Cooper (#1)"
 
 C =
 \chords {

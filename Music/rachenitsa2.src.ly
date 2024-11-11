@@ -6,6 +6,7 @@
 %  - articulations
 
 Title    = "Rъčenica bez ime"
+Subtitle = "from The Bulgarian Fakebook"
 
 Melody = \transpose c c' {
 	\set Score.markFormatter = #format-mark-box-letters
@@ -15,7 +16,6 @@ Melody = \transpose c c' {
     \set Staff.beatStructure = #'(2 2 3)
 
 	\repeat volta 1 {
-		\mark \default
 		\repeat unfold 2 {
 			| e16 f gis a b8\prall a16
 			| a16 gis a gis a8\prall gis16
@@ -27,7 +27,6 @@ Melody = \transpose c c' {
 		}
 	}
 	\repeat volta 1 {
-		\mark \default
 		\repeat unfold 2 {
 			| a16 gis a gis a8\prall gis16	
 			| gis16 f gis8\prall f16 e d
@@ -38,7 +37,6 @@ Melody = \transpose c c' {
 		}
 	}
 	\repeat volta 1 {
-		\mark \default
 		\repeat unfold 2 {
 			| e16 d b8\staccato b\prall a16
 			| b16 a b a b a gis
@@ -49,7 +47,6 @@ Melody = \transpose c c' {
 		}
 	}
 	\repeat volta 1 {
-		\mark \default
 		\repeat unfold 2 {
 			| e16 f gis8\prall d16 f e
 			\repeat unfold 2 {
@@ -62,7 +59,6 @@ Melody = \transpose c c' {
 		}
 	}
 	\repeat volta 1 {
-		\mark \default
 		| gis16 a b cis' d' e'8\mordent
 		| e'16 b d' cis' b cis' d'
 		| e'8\mordent e'16 b d' f' e'
@@ -74,7 +70,6 @@ Melody = \transpose c c' {
 		| e'16 d' f' e' e'8 r16
 	}
 	\repeat volta 1 {
-		\mark \default
 		| e'16 b d' b b' a' gis'
 		| gis'16 b f'8\mordent gis'16 f' e'
 		| e'16 b d'8\mordent d'16 f' e'
@@ -97,7 +92,37 @@ Chords = \chords {
 }
 
 
-Layout = {}
+Layout = {
+	\repeat volta 1 {
+		\mark \default
+		| s4..*8
+	}
+\break
+	\repeat volta 1 {
+		\mark \default
+		| s4..*8
+	}
+\break
+	\repeat volta 1 {
+		\mark \default
+		| s4..*8
+	}
+\break
+	\repeat volta 1 {
+		\mark \default
+		| s4..*8
+	}
+\break
+	\repeat volta 1 {
+		\mark \default
+		| s4..*8
+	}
+\break
+	\repeat volta 1 {
+		\mark \default
+		| s4..*8
+	}
+}
 
 Rhythm = { c8 c8 c8 c16 }
 

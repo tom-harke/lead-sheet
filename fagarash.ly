@@ -1,12 +1,12 @@
 \version "2.22.1"
 
-\include "rachenitsa1.src.ly"
+\include "fagarash.src.ly"
 
-\include "landscape_27.ly"
+\include "landscape.ly"
 
 \header {
     title = \Title
-    arranger = \Subtitle
+    subtitle = \Subtitle
     tagline = ##f
 }
 
@@ -14,6 +14,7 @@
 
     \include "layout.ly"
 
+\transpose a d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

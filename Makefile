@@ -141,7 +141,7 @@ GEAMPARA += rachenitsa1 # 1
 GEAMPARA += rachenitsa2 # 1
 GEAMPARA += rachenitsa_3654 # 1 TODO chords (2 lines only)
 GEAMPARA += rachenitsa_cooper_1 # 1
-#GEAMPARA += rachenitsa_cooper_2 # 1
+GEAMPARA += rachenitsa_cooper_2 # 1
 #GEAMPARA += rachenitsa_cooper_3 # 1
 
 
@@ -262,12 +262,14 @@ zhok.book.pdf: $Z
 # ---------------------------------------------------------------------------- (
 # Songs with ardeleana/invartita rhythm: 10 = 4+6 or 7 = 3+4
 ARDELEANA += ardeleana
-ARDELEANA += ardeleana_5654345
 ARDELEANA += ardeleana_timis # ? Done
+ARDELEANA += fagarash
 ARDELEANA += guguleana
 ARDELEANA += nu_sunt_negru
 ARDELEANA += sibiu
 ARDELEANA += zlatna
+# Nameless
+ARDELEANA += ardeleana_5654345
 
 A = $(patsubst %,%.pdf,$(ARDELEANA))
 

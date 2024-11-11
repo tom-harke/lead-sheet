@@ -1,6 +1,6 @@
 % https://musescore.com/user/14476/scores/5278367
 
-Title = "geampara fără nume"
+Title = "Geampara fără nume"
 
 Chords =
 \chords {
