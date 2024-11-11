@@ -1,39 +1,67 @@
 \documentclass[landscape, 12pt]{article}
-\usepackage[landscape]{geometry}
+\usepackage[landscape,margin=1.5cm]{geometry}
 \usepackage{lyluatex}
-\thispagestyle{empty}
-\begin{document}
-The rhythm of these tunes is parsed either as
-\lilypond{\time 7/16 d'16[ d' d' d'] d'[ d' d']}
-or
-\lilypond{\time 7/16 d'16[ d'] d'[ d'] d'[ d' d']}
+\usepackage{multicol}
 
-Arpegiating Chords...
+%\define{\BC}{\begin{center}} % want
+
+\setlength{\parindent}{0pt}
+
+\setlength{\columnseprule}{.4pt}
+
+\thispagestyle{empty}
+
+\begin{document}
+\raggedcolumns % this isn't working as expected
+\begin{multicols}{3}
+
+The rhythm of these tunes is parsed either as\
+\begin{center}
+\lilypond{\time 7/16 d'16[ d' d' d'] d'[ d' d']}
+\end{center}
+or
+\begin{center}
+\lilypond{\time 7/16 d'16[ d'] d'[ d'] d'[ d' d']}
+\end{center}
+
+Arpeggiating Chords...
 
 \begin{description}
+
 \item[major]
 A way to play both major and minor chords:
-\lilypond{\clef bass \time 7/16 d8[ d'] a[ d'16]}
+\begin{center}
+\lilypond{\key d \major \clef bass \time 7/16 d8[ d'] a[ d'16]}
+\end{center}
 
-\item[7] TODO
-\item[TODO] opposite of 7
+\item[7]
+\begin{center}
+\lilypond{\clef bass \time 7/16 a,8[ a] c[ e16]}
+\end{center}
+or
+\begin{center}
+\lilypond{\clef bass \time 7/16 a,8[ a] c[ a16]}
+\end{center}
+
+\item[(opposite of 7)]
+\begin{center}
+\lilypond{\clef bass \time 7/16 a,8[ a] b[ d16]}
+\end{center}
 \end{description}
 
-\begin{tabular}{|l|l|}
-chord & consider \\
-\hline
-major & \lilypond{\clef bass \time 7/16 a,8[ a] e[ a16]} \\
-minor &  \\
-\hline
-7     & \lilypond{\clef bass \time 7/16 a,8[ a] c[ e16]} \\
-      & \lilypond{\clef bass \time 7/16 a,8[ a] c[ a16]} \\
-\hline
-un7   & \lilypond{\clef bass \time 7/16 a,8[ a] b[ d16]} ?? \\
-\end{tabular}
+Ornaments...
 
-Ornaments
-
+\end{multicols}
 \end{document}
+
+
+
+
+
+
+
+
+
 
 \medskip
 \begin{lilypond}
