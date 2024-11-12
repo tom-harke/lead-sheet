@@ -143,7 +143,7 @@ GEAMPARA += rachenitsa_3654 # 1 TODO chords (2 lines only)
 GEAMPARA += rachenitsa_cooper_1 # 1
 GEAMPARA += rachenitsa_cooper_2 # 1
 #GEAMPARA += rachenitsa_cooper_3 # 1
-
+GEAMPARA += geampara_partea_3 # 1
 
 
 G = $(patsubst %,%.pdf,$(GEAMPARA))
