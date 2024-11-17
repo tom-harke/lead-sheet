@@ -39,15 +39,13 @@ M =
 
     \break \mark \default
     \repeat volta 2 {
-        \repeat unfold 3 {
+        \repeat percent 2 {
             | d8 g16 fis fis d ees
-            | a8 g16 fis ees % d c 
+            | a8 g16 fis ees d c 
         }
-        \alternative {
-            { d16 c | }
-            { d16 c | \break }
-            { fis16 g | }
-        }
+        \break
+        | d8 g16 fis fis d ees
+        | a8 g16 fis ees fis16 g
     }
     \alternative {
         { | a16 c' bes a bes a g | fis16 a g fis ees d c | }

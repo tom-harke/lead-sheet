@@ -1,4 +1,5 @@
 Title = "Pandelaşul de la Năvodari"
+Order = "A² B² C² D² E² D² A²"
 
 
 Chords = \chords {

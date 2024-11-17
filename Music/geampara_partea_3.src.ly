@@ -1,5 +1,5 @@
 Title    = "Geampara fără nume"
-Subtitle = "(needs chords; xpose to d; etc)"
+Subtitle = "(needs chords;  etc)"
 Source = "From Andrei Manole's 'Geampara Partea 3'"
 
 % Titled 'Geampara Partea 3' on https://www.noteflight.com/music/titles/5f9e8cc3-e215-46cd-bca7-edded5a9139f/geampara-partea-3

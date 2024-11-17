@@ -2,11 +2,13 @@
 
 \include "pandalash.src.ly"
 
-\include "landscape_7.ly"
+\include "landscape_23.ly"
 
 \header {
-    title = \Title
-    tagline = ##f
+    title    = \Title
+    subtitle = \Subtitle
+    arranger = \Order
+    tagline  = ##f
 }
 
 \score {

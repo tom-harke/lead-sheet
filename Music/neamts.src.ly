@@ -1,5 +1,5 @@
 Title = "Hostropăţ din Neamţ - Dans de Nuntă"
-Subtitle = "(needs work)"
+Subtitle = "(needs work; chords are weird; xpose)"
 Order = "A² B⁴ A²"
 
 % Todo:

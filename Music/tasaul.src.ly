@@ -1,5 +1,7 @@
 % https://www.scribd.com/document/398868773/Geamparale-de-La-Tasaul#
 
+% Same as G de la Babadag (#1)
+
 Title = "Geamparale de la Taşaul"
 
 bdrop   = <\tweak font-size #-3 b16>

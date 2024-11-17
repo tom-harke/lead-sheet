@@ -3,11 +3,13 @@
 %	 \markup { (A\raise #1 2 B\raise #1 2 )\raise #1 2 C\raise #1 4 D\raise #1 2 (E\raise #1 2 F\raise #1 4 )\raise #1 2 A\raise #1 2 B\raise #1 2  }
 
 % TODO: convert from relative to absolute
-% TODO: deduplicate A (rm variation)
+% TODO: consider deduplicating A (rm variation)
 % TODO: deduplicate B
 
 Title    = "Pandalaš"
 AltTitle = "пандалаш"
+Order = "A² B⁴ C⁴ D² E⁴ F⁴"
+Subtitle = "(chords need work)"
 
 edrop = <\tweak font-size #-3 e16>
 edroprel = <\tweak font-size #-3 e,16>
@@ -33,11 +35,15 @@ Melody = \relative c'' {
 	%( B
 	\mark \default
 	\repeat volta 2 {
-		| cis8  g16 a b8 a16 | a4 cis16 d e
-		| cis8  g16 a b8 a16 | a4 e8.
-\break
-		| cis'8 g16 a b8 a16 | a8 r cis16 d e
-		| cis8  g16 a b8 a16 | a4 a8.
+		| cis8  g16 a b8 a16 | a4   cis16 d e
+		| cis8  g16 a b8 a16
+
+		%| cis'8 g16 a b8 a16 | a8 r cis16 d e
+		%| cis8  g16 a b8 a16
+	}
+	\alternative {
+		{| a4 e8. }
+		{| a4 a8. }
 	}
 	\break
 	%)
@@ -98,15 +104,16 @@ Chords = {
 		| s4.. ~
 		| e4 g8.
 		| a4 s8.
-	
-		| a4 d8.
-		| a4:min a8.
-		| e4 s8.
-		| a4 e8.
-		| a4 d8.
-		| a4:min a8.
-		| e4 s8.
-		| a4 s8.
+
+		% B (
+		\repeat volta 2 {	
+			| a4 d8.  | a4:min a8.  | e4 s8.
+		}
+		\alternative {
+			{| a4 e8. }
+			{| a4 s8. }
+		}
+		% B )
 
 		| a4 d8.
 		| a4:min s8.

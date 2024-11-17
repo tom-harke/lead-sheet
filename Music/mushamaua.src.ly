@@ -2,6 +2,12 @@ Title = "Muşamaua"
 Subtitle = "(needs work)"
 Order = "A² B⁴ C⁴ D² E⁴"
 
+% TODO
+%  - what is a 'muşama'?
+%    - mat
+%    - oilcloth
+%    - oilskin
+%    - wax cloth
 
 Chords = \chords {
     % A (
@@ -135,7 +141,7 @@ Melody = \transpose d d' {
 %    }
 
 Layout = {
-    \break \mark \default \repeat volta 2 { | s4..*8 }
+    \break \mark \default \repeat volta 2 { | s4..*4 \break s4..*4 }
     \break \mark \default \repeat volta 2 { | s4..*3 }
 					\alternative { { s4.. } { s4.. } }
     \break \mark \default \repeat volta 2 { | s4..*3 }

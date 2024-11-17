@@ -98,7 +98,6 @@ GEAMPARA += haidim        # 2 Done
 GEAMPARA += marcus        # 2
 GEAMPARA += mileva        # 2 ?
 GEAMPARA += nunta         # 2
-GEAMPARA += pandalash     # 2 Done
 GEAMPARA += norbeck1      # 2 TODO chords
 
 GEAMPARA += babadag1      # 1 Done
@@ -119,6 +118,7 @@ GEAMPARA += murfatlar1    # 1 Done
 GEAMPARA += murfatlar2    # 1 Done
 GEAMPARA += navodari      # 1 Done
 GEAMPARA += ostropesul    # 1 Done
+GEAMPARA += pandalash     # 1 Done
 GEAMPARA += pandelasul    # 1
 #GEAMPARA += plovdivska     # 1
 GEAMPARA += povlekana     # 1
@@ -150,9 +150,8 @@ G = $(patsubst %,%.pdf,$(GEAMPARA))
 
 
 
-geampara.book.pdf: $G blurb90.geampara.pdf
-	echo pdfunite blurb90.geampara.pdf $G $@
-	pdfunite tmp.pdf $G $@
+geampara.book.pdf: $G blurb90.geampara.pdf Makefile
+	pdfunite blurb90.geampara.pdf $G $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 EVEN += heiser        # 2
@@ -261,14 +260,15 @@ zhok.book.pdf: $Z
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with ardeleana/invartita rhythm: 10 = 4+6 or 7 = 3+4
-ARDELEANA += ardeleana
-ARDELEANA += ardeleana_timis # ? Done
 ARDELEANA += fagarash
 ARDELEANA += guguleana
 ARDELEANA += nu_sunt_negru
+ARDELEANA += orashtie
 ARDELEANA += sibiu
+ARDELEANA += ardeleana_timis # ? Done
 ARDELEANA += zlatna
 # Nameless
+ARDELEANA += ardeleana
 ARDELEANA += ardeleana_5654345
 
 A = $(patsubst %,%.pdf,$(ARDELEANA))

@@ -1,8 +1,10 @@
 Title = "Geamparalele de la Babadag (1)"
-Subtitle = "(need chords; ++)"
+Subtitle = "(need chords; ++; merge with Taşaul)"
 
 % Simplified from a score on Free-scores.com
 % by Andrei Baicoianu
+
+% Same as G. de la Taşaul
 
 
 fisdrop = <\tweak font-size #-3 fis16>

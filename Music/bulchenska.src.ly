@@ -22,7 +22,7 @@ Order    = "A² B⁴ C²"
 Melody = \transpose c c' \relative c' {
     \include "geampara.rhy"
 
-    \key c \major
+    \key a \phrygian
 
     % A (
     \repeat volta 2 {

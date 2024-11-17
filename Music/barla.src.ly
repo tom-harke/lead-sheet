@@ -1,6 +1,17 @@
 % from www.folkloretanznoten.de
 
+% Notes on key changes
+%  - each section might be in a different key
+%  - key of [A] is unknown
+%     - jumps are: 2 1 3 1 1 3 1
+%     - (recall freygish is: 1 3 1 2 1 2 2)
+%  - [B] mixes gis with g
+%  - [B] mixes dis with d
+%  - [B] mixes ais with a
+%     - though only ais the pickup
+
 Title = "Geamparalele din Bârla"
+Subtitle = "(choose key: d or e?)"
 Order = "A² B² C² A²"
 
 
@@ -34,8 +45,6 @@ C =
 M =
 \transpose d d' {
     \include "geampara.rhy"
-
-    \key e \phrygian
 
     % A (
     \break \mark \default

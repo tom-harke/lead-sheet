@@ -1,7 +1,18 @@
+% TODO
+%  - add ':' in descriptions
+%  - add chord names to arpeggiation examples
 \documentclass[landscape, 12pt]{article}
 \usepackage[landscape,margin=1.5cm]{geometry}
 \usepackage{lyluatex}
 \usepackage{multicol}
+\usepackage{enumitem}
+
+%\usepackage{sectsty}
+%\allsectionsfont{\centering}
+
+
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries}{}{0pt}{}
 
 %\define{\BC}{\begin{center}} % want
 
@@ -15,6 +26,7 @@
 \raggedcolumns % this isn't working as expected
 \begin{multicols}{3}
 
+\section{Rhythm}
 The rhythm of these tunes is parsed either as\
 \begin{center}
 \lilypond{\time 7/16 d'16[ d' d' d'] d'[ d' d']}
@@ -24,7 +36,7 @@ or
 \lilypond{\time 7/16 d'16[ d'] d'[ d'] d'[ d' d']}
 \end{center}
 
-Arpeggiating Chords...
+\section{Basslines from Chords}
 
 \begin{description}
 
@@ -34,7 +46,7 @@ A way to play both major and minor chords:
 \lilypond{\key d \major \clef bass \time 7/16 d8[ d'] a[ d'16]}
 \end{center}
 
-\item[7]
+\item[$7^{th}$s as passing notes] \ 
 \begin{center}
 \lilypond{\clef bass \time 7/16 a,8[ a] c[ e16]}
 \end{center}
@@ -43,14 +55,83 @@ or
 \lilypond{\clef bass \time 7/16 a,8[ a] c[ a16]}
 \end{center}
 
-\item[(opposite of 7)]
+\item[opposite of $7^{th}$s as passing] \ 
 \begin{center}
 \lilypond{\clef bass \time 7/16 a,8[ a] b[ d16]}
 \end{center}
 \end{description}
 
-Ornaments...
+\section{Ornaments}
+TODO
 
+\section{Notes on Tunes}
+\begin{description}[noitemsep]
+\item[Bulcenska vs Bulčenska R.:]
+	Two distinct tunes.
+\item[Bârla, G.\ din:]
+	Highly chromatic.
+\item[Comida La Mañana, La:]
+	Ladino.
+\item[Culesul Viilor, La:]
+	Play like musette.
+	Highly chromatic.
+\item[Čekurjankino Horo:]
+	Speeds up.
+\item[Dobrogeana:]
+	\dots
+\item[Haidim, G.\ lui:]
+	Unlike all the other tunes that are `deranged',
+	this one keeps the vamping and alternations since
+	they're so good.
+\item[Hijaz:]
+	Oddly not in the hijaz scale.
+\item[Mala Loka:]
+	\dots
+\item[Murfatlar, G.\ de la:]
+	2 distinct tunes with
+	the name differing (G.-ua vs G.-lele)
+\item[Ostropesul:]
+	Play like a renaissance song
+\item[Taşaul, G.\ de la:]
+	Same as G.\ de la Babadag
+\item[Turcitu, G.\ de la:]
+	Has some similarity to the nameless G.\ from BGKO.
+\item[Ţigănică:]
+	\dots
+\end{description}
+
+\section{Todo}
+\begin{itemize}
+\item add G with gis a a e gis a e
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\item
+\end{itemize}
 \end{multicols}
 \end{document}
 

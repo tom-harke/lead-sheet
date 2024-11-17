@@ -3,8 +3,12 @@ Order = "(A⁴B²C²)² D⁴E⁴ A⁴B²C²D⁴E⁴ A⁴"
 
 % by Vassil Bebelkov
 % from Cope, but tr unknown
-% simplifications
-%  - folding
+%
+% TODO
+%  - simplifications
+%    - folding
+%      - [B] can go from 4 systems to 1
+%  - xpose
 
 drop   = <\tweak font-size #-3 e16>
 

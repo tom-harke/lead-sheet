@@ -6,6 +6,7 @@
 
 \header {
     title = \Title
+    subtitle = \Subtitle
     tagline = ##f
     opus = \Order
 }
@@ -13,6 +14,7 @@
 \score {
     \include "layout.ly"
 
+\transpose e d
     << \C \M >>
 
     \midi {}

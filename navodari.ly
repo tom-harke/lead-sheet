@@ -2,10 +2,11 @@
 
 \include "navodari.src.ly"
 
-\include "landscape_25.ly"
+\include "landscape_24.ly"
 
 \header {
     title = \Title
+    arranger = \Order
     tagline = ##f
 }
 

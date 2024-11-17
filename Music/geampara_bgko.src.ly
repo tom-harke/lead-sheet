@@ -1,5 +1,5 @@
 Title    = "Geampara fără nume"
-Subtitle = "(from BGKO)"
+Subtitle = "(from BGKO; similar to Turcitu)"
 
 % From
 % BGKO
