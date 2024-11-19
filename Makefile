@@ -87,6 +87,8 @@ blurb90.%.pdf: blurb.%.pdf
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like geamparas: 7 = 2+2+3
+
+
 GEAMPARA += alfanska      # 2? TODO
 GEAMPARA += bulcenska     # 2? TODO
 GEAMPARA += culesul       # 2 Done
@@ -104,6 +106,7 @@ GEAMPARA += babadag1      # 1 Done
 GEAMPARA += babadag2      # 1 Done
 GEAMPARA += barla         # 1 Done
 GEAMPARA += belomorska    # 1 Done
+# Бисерна ръченица
 GEAMPARA += bulchenska    # 1
 #GEAMPARA += din bucharest (from Cooper + ?)
 GEAMPARA += comida        # 1 Done -- 3 lines
@@ -113,6 +116,7 @@ GEAMPARA += dobrogeana    # 1
 GEAMPARA += edinets       # 1
 GEAMPARA += ghiurghiuliu  # 1
 GEAMPARA += hijaz         # 1 Done
+# Майсторска ръченица
 GEAMPARA += mala_loka     # 1 ?
 GEAMPARA += murfatlar1    # 1 Done
 GEAMPARA += murfatlar2    # 1 Done
@@ -125,6 +129,7 @@ GEAMPARA += povlekana     # 1
 GEAMPARA += serbian       # 1
 GEAMPARA += svatbarska    # 1
 GEAMPARA += tasaul        # 1 TODO chords
+# Тополовска ръченица
 GEAMPARA += trakijska
 GEAMPARA += turcitu       # 1 Done
 GEAMPARA += tiganica      # 1 Done
@@ -152,6 +157,9 @@ G = $(patsubst %,%.pdf,$(GEAMPARA))
 
 geampara.book.pdf: $G blurb90.geampara.pdf Makefile
 	pdfunite blurb90.geampara.pdf $G $@
+# ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
+# Danovska Kopanica
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 EVEN += heiser        # 2
