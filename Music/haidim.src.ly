@@ -1,5 +1,8 @@
-Title = "Geamparalele lui Haidim"
+% Source:
+%    www.folkloretanznoten.de
 
+Title = "Geamparalele lui Haidim"
+Order = "A2 B4 C2 D1"
 
 C =
 \chords {
@@ -59,15 +62,15 @@ M =
     \key a \mixolydian
 
     % X (
-    | e'4..  ~ e'4..
-    | e'4..  ~ e'4..
-    | f'4..  ~ f'4..
-    | f'4..  ~ f'4 g'8.
+    | e'4..\trill  ~ e'4..
+    | e'4..\trill  ~ e'4..
+    | f'4..\trill  ~ f'4..
+    | f'4..\trill  ~ f'4 g'8.
 \break
 
-    | a'8 e' ~ e'8.
-    | a8 a8 ~ a8.
-    | a,8 a,8 ~ a,8.
+    | a'8 e'\trill ~ e'8.
+    | a8 a8\trill ~ a8.
+    | a,8 a,8\trill ~ a,8.
     ~ a,4..
 
     \repeat percent 3 {| a8 a e16 e e }

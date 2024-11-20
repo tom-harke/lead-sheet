@@ -1,3 +1,7 @@
+% Sources
+%  - from a pdf on the internet, which in turn says
+%    "Source: MP3 from Anton Kirilov. Lyrics transcribed by Anton Kirilov, translation by Ivan Vassilev. Transcribed by Michael Gordon."
+
 Title = "Ako Umram"
 
 Chords = \chords {

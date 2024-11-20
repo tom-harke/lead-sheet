@@ -1,3 +1,9 @@
+
+% Sources
+% In retrospect, this appears to be derived from at least 2 different sources
+%  - ??
+%  - www.folkloretanznoten.de
+
 Title = "Geamparalele ca la Nuntă"
 
 
