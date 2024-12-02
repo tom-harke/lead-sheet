@@ -1,4 +1,10 @@
 Title = "Bun îi Vinul Ghiurghiuliu"
+Subtitle = "Need chords"
+
+% Source
+%  1. internet
+%  2. Puscoiu
+% See Puscoiu for chords
 
 
 C =

@@ -1,7 +1,6 @@
 Title = "Rъčenica bez ime"
-Subtitle = "(needs chords)"
-Source = "TODO: balkan clarinet book"
-
+Subtitle = "(needs chords; from Puscoiu)"
+Source = "Puscoiu"
 
 Chords = \chords {
     % A (

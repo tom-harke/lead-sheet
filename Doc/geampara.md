@@ -212,32 +212,32 @@ Unsorted:
  - [G](https://www.youtube.com/watch?v=iUHVY1nXsx8)
 
 
-https://imagomundi.bandcamp.com/track/geampara
-https://imagomundi.bandcamp.com/track/suita-de-geamparale
-https://imagomundi.bandcamp.com/track/dobrogeana
+[TODO](https://imagomundi.bandcamp.com/track/geampara)
+[TODO](https://imagomundi.bandcamp.com/track/suita-de-geamparale)
+[TODO](https://imagomundi.bandcamp.com/track/dobrogeana)
 
 
 "Geampara comes from 'Tchiam para' meaning finger cymbals" -- Theodor Vasilescu
 
-https://treiparale.bandcamp.com/track/geampara
-https://treiparale.bandcamp.com/track/geamparaua-de-la-d-eni
-https://countryforsyria.bandcamp.com/track/rachenitsa
-https://fanfarrai.bandcamp.com/track/rachenitsa
-https://outhentic.bandcamp.com/track/rachenitsa
-https://balamuc.bandcamp.com/track/rachenitsa
-https://kabaproject.bandcamp.com/track/hadjilarska-rachenitsa
-https://zhivkovasilev.bandcamp.com/track/rachenitsa
-https://pachora.bandcamp.com/track/filipovska-rachenitsa
-https://volkanik.bandcamp.com/track/rachenitsa
-https://kutsimerki.bandcamp.com/track/kjustendilska-rachenitsa
-https://matthewschreiberandgeorgipetrov.bandcamp.com/track/mileva-rachenitsa
-https://klezmermuskelkater.bandcamp.com/track/gasn-rachenitsa
-https://smithsonianfolkways.bandcamp.com/track/svatbarska-rachenitsa-wedding-rachenitsa
-https://smithsonianfolkways.bandcamp.com/track/strandzhanska-rachenitsa
-https://sunrisemarinov.bandcamp.com/track/varnenska-rachenitsa
-https://sunrisemarinov.bandcamp.com/track/shopska-rachenitsa
-https://optomusic.bandcamp.com/track/rachenitsa-from-pirin
-https://musescore.com/user/22481556/scores/6089795 -- (permutation of) edinets hostropat
+[TODO](https://treiparale.bandcamp.com/track/geampara)
+[TODO](https://treiparale.bandcamp.com/track/geamparaua-de-la-d-eni)
+[TODO](https://countryforsyria.bandcamp.com/track/rachenitsa)
+[TODO](https://fanfarrai.bandcamp.com/track/rachenitsa)
+[TODO](https://outhentic.bandcamp.com/track/rachenitsa)
+[TODO](https://balamuc.bandcamp.com/track/rachenitsa)
+[TODO](https://kabaproject.bandcamp.com/track/hadjilarska-rachenitsa)
+[TODO](https://zhivkovasilev.bandcamp.com/track/rachenitsa)
+[TODO](https://pachora.bandcamp.com/track/filipovska-rachenitsa)
+[TODO](https://volkanik.bandcamp.com/track/rachenitsa)
+[TODO](https://kutsimerki.bandcamp.com/track/kjustendilska-rachenitsa)
+[TODO](https://matthewschreiberandgeorgipetrov.bandcamp.com/track/mileva-rachenitsa)
+[TODO](https://klezmermuskelkater.bandcamp.com/track/gasn-rachenitsa)
+[TODO](https://smithsonianfolkways.bandcamp.com/track/svatbarska-rachenitsa-wedding-rachenitsa)
+[TODO](https://smithsonianfolkways.bandcamp.com/track/strandzhanska-rachenitsa)
+[TODO](https://sunrisemarinov.bandcamp.com/track/varnenska-rachenitsa)
+[TODO](https://sunrisemarinov.bandcamp.com/track/shopska-rachenitsa)
+[TODO](https://optomusic.bandcamp.com/track/rachenitsa-from-pirin)
+[TODO](https://musescore.com/user/22481556/scores/6089795) -- (permutation of) edinets hostropat
 
 ---
 
@@ -270,7 +270,7 @@ Elena Ionescu Cojocaru: Mult ma doare inima (my heart aches...a lot)
 
 
 
-https://www.youtube.com/watch?v=-GEu0GGGOTc
+[TODO](https://www.youtube.com/watch?v=-GEu0GGGOTc)
 
 
 
@@ -279,33 +279,33 @@ https://www.youtube.com/watch?v=-GEu0GGGOTc
 
 9/16:
 
-https://youtube.com/shorts/rAC9jdzu8hw?si=fu3nhK6fFuPu3d1C
+[TODO](https://youtube.com/shorts/rAC9jdzu8hw?si=fu3nhK6fFuPu3d1C)
 
 album: wedding in Dobrogea
 
-https://www.amazon.com/La-Geruzea/dp/B06Y5RK6F2
-https://issuu.com/tapspace/docs/geampara_iui_petrescu-sample
-https://www.jwpepper.com/Geampara-lui-Petrescu/11355178.item
-https://nicolaeferaru.bandcamp.com/track/leli-ioan-geampara
-https://lapeche.bandcamp.com/track/geampara-et-shalakho
-https://www.youtube.com/watch?v=7U4fidwef-8
+[TODO](https://www.amazon.com/La-Geruzea/dp/B06Y5RK6F2)
+[TODO](https://issuu.com/tapspace/docs/geampara_iui_petrescu-sample)
+[TODO](https://www.jwpepper.com/Geampara-lui-Petrescu/11355178.item)
+[TODO](https://nicolaeferaru.bandcamp.com/track/leli-ioan-geampara)
+[TODO](https://lapeche.bandcamp.com/track/geampara-et-shalakho)
+[TODO](https://www.youtube.com/watch?v=7U4fidwef-8)
   Geampara (Mărînghiile)
-https://www.youtube.com/watch?v=7DNuyT49hsw
+[TODO](https://www.youtube.com/watch?v=7DNuyT49hsw)
   Geampara Ceramica
 
 
-https://www.dailymotion.com/video/x8nb1gr
+[TODO](https://www.dailymotion.com/video/x8nb1gr)
   Stefania Luzinschi - Hai bade la geampara (In pasi cu traditia - Traditional TV - 17.08.2023) --
 
-https://folkcloud.com/song/224/ion-onoriu/geampara-ca-n-dobrogea
+[TODO](https://folkcloud.com/song/224/ion-onoriu/geampara-ca-n-dobrogea)
 
 snippet from web:
   Geamparalele este un dans popular cu multiple variante și denumiri (geambaralele, mărânghile, zlata etc.), răspândit în Câmpia Dunării și Dobrogea.
   Are forme de desfășurare variate (cerc de mână, în linie, perechi, solistic etc.)
 
-https://books.google.com/books?id=1QBNDwAAQBAJ&pg=PA36#v=onepage&q&f=false
+[TODO](https://books.google.com/books?id=1QBNDwAAQBAJ&pg=PA36#v=onepage&q&f=false)
   Balkania: Rhythms in songs and dances from Albania, Bulgaria, The Republic ...
   By Rechberger, Herman
 
-https://musescore.com/user/14476/scores/4990992
-https://dianarasina.bandcamp.com/track/pandelasul
+[TODO](https://musescore.com/user/14476/scores/4990992)
+[TODO](https://dianarasina.bandcamp.com/track/pandelasul)

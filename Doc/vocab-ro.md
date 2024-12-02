@@ -37,7 +37,7 @@ Currently unknown names
  - Taşaul
 
 Proper names
- - Ghiurghiu
+ - Ghiurghiu (???)
  - Turcitu seems to refer to Florea Turcitu
 
 Suffixes

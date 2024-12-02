@@ -38,4 +38,4 @@ occur in Croatian
      - ǵ
  
 
-https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet
+[Latin ALphabet](https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet)

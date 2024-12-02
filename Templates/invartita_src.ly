@@ -1,4 +1,4 @@
-Title = "(învârtita)"
+Title = "(învârtita/ardeleana)"
 
 
 Chords = \chords {
@@ -13,11 +13,11 @@ Melody = \transpose d d' {
     % X (
     \break \mark \default
     \repeat volta 2 {
-        | s16 s s s s16. s s s
+        | s4 s4.
     }
     \alternative {
-        {| s16 s s s s16. s s s |}
-        {| s16 s s s s16. s s s |}
+        {| s4 s4. |}
+        {| s4 s4. |}
     }
     % X )
 }

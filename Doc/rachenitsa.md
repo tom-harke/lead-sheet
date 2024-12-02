@@ -1,39 +1,46 @@
-Biserna Râčenica
-Bulcenska Râčenica
-Bulchenska Râčenica
-Cucomanska Râčenica
-Delijska Râčenica
-Drianovska Râčenica
-Geampara Amaj
-Geamparale from Daieni
-Geamparalele de la Calafat
-Geamparalele de la Călaraşi
-Geamparalele de la Constanţa = Pand. de la Năvodari ??
-Geamparalele de la Dealul Mare
-Geamparalele de la Măcin
-Geamparalele de la Mangalia
-Geamparalele din Bârlad
-Geamparalele din Medgidia
-Geamparaua Constănţenilor
-Geamparaua din Măraşu
-Geamparaua Dobrogeană
-Giuševska Râčenica
-Ibryamovska Râčenica
-kartina Râčenica
-Kermenska Râčenica
-Kozarevska Râčenica
-Kyustendilska Râčenica
-Liuliakova Râčenica
-Maistorska Râčenica
-[Megdanska Râčenica](https://www.youtube.com/watch?v=_vU3KcKq8Fg)
-Mileva Râčenica
-Pileshka Râčenica
-Praznichna Râčenica
-Sej, Sej Bob 
-Severnyaška Râčenica
-Shopska Râčenica
-Svatbarska Râčenica
-Utărčinska Râčenica
-Varbishka Râčenica
-Zagorska Râčenica
-Zetska Râčenica
+Known titles:
+ - Bârlad, Geamparalele din
+ - Biserna Rъčenica / Бисерна ръченица [1](https://www.youtube.com/watch?v=TiOX8vVpaU8) [2](https://www.youtube.com/watch?v=zJgm77JL9vA)
+ - Calafat, Geamparalele de la
+ - Călaraşi, Geamparalele de la
+ - Constanţa, Geamparalele de la (= Pand. de la Năvodari ??)
+ - Constănţenilor, Geamparaua
+ - Cucomanska Rъčenica
+ - Dealul Mare, Geamparalele de la
+ - Dobrogeană, Geamparaua
+ - Drianovska Rъčenica
+ - Geampara Amaj (no title)
+ - Giuševska Rъčenica
+ - [?](https://musescore.com/latestaccent/rachenitsa)
+ - [?](https://musescore.com/user/2854001/scores/925816)
+ - [?](https://musescore.com/user/30639262/scores/5943434)
+ - Ibryamovska Rъčenica
+ - kartina Rъčenica
+ - Kermenska Rъčenica
+ - Kozarevska Rъčenica
+ - Kyustendilska Rъčenica
+ - Liuliakova Rъčenica
+ - Măcin, Geamparalele de la
+ - Maistorska Rъčenica / Майсторска ръченица [1](https://www.youtube.com/watch?v=Rro7U47iz5k) [2](https://www.youtube.com/watch?v=1PeQ4JW4O98)
+ - Mangalia, Geamparalele de la
+ - Măraşu, Geamparaua din
+ - Medgidia, Geamparalele din
+ - [Megdanska Rъčenica](https://www.youtube.com/watch?v=_vU3KcKq8Fg)
+ - Pileshka Rъčenica
+ - Praznichna Rъčenica
+ - Sej, Sej Bob 
+ - Severnyaška Rъčenica
+ - Shopska Rъčenica
+ - Svatbarska Rъčenica
+ - Topolsvska rъčenica/Тополовска ръченица [1](https://www.youtube.com/watch?v=3uHlTp7Qems) [2](https://www.youtube.com/watch?v=3uHlTp7Qems)
+ - Utărčinska Rъčenica
+ - Varbishka Rъčenica
+ - Zagorska Rъčenica
+ - Zetska Rъčenica
+
+Have:
+ - Bulcenska Rъčenica
+ - [Bulchenska Rъčenica](https://musescore.com/summerlife/bulchenska-rachenitsa) yes! yes! yes!
+ - Daieni, Geamparale from 
+ - Delijska Rъčenica
+ - Mileva Rъčenica
