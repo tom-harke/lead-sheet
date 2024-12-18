@@ -1,4 +1,4 @@
-Title = "Ardeleana"
+Title = "ardeleană fără nume"
 
 Chords = \chords {
     \partial 4 s4

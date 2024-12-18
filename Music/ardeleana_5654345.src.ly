@@ -1,4 +1,4 @@
-Title = "ardeleana fără nume"
+Title = "ardeleană fără nume"
 
 Chords = \chords {
     % A (

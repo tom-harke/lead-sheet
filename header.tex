@@ -1,0 +1,23 @@
+% TODO
+%   - for items, make no separation the default
+%   - for description items, add a ':'
+%   - remove numbers / maybe tweak font on subsections
+\documentclass[landscape, 12pt]{article}
+
+\usepackage[landscape,margin=1.5cm]{geometry}
+\usepackage{lyluatex}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+\titleformat{\section}{\normalfont\Large\bfseries}{}{0pt}{}
+
+\setlength{\parindent}{0pt}
+\setlength{\columnseprule}{.4pt}
+
+\thispagestyle{empty}
+
+\begin{document}
+\raggedcolumns % this isn't working as expected
+\begin{multicols}{3}
+

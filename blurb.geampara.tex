@@ -1,29 +1,7 @@
 % TODO
 %  - add ':' in descriptions; config as default
 %  - add chord names to arpeggiation examples
-\documentclass[landscape, 12pt]{article}
-\usepackage[landscape,margin=1.5cm]{geometry}
-\usepackage{lyluatex}
-\usepackage{multicol}
-\usepackage{enumitem}
-
-%\usepackage{sectsty}
-%\allsectionsfont{\centering}
-
-
-\usepackage{titlesec}
-\titleformat{\section}{\normalfont\Large\bfseries}{}{0pt}{}
-
-%\define{\BC}{\begin{center}} % want
-
-\setlength{\parindent}{0pt}
-\setlength{\columnseprule}{.4pt}
-
-\thispagestyle{empty}
-
-\begin{document}
-\raggedcolumns % this isn't working as expected
-\begin{multicols}{3}
+\include{header.tex}
 
 \section{Rhythm}
 The rhythm of these tunes is parsed either as\
@@ -131,28 +109,5 @@ TODO
 \item
 \item
 \end{itemize}
-\end{multicols}
-\end{document}
 
-
-
-
-
-
-
-
-
-
-\medskip
-\begin{lilypond}
-\score {
-\relative c' {
-\time 4/4
-\clef treble
-c4 d8 e f8 g a b | c4 b8 a g8 f e d |
-c8 g' e g c,8 g' e g | c,4 e c r \bar "|."
-}
-} % end of score
-\end{lilypond}
-
-% lualatex --shell-escape eg.lua.tex
+\include{footer.tex}

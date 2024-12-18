@@ -78,7 +78,7 @@ Doc/makefile.md: Makefile
 	@echo '```'         >> Doc/makefile.md
 
 # ---------------------------------------------------------------------------- (
-blurb.%.pdf: blurb.%.tex
+blurb.%.pdf: blurb.%.tex header.tex footer.tex
 	lualatex --shell-escape blurb.$*.tex
 
 blurb90.%.pdf: blurb.%.pdf
@@ -106,7 +106,6 @@ GEAMPARA += babadag1      # 1 Done
 GEAMPARA += babadag2      # 1 Done
 GEAMPARA += barla         # 1 Done
 GEAMPARA += belomorska    # 1 Done
-# Бисерна ръченица
 GEAMPARA += bulchenska    # 1
 #GEAMPARA += din bucharest (from Cooper + ?)
 GEAMPARA += comida        # 1 Done -- 3 lines
@@ -116,7 +115,6 @@ GEAMPARA += dobrogeana    # 1
 GEAMPARA += edinets       # 1
 GEAMPARA += ghiurghiuliu  # 1
 GEAMPARA += hijaz         # 1 Done
-# Майсторска ръченица
 GEAMPARA += mala_loka     # 1 ?
 GEAMPARA += murfatlar1    # 1 Done
 GEAMPARA += murfatlar2    # 1 Done
@@ -124,16 +122,13 @@ GEAMPARA += navodari      # 1 Done
 GEAMPARA += ostropesul    # 1 Done
 GEAMPARA += pandalash     # 1 Done
 GEAMPARA += pandelasul    # 1
-#GEAMPARA += plovdivska     # 1
 GEAMPARA += povlekana     # 1
 GEAMPARA += serbian       # 1
 GEAMPARA += svatbarska    # 1
 GEAMPARA += tasaul        # 1 TODO chords
-# Тополовска ръченица
 GEAMPARA += trakijska
 GEAMPARA += turcitu       # 1 Done
 GEAMPARA += tiganica      # 1 Done
-#GEAMPARA += varbishka     # ?
 GEAMPARA += vassils
 GEAMPARA += west_rhodope
 
@@ -147,16 +142,28 @@ GEAMPARA += rachenitsa2 # 1
 GEAMPARA += rachenitsa_3654 # 1 TODO chords (2 lines only)
 GEAMPARA += rachenitsa_cooper_1 # 1
 GEAMPARA += rachenitsa_cooper_2 # 1
-#GEAMPARA += rachenitsa_cooper_3 # 1
 GEAMPARA += geampara_partea_3 # 1
 
+# TODO
+#  1. in the short term, print, for addendum to most recent booklet
+#  2. in the long term, integrate in sorted order with the above
 
-G = $(patsubst %,%.pdf,$(GEAMPARA))
+GEAMPARA += balkandzhijska
+# biserna % Бисерна ръченица
+GEAMPARA += kucata1
+# majstorska # Майсторска ръченица
+GEAMPARA += mushamaua
+GEAMPARA += neamts
+#GEAMPARA += plovdivska     # 1
+GEAMPARA += suceava
+# topolovska # Тополовска ръченица
+#GEAMPARA += varbishka     # ?
+#GEAMPARA += rachenitsa_cooper_3 # 1
 
+GEAMPARA_PDF = $(patsubst %,%.pdf,$(GEAMPARA))
+geampara.book.pdf: $(GEAMPARA_PDF) blurb90.geampara.pdf Makefile
+	pdfunite blurb90.geampara.pdf $(GEAMPARA_PDF) $@
 
-
-geampara.book.pdf: $G blurb90.geampara.pdf Makefile
-	pdfunite blurb90.geampara.pdf $G $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Danovska Kopanica
@@ -193,11 +200,9 @@ EVEN += verxovina     # (3 lines only)
 # EVEN: nakht in gan eydn
 # EVEN: hora  muntilor
 
-E = $(patsubst %,%.pdf,$(EVEN))
-
-even.book.pdf: $E
-	pdfunite blank.PDF $E $@
-
+EVEN_PDF = $(patsubst %,%.pdf,$(EVEN))
+even.book.pdf: $(EVEN_PDF) blurb90.even.pdf Makefile
+	pdfunite blurb90.even.pdf $(EVEN_PDF) $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like lesnos: 7 = 3+2+2
@@ -223,10 +228,10 @@ LESNO += more_sokol_pie # 1
 LESNO += snijeg       # 1 TODO
 LESNO += zapjevala    # 1 Done
 
-L = $(patsubst %,%.pdf,$(LESNO))
+LESNO_PDF = $(patsubst %,%.pdf,$(LESNO))
+lesno.book.pdf: $(LESNO_PDF) blurb90.lesno.pdf
+	pdfunite blurb90.lesno.pdf $(LESNO_PDF) $@
 
-lesno.book.pdf: $L
-	pdfunite blank.PDF $L $@
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
@@ -244,10 +249,9 @@ TERKISH += buena      # 1 Done -- 3 lines
 TERKISH += noche_al_lunar #
 TERKISH += sherele    # 1 Done
 
-T = $(patsubst %,%.pdf,$(TERKISH))
-
-terkish.book.pdf: $T
-	pdfunite $T $@
+TERKISH_PDF = $(patsubst %,%.pdf,$(TERKISH))
+terkish.book.pdf: $(TERKISH_PDF) blurb90.terkish.pdf
+	pdfunite blurb90.terkish.pdf $(TERKISH_PDF) $@
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
@@ -260,14 +264,14 @@ ZHOK += kandels_hora        # 1
 ZHOK += mayne_tayere_odessa # 1 Done
 ZHOK += joc1
 
-Z = $(patsubst %,%.pdf,$(ZHOK))
-
-zhok.book.pdf: $Z
-	pdfunite blank.PDF $Z $@
+ZHOK_PDF = $(patsubst %,%.pdf,$(ZHOK))
+zhok.book.pdf: $(ZHOK_PDF) blurb90.zhok.pdf
+	pdfunite blurb90.zhok.pdf $(ZHOK_PDF) $@
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with ardeleana/invartita rhythm: 10 = 4+6 or 7 = 3+4
+ARDELEANA += carapataicu
 ARDELEANA += fagarash
 ARDELEANA += guguleana
 ARDELEANA += nu_sunt_negru
@@ -279,10 +283,10 @@ ARDELEANA += zlatna
 ARDELEANA += ardeleana
 ARDELEANA += ardeleana_5654345
 
-A = $(patsubst %,%.pdf,$(ARDELEANA))
 
-ardeleana.book.pdf: $A
-	pdfunite $A $@
+ARDELEANA_PDF = $(patsubst %,%.pdf,$(ARDELEANA))
+ardeleana.book.pdf: $(ARDELEANA_PDF) blurb90.ardeleana.pdf
+	pdfunite blurb90.ardeleana.pdf $(ARDELEANA_PDF) $@
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
@@ -291,7 +295,7 @@ ardeleana.book.pdf: $A
 
 #WALTZ += alta sierra
 #WALTZ += meridith and scott
-#WALTZ += metsakukkia
+WALTZ += metsakukkia
 #WALTZ += steciak's
 #WALTZ += tommy bhetty's
 #WALTZ += utpick
@@ -299,16 +303,21 @@ ardeleana.book.pdf: $A
 #WALTZ += valse de pastouriaux
 #WALTZ += valse des jouets
 
+WALTZ_PDF = $(patsubst %,%.pdf,$(WALTZ))
+
+waltz.book.pdf: $(WALTZ_PDF) blurb90.waltz.pdf
+	pdfunite blurb90.waltz.pdf $(WALTZ_PDF) $@
+
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 MISC += arabam         # 1
 MISC += krivo_sadovsko # 1 Done
 MISC += sarkantyus     # 2 Done
 
-M = $(patsubst %,%.pdf,$(MISC))
+MISC_PDF = $(patsubst %,%.pdf,$(MISC))
 
-misc.book.pdf: $M
-	pdfunite $M $@
+misc.book.pdf: $(MISC_PDF)
+	pdfunite $(MISC_PDF) $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 BALK += devoiko
@@ -321,8 +330,8 @@ BALK += vchera
 
 BALK2 = $(patsubst %,%.pdf,$(BALK))
 
-balkanalia-2024.book.pdf: $(BALK2) blurb.balkanalia-2024.pdf
-	pdfunite blurb.balkanalia-2024.pdf $(BALK2) $@
+balkanalia-2024.book.pdf: $(BALK2) blurb90.balkanalia-2024.pdf
+	pdfunite blurb90.balkanalia-2024.pdf $(BALK2) $@
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
