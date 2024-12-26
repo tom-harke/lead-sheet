@@ -42,8 +42,8 @@ export ABOUT
 about:
 	@echo "$$ABOUT"
 
-%.midi %.pdf: Leadsheet/%.ly Music/%.src.ly
-	lilypond --include=Lib --include=Music Leadsheet/$*.ly
+%.midi %.pdf: Landscape/%.ly Music/%.src.ly
+	lilypond --include=Lib --include=Music Landscape/$*.ly
 
 %.hear: %.midi
 	$(MIDI) $*.midi
@@ -78,8 +78,8 @@ Doc/makefile.md: Makefile
 	@echo '```'         >> Doc/makefile.md
 
 # ---------------------------------------------------------------------------- (
-blurb.%.pdf: blurb.%.tex header.tex footer.tex
-	lualatex --shell-escape blurb.$*.tex
+blurb.%.pdf: Blurb/blurb.%.tex Blurb/header.tex Blurb/footer.tex
+	lualatex --shell-escape Blurb/blurb.$*.tex
 
 blurb90.%.pdf: blurb.%.pdf
 	pdfjam --angle 90 blurb.$*.pdf --outfile blurb90.$*.pdf
