@@ -1,4 +1,4 @@
-Title = "(Kopenica)"
+Title = "(Kopanica)"
 
 
 Chords =
@@ -8,7 +8,7 @@ Chords =
 
 Melody =
 \transpose d d' {
-    \include "kopenitsa.rhy"
+    \include "kopanitsa.rhy"
 
     \key d \phrygian
 

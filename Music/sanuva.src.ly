@@ -36,7 +36,7 @@ Chords = \chords {
 
 
 Melody = \transpose a a'' {
-    \include "kopenitsa.rhy"
+    \include "kopanitsa.rhy"
 
     \key a \dorian
 

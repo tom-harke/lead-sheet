@@ -236,9 +236,21 @@ lesno.book.pdf: $(LESNO_PDF) blurb90.lesno.pdf
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm 11 = 4+3+4
-#KOPANITSA += karlov's gankino horo
-#KOPANITSA += ovchepolsko oro
+#KOPANITSA += turka # Kopanitsa a la Turka
+#KOPANITSA += bistrishka
+KOPANITSA += kolevs_11 # 2 pages, not done
+KOPANITSA += gankino # karlov's gankino horo
 #KOPANITSA += ishu bjelo nedo
+KOPANITSA += ovchepolsko
+#KOPANITSA += pazardzhishka
+KOPANITSA += sanuva
+
+
+
+KOPANITSA_PDF = $(patsubst %,%.pdf,$(KOPANITSA))
+kopanitsa.book.pdf: $(KOPANITSA_PDF) blurb90.kopanitsa.pdf
+	pdfunite blurb90.kopanitsa.pdf $(KOPANITSA_PDF) $@
+
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with terkish rhythm: 8 = (3+1)+2+2

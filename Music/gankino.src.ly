@@ -35,7 +35,7 @@ Chords = \chords {
 
 
 Melody = \relative c' {
-    \include "kopenitsa.rhy"
+    \include "kopanitsa.rhy"
     \key fis \phrygian
     \repeat volta 2 {
         | e8 e' e e16 e d cis b
