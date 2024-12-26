@@ -42,8 +42,8 @@ export ABOUT
 about:
 	@echo "$$ABOUT"
 
-%.midi %.pdf: %.ly Music/%.src.ly
-	lilypond --include=Lib --include=Music $*.ly
+%.midi %.pdf: Leadsheet/%.ly Music/%.src.ly
+	lilypond --include=Lib --include=Music Leadsheet/$*.ly
 
 %.hear: %.midi
 	$(MIDI) $*.midi
