@@ -179,19 +179,22 @@ EVEN += changu
 EVEN += dorogoj       # 1 Done (3 lines only)
 EVEN += ederlezi      # 1
 EVEN += khupe
-EVEN += kolomeyka_1
 EVEN += lebedik
 EVEN += moldova       # 1 Done (3 lines only)
 EVEN += moldovanskya  # 1 Done
 EVEN += nakhes        # 1 Done
 EVEN += other         # 1 Done
+EVEN += papirossen   # 1
 EVEN += tantz_tantz
 EVEN += trisker       # 1 Done
+EVEN += kolomeyka_1
+EVEN += ukrainian     # 1
 EVEN += varshaver     # 1 Done
 EVEN += yishomah      # 1 Done
 EVEN += chto_mne_gore # 1 Done
 EVEN += pjatorka      # 1 Done
 
+# bublitchki (from Harbar duet)
 EVEN += kozak         # (2 lines only)
 EVEN += verxovina     # (3 lines only)
 # EVEN: du zolst nit geyn
@@ -269,11 +272,13 @@ terkish.book.pdf: $(TERKISH_PDF) blurb90.terkish.pdf
 # ---------------------------------------------------------------------------- (
 # Songs with zhok rhythm: 3 = 2+1
 ZHOK += nokh_a_glezl_vayn   # 2 TODO
+# TODO: hora mare câmpelungului (sp?)
 ZHOK += baym_rebin          # !
 ZHOK += bojerka             # 1 Done
 ZHOK += bukovinei           # 1 Done
 ZHOK += kandels_hora        # 1
 ZHOK += mayne_tayere_odessa # 1 Done
+ZHOK += mekhutonim
 ZHOK += joc1
 
 ZHOK_PDF = $(patsubst %,%.pdf,$(ZHOK))

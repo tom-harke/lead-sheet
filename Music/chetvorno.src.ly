@@ -58,7 +58,7 @@ Melody = \transpose c c'' {
         | cis16 d a, cis8 cis16 a, 
     }
     \alternative {
-        { | b,8 a,16 cis4 }
+        { | b,8 a,16 e4 }
         { | b,8 a,16 a,4 }
     }
 }

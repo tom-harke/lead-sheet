@@ -4,16 +4,16 @@ Title = "Majko, Majko"
 Chords = \chords {
     % A (
     \repeat volta 2 {
-        | d4..  | s4..
-        | s4..  | g4..:min
-        | s4..  | ees4..
-        | s4..  | d4..
+        | d4..   | s4..
+        | d4..:7 | g4..:min
+        | s4..   | ees4..
+        | s4..   | d4..
     }
     % A )
     % B (
     \repeat volta 2 {
-        | d4..  | s4..
-        | s4..  | g4..:min
+        | d4..   | s4..
+        | d4..:7 | g4..:min
     }
     % B )
     % C (

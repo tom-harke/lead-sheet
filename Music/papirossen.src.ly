@@ -22,9 +22,9 @@ Melody = \transpose c c' {
     }
    \repeat volta 2 {
        | c'4. b8 c' b a gis
-       | a4 e2 r8 e
+       | a4 e4~e r8 e
        | a8 gis a gis a g f e
-       | e8 f d2 r8 d
+       | e8 f d4~d r8 d
 
        | d8 e e b b a a gis
        | gis8 f f e e d d c
@@ -68,10 +68,18 @@ Layout = {
     \partial 8 s8 
 
     \mark \default
-    \repeat volta 2 {|s1*7|}
+    \repeat volta 2 {
+		|s1*4
+		\break
+		|s1*3
+	}
     \alternative { {|s1|} {|s1|} }
 
-    \mark \default
-    \repeat volta 2 {|s1*7|}
+	\break \mark \default
+    \repeat volta 2 {
+		|s1*4
+		\break
+		|s1*3
+	}
     \alternative { {|s1|} {|s1|} }
 }

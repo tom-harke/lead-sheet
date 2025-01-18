@@ -1,64 +1,66 @@
 Title    = "Zapjevala Sojka Ptica"
+Order    = "A⁴ B²"
 
 Melody = \transpose c c' {
+    \include "lesnoto.rhy"
 	\key d \phrygian
-	\time 7/8
-    \set Staff.baseMoment = #(ly:make-moment 1 8)
-    \set Staff.beatStructure = #'(3 2 2)
+
 	\repeat volta 2 {
-		\repeat unfold 2 {
-			| d8 ees c d ees fis g | a4 bes8 a g g fis | fis4 g8 fis ees ees d
-		}
-		\alternative {
-			{ | d8 ees c d ees fis4 }
-			{ | d8 ees c d4 r       }
-		}
+		| d16 ees c d ees fis g | a8 bes16 a g g fis | fis8 g16 fis ees ees d
 	}
+	\alternative {
+		{ | d16 ees c d ees fis8 }
+		{ | d16 ees c d8 r       }
+	}
+
 	\repeat volta 2 {
-		| fis4 g8 a2
-		| bes4 a8 g4 g8 fis
-		| fis4 g8 a4 ~ a8 c'
-		| bes4 a8 g4 ~ g8 fis
+		| fis8 g16 a4
+		| bes8 a16 g8 g16 fis
+		| fis8 g16 a8 ~ a16 c'
+		| bes8 a16 g8 ~ g16 fis
 
-		| ees4. ees2
-		| fis4 a8 g fis ees4
-		| d8 r r g4 g
-		| g8 a g fis4 ees8 d
+		| ees8. ees4
+		| fis8 a16 g fis ees8
+		| d16 r r g8 g
+		| g16 a g fis8 ees16 d
 
-		| ees4. ees2
-		| fis4 a8 g fis ees4
-		| d4. d2
-		| d8 ees c d4 r
+		| ees8. ees4
+		| fis8 a16 g fis ees8
+		| d8. d4
+		| d16 ees c d8 r
 	}
 }
 Chords = \chords {
 	\repeat volta 2 {
-		\repeat unfold 2 {
-			| d2..  | s2..  | c2..:min | d2..
-		}
+			| d4..  | s4..  | c4..:min
+	}
+	\alternative {
+		{| d4.. }
+		{| d4.. }
 	}
 	\repeat volta 2 {
-		| d2..  | g2..:min | d2..  | g2..:min
-		| c2..:min | ees4. c2:min | d4. g2:min | g4.:min d2
-		| c2..:min | ees4. c2:min | d2..  | d2..
+		| d4..:7  | g4..:min | d4..:7  | g4..:min
+		| c4..:min | ees8. c4:min | d8. g4:min | g8.:min d4
+		| c4..:min | ees8. c4:min | d4..  | d4..
 	}
 }
 
 Layout = {
-	\set Score.markFormatter = #format-mark-box-letters
 	\mark \default
 	\repeat volta 2 {
-		| s2..  | s2..  | s2..  | s2..
-	    \break
-		| s2..  | s2..  | s2..  | s2..
+		| s4..  | s4..  | s4..
+	}
+	\alternative {
+		{| s4.. }
+		{| s4.. }
 	}
 	\break
 	\mark \default
 	\repeat volta 2 {
-		| s2..  | s2..  | s2..  | s2..
+		| s4..  | s4..  | s4..  | s4..
 	    \break
-		| s2..  | s2..  | s2..  | s2..
+		| s4..  | s4..  | s4..  | s4..
 	    \break
-		| s2..  | s2..  | s2..  | s2..
+		| s4..  | s4..  | s4..  | s4..
 	}
 }
