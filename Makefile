@@ -276,6 +276,7 @@ ZHOK += nokh_a_glezl_vayn   # 2 TODO
 ZHOK += baym_rebin          # !
 ZHOK += bojerka             # 1 Done
 ZHOK += bukovinei           # 1 Done
+ZHOK += campulung
 ZHOK += kandels_hora        # 1
 ZHOK += mayne_tayere_odessa # 1 Done
 ZHOK += mekhutonim
