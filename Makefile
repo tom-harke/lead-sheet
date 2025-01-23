@@ -87,80 +87,84 @@ blurb90.%.pdf: blurb.%.pdf
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with rhythm like geamparas: 7 = 2+2+3
+#
+# songs with 1 (or 3) pages get added like thus:
+#   GEAMPARA  += song
+# songs with 2 (or 4) pages get added like thus:
+#   GEAMPARA2 += song
 
 
-GEAMPARA += alfanska      # 2? TODO
-GEAMPARA += bulcenska     # 2? TODO
-GEAMPARA += culesul       # 2 Done
-GEAMPARA += chekurjankino # 2 TODO
-GEAMPARA += fetesti       # 2 TODO
-GEAMPARA += giushevska    # 2
-GEAMPARA += godfather     #  2
-GEAMPARA += haidim        # 2 Done
-GEAMPARA += marcus        # 2
-GEAMPARA += mileva        # 2 ?
-GEAMPARA += nunta         # 2
-GEAMPARA += norbeck1      # 2 TODO chords
-
-GEAMPARA += babadag1      # 1 Done
-GEAMPARA += babadag2      # 1 Done
-GEAMPARA += barla         # 1 Done
-GEAMPARA += belomorska    # 1 Done
-GEAMPARA += bulchenska    # 1
+GEAMPARA2 += alfanska
+GEAMPARA  += babadag1
+GEAMPARA  += babadag2
+GEAMPARA  += barla
+GEAMPARA  += belomorska
+GEAMPARA2 += bulcenska
+GEAMPARA  += bulchenska
 #GEAMPARA += din bucharest (from Cooper + ?)
-GEAMPARA += comida        # 1 Done -- 3 lines
-GEAMPARA += daeni         # 1 Done?
-GEAMPARA += delijska      # 1 Done
-GEAMPARA += dobrogeana    # 1
-GEAMPARA += edinets       # 1
-GEAMPARA += ghiurghiuliu  # 1
-GEAMPARA += hijaz         # 1 Done
-GEAMPARA += mala_loka     # 1 ?
-GEAMPARA += murfatlar1    # 1 Done
-GEAMPARA += murfatlar2    # 1 Done
-GEAMPARA += navodari      # 1 Done
-GEAMPARA += ostropesul    # 1 Done
-GEAMPARA += pandalash     # 1 Done
-GEAMPARA += pandelasul    # 1
-GEAMPARA += povlekana     # 1
-GEAMPARA += serbian       # 1
-GEAMPARA += svatbarska    # 1
-GEAMPARA += tasaul        # 1 TODO chords
-GEAMPARA += trakijska
-GEAMPARA += turcitu       # 1 Done
-GEAMPARA += tiganica      # 1 Done
-GEAMPARA += vassils
-GEAMPARA += west_rhodope
+GEAMPARA  += comida
+GEAMPARA2 += culesul
+GEAMPARA2 += chekurjankino
+GEAMPARA  += daeni
+GEAMPARA  += delijska
+GEAMPARA  += dobrogeana
+GEAMPARA  += edinets
+GEAMPARA2 += fetesti
+GEAMPARA  += ghiurghiuliu
+GEAMPARA2 += giushevska
+GEAMPARA2 += godfather
+GEAMPARA2 += haidim
+GEAMPARA  += hijaz
+GEAMPARA  += mala_loka
+GEAMPARA2 += marcus
+GEAMPARA2 += mileva
+GEAMPARA  += murfatlar1
+GEAMPARA  += murfatlar2
+GEAMPARA  += navodari
+GEAMPARA2 += nunta
+GEAMPARA  += ostropesul
+GEAMPARA  += pandalash
+GEAMPARA  += pandelasul
+GEAMPARA  += povlekana
+GEAMPARA  += serbian
+GEAMPARA  += svatbarska
+GEAMPARA  += tasaul
+GEAMPARA  += trakijska
+GEAMPARA  += turcitu
+GEAMPARA  += tiganica
+GEAMPARA  += vassils
+GEAMPARA  += west_rhodope
 
 # Those without names
-GEAMPARA += geampara_53323    # 1
-GEAMPARA += norbeck2          # 1 TODO chords
-GEAMPARA += geampara_bgko     # 1
+GEAMPARA  += geampara_53323
+GEAMPARA2 += norbeck1
+GEAMPARA  += norbeck2
+GEAMPARA  += geampara_bgko
 
-GEAMPARA += rachenitsa1 # 1
-GEAMPARA += rachenitsa2 # 1
-GEAMPARA += rachenitsa_3654 # 1 TODO chords (2 lines only)
-GEAMPARA += rachenitsa_cooper_1 # 1
-GEAMPARA += rachenitsa_cooper_2 # 1
-GEAMPARA += geampara_partea_3 # 1
+GEAMPARA  += rachenitsa1
+GEAMPARA  += rachenitsa2
+GEAMPARA  += rachenitsa_3654
+GEAMPARA  += rachenitsa_cooper_1
+GEAMPARA  += rachenitsa_cooper_2
+GEAMPARA  += geampara_partea_3
 
 # TODO
 #  1. in the short term, print, for addendum to most recent booklet
 #  2. in the long term, integrate in sorted order with the above
 
-GEAMPARA += balkandzhijska
+GEAMPARA  += balkandzhijska
 # biserna % Бисерна ръченица
-GEAMPARA += kucata1
+GEAMPARA  += kucata1
 # majstorska # Майсторска ръченица
-GEAMPARA += mushamaua
-GEAMPARA += neamts
+GEAMPARA  += mushamaua
+GEAMPARA  += neamts
 #GEAMPARA += plovdivska     # 1
-GEAMPARA += suceava
+GEAMPARA  += suceava
 # topolovska # Тополовска ръченица
 #GEAMPARA += varbishka     # ?
 #GEAMPARA += rachenitsa_cooper_3 # 1
 
-GEAMPARA_PDF = $(patsubst %,%.pdf,$(GEAMPARA))
+GEAMPARA_PDF = $(patsubst %,%.pdf,$(GEAMPARA2) $(GEAMPARA))
 geampara.book.pdf: $(GEAMPARA_PDF) blurb90.geampara.pdf Makefile
 	pdfunite blurb90.geampara.pdf $(GEAMPARA_PDF) $@
 
@@ -169,41 +173,45 @@ geampara.book.pdf: $(GEAMPARA_PDF) blurb90.geampara.pdf Makefile
 # Danovska Kopanica
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
-EVEN += heiser        # 2
 
-EVEN += basarabeasca  # 1 Done (does this belong here?)
-EVEN += bubamara      # 1 Done (3 lines only)
-EVEN += bughici       # 1 Done
-EVEN += caval
-EVEN += changu
-EVEN += dorogoj       # 1 Done (3 lines only)
-EVEN += ederlezi      # 1
-EVEN += khupe
-EVEN += lebedik
-EVEN += moldova       # 1 Done (3 lines only)
-EVEN += moldovanskya  # 1 Done
-EVEN += nakhes        # 1 Done
-EVEN += other         # 1 Done
-EVEN += papirossen   # 1
-EVEN += tantz_tantz
-EVEN += trisker       # 1 Done
-EVEN += kolomeyka_1
-EVEN += ukrainian     # 1
-EVEN += varshaver     # 1 Done
-EVEN += yishomah      # 1 Done
-EVEN += chto_mne_gore # 1 Done
-EVEN += pjatorka      # 1 Done
+EVEN  += basarabeasca  # 1 Done (does this belong here?)
+EVEN  += bubamara      # 1 Done (3 lines only)
+EVEN  += bughici       # 1 Done
+EVEN  += caval
+EVEN  += changu
+EVEN  += dorogoj       # 1 Done (3 lines only)
+EVEN  += ederlezi      # 1
+EVEN2 += heiser        # 2
+EVEN  += kishiniever
+EVEN  += khupe
+EVEN  += lebedik
+EVEN  += moldova       # 1 Done (3 lines only)
+EVEN  += moldovanskya  # 1 Done
+EVEN  += mouse
+EVEN  += nakhes        # 1 Done
+EVEN  += odesa
+EVEN  += other         # 1 Done
+EVEN  += papirossen   # 1
+EVEN  += tantz_tantz
+EVEN  += trisker       # 1 Done
+EVEN  += kolomeyka_1
+EVEN  += ukrainian     # 1
+EVEN  += varshaver     # 1 Done
+EVEN  += yishomah      # 1 Done
+EVEN  += chto_mne_gore # 1 Done
+EVEN  += pjatorka      # 1 Done
 
 # bublitchki (from Harbar duet)
-EVEN += kozak         # (2 lines only)
-EVEN += verxovina     # (3 lines only)
+EVEN  += kozak         # (2 lines only)
+EVEN  += verxovina     # (3 lines only)
 # EVEN: du zolst nit geyn
 # EVEN: ot azoy
 # EVEN: ale brider
 # EVEN: nakht in gan eydn
 # EVEN: hora  muntilor
+EVEN  += freylekh_1
 
-EVEN_PDF = $(patsubst %,%.pdf,$(EVEN))
+EVEN_PDF = $(patsubst %,%.pdf,$(EVEN2) $(EVEN))
 even.book.pdf: $(EVEN_PDF) blurb90.even.pdf Makefile
 	pdfunite blurb90.even.pdf $(EVEN_PDF) $@
 # ---------------------------------------------------------------------------- )
@@ -211,28 +219,28 @@ even.book.pdf: $(EVEN_PDF) blurb90.even.pdf Makefile
 # Songs with rhythm like lesnos: 7 = 3+2+2
 # Eg, četvorno šopsko horo is included though I don't think of it as a lesno.
 
-LESNO += ratevka  # 2
-LESNO += sevda        # 2 TODO de-arrange (out-of-order)
 
 #LESNO += ajde jano
-LESNO += ako_umram    # 1 TODO
-LESNO += aleni_zvezdi # 1 Done
-LESNO += chetvorno    # 1 Done
+LESNO  += ako_umram    # 1 TODO
+LESNO  += aleni_zvezdi # 1 Done
+LESNO  += chetvorno    # 1 Done
 #LESNO += hamisha        # 1 Done
-LESNO += imate        # 1 Done
-LESNO += jovano       # 1 TODO chords
-LESNO += koj_ti_gi    # 1
+LESNO  += imate        # 1 Done
+LESNO  += jovano       # 1 TODO chords
+LESNO  += koj_ti_gi    # 1
 #LESNO += ljiljiano mome
-LESNO += majko        # 1
-LESNO += makedonsko   # 1 TODO
-LESNO += more_sokol_pie # 1
+LESNO  += majko        # 1
+LESNO  += makedonsko   # 1 TODO
+LESNO  += more_sokol_pie # 1
+LESNO2 += ratevka  # 2
 #LESNO += samiotissa
 #LESNO += satovchensko horo
-LESNO += snijeg       # 1 TODO
-LESNO += zapjevala    # 1 Done
+LESNO2 += sevda        # 2 TODO de-arrange (out-of-order)
+LESNO  += snijeg       # 1 TODO
+LESNO  += zapjevala    # 1 Done
 
-LESNO_PDF = $(patsubst %,%.pdf,$(LESNO))
-lesno.book.pdf: $(LESNO_PDF) blurb90.lesno.pdf
+LESNO_PDF = $(patsubst %,%.pdf,$(LESNO2) $(LESNO))
+lesno.book.pdf: $(LESNO_PDF) blurb90.lesno.pdf Makefile
 	pdfunite blurb90.lesno.pdf $(LESNO_PDF) $@
 
 
@@ -241,8 +249,8 @@ lesno.book.pdf: $(LESNO_PDF) blurb90.lesno.pdf
 # Songs with rhythm 11 = 4+3+4
 #KOPANITSA += turka # Kopanitsa a la Turka
 #KOPANITSA += bistrishka
-KOPANITSA += kolevs_11 # 2 pages, not done
 KOPANITSA += gankino # karlov's gankino horo
+KOPANITSA2 += kolevs_11 # 2 pages, not done
 #KOPANITSA += ishu bjelo nedo
 KOPANITSA += ovchepolsko
 #KOPANITSA += pazardzhishka
@@ -250,8 +258,8 @@ KOPANITSA += sanuva
 
 
 
-KOPANITSA_PDF = $(patsubst %,%.pdf,$(KOPANITSA))
-kopanitsa.book.pdf: $(KOPANITSA_PDF) blurb90.kopanitsa.pdf
+KOPANITSA_PDF = $(patsubst %,%.pdf,$(KOPANITSA2) $(KOPANITSA))
+kopanitsa.book.pdf: $(KOPANITSA_PDF) blurb90.kopanitsa.pdf Makefile
 	pdfunite blurb90.kopanitsa.pdf $(KOPANITSA_PDF) $@
 
 # ---------------------------------------------------------------------------- )
@@ -271,18 +279,17 @@ terkish.book.pdf: $(TERKISH_PDF) blurb90.terkish.pdf
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with zhok rhythm: 3 = 2+1
-ZHOK += nokh_a_glezl_vayn   # 2 TODO
-# TODO: hora mare câmpelungului (sp?)
-ZHOK += baym_rebin          # !
-ZHOK += bojerka             # 1 Done
-ZHOK += bukovinei           # 1 Done
-ZHOK += campulung
-ZHOK += kandels_hora        # 1
-ZHOK += mayne_tayere_odessa # 1 Done
-ZHOK += mekhutonim
-ZHOK += joc1
+ZHOK  += baym_rebin          # !
+ZHOK  += bojerka             # 1 Done
+ZHOK  += bukovinei           # 1 Done
+ZHOK  += campulung
+ZHOK  += kandels_hora        # 1
+ZHOK  += mayne_tayere_odessa # 1 Done
+ZHOK  += mekhutonim
+ZHOK2 += nokh_a_glezl_vayn   # 2 TODO
+ZHOK  += joc1
 
-ZHOK_PDF = $(patsubst %,%.pdf,$(ZHOK))
+ZHOK_PDF = $(patsubst %,%.pdf,$(ZHOK2) $(ZHOK))
 zhok.book.pdf: $(ZHOK_PDF) blurb90.zhok.pdf
 	pdfunite blurb90.zhok.pdf $(ZHOK_PDF) $@
 
