@@ -2,6 +2,8 @@ Title    = "Nu Sunt Negru, Ca Țiganu"
 subtitle = "(I'm not black like a Gypsy)"
 
 Melody = \transpose c c' {
+    % \include "lesnoto.rhy" % want this, but currently is in 7/8 not 7/16
+
 	\key g \major
 	\time 7/8
 	\set Staff.baseMoment = #(ly:make-moment 1 8)

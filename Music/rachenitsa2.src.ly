@@ -9,11 +9,8 @@ Title    = "Rъčenica bez ime"
 Subtitle = "from The Bulgarian Fakebook"
 
 Melody = \transpose c c' {
-	\set Score.markFormatter = #format-mark-box-letters
-	\time 7/16
+    \include "geampara.rhy"
 	\key c \major
-    \set Staff.baseMoment = #(ly:make-moment 1 16)
-    \set Staff.beatStructure = #'(2 2 3)
 
 	\repeat volta 1 {
 		\repeat unfold 2 {

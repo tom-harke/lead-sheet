@@ -397,3 +397,7 @@ $(foreach tune,$(ARDELEANA),$(eval $(call rhythm,$(tune),invartita))) # TODO con
 
 docs:
 	firefox file:///usr/share/doc/lilypond/html/Documentation/web/manuals.html
+
+todo:
+	@echo "TODO: uses of beatStructure should be moved into library"
+	@grep beatStructure Music/*

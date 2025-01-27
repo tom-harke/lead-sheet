@@ -1,10 +1,8 @@
 % Имате Ли Вино
-Title    = "Imate Li Vino"
+Title    = "Imate li Vino"
 
 Melody = \transpose c c' {
-	\time 7/16
-    \set Staff.baseMoment = #(ly:make-moment 1 16)
-    \set Staff.beatStructure = #'(3 2 2)
+    \include "lesnoto.rhy"
 
 	\key d \phrygian
 	\repeat volta 2 {
@@ -55,7 +53,6 @@ Chords = \chords {
 
 
 Layout = {
-	\set Score.markFormatter = #format-mark-box-letters
 	\break\mark\default \repeat volta 2 {| s4..*8 |}
 	\break\mark\default                  | s4..*8 |
 	\break\mark\default \repeat volta 2 {| s4..*8 |}

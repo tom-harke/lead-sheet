@@ -1,10 +1,9 @@
 Title    = "Guguleana Mea"
 
 Melody = \transpose c c' {
+    \include "lesnoto.rhy"
+
     \key e \locrian
-    \time 7/16
-    \set Staff.baseMoment = #(ly:make-moment 1 16)
-    \set Staff.beatStructure = #'(3 4)
 
     \repeat volta 2 {
         | a8. a4
@@ -34,7 +33,6 @@ Chords = \chords {
     }
 }
 Layout = {
-    \set Score.markFormatter = #format-mark-box-letters
     \break\mark\default \repeat volta 2 {| s4..*4 \break s4..*4 |}
     \break\mark\default \repeat volta 2 {| s4..*4 \break s4..*4 |}
 }
