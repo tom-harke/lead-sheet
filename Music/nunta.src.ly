@@ -41,7 +41,7 @@ C = \chords {
         | g4..
         | d4..
     }
-    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") 'start-repeat)
     { g4.. }
     \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
     { g4 g8.:7 }
@@ -123,7 +123,7 @@ M = \transpose d d' {
         | d'8 d'16 cis' d' e' d'
         | c'8 c'16 b c' d' c'
     }
-    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") 'start-repeat)
     { b8 b16 g b8 b16 }
     \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
     { b8 r g16 g g }
@@ -137,7 +137,7 @@ M = \transpose d d' {
         | b8   a16   gis a b a    % rep
         | gis8 gis16 f   f8  e16 % rep
     }
-    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") 'start-repeat)
     {|
         | b8   a16   gis a b a    % rep
         | gis8 gis16 f f8 e16 % rep

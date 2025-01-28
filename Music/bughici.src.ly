@@ -74,6 +74,11 @@ Layout = {
 		| s2*4
       \break
 		| s2*1
+% TODO:
+%    Fix a formatting error with incorrect ':|' leading into the alternate endings.
+%    Compare to nunta, tasaul, or sevda to see how.
+%    Conjecture: this is the right syntax, but it must be either moved to the Melody,
+%    or something in Melody is conflicting & needs to be removed
 		\set Score.repeatCommands = #(list(list 'volta voltaAdLib) 'start-repeat)
 		{ s2*3 }
 		\set Score.repeatCommands = #'((volta #f) (volta "2, 4.") end-repeat)

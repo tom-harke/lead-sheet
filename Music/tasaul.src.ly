@@ -80,7 +80,7 @@ Melody = \transpose d d' {
             | fis'16 \cisdrop a' gis' gis' \cisdrop g'
         }
     }
-    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") 'start-repeat)
     {| fis'16 cis' d' eis' fis' gis' a' |}
     \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
     {| fis'8 fis'16 \cisdrop fis' fis' \cisdrop |}
@@ -132,7 +132,7 @@ Melody = \transpose d d' {
             | b16 \fisdrop d' cis' cis' \fisdrop c'
         }
     }
-    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") end-repeat)
+    \set Score.repeatCommands = #'((volta #f) (volta "1, 3.") 'start-repeat)
     {| b16 fis g ais b cis' d' |}
     \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
     {| b8 b16 \fisdrop b b \fisdrop |}
