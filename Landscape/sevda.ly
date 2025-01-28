@@ -6,6 +6,7 @@
 
 \header {
     title = \Title
+    arranger = \Order
     tagline = ##f
 }
 
@@ -13,12 +14,12 @@
 
     \include "layout.ly"
 
-    << \C \M >>
+    << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
 }
 
 \score {
     \unfoldRepeats
-    << \C \M >>
+    << \Chords \Melody >>
     \midi {}
 }

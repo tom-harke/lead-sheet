@@ -235,7 +235,7 @@ LESNO  += more_sokol_pie # 1
 LESNO2 += ratevka  # 2
 #LESNO += samiotissa
 #LESNO += satovchensko horo
-LESNO2 += sevda        # 2 TODO de-arrange (out-of-order)
+LESNO  += sevda
 LESNO  += snijeg       # 1 TODO
 LESNO  += zapjevala    # 1 Done
 
