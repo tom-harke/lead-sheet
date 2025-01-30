@@ -13,19 +13,6 @@ Otherwise the \layout & \midi can cohabit the same \score
 | 3 sharps |   |    |    |   |       |
 
 Keys:
-%\key d \locrian    % 3 flats
-%\key d \phrygian   % 2 flats
-%\key d \minor      % 1 flat
-%\key d \mixolydian % 1 sharp
-%\key d \major      % 2 sharps
-%\key d \lydian     % 3 sharps
-
-%\key a \phrygian   % 1 flat
-%\key a \minor      % 0
-%\key a \dorian     % 1 sharp
-%\key a \lydian     % 4 sharp
-%\key a \mixolydian % 2 sharp
-%\key a \major      % 3 sharp
 
     %\key c \locrian    % 5 flat
     %\key c \phrygian   % 4 flat
@@ -34,10 +21,6 @@ Keys:
     %\key c \mixolydian % 1 flat
     %\key c \lydian     % 1 sharp
 
-%\key e \locrian % 1 flat
-%\key e \phrygian % 0
-%\key e \minor % 1 sharp
-%\key e \dorian % 2 sharps
 
 2 1 2 2 1 2 2 -> minor	
 

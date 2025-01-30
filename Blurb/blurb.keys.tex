@@ -1,0 +1,34 @@
+\documentclass[landscape, 12pt]{article}
+\usepackage[landscape,margin=1.5cm]{geometry}
+\usepackage{lyluatex}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\setlength{\parindent}{0pt}
+\setlength{\columnseprule}{.4pt}
+\thispagestyle{empty}
+\begin{document}
+
+
+% (
+\section{Key Signatures}
+\newcommand\signature[2]{
+\lilypond{\key #1 #2 #1'4}
+}
+\newcommand\qux[2]{
+\signature{d}{#1} & \signature{a}{#1}
+}
+
+\begin{tabular}{l||l|l|l|l}
+           & G & D & A & E\\
+\hline
+locrian       & \signature{g}{\locrian}    & \signature{d}{\locrian}    & \signature{a}{\locrian}    & \signature{e}{\locrian}    \\
+phrygian      & \signature{g}{\phrygian}   & \signature{d}{\phrygian}   & \signature{a}{\phrygian}   & \signature{e}{\phrygian}   \\
+aeolian/minor & \signature{g}{\minor}      & \signature{d}{\minor}      & \signature{a}{\minor}      & \signature{e}{\minor}      \\
+dorian        & \signature{g}{\dorian}     & \signature{d}{\dorian}     & \signature{a}{\dorian}     & \signature{e}{\dorian}     \\
+mixolydian    & \signature{g}{\mixolydian} & \signature{d}{\mixolydian} & \signature{a}{\mixolydian} & \signature{e}{\mixolydian} \\
+ionian/major  & \signature{g}{\major}      & \signature{d}{\major}      & \signature{a}{\major}      & \signature{e}{\major}      \\
+lydian        & \signature{g}{\lydian}     & \signature{d}{\lydian}     & \signature{a}{\lydian}     & \signature{e}{\lydian}     \\
+\end{tabular}
+% )
+\end{document}
