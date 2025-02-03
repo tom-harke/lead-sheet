@@ -2,7 +2,7 @@
 
 \include "nokh_a_glezl_vayn.src.ly"
 
-\include "landscape.ly"
+\include "landscape_25.ly"
 
 \header {
     title = \Title
@@ -13,7 +13,8 @@
 
     \include "layout.ly"
 
-    \transpose d c << \C \M >>
+%    \transpose d c
+	<< \C \M >>
 
     \midi {}
 }

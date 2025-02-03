@@ -25,14 +25,15 @@ C =
     }
     %)
     %(
-    \repeat volta 2 {
-        | s2. | s2. | s2. | s2.
-        | s2. | s2. | s4.
+    \repeat volta 3 {
+        | d4.:min | a4.:7 | d4.:min | g4.:min
+        | d4.:m
     }
     \alternative {
-        { s4. s4. s4. }
-        { s4. s4. s4. }
-    }
+        { a4.:7 d4.:min s4. }
+        { a4.:7 d4.:min s4. }
+        { a4.:7 d4.:min s4. }
+	}
     %)
 }
 
@@ -98,29 +99,33 @@ M =
     %(
     \break
     \mark \default
-    \repeat volta 2 {
+    \repeat volta 3 {
         | d'8. f'16 f' e'
         | e'8. g'16 g' f'
         | f'8. a'16 a' g'
         | g'8. bes'16 bes' a'
 
         | a'8. gis'16 gis' f'
-        | f'8. e'16 e' d'
+\break
+    }
+	\set Score.repeatCommands = #'((volta #f) (volta "1, 3.") start-repeat)
+        {| f'8. e'16 e' d'
         | gis'16 a'8. ~ a'8
         | d''4.
-\break
-
-        | r4.
-        | r4.
-        | r4.
-        | r4.
-
-        | r4.
-    }
-    \alternative {
-        { r4.*3}
-        { r4.*3}
-    }
+		}
+	\set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
+        {
+		| f'8. e'16 e' d'
+		| d'8. d'16 bes f
+		| d8 r a
+		}
+	\set Score.repeatCommands = #'((volta #f) (volta "4.") end-repeat)
+        {
+		| f'8. e'16 a' cis'
+		| d'8. d''16 a' f'
+		| d'8 r r
+		}
+	\set Score.repeatCommands = #'((volta #f))
     %)
 }
 

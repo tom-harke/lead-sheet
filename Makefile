@@ -290,7 +290,7 @@ ZHOK  += campulung
 ZHOK  += kandels_hora        # 1
 ZHOK  += mayne_tayere_odessa # 1 Done
 ZHOK  += mekhutonim
-ZHOK2 += nokh_a_glezl_vayn   # 2 TODO
+ZHOK  += nokh_a_glezl_vayn
 ZHOK  += joc1
 
 ZHOK_PDF = $(patsubst %,%.pdf,$(ZHOK2) $(ZHOK))
