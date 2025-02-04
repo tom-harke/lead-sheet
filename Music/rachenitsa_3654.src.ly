@@ -1,28 +1,27 @@
 Title = "Rъčenica bez ime"
-Subtitle = "(needs chords; from Puscoiu)"
 Source = "Puscoiu"
 
 Chords = \chords {
     % A (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
+        | g4 d8.
+        | c8 g8 s8.
+        | d4..:7
     }
     \alternative {
-        { s4.. }
-        { s4.. }
+        { d4:7 g8. }
+        { d4:7 g8. }
     }
     % A )
     % B (
     \repeat volta 2 {
-        | s4..
-        | s4..
+        | g4..
+        | d4..:7
         | s4..
     }
     \alternative {
-        { s4.. }
-        { s4.. }
+        { g4 d8.:7 }
+        { g4.. }
     }
     % B )
 }
