@@ -37,7 +37,6 @@ Currently unknown names
  - Taşaul
 
 Proper names
- - Ghiurghiu (???)
  - Turcitu seems to refer to Florea Turcitu
 
 Suffixes
@@ -56,8 +55,9 @@ General vocabulary:
  - cules: harvest
  - de:
  - e: is
+ - ghiurghiu: rose wine
  - haidim: TODO
- - îi: seems to be a dialect alternative to 'e'
+ - îi: seems to be a dialect alternative to 'e', meaning '(he/she/it) is'
  - la: at/from
  - lui: TODO
  - nuntă: TODO
@@ -65,3 +65,8 @@ General vocabulary:
  - viilor = vie + -lor
  - vin
 
+Example of articles & plurals -- geampara declines analogously
+  podea     : floor
+  podeaua   : the floor
+  podeale   : floors
+  podealele : the floors

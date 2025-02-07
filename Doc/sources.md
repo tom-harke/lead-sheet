@@ -27,51 +27,46 @@ The [Barcelona Gypsy Balkan Orchestra](https://bgko.org/?page_id=5033&lang=en) h
 # Printed
 
  - Eastern European Fiddle Tunes
-    80 Traditional Pieces for Violin
-    Pete Cooper
-    Schott
-    notable:
-     - 3 rachenitsas
-     - a geampara (aka: G din Bucharest)
+    - 80 Traditional Pieces for Violin
+    - Pete Cooper
+    - Schott
     
  - The Pinewoods International Collection
-    notable:
-     - La Culesul Viilor
 
  - The Compleat Klezmer
-    Henry Sapoznik
-    Tara
+    - Henry Sapoznik
+    - Tara
 
  - Sephardic Songs in Judeo-Spanish
-    From the Collection of Judy Frankel
-    Judy Frankel
-    Tara
+    - From the Collection of Judy Frankel
+    - Judy Frankel
+    - Tara
 
  - Mel Bay's Klezmer Collection
-    For C Instruments
-    Stacy Phillips
-    Mel Bay
+    - For C Instruments
+    - Stacy Phillips
+    - Mel Bay
 
  - Klezmer and Sephardic Tunes for Accordion
-    33 Traditional Pieces
-    Merima Ključo
-    Schott
+    - 33 Traditional Pieces
+    - Merima Ključo
+    - Schott
 
  - Eastern European Folk Tunes for Accordion
-    33 Traditional Pieces
-    Merima Ključo
-    Schott
+    - 33 Traditional Pieces
+    - Merima Ključo
+    - Schott
 
  - Eastern European Music for Violin Duet
-    Mary Ann Harbar
-    Mel Bay
+    - Mary Ann Harbar
+    - Mel Bay
 
  - Fiddling Around The World
-    Mary Ann Harbar
-    Mel Bay
+    - Mary Ann Harbar
+    - Mel Bay
 
  - Makedonse Narodne Pesme
-    Ivo Cenerić
+    - Ivo Cenerić
 
 # TODO
 

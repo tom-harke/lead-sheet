@@ -102,7 +102,7 @@ GEAMPARA  += belomorska
 GEAMPARA2 += bulcenska
 GEAMPARA  += bulchenska
 #GEAMPARA += din bucharest (from Cooper + ?)
-GEAMPARA  += comida
+GEAMPARA  += comida # half page
 GEAMPARA2 += culesul
 GEAMPARA2 += chekurjankino
 GEAMPARA  += daeni
@@ -110,7 +110,7 @@ GEAMPARA  += delijska
 GEAMPARA  += dobrogeana
 GEAMPARA  += edinets
 GEAMPARA2 += fetesti
-GEAMPARA  += ghiurghiuliu
+GEAMPARA  += ghiurghiuliu # half page
 GEAMPARA2 += giushevska
 GEAMPARA2 += godfather
 GEAMPARA2 += haidim
@@ -138,15 +138,15 @@ GEAMPARA  += west_rhodope
 # Those without names
 GEAMPARA  += geampara_53323
 GEAMPARA2 += norbeck1
-GEAMPARA  += norbeck2
+GEAMPARA  += norbeck2 # half page
 GEAMPARA  += geampara_bgko
 
 GEAMPARA  += rachenitsa1
 GEAMPARA  += rachenitsa2
-GEAMPARA  += rachenitsa_3654
-GEAMPARA  += rachenitsa_cooper_1
-GEAMPARA  += rachenitsa_cooper_2
-GEAMPARA  += geampara_partea_3
+GEAMPARA  += rachenitsa_3654 # half page
+GEAMPARA  += rachenitsa_cooper_1 # half page
+GEAMPARA  += rachenitsa_cooper_2 # half page
+GEAMPARA  += geampara_partea_3 # half page
 
 # TODO
 #  1. in the short term, print, for addendum to most recent booklet

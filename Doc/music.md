@@ -6,6 +6,9 @@ I tend to typeset my own version of whatever I'm learning (or thinking about lea
  - I can transpose to a key that I'm focusing on
     - later I can transpose to any another key that I want to work on
  - I get to tweak the tunes
+ - For short tunes, landscape orientation makes better use of space
+ - My layouts are easier to read than most
+    - eg: sections are left-justified, not starting in the middle of a system
  - other minor points:
     - my music uniform
     - my music is backed up
@@ -20,6 +23,7 @@ The problems with arrangement are that
 
 My current thinking is that the following ornaments should be removed
  - repeated notes (when they're in the same beat)
+    - whether they are sustained or broken & repeated is a choice
  - trills
  - vamping
 
