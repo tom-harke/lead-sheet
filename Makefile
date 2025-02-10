@@ -228,6 +228,7 @@ LESNO  += chetvorno    # 1 Done
 LESNO  += gerakina
 LESNO  += imate        # 1 Done
 LESNO  += jovano       # 1 TODO chords
+LESNO  += kalamatiano  # half page
 LESNO  += koj_ti_gi    # 1
 #LESNO += ljiljiano mome
 LESNO  += majko        # 1
@@ -238,6 +239,7 @@ LESNO  += samiotissa    # half page
 LESNO  += satovchensko
 LESNO  += sevda
 LESNO  += snijeg       # 1 TODO
+LESNO  += syrto        # half page
 LESNO  += zalongou
 LESNO  += zapjevala    # 1 Done
 
