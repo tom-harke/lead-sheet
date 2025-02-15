@@ -221,27 +221,30 @@ even.book.pdf: $(EVEN_PDF) blurb90.even.pdf Makefile
 
 
 #LESNO += ajde jano
-LESNO  += ako_umram    # 1 TODO
-LESNO  += aleni_zvezdi # 1 Done
-LESNO  += chetvorno    # 1 Done
-#LESNO += hamisha        # 1 Done
+LESNO  += ako_umram
+LESNO  += aleni_zvezdi
+LESNO  += chetvorno
+LESNO  += hamisha      # half page
+LESNO  += garnphalia   # half page
 LESNO  += gerakina
-LESNO  += imate        # 1 Done
+LESNO  += imate
 LESNO  += jovano       # 1 TODO chords
 LESNO  += kalamatiano  # half page
-LESNO  += koj_ti_gi    # 1
-#LESNO += ljiljiano mome
-LESNO  += majko        # 1
-LESNO  += makedonsko   # 1 TODO
-LESNO  += more_sokol_pie # 1
-LESNO2 += ratevka  # 2
-LESNO  += samiotissa    # half page
+LESNO  += koj_ti_gi
+LESNO  += ljiljano
+LESNO  += majko
+LESNO  += makedonsko
+LESNO  += mana_tourkoi # half page
+LESNO  += more_sokol_pie
+LESNO2 += ratevka
+LESNO  += samiotissa   # half page
 LESNO  += satovchensko
 LESNO  += sevda
-LESNO  += snijeg       # 1 TODO
+LESNO  += snijeg
 LESNO  += syrto        # half page
+LESNO  += vangelio     # half page
 LESNO  += zalongou
-LESNO  += zapjevala    # 1 Done
+LESNO  += zapjevala
 
 LESNO_PDF = $(patsubst %,%.pdf,$(LESNO2) $(LESNO))
 lesno.book.pdf: $(LESNO_PDF) blurb90.lesno.pdf Makefile
