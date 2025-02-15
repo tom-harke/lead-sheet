@@ -77,6 +77,9 @@ Doc/makefile.md: Makefile
 	@make --quiet about >> Doc/makefile.md
 	@echo '```'         >> Doc/makefile.md
 
+crop.%.pdf: %.pdf
+	pdfcrop --margins 0 $*.pdf crop.$*.pdf
+
 # ---------------------------------------------------------------------------- (
 blurb.%.pdf: Blurb/blurb.%.tex Blurb/header.tex Blurb/footer.tex
 	lualatex --shell-escape Blurb/blurb.$*.tex
@@ -224,31 +227,50 @@ even.book.pdf: $(EVEN_PDF) blurb90.even.pdf Makefile
 LESNO  += ako_umram
 LESNO  += aleni_zvezdi
 LESNO  += chetvorno
-LESNO  += hamisha      # half page
-LESNO  += garnphalia   # half page
+LESNO  += hamisha      # half page, but current scheme overlaps
+LESNO_ += garnphalia
 LESNO  += gerakina
 LESNO  += imate
 LESNO  += jovano       # 1 TODO chords
-LESNO  += kalamatiano  # half page
+LESNO_ += kalamatiano
 LESNO  += koj_ti_gi
 LESNO  += ljiljano
 LESNO  += majko
 LESNO  += makedonsko
-LESNO  += mana_tourkoi # half page
+LESNO_ += mana_tourkoi
 LESNO  += more_sokol_pie
 LESNO2 += ratevka
-LESNO  += samiotissa   # half page
+LESNO_ += samiotissa
 LESNO  += satovchensko
 LESNO  += sevda
 LESNO  += snijeg
-LESNO  += syrto        # half page
-LESNO  += vangelio     # half page
+LESNO_ += syrto
+LESNO_ += vangelio
 LESNO  += zalongou
 LESNO  += zapjevala
 
+# -- (
+# This is a workable but flawed attempt to put 2 short pieces on the same page.
+# The flaws are
+#   - there is no space between tunes
+#   - a tune that takes up exactly half a page (such as hamisa) is printed overlapping the other tune
+
+LESNO_HALF = $(patsubst %,crop.%.pdf,$(LESNO_))
+crop.lesno.pdf: $(LESNO_HALF)
+	pdfjam \
+	  $(LESNO_HALF) \
+	  --outfile crop.lesno.pdf \
+	  --nup "2x1" \
+	  --noautoscale true \
+	  --landscape \
+	  --delta "0 10pt" \
+	  --papersize "{792pt, 612pt}"
+# -- )
+
+
 LESNO_PDF = $(patsubst %,%.pdf,$(LESNO2) $(LESNO))
-lesno.book.pdf: $(LESNO_PDF) blurb90.lesno.pdf Makefile
-	pdfunite blurb90.lesno.pdf $(LESNO_PDF) $@
+lesno.book.pdf: blurb90.lesno.pdf $(LESNO_PDF) crop.lesno.pdf Makefile
+	pdfunite blurb90.lesno.pdf $(LESNO_PDF) crop.lesno.pdf $@
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
