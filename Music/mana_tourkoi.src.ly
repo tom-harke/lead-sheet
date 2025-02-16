@@ -5,14 +5,10 @@ Subtitle = "Μανα Τουρκοι, Μανα Φραγκοι"
 
 Chords = \chords {
 	\partial 8 s8
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s8. s8
+	| c8. a4:min | g8. c4
+	| c8. a4:min | g8. c4
+	| g8. f4     | g8.:7 c4
+	| g8. f4     | g8.:7 c8
 }
 
 

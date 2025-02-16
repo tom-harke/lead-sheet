@@ -1,26 +1,27 @@
-Title = "Samiotissa / Σαμιωτισσα"
+Title    = "Samiotissa"
+Subtitle = "Σαμιωτισσα"
 
 %  Alevizos
 
 Chords = \chords {
 	\partial 8 s8
 	\repeat volta 2 {
-		| s4..
-		| s4..
-		| s4..
+		| g4..
+		| g4..
+		| c4..
 	}
 	\alternative {
-		{ | s4.. }
-		{ | s4.. }
+		{ | g4.. }
+		{ | g4.. }
 	}
 	\repeat volta 2 {
-		| s4..
-		| s4..
-		| s4..
+		| d8. c4
+		| d8.:7 s8 g8
+		| g8. d4:7
 	}
 	\alternative {
-		{ | s4..  }
-		{ | s8. s8 }
+		{ | g4..  }
+		{ | g8. s8 }
 	}
 }
 

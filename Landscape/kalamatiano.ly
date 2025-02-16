@@ -13,6 +13,7 @@
 
     \include "layout.ly"
 
+\transpose bes d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

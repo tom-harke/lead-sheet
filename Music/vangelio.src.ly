@@ -1,11 +1,26 @@
-Title = "E Vangelio / Η Βαγγελιω"
+Title    = "E Vangelio"
+Subtitle = "Η Βαγγελιω"
 
 % Alevizos
+%  - same tune as Puscoiu's Kalamatiano
 
 Chords = \chords {
 	\partial 16 s16
-	\repeat volta 2 { s4..*4 }
-	\repeat volta 2 { s4..*3 } \alternative { { s4.. } { s4. } }
+	\repeat volta 2 {
+		| e4..
+		| b8.:7 e4
+		| e4..
+		| b8.:7 e4
+	}
+	\repeat volta 2 {
+		| e8. a4
+		| e8. a4
+		| e4..
+	}
+	\alternative {
+		{| b8.:7 e4 }
+		{| b8.:7 e8 }
+	}
 }
 
 

@@ -1,6 +1,8 @@
 Title = "Kalamatiano"
 
 % Puscoiu
+%  - same tune as Alevizos' E Vangelio
+%  - the name Kalamatiano is too generic
 
 Chords = \chords {
 	\partial 8 s8

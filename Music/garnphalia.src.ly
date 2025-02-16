@@ -4,9 +4,25 @@ Subtitle = "Η ΓαρνΦαλια"
 % Alevizos
 
 Chords = \chords {
-	\partial 8 s8
-	\repeat volta 2 { s4..*3 } \alternative { { s4.. } { s4.. } }
-	\repeat volta 2 { s4..*3 } \alternative { { s4.. } { s8. s8 } }
+	\partial 8 a8:min
+	\repeat volta 2 {
+		d4..:min
+		a4..:min
+		e4..:min
+	}
+	\alternative {
+		{ a4..:min }
+		{ a4..:min }
+	}
+	\repeat volta 2 {
+		a4..:min
+		d4..:min
+		a8. s8 e8:7
+	}
+	\alternative {
+		{ a4..:min }
+		{ a8.:min s8 }
+	}
 }
 
 
