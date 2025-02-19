@@ -6,12 +6,18 @@ RiffB = { | f16 g g g g g g | ees'16 d' c' d'8 aes | }
 
 Chords = \chords {
 	\repeat volta 2 {
-		| g4..  | c:min | g | s
-		| s     | c:min | g | s
+		| g4..  | c:min | g
+	}
+	\alternative {
+		{ s4.. }
+		{ s4.. }
 	}
 	\repeat volta 2 {
-		| g4..  | aes:min | g | aes:min
-		| g4..  | aes:min | g | s
+		| g4..  | aes:min
+	}
+	\alternative {
+		{| g | aes:min }
+		{| g | s4.. }
 	}
 }
 
@@ -25,25 +31,25 @@ Melody = \transpose c c' {
 
 	\break \mark \default
 	\repeat volta 2 {
-		\repeat unfold 2 {
-			| g16 d' d' d'8 d'
-			| ees'16 d' c' c'8 c'8
-			| d'16 c' b c' b aes8
-		}
-		\alternative {
-			{ g8 f16 g8 b \break }
-			{ g8. g4 }
-		}
+		| g16 d' d' d'8 d'
+		| ees'16 d' c' c'8 c'8
+		| d'16 c' b c' b aes8
+	}
+	\alternative {
+		{ g8 f16 g8 b }
+		{ g8. g4 }
 	}
 	
 	\break \mark \default
 	\repeat volta 2 {
 		| \RiffA
-		| \RiffB
-\break
-		| \RiffA
+	}
+	\alternative {
+		{| \RiffB }
+		{
 		| g16 aes b c' b aes8
 		| g8 f16 g4
+		}
 	}
 }
 

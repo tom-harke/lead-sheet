@@ -78,7 +78,7 @@ Doc/makefile.md: Makefile
 	@echo '```'         >> Doc/makefile.md
 
 crop.%.pdf: %.pdf
-	pdfcrop --margins 0 $*.pdf crop.$*.pdf
+	pdfcrop --margins '0 0 30 0' $*.pdf crop.$*.pdf
 
 # ---------------------------------------------------------------------------- (
 blurb.%.pdf: Blurb/blurb.%.tex Blurb/header.tex Blurb/footer.tex
@@ -226,8 +226,11 @@ even.book.pdf: $(EVEN_PDF) blurb90.even.pdf Makefile
 #LESNO += ajde jano
 LESNO  += ako_umram
 LESNO  += aleni_zvezdi
+LESNO  += charalampes
 LESNO  += chetvorno
-LESNO  += hamisha      # half page, but current scheme overlaps
+LESNO_ += eicha
+LESNO  += erenaki
+LESNO_ += hamisha      # may or may not fit, depending
 LESNO_ += garnphalia
 LESNO  += gerakina
 LESNO  += imate
@@ -241,13 +244,15 @@ LESNO_ += mana_tourkoi
 LESNO  += more_sokol_pie
 LESNO2 += ratevka
 LESNO_ += samiotissa
-LESNO  += satovchensko
+LESNO_ += satovchensko
 LESNO  += sevda
 LESNO  += snijeg
 LESNO_ += syrto
+LESNO  += thalassaki
 LESNO_ += vangelio
-LESNO  += zalongou
+LESNO  += zalongou     # might be half, after finalizing chords
 LESNO  += zapjevala
+
 
 # -- (
 # This is a workable but flawed attempt to put 2 short pieces on the same page.
@@ -256,10 +261,10 @@ LESNO  += zapjevala
 #   - a tune that takes up exactly half a page (such as hamisa) is printed overlapping the other tune
 
 LESNO_HALF = $(patsubst %,crop.%.pdf,$(LESNO_))
-crop.lesno.pdf: $(LESNO_HALF)
+half.lesno.pdf: $(LESNO_HALF)
 	pdfjam \
 	  $(LESNO_HALF) \
-	  --outfile crop.lesno.pdf \
+	  --outfile half.lesno.pdf \
 	  --nup "2x1" \
 	  --noautoscale true \
 	  --landscape \
@@ -269,8 +274,8 @@ crop.lesno.pdf: $(LESNO_HALF)
 
 
 LESNO_PDF = $(patsubst %,%.pdf,$(LESNO2) $(LESNO))
-lesno.book.pdf: blurb90.lesno.pdf $(LESNO_PDF) crop.lesno.pdf Makefile
-	pdfunite blurb90.lesno.pdf $(LESNO_PDF) crop.lesno.pdf $@
+lesno.book.pdf: blurb90.lesno.pdf $(LESNO_PDF) half.lesno.pdf Makefile
+	pdfunite blurb90.lesno.pdf $(LESNO_PDF) half.lesno.pdf $@
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
