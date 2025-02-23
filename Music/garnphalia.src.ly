@@ -1,5 +1,5 @@
 Title    = "E Garnphalia"
-Subtitle = "Η ΓαρνΦαλια"
+Subtitle = "Ή ΓαρνΦαλιά"
 
 % Alevizos
 

@@ -1,38 +1,31 @@
 Title    = "O Charalampes"
-Subtitle = "Ο Χαραλαμπης"
+Subtitle = "Ό Χαραλάμπης"
 
 % Alevizos
 
 Chords = \chords {
 	\partial 16 s16
-	| s4..
-	| s4..
-	| s4..
-	| s4..
+	| e4..  | s4..  | s4..  | s4..
 	\repeat volta 2 {
-		| s4..
-		| s4..
-		| s4..
+		| e8. a4
+		| b4..:7
+		| e8. b4:7
 	} \alternative {
-		{ s4.. }
-		{ s4.. }
+		{ e4.. }
+		{ e4.. }
 	}
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
+	| e4..:min | b4..:7
+	| e4..:min | e8.:min b4
+	| e4..:min | b4..:7
+	| e4..:min | s4..
 	\repeat volta 2 {
-		| s4..
+		| e4..:min
 		| s4..
 		| s4..
 		| s4..
 	}
-	| s4..
-	| s4.
+	| e8.:min b4:7
+	| e4.:min
 }
 
 
@@ -52,6 +45,8 @@ Melody = \transpose c c' {
 		{ gis8. r8 gis16 a }
 		{ e8. r4 }
 	}
+%	\key e \lydian
+	\key d \major % bogus, but ...
 	| b8 ais16 g fis e8
 	| fis8 fis16 fis8 fis8
 	| b8 ais16 g fis e dis
@@ -72,34 +67,18 @@ Melody = \transpose c c' {
 
 Layout = {
 	\mark \default
-	%\break
 	\partial 16 s16
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	\repeat volta 2 {
-		| s4..
-		| s4..
-		| s4..
-	} \alternative {
-		{ s4.. }
-		{ s4.. }
-	}
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	\repeat volta 2 {
-		| s4..
-		| s4..
-		| s4..
-		| s4..
-	}
+	| s4..*4
+	\break
+	\mark \default
+	\repeat volta 2 {| s4..*3 }
+	\alternative { { s4.. } { s4.. } }
+	\break \mark \default
+	| s4..*4
+	\break
+	| s4..*4
+	\break \mark \default
+	\repeat volta 2 {| s4..*4 }
 	| s4..
 	| s4.
 }

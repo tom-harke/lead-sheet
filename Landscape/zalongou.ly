@@ -6,6 +6,7 @@
 
 \header {
     title = \Title
+    subtitle = \Subtitle
     tagline = ##f
 }
 
@@ -13,10 +14,12 @@
 
     \include "layout.ly"
 
-%\transpose e g
-    << \Chords \new Staff {<< \Layout\Melody >>} 
-\ChordsAlt
->>
+\transpose e d
+    <<
+        \Chords
+        \new Staff {<< \Layout\Melody >>}
+        \ChordsAlt
+    >>
 
     \midi {}
 }

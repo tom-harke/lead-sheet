@@ -224,13 +224,14 @@ even.book.pdf: $(EVEN_PDF) blurb90.even.pdf Makefile
 
 
 #LESNO += ajde jano
+LESNO_ += adelfades
 LESNO  += ako_umram
 LESNO  += aleni_zvezdi
 LESNO  += charalampes
 LESNO  += chetvorno
 LESNO_ += eicha
 LESNO  += erenaki
-LESNO_ += hamisha      # may or may not fit, depending
+LESNO  += hamisha      # may or may not fit on half page, depending
 LESNO_ += garnphalia
 LESNO  += gerakina
 LESNO  += imate
@@ -241,6 +242,8 @@ LESNO  += ljiljano
 LESNO  += majko
 LESNO  += makedonsko
 LESNO_ += mana_tourkoi
+LESNO  += melachroino
+LESNO_ += mia_papadia
 LESNO  += more_sokol_pie
 LESNO2 += ratevka
 LESNO_ += samiotissa
@@ -249,9 +252,12 @@ LESNO  += sevda
 LESNO  += snijeg
 LESNO_ += syrto
 LESNO  += thalassaki
+LESNO_ += tria_paidia
 LESNO_ += vangelio
+LESNO_ += xene
 LESNO  += zalongou     # might be half, after finalizing chords
 LESNO  += zapjevala
+
 
 
 # -- (
@@ -439,3 +445,10 @@ docs:
 todo:
 	@echo "TODO: uses of beatStructure should be moved into library"
 	@grep beatStructure Music/*
+
+# Other tools to consider:
+#   cpdf -shift ...
+#   cpdf -cropbox ...
+#   cpdf -hard-box ...
+#   cpdf -stamp-on ...
+#   pdftk ... background ...

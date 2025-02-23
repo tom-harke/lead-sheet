@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "gerakina.src.ly"
+\include "tria_paidia.src.ly"
 
 \include "landscape.ly"
 

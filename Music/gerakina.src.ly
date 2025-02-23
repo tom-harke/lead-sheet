@@ -5,22 +5,10 @@ Subtitle = "Η Γερακινα"
 % Puscoiu has a version too
 
 Chords = \chords {
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
-	| s4..
+	| e4..       | s4..       | s4..     | s4..
+	| cis4..:min | fis4..:min | b4..:7   | e4..
+	| b4..:7     | e4..       | e8. b4:7 | e4..
+	| e8. b4:7   | e4..       | e8. b4:7 | e4..
 }
 
 

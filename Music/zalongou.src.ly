@@ -1,4 +1,5 @@
-Title = "Horos tou Zalongou"
+Title    = "Horos tou Zalongou"
+Subtitle = "Χορός Του Ζαλόγγου"
 
 % TODO:
 %  - decide on chords

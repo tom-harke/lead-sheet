@@ -1,5 +1,5 @@
 Title = "Thalassaki"
-Subtitle = "Θαλασσακι"
+Subtitle = "Θαλασσακι / Little Sea"
 
 % Alevizos
 

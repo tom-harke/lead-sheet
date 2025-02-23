@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "gerakina.src.ly"
+\include "adelfades.src.ly"
 
 \include "landscape.ly"
 
@@ -14,7 +14,7 @@
 
     \include "layout.ly"
 
-\transpose e d
+\transpose a d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

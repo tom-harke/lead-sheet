@@ -14,6 +14,7 @@
 
     \include "layout.ly"
 
+\transpose e d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

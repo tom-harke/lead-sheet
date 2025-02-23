@@ -1,5 +1,5 @@
 Title = "Mana Tourkoi, Mana Phrankoi"
-Subtitle = "Μανα Τουρκοι, Μανα Φραγκοι"
+Subtitle = "Μάνα Τουρκοι, Μάνα Φράγκοι / Mother, Turks! Mother, Franks!"
 
 % Alevizos & Puscoiu
 
