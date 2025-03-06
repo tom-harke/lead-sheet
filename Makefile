@@ -111,6 +111,7 @@ GEAMPARA2 += chekurjankino
 GEAMPARA  += daeni
 GEAMPARA  += delijska
 GEAMPARA  += dobrogeana
+GEAMPARA  += dobrogene
 GEAMPARA  += edinets
 GEAMPARA2 += fetesti
 GEAMPARA  += ghiurghiuliu # half page
@@ -142,7 +143,6 @@ GEAMPARA  += west_rhodope
 GEAMPARA  += geampara_53323
 GEAMPARA2 += norbeck1
 GEAMPARA  += norbeck2 # half page
-GEAMPARA  += geampara_bgko
 
 GEAMPARA  += rachenitsa1
 GEAMPARA  += rachenitsa2

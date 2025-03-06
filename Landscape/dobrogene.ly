@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "geampara_bgko.src.ly"
+\include "dobrogene.src.ly"
 
 \include "landscape_25.ly"
 
