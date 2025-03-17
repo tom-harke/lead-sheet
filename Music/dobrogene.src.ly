@@ -1,5 +1,6 @@
 Title    = "Geamparale de la Dobrogene"
 Subtitle = "(similar to Turcitu)"
+Order    = "A²B²C⁴D⁴E²A"
 
 % From
 % BGKO
@@ -109,6 +110,7 @@ Melody = \transpose d d' {
     }
     % C )
     % D (
+    \key a \dorian
     \repeat volta 2 {
         | fis'8 e'16 dis' c' a c'
         | b8 b16 fis b fis b
@@ -121,6 +123,7 @@ Melody = \transpose d d' {
     }
     % D )
     % E (
+    \key a \major
     \repeat volta 2 {
         | cis'16 d' e' fis' e' d' cis' % DUP
         | b16 cis' d' fis' e'8 a16
