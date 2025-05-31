@@ -1,12 +1,11 @@
 \version "2.22.1"
 
-\include "fagarash.src.ly"
+\include "greceasca.src.ly"
 
 \include "landscape.ly"
 
 \header {
     title = \Title
-    subtitle = \Subtitle
     tagline = ##f
 }
 
@@ -14,7 +13,7 @@
 
     \include "layout.ly"
 
-%\transpose a d
+\transpose d d'
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

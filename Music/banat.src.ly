@@ -1,5 +1,6 @@
 Title = "Brâul din Banat"
 
+% based on musescore.com/user/14476/scores/1552736
 
 Chords = \chords {
     % A (

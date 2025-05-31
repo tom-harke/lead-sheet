@@ -20,12 +20,12 @@ Melody = \transpose c c' {
 	% (
 %	\repeat volta 2 {
 		\repeat volta 2 {
-			\repeat unfold 2 {
+			\repeat percent 2 {
 				| a4 f8 a bes f a bes
 			}
 		}
 		\alternative {
-			{ \repeat unfold 2 { e4. a8 bes e a bes } }
+			{ \repeat percent 2 { e4. a8 bes e a bes } }
 			{ a8 bes a g f g f e | d8 e f e d2 }
 		}
 %	}
