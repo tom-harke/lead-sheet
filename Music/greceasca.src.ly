@@ -17,30 +17,63 @@ Title = "Greceasca"
 %%                     viorist din Şuţeşti - Făurei
 
 Chords = \chords {
+    % A (
+    \repeat volta 2 {
+        | d4..  | s4..
+    }
+    \alternative {
+        { | d4.. s4.. }
+        { | d4.. s4.. }
+    }
+    % A )
+    % B (
+    \repeat volta 2 {
+        | d4..:7 | g4..  | d4..    | s4..
+        | d4..:7 | g4..  | d4 c8.  | d4..
+    }
+    % B )
+    % C (
+    \repeat volta 2 {
+        | d8 c16 d4 | d8 c16 d4 | d8. c4 | d4..
+        | d8 c16 d4 | d8 c16 d4 | d8. c4
+    }
+    \alternative {
+        { d4.. }
+        { d4.. }
+    }
+    % C )
+    % D (
+    \repeat volta 2 {
+        | d4..
+        | ees4..
+    }
+    \alternative {
+        { d4.. s4.. }
+        { c4.. d4.. }
+    }
+    % D )
 }
 
 
 Melody = \transpose d d' {
     \include "lesnoto.rhy"
 
-    %\key d \major
-    %\key d \minor
-    \key d \mixolydian
+    \key d \phrygian
 
     % A (
     \repeat volta 2 {
         | a8\prall g16 a bes c' bes
-        | a8\prall g16 fis e fis g
+        | a8\prall g16 fis ees fis g
     }
     \alternative {
         {
-        	| a8\prall g16 a bes c' bes
-        	| a8. \acciaccatura cis'16 d'8 d'
-		}
+            | a8\prall g16 a bes c' bes
+            | a8. \acciaccatura cis'16 d'8 d'
+        }
         {
-        	| a8\prall g16 fis g fis ees
-        	| d8 a,16 \acciaccatura cis16 d4
-		}
+            | a8\prall g16 fis g fis ees
+            | d8 a,16 \acciaccatura cis16 d4
+        }
     }
     % A )
     % B (
@@ -53,7 +86,7 @@ Melody = \transpose d d' {
         | d16 fis fis fis4
         | d16 g g g bes a g
         | fis8\prall d16 ees fis g ees
-        | d8. <d, a,>8 <d, a,>
+        | d8. <d a,>8 <d a,>
     }
     % B )
     % C (
@@ -79,13 +112,13 @@ Melody = \transpose d d' {
     }
     \alternative {
         {
-			| fis16 g a bes16. a32 g16 bes
-			| a8. a4
-		}
+            | fis16 g a bes16. a32 g16 bes
+            | a8. d'4
+        }
         {
-			| fis32 a g16 fis ees16. d32 c16 ees
-			| d8. <fis, d>4
-		}
+            | fis32 a g16 fis ees16. d32 c16 ees
+            | d8. <fis, d>4
+        }
     }
     % D )
 }

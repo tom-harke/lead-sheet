@@ -2,7 +2,7 @@
 
 \include "greceasca.src.ly"
 
-\include "landscape.ly"
+\include "landscape_28.ly"
 
 \header {
     title = \Title
@@ -13,7 +13,7 @@
 
     \include "layout.ly"
 
-\transpose d d'
+%\transpose d d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}
