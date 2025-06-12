@@ -336,6 +336,14 @@ ZHOK  += mayne_tayere_odessa # 1 Done
 ZHOK  += mekhutonim
 ZHOK  += nokh_a_glezl_vayn
 ZHOK  += joc1
+ZHOK  += voevidca_143
+ZHOK  += voevidca_149
+ZHOK  += voevidca_152
+ZHOK  += voevidca_153
+ZHOK  += voevidca_154
+ZHOK  += voevidca_159
+ZHOK  += voevidca_160
+ZHOK  += voevidca_165
 
 ZHOK_PDF = $(patsubst %,%.pdf,$(ZHOK2) $(ZHOK))
 zhok.book.pdf: $(ZHOK_PDF) blurb90.zhok.pdf

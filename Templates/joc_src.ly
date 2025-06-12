@@ -16,11 +16,17 @@ Melody = \transpose d d' {
     \key d \phrygian
     \include "zhok.rhy"
 
+    % A (
     \mark \default
     \repeat volta 2 {
-        | s4.*8
+        | s2.*3
+    }
+    \alternative {
+        { s2. }
+        { s2. }
     }
     \break
+    % A )
 }
 
 Layout = {
