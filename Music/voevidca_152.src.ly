@@ -8,6 +8,26 @@ Title = "152: Horă Veche"
 %   Tip melodic             A.II.2.2.2.
 
 Chords = \chords {
+    % A (
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    % A )
+    % B (
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | d2.:min
+    % B )
 }
 
 

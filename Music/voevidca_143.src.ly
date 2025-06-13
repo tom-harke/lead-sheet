@@ -2,6 +2,28 @@ Title = "143: Hora Fetiţelor din Voloca"
 
 
 Chords = \chords {
+    % A (
+    \repeat volta 2 {
+        | s2.
+        | s2.
+        | s2.
+    }
+    \alternative {
+        { s2. }
+        { s2. }
+    }
+    % A )
+    % B (
+    \repeat volta 2 {
+        | s2.
+        | s2.
+        | s2.
+    }
+    \alternative {
+        { s2. }
+        { s2. }
+    }
+    % B )
 }
 
 

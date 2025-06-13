@@ -2,6 +2,40 @@ Title = "159: Hora Frătăuţului"
 
 
 Chords = \chords {
+
+    % A (
+    \repeat volta 2 {
+        | s2.
+        | s2.
+        | s4.
+    }
+    \alternative {
+        {
+            | s4.
+            | s2.
+        }
+        {
+            | s4.
+            | a2.:min
+        }
+    }
+    % A )
+    % B (
+    \repeat volta 2 {
+        | s2.
+        | s2.
+    }
+    \alternative {
+        {
+            | s2.
+            | s2.
+        }
+        {
+            | s2.
+            | s2.
+        }
+    }
+    % B )
 }
 
 

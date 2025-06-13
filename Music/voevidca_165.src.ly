@@ -2,6 +2,30 @@ Title = "165: Horă din Grigori Moldovan din Suceavă"
 
 
 Chords = \chords {
+
+    % A (
+    | a2.:min | a2.:min7 | d2.  | d2.
+    | e2.:7   | a2.:min  | c2.
+    | s2.
+    | s2.
+    | s2.
+    | e2.:7
+    | a2.:min
+    % A )
+    % B (
+    | g2.
+    | c2.
+    | e2.:7
+    | a2.:min
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    | a2.:min
+    % B )
 }
 
 

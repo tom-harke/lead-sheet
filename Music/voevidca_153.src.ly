@@ -8,6 +8,36 @@ Title = "153: Horă Veche"
 %   Tip melodic               A.II.2.2.2.
 
 Chords = \chords {
+
+    % A (
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    % A )
+    % B (
+    \repeat volta 2 {
+        | s2.
+        | s2.
+        | s2.
+    }
+    \alternative {
+        { s2. }
+        { g2.:min }
+    }
+    % B )
+    % C (
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    % C )
+    % D (
+    | s2.
+    | s2.
+    | s2.
+    | s2.
+    % D )
 }
 
 

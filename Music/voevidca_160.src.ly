@@ -3,6 +3,39 @@ Title = "160: Horă din Mitoc"
 
 
 Chords = \chords {
+    % A (
+    \repeat volta 2 {
+        | a2.:min
+        | a2.:min
+        | s2.
+    }
+    \alternative {
+        { e2.:7 }
+        { a2.:min }
+    }
+    % A )
+    % B (
+    \repeat volta 2 {
+        | d2.:min
+        | a2.:min
+        | e2.:7
+    }
+    \alternative {
+        { a2.:min }
+        { a2.:min }
+    }
+    % B )
+    % C (
+    \repeat volta 2 {
+        | s2.
+        | s2.
+        | s2.
+    }
+    \alternative {
+        { s2. }
+        { a2.:min }
+    }
+    % C )
 }
 
 
