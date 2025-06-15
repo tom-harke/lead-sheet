@@ -13,3 +13,8 @@ PDF  = evince
 	$(MIDI) $*.midi
 
 .PRECIOUS: %.pdf
+
+pas_de_deux.midi pas_de_deux.pdf: Harp/pas_de_deux.ly
+	lilypond --include=Lib Harp/pas_de_deux.ly
+
+gig: pas_de_deux.view
