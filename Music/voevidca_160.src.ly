@@ -1,5 +1,5 @@
 Title = "Horă din Mitocul Dragomirnei"
-Title = "160: Horă din Mitoc"
+Title = "v.160: Horă din Mitoc"
 
 
 Chords = \chords {
@@ -10,7 +10,7 @@ Chords = \chords {
         | s2.
     }
     \alternative {
-        { e2.:7 }
+        { e4. e:7 }
         { a2.:min }
     }
     % A )
@@ -18,7 +18,7 @@ Chords = \chords {
     \repeat volta 2 {
         | d2.:min
         | a2.:min
-        | e2.:7
+        | e4. e:7
     }
     \alternative {
         { a2.:min }
@@ -27,12 +27,12 @@ Chords = \chords {
     % B )
     % C (
     \repeat volta 2 {
-        | s2.
-        | s2.
-        | s2.
+        | a4.:min e
+        | a4.:min d:min
+        | a2.:min
     }
     \alternative {
-        { s2. }
+        { a2.:min }
         { a2.:min }
     }
     % C )

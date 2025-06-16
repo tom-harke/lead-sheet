@@ -1,4 +1,4 @@
-Title = "152: Horă Veche"
+Title = "v.152: Horă Veche"
 
 
 %   Ms.22227_B_0142_BNro (357/1557)
@@ -9,23 +9,25 @@ Title = "152: Horă Veche"
 
 Chords = \chords {
     % A (
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    | s2.
+    | g2.:min
+    | g2.:min
+    | g2.:min
+    | a2.:min
+
+    | g2.:min
+    | g2.:min
+    | r2.
+    | r2.
     % A )
     % B (
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    | s2.
+    | c4. c:7
+    | f2.
+    | c4. c:7
+    | r2.
+
+    | c4. c:7
+    | f2.
+    | a4.:min a:min7
     | d2.:min
     % B )
 }

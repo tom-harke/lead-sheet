@@ -1,4 +1,4 @@
-Title = "154: Boiereasca"
+Title = "v.154: Boiereasca"
 Order = "A² B² C² B²"
 
 %   Ms.22226_0209_BNro (209/1849)
@@ -8,30 +8,41 @@ Order = "A² B² C² B²"
 Chords = \chords {
     % A (
     \repeat volta 2 {
-        | s2.*7
-        | s4.
+        | g2.:min
+        | g2.:min
+        | g2.:min
+        | d4. d:7
+
+        | g2.:min
+        | g2.:min
+        | g2.:min
+        | d4.:7
     }
     \alternative {
-        { s4. }
-        { s4. }
+        { g4.:min }
+        { g4.:min }
     }
     % A )
     % B (
     \repeat volta 2 {
-        | s2.*2
+        | r2.*2
     }
     \alternative {
-        { s2.*2 }
-        { s2.*2 }
+        { r2.*2 }
+        { r2.
+            | g4.:min
+        }
     }
     % B )
     % C (
     \repeat volta 2 {
-        | s2.*3
+        | d4. d:7
+        | g2.:min
+        | d4. d:7
     }
     \alternative {
-        { s2. }
-        { s2. }
+        { g4.:min }
+        { g4.:min }
     }
     % C )
 }
@@ -43,15 +54,15 @@ Melody = \transpose d d' {
 
     % A (
     \repeat volta 2 {
-    	| \acciaccatura {d16 e fis} g4 bes8 | d'4 g'8 % dup
+        | \acciaccatura {d16 e fis} g4 bes8 | d'4 g'8 % dup
         | bes'4. ~ | bes'8. a'16 c'' bes' % dup
         | a'8. g'16 fis' ees' | d'8. ees'16 c' ees' % dup
         | d'4.     | c'8. bes16 a bes
 
-    	| g4 bes8  | d'4 g'8 % dup
+        | g4 bes8  | d'4 g'8 % dup
         | bes'4. ~ | bes'8. a'16 c'' bes' % dup
         | a'8. g'16 fis' ees' | d'8. ees'16 c' ees' % dup
-    	| bes8. c'16 a bes 
+        | bes8. c'16 a bes 
     }
     \alternative {
         {| g4 r8 }
@@ -65,24 +76,24 @@ Melody = \transpose d d' {
     }
     \alternative {
         {
-    		| b8 c'~c'
-    		| f'8. ees'16 ees' d'
-    		| d'4. ~
-    		| d'8 r16  f' g' a'
-    	}
+            | b8 c'~c'
+            | f'8. ees'16 ees' d'
+            | d'4. ~
+            | d'8 r16  f' g' a'
+        }
         {
-    		| d'4 c'8
-    		| bes8. c'16 a bes
-    		| g8. g'16 d' bes
-    		| g4 r8
-    	}
+            | d'4 c'8
+            | bes8. c'16 a bes
+            | g8. g'16 d' bes
+            | g4 r8
+        }
     }
     % B )
     % C (
     \repeat volta 2 {
         | a'8. g'16 fis' ees' | d'4.
         | g'8. a'16 bes' c'' | d''8. bes'16 a' g'
-        | a'8. gis'16 f' ees' | d'8. f'16 a' f'
+        | a'8. g'16 fis' ees' | d'8. fis'16 a' fis'
     }
     \alternative {
         { g'4. d'' }

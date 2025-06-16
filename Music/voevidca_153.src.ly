@@ -1,4 +1,7 @@
-Title = "153: Horă Veche"
+Title = "v.153: Horă Veche"
+Order = "A B² C B₂"
+
+% only play 2nd part of B at end
 
 % Notes from book:
 %   Ms.22226_0299_BNro (299/1399)
@@ -10,34 +13,28 @@ Title = "153: Horă Veche"
 Chords = \chords {
 
     % A (
+    | g2.:min
     | s2.
     | s2.
-    | s2.
-    | s2.
+    | g2.:min
     % A )
     % B (
     \repeat volta 2 {
-        | s2.
-        | s2.
-        | s2.
+        | g2.:min
+        | g2.:min
+        | d4. d:7
     }
     \alternative {
-        { s2. }
+        { g2.:min }
         { g2.:min }
     }
     % B )
     % C (
-    | s2.
-    | s2.
-    | s2.
-    | s2.
+    | g2.:min
+    | g2.:min
+    | g2.:min
+    | g2.:min
     % C )
-    % D (
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    % D )
 }
 
 
@@ -72,13 +69,6 @@ Melody = \transpose d d' {
       \acciaccatura {fis'16} g'8
     | \acciaccatura {fis'16} g'4 r8
     % C )
-    % D (
-    % Same as B2
-    | g'8 f'8 ~ f'16 ees'16 | ees'8 d'8 ~ d'16 c'16
-    | ees'8 d'8 ~ d'16 c'16 | c'8. bes16 a bes
-    | d'8 c'8 ~ c'16 a16    | bes8. c'16 a bes
-    | g8. g'16 d' bes       | g4 r8 
-    % D )
 }
 
 Layout = {
@@ -103,9 +93,4 @@ Layout = {
     | s2.*4
     \break
     % C )
-    % D (
-    \mark \default
-    | s2.*4
-    \break
-    % D )
 }

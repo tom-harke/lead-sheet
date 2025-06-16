@@ -1,34 +1,34 @@
-Title = "149: Hora Lenuţei"
+Title = "v.149: Hora Lenuţei"
 
 
 Chords = \chords {
     % A (
     \repeat volta 2 {
-        | s2.
-        | s2.
-        | s2.
+        | f2.:min
+        | f2.:min
+        | f2.:min
     }
     \alternative {
-        { s2. }
-        { s2. }
+        { f2.:min }
+        { f2.:min }
     }
     % A )
     % B (
     \repeat volta 2 {
-        | s2.
-        | s2.
-        | s2.
+        | f2.:min
+        | f2.:min
+        | f2.:min
     }
     \alternative {
-        { s2. }
-        { s2. }
+        { f2.:min }
+        { f2.:min }
     }
     % B )
 }
 
 
 Melody = \transpose f f' {
-    \key f \minor
+    %\key f \minor
     \include "zhok.rhy"
 
     % A (
@@ -59,9 +59,7 @@ Layout = {
     % A (
     \mark \default
     \repeat volta 2 {
-        | s2.*2
-\break
-        | s2.*1
+        | s2.*2 \break | s2.*1
     }
     \alternative {
         { s2. }
@@ -72,7 +70,7 @@ Layout = {
     % B (
     \mark \default
     \repeat volta 2 {
-        | s2.*3
+        | s2.*2 \break | s2.*1
     }
     \alternative {
         { s2. }

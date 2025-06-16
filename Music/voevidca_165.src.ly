@@ -1,29 +1,29 @@
-Title = "165: Horă din Grigori Moldovan din Suceavă"
+Title = "v.165: Horă din Grigori Moldovan din Suceavă"
 
 
 Chords = \chords {
 
     % A (
-    | a2.:min | a2.:min7 | d2.  | d2.
-    | e2.:7   | a2.:min  | c2.
-    | s2.
-    | s2.
-    | s2.
-    | e2.:7
+    | a2.:min | a4.:min a:min7 | d2.  | d2.
+    | e4. e:7 | a2.:min        | c2.  | e2.
+    | e2.
+    | e2.
+    | e4. e:7
     | a2.:min
     % A )
     % B (
-    | g2.
+    | g4. g:7
     | c2.
-    | e2.:7
+    | e4. e:7
     | a2.:min
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    | s2.
-    | s2.
+    | a2.:min
+    | a2.:min
+
+    | g4. g:7
+    | c2.
+    | e2.
+    | e2.
+    | e4. e:7
     | a2.:min
     % B )
 }
@@ -36,7 +36,7 @@ Melody = \transpose d d' {
     % A (
     \repeat percent 2  {| a8. e'16 c' b |}
     | a4.               | cis'4.
-    \repeat percent 2  {| d'8. g'16 f' e' |}
+    \repeat percent 2  {| d'8. a'16 f' e' |}
     | d'4. ~            | d'4.
     | gis'8. a'16 b' a' | g'8 a' b'
     | c''4. ~           | c''8 r a'
