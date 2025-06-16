@@ -289,6 +289,20 @@ lesno.book.pdf: blurb90.lesno.pdf $(LESNO_PDF) half.lesno.pdf Makefile
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
+
+FRIDAY  += buvchansko
+FRIDAY  += danets
+FRIDAY  += dospatsko
+FRIDAY  += tri_bilbila
+
+
+
+FRIDAY_PDF = $(patsubst %,%.pdf,$(FRIDAY))
+friday.book.pdf: $(FRIDAY_PDF) Makefile
+	pdfunite $(FRIDAY_PDF) $@
+
+# ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
 keys.pdf: blurb90.keys.pdf Makefile
 	pdfunite blurb90.keys.pdf $@
 

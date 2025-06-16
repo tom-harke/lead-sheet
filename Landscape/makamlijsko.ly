@@ -85,7 +85,7 @@ Melody = \transpose d d' {
         | b4 a8 a4 g8
         | fis4. ~ fis4 e8
 
-        | gis8( a4) b4 g8
+        | gis8( a4) b4 a8 % g8
         | b4 a8 a4 g8
         | fis4. ~ fis4 e8
 
