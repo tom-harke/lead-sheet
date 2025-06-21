@@ -290,6 +290,7 @@ lesno.book.pdf: blurb90.lesno.pdf $(LESNO_PDF) half.lesno.pdf Makefile
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 
+FRIDAY  += makamlijsko
 FRIDAY  += buvchansko
 FRIDAY  += danets
 FRIDAY  += dospatsko
