@@ -176,7 +176,7 @@ geampara.book.pdf: $(GEAMPARA_PDF) blurb90.geampara.pdf Makefile
 # Danovska Kopanica
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
-
+EVEN  += an_dro_25     # 1/2 page
 EVEN  += basarabeasca  # 1 Done (does this belong here?)
 EVEN  += bubamara      # 1 Done (3 lines only)
 EVEN  += bughici       # 1 Done
@@ -436,6 +436,7 @@ EJC += mekhutonim   # ?
 EJC += kandels_hora # 1
 EJC += kishiniever  # 1
 EJC += mouse        # 1
+EJC += khasene      # 1
 EJC += odesa        # 1
 EJC += papirossen   # 1
 EJC += tantz_tantz  # 1
