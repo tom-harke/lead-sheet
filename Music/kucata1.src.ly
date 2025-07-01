@@ -79,9 +79,13 @@ Melody =
     % B (
     \break \mark \default
     \repeat volta 2 {
-        | cis'8 a b16 a e
-        | a8 a16 e cis' d' e'
-        | cis'8 a b16 a e
+        \repeat unfold 2 {
+            | cis'8 a b16 a e
+        }
+        \alternative {
+            {| a8 a16 e cis' d' e' }
+            {}
+        }
     }
     \alternative {
         { a8 a16 g g fis e }
@@ -91,9 +95,13 @@ Melody =
     % C (
     \break \mark \default
     \repeat volta 2 {
-        | e8 a b16 a e
-        | a8 a g16 fis e
-        | e8 a b16 a e
+        \repeat unfold 2 {
+            | e8 a b16 a e
+        }
+        \alternative {
+            {| a8 a g16 fis e}
+            {}
+        }
     }
     \alternative {
         {| a8 a16 e fis8 e16 |}
@@ -112,10 +120,13 @@ Melody =
     % E (
     \break \mark \default
     \repeat volta 2 {
-        | b16 cis' d' b cis'8 a16
-        | b16 a a8 cis'16 d' e'
-        | b16 cis' d' b cis'8 a16
-        | b16 a a8 a8.
+        \repeat unfold 2 {
+            | b16 cis' d' b cis'8 a16
+        }
+        \alternative {
+            {| b16 a a8 cis'16 d' e' }
+            {| b16 a a8 a8. }
+        }
     }
     % E )
 }
@@ -123,11 +134,11 @@ Melody =
 
 Layout = {
     \break\mark\default\repeat volta 2 {s4..*3}
-	\alternative {{ s4.. }{ s4.. }} % A
+    \alternative {{ s4.. }{ s4.. }} % A
     \break\mark\default\repeat volta 2 {s4..*3}
-	\alternative {{ s4.. }{ s4.. }} % B
+    \alternative {{ s4.. }{ s4.. }} % B
     \break\mark\default\repeat volta 2 {s4..*3}
-	\alternative {{ s4.. }{ s4.. }} % C
+    \alternative {{ s4.. }{ s4.. }} % C
     \break\mark\default\repeat volta 2 {s4..*4}                                 % D
     \break\mark\default\repeat volta 2 {s4..*4}                                 % E
 }
