@@ -7,7 +7,7 @@ Subtitle = "(needs chords)"
 Chords =
 \chords {
     % A (
-    \repeat unfold 2 {
+    \repeat volta 2 {
         | s4..
         | s4..
         | s4..
@@ -18,7 +18,7 @@ Chords =
     }
     % A )
     % B (
-    \repeat unfold 2 {
+    \repeat volta 2 {
         | s4..
         | s4..
         | s4..
@@ -29,7 +29,7 @@ Chords =
     }
     % B )
     % C (
-    \repeat unfold 2 {
+    \repeat volta 2 {
         | s4..
         | s4..
         | s4..
@@ -62,11 +62,11 @@ Melody =
 \transpose a a' {
     \include "geampara.rhy"
 
-    \key a \major
+    \key a \mixolydian
 
     % A (
     \break \mark \default
-    \repeat unfold 2 {
+    \repeat volta 2 {
         | d'16 e' e'8 e'8 e'16
         | e'8 d'16 e' cis' d' b
         | cis'8 a b16 a e
@@ -78,7 +78,7 @@ Melody =
     % A )
     % B (
     \break \mark \default
-    \repeat unfold 2 {
+    \repeat volta 2 {
         | cis'8 a b16 a e
         | a8 a16 e cis' d' e'
         | cis'8 a b16 a e
@@ -90,7 +90,7 @@ Melody =
     % B )
     % C (
     \break \mark \default
-    \repeat unfold 2 {
+    \repeat volta 2 {
         | e8 a b16 a e
         | a8 a g16 fis e
         | e8 a b16 a e
@@ -122,12 +122,12 @@ Melody =
 
 
 Layout = {
-    \break\mark\default\repeat unfold 2 {s4..*3}
-	\alternative {{ s4.. \break }{ s4.. }} % A
-    \break\mark\default\repeat unfold 2 {s4..*3}
-	\alternative {{ s4.. \break }{ s4.. }} % B
-    \break\mark\default\repeat unfold 2 {s4..*3}
-	\alternative {{ s4.. \break }{ s4.. }} % C
+    \break\mark\default\repeat volta 2 {s4..*3}
+	\alternative {{ s4.. }{ s4.. }} % A
+    \break\mark\default\repeat volta 2 {s4..*3}
+	\alternative {{ s4.. }{ s4.. }} % B
+    \break\mark\default\repeat volta 2 {s4..*3}
+	\alternative {{ s4.. }{ s4.. }} % C
     \break\mark\default\repeat volta 2 {s4..*4}                                 % D
     \break\mark\default\repeat volta 2 {s4..*4}                                 % E
 }
