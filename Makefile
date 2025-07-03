@@ -370,6 +370,7 @@ zhok.book.pdf: $(ZHOK_PDF) blurb90.zhok.pdf
 # Songs with ardeleana/invartita rhythm: 10 = 4+6 or 7 = 3+4
 ARDELEANA += carapataicu
 ARDELEANA += fagarash
+ARDELEANA += fecuresc
 ARDELEANA += guguleana
 ARDELEANA += nu_sunt_negru
 ARDELEANA += orashtie
