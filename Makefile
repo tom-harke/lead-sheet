@@ -114,6 +114,7 @@ GEAMPARA  += dobrogeana
 GEAMPARA  += dobrogene
 GEAMPARA  += edinets
 GEAMPARA2 += fetesti
+GEAMPARA  += fierbinte
 GEAMPARA  += ghiurghiuliu # half page
 GEAMPARA2 += giushevska
 GEAMPARA2 += godfather
@@ -373,6 +374,7 @@ ARDELEANA += guguleana
 ARDELEANA += nu_sunt_negru
 ARDELEANA += orashtie
 ARDELEANA += sibiu
+ARDELEANA += sibiu2
 ARDELEANA += ardeleana_timis # ? Done
 ARDELEANA += zlatna
 # Nameless
