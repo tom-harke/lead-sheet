@@ -9,6 +9,7 @@ Title = "Balkandžijska Rъčenica"
 Order = "(A²B²C²)² (D²E²)² F⁴G⁴ H⁴G⁴ A²B²"
 
 drop = <\tweak font-size #-3 f16>
+dropD = <\tweak font-size #-3 d16>
 
 Chords = \chords {
     % A (
@@ -80,10 +81,10 @@ Chords = \chords {
     % G )
     % H (
     \repeat volta 2 {
+        | g4..
         | s4..
-        | s4..
-        | s4..
-        | s4..
+        | d4..
+        | g4..
     }
     % H )
 }
@@ -172,13 +173,13 @@ Melody = \transpose d d' {
 \key c \major
     % F (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
+        | g16 r c' d' d' c' b % DUP
+        | b16 a g a b8 a16
+        | g16 r c' d' d' c' b % DUP
     }
     \alternative {
-        { s4.. }
-        { s4.. }
+        { b16 g a f g8. }
+        { b16 g a f g8 r16 }
     }
     % G )
     % F (
@@ -196,10 +197,13 @@ Melody = \transpose d d' {
     % F )
     % H (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
-        | s4..
+        \repeat unfold 2 {
+            | g16 \dropD c' \dropD b8 \dropD
+        }
+        \alternative {
+            {| b8 b16 \dropD d'8 \dropD }
+            {| b8 b16 \dropD a8  \dropD }
+        }
     }
     % H )
 }
