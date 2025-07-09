@@ -2,6 +2,7 @@
 %    ЯНВ 30/11/2014
 % who attributes it to:
 %    Оркестър Хоро – Русе
+% under the name
 %    Балканджийска ръченица
 
 Title = "Balkandžijska Rъčenica"
@@ -102,10 +103,10 @@ Melody = \transpose d d' {
         \alternative {
             {
                 | b16 c' c' r c' d' bes
-                | c8. r16 r8.
+                | c'8. r16 r8.
             }
             {
-                | a8. r16 g aes g
+                | g8. r16 g aes g
                 | g16 f aes g g r r
             }
         }
@@ -115,7 +116,7 @@ Melody = \transpose d d' {
     \repeat volta 2 {
         | a4 a16 bes r
         | bes4 bes8 a16
-        | a8.\trill r16 g a f
+        | a8.\prall r16 g a f
         | g4 g8 f16
 \break
         | a4 a16 bes8
@@ -171,6 +172,17 @@ Melody = \transpose d d' {
 \key c \major
     % F (
     \repeat volta 2 {
+        | s4..
+        | s4..
+        | s4..
+    }
+    \alternative {
+        { s4.. }
+        { s4.. }
+    }
+    % G )
+    % F (
+    \repeat volta 4 {
         | c'16 a b g a8.
         | g16 a a e c' b a
         | c'16 a b g a8.
@@ -178,21 +190,10 @@ Melody = \transpose d d' {
     \alternative {
         { g16 a a e g8. }
         { g16 a a e a8. }
+        { g16 a a e g8. }
+        { g16 a a e a16 r8 }
     }
     % F )
-    % G (
-    \repeat volta 4 {
-        | s4..
-        | s4..
-        | s4..
-    }
-    \alternative {
-        { s4.. }
-        { s4.. }
-        { s4.. }
-        { s4.. }
-    }
-    % G )
     % H (
     \repeat volta 2 {
         | s4..
