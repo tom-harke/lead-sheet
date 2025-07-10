@@ -6,9 +6,9 @@
 %    Балканджийска ръченица
 
 Title = "Balkandžijska Rъčenica"
-Order = "(A²B²C²)² (D²E²)² F⁴G⁴ H⁴G⁴ A²B²"
+Order = "(A²B²C⁴)² (D²E²)² F⁴G⁴ H⁴G⁴ A²B²"
 
-drop = <\tweak font-size #-3 f16>
+dropF = <\tweak font-size #-3 f16>
 dropD = <\tweak font-size #-3 d16>
 
 Chords = \chords {
@@ -26,7 +26,6 @@ Chords = \chords {
     % B )
     % C (
     \repeat volta 2 {
-        | g4..:min | s4..  | s4..  | s4..
         | g4..:min | s4..  | s4..
     }
     \alternative {
@@ -60,22 +59,17 @@ Chords = \chords {
         | g4..
         | s4..
         | s4..
-    }
-    \alternative {
-        { s4.. }
-        { s4.. }
+        | s4..
     }
     % F )
     % G (
-    \repeat volta 4 {
+    \repeat volta 2 {
         | a4..:min
         | s4..
         | s4..
     }
     \alternative {
         { d4 g8. }
-        { a4..:min }
-        { d4  g8.}
         { a4..:min }
     }
     % G )
@@ -128,19 +122,13 @@ Melody = \transpose d d' {
     % B )
     % C (
     \repeat volta 2 {
-        \repeat unfold 2 {
-            | c'16 bes bes a bes a f
-            | g8 g16 f f e d
-            | e16 f g a bes a f
-        }
-        \alternative {
-            {| g8 g16 d g c' d }
-            { }
-        }
+        | c'16 bes bes a bes a f
+        | g8 g16 f f e d
+        | e16 f g a bes a f
     }
     \alternative {
-        { g8 g16 d g8. }
-        { g8 g16 d g8 r16 }
+        {| g8 g16 \dropD g c' \dropD }
+        {| g8 g16 \dropD g8. }
     }
     % C )
     % D (
@@ -150,24 +138,24 @@ Melody = \transpose d d' {
         | d'16 r c' r d'8 c'16
         | c'8 c'16 bes a8 r16
 
-        | c'16 d' d' \drop d'8 c'16
-        | c'16 \drop bes \drop c'8 bes16
-        | bes16 \drop a \drop bes8 a16
+        | c'16 d' d' \dropF d'8 c'16
+        | c'16 \dropF bes \dropF c'8 bes16
+        | bes16 \dropF a \dropF bes8 a16
     }
     \alternative {
-        { a8 a16 \drop a bes c' }
-        { a8 a16 \drop a8. }
+        { a8 a16 \dropF a bes c' }
+        { a8 a16 \dropF a8. }
     }
     % D )
     % E (
     \repeat volta 2 {
-        | c'16 d' d' \drop d'8 c'16
-        | c'16 \drop bes \drop c'8 bes16
-        | bes16 \drop a \drop bes8 a16
+        | c'16 d' d' \dropF d'8 c'16
+        | c'16 \dropF bes \dropF c'8 bes16
+        | bes16 \dropF a \dropF bes8 a16
     }
     \alternative {
-        { a8 a16 \drop a bes c' }
-        { a8 a16 \drop a8. }
+        { a8 a16 \dropF a bes c' }
+        { a8 a16 \dropF a8. }
     }
     % E )
 \key c \major
@@ -176,14 +164,11 @@ Melody = \transpose d d' {
         | g16 r c' d' d' c' b % DUP
         | b16 a g a b8 a16
         | g16 r c' d' d' c' b % DUP
+        | b16 g a f g8.
     }
-    \alternative {
-        { b16 g a f g8. }
-        { b16 g a f g8 r16 }
-    }
-    % G )
-    % F (
-    \repeat volta 4 {
+    % F )
+    % G (
+    \repeat volta 2 {
         | c'16 a b g a8.
         | g16 a a e c' b a
         | c'16 a b g a8.
@@ -191,10 +176,8 @@ Melody = \transpose d d' {
     \alternative {
         { g16 a a e g8. }
         { g16 a a e a8. }
-        { g16 a a e g8. }
-        { g16 a a e a16 r8 }
     }
-    % F )
+    % G )
     % H (
     \repeat volta 2 {
         \repeat unfold 2 {
@@ -228,16 +211,16 @@ Layout = {
     % B )
     % C (
     \break \mark \default
-    \repeat volta 2 { | s4..*7 }
+    \repeat volta 2 { | s4..*3 }
     \alternative { { s4.. } { s4.. } }
     % C )
     % D (
     \break \mark \default
     \repeat volta 2 {
-| s4..*4
-\break
-| s4..*3
-}
+        | s4..*4
+        \break
+        | s4..*3
+    }
     \alternative { { s4.. } { s4.. } }
     % D )
     % E (
@@ -247,13 +230,12 @@ Layout = {
     % E )
     % F (
     \break \mark \default
-    \repeat volta 2 { | s4..*3 }
-    \alternative { { s4.. } { s4.. } }
+    \repeat volta 2 { | s4..*4 }
     % F )
     % G (
     \break \mark \default
-    \repeat volta 4 { | s4..*3 }
-    \alternative { { s4.. } { s4.. } { s4.. } { s4.. } }
+    \repeat volta 2 { | s4..*3 }
+    \alternative { { s4.. } { s4.. } }
     % G )
     % H (
     \break \mark \default
