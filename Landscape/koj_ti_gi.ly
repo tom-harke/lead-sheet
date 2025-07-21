@@ -2,7 +2,7 @@
 
 \include "koj_ti_gi.src.ly"
 
-\include "landscape.ly"
+\include "landscape_26.ly"
 
 \header {
     title = \Title

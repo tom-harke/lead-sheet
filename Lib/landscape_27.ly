@@ -1,2 +1,2 @@
-#(set-default-paper-size "letter" 'landscape)
+\include "page.ly"
 #(set-global-staff-size 27)
