@@ -257,7 +257,7 @@ LESNO  += sevda
 LESNO  += snijeg
 LESNO_ += syrto
 LESNO  += thalassaki
-LESNO_ += tria_paidia
+LESNO  += tria_paidia # 3 systems
 LESNO_ += vangelio
 LESNO_ += xene
 LESNO  += zalongou     # might be half, after finalizing chords
@@ -271,6 +271,9 @@ LESNO  += zapjevala
 #   - there is no space between tunes
 #   - a tune that takes up exactly half a page (such as hamisa) is printed overlapping the other tune
 
+PAPERSIZE = "{792pt, 612pt}"
+PAPERSIZE = "{229mm, 196mm}"
+
 LESNO_HALF = $(patsubst %,crop.%.pdf,$(LESNO_))
 half.lesno.pdf: $(LESNO_HALF)
 	pdfjam \
@@ -280,7 +283,7 @@ half.lesno.pdf: $(LESNO_HALF)
 	  --noautoscale true \
 	  --landscape \
 	  --delta "0 10pt" \
-	  --papersize "{792pt, 612pt}"
+	  --papersize $(PAPERSIZE)
 # -- )
 
 
@@ -483,3 +486,17 @@ todo:
 #   cpdf -hard-box ...
 #   cpdf -stamp-on ...
 #   pdftk ... background ...
+
+books: \
+	geampara.book.view \
+	even.book.view \
+	lesno.book.view \
+	friday.book.view \
+	kopanitsa.book.view \
+	terkish.book.view \
+	zhok.book.view \
+	ardeleana.book.view \
+	waltz.book.view \
+	misc.book.view \
+	balkanalia-2024.book.view \
+	ejc.book.view
