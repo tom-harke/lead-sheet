@@ -308,6 +308,227 @@ friday.book.pdf: $(FRIDAY_PDF) Makefile
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
+
+
+
+WORK_ += adelfades
+WORK  += ako_umram
+WORK  += ajshino
+WORK  += aleni_zvezdi
+WORK2 += alfanska
+WORK_ += an_dro_25
+WORK  += araber
+WORK  += ardeleana
+WORK  += ardeleana_5654345
+WORK  += ardeleana_timis
+
+WORK  += babadag1
+WORK  += babadag2
+WORK2 += balkandzhijska
+WORK  += banat
+WORK  += barla
+WORK  += basarabeasca
+WORK  += baym_rebin
+WORK  += belomorska
+WORK_ += bilbilicos
+WORK  += bojerka
+WORK  += bubamara
+WORK  += buena
+WORK  += bughici
+WORK  += bukovinei
+WORK2 += bulcenska
+WORK  += bulchenska
+WORK  += buvchansko
+
+WORK  += campulung
+WORK  += caval
+WORK  += changu
+WORK  += charalampes
+WORK2 += chekurjankino
+WORK  += chetvorno
+WORK  += chto_mne_gore
+WORK  += comida
+WORK2 += culesul
+
+WORK  += daeni
+WORK  += danets
+WORK  += delijska
+WORK  += devoiko
+WORK  += dobrogeana
+WORK  += dobrogene
+WORK  += dorogoj
+WORK  += dospatsko
+
+WORK  += ederlezi
+WORK  += edinets
+WORK_ += eicha
+WORK  += erenaki
+
+WORK  += fagarash
+WORK  += fecuresc
+WORK2 += fetesti
+WORK  += fierbinte
+WORK  += freylekh_1
+
+WORK  += gankino
+WORK_ += garnphalia
+WORK  += geampara_53323
+WORK_ += geampara_partea_3
+WORK  += gerakina
+WORK_ += ghiurghiuliu
+WORK2 += giushevska
+WORK2 += godfather
+WORK  += greceasca
+WORK  += guguleana
+
+WORK2 += haidim
+WORK  += hamisha
+WORK2 += heiser
+WORK  += hijaz
+
+WORK  += imate
+
+WORK  += joc1
+WORK  += jovano
+
+WORK_ += kalamatiano
+WORK  += kandels_hora
+WORK  += koj_ti_gi
+WORK  += khasene
+WORK  += khupe
+WORK  += kishiniever
+WORK2 += kolevs_11
+WORK  += kolomeyka_1
+WORK_ += kozak
+WORK  += kucata1
+
+WORK  += lebedik
+WORK  += ljiljano
+
+WORK  += majko
+WORK2 += makamlijsko
+WORK  += makedonsko
+WORK  += mala_loka
+WORK_ += mana_tourkoi
+WORK2 += marcus
+WORK  += mayne_tayere_odessa
+WORK  += mekhutonim
+WORK  += melachroino
+WORK  += metsakukkia
+WORK_ += mia_papadia
+WORK2 += mileva
+WORK  += moldova
+WORK  += moldovanskya
+WORK  += more_sokol_pie
+WORK  += mouse
+WORK  += murfatlar1
+WORK  += murfatlar2
+WORK  += mushamaua
+
+WORK  += nakhes
+WORK  += navodari
+WORK  += neamts
+WORK  += neshto
+WORK  += noche_al_lunar
+WORK  += nokh_a_glezl_vayn
+WORK2 += norbeck1
+WORK  += norbeck2
+WORK  += nu_sunt_negru
+WORK2 += nunta
+
+WORK  += odesa
+WORK  += olimpijski
+WORK  += orashtie
+WORK  += ostropesul
+WORK  += other
+WORK  += ovchepolsko
+
+WORK  += pandalash
+WORK  += pandelasul
+WORK  += papirossen
+WORK  += pjatorka
+WORK  += povlekana
+
+
+WORK  += rachenitsa1
+WORK  += rachenitsa2
+WORK_ += rachenitsa_3654
+WORK  += rachenitsa_cooper_1
+WORK  += rachenitsa_cooper_2
+WORK  += ramush
+WORK2 += ratevka
+
+WORK_ += samiotissa
+WORK_ += sansonette
+WORK_ += sanuva
+WORK_ += satovchensko
+WORK  += serbian
+WORK  += sevda
+WORK  += sherele
+WORK  += sibiu
+WORK  += sibiu2
+WORK  += snijeg
+WORK  += suceava
+WORK  += svatbarska
+WORK_ += syrto
+
+WORK  += tantz_tantz
+WORK  += tasaul
+WORK  += thalassaki
+WORK  += tiganica
+WORK  += trakijska
+WORK_ += tria_paidia
+WORK  += tri_bilbila
+WORK  += trisker
+WORK  += turcitu
+
+WORK  += ukrainian
+
+WORK_ += vangelio
+WORK  += varshaver
+WORK  += vassils
+WORK  += vchera
+WORK  += verxovina
+WORK_ += vist_lop
+WORK  += voevidca_143
+WORK  += voevidca_149
+WORK  += voevidca_152
+WORK  += voevidca_153
+WORK  += voevidca_154
+WORK  += voevidca_159
+WORK  += voevidca_160
+WORK  += voevidca_165
+
+WORK  += west_rhodope
+
+WORK_ += xene
+
+WORK  += yishomah      # 1 Done
+
+WORK  += zalongou
+WORK  += zapjevala
+WORK  += zhiti
+WORK  += zlatna
+
+
+WORK_HALF = $(patsubst %,crop.%.pdf,$(WORK_))
+half.work.pdf: $(WORK_HALF)
+	pdfjam \
+	  $(WORK_HALF) \
+	  --outfile half.work.pdf \
+	  --nup "2x1" \
+	  --noautoscale true \
+	  --landscape \
+	  --delta "0 10pt" \
+	  --papersize "{287mm, 217mm}"
+
+
+WORK_PDF = $(patsubst %,%.pdf,$(WORK2) $(WORK))
+work.book.pdf: blurb90.work.pdf $(WORK_PDF) half.work.pdf Makefile
+	pdfunite blurb90.work.pdf $(WORK_PDF) half.work.pdf $@
+
+# ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
 keys.pdf: blurb90.keys.pdf Makefile
 	pdfunite blurb90.keys.pdf $@
 

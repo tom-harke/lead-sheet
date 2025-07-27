@@ -2,7 +2,6 @@
 
 % Here's how to target a Kindle Scribe
 % However, you need to choose the correct width/height
-% I vaguely recall: 9in x 7.7in
 % LY seems to be mm
 % It's probably good enough to get
 %  - the approximate size, so the font is okay when slightly scaled
@@ -15,6 +14,12 @@
 %	paper-height = 196\mm
 
 \paper {
-	paper-width  = 9.0 * 25.4\mm
-	paper-height = 7.7 * 25.4\mm
+	%paper-width  = 9.0 * 25.4\mm
+	%paper-height = 7.7 * 25.4\mm
+	paper-width  = 8.2 * 35\mm
+	paper-height = 6.2 * 35\mm
+	system-system-spacing = #'(
+		(basic-distance . 1.0) 
+		(padding . 1.0)
+	)
 }
