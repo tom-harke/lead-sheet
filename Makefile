@@ -314,7 +314,7 @@ WORK  += barla
 WORK  += basarabeasca
 WORK  += baym_rebin
 WORK  += belomorska
-WORK_ += bilbilicos
+DONE_ += bilbilicos
 WORK  += bojerka
 WORK  += bubamara
 WORK  += buena
@@ -383,7 +383,7 @@ WORK  += khupe
 WORK  += kishiniever
 WORK2 += kolevs_11
 WORK  += kolomeyka_1
-WORK_ += kozak
+DONE_ += kozak
 WORK  += kucata1
 
 WORK  += lebedik
@@ -442,10 +442,10 @@ WORK  += rachenitsa_cooper_2
 WORK  += ramush
 WORK  += ratevka
 
-WORK_ += samiotissa
+DONE_ += samiotissa
 WORK_ += sansonette
-WORK_ += sanuva
-WORK_ += satovchensko
+DONE_ += sanuva
+DONE_ += satovchensko
 WORK  += serbian
 WORK  += sevda
 WORK  += sherele
@@ -474,7 +474,7 @@ WORK  += vassils
 WORK  += vchera
 WORK  += verxovina
 WORK_ += vist_lop
-WORK  += voevidca_143
+DONE  += voevidca_143
 WORK  += voevidca_149
 WORK  += voevidca_152
 WORK  += voevidca_153
@@ -494,15 +494,27 @@ WORK  += zapjevala
 WORK  += zhiti
 WORK  += zlatna
 
+# (
+DONE_HALF = $(patsubst %,crop.%.pdf,$(DONE_))
+half.done.pdf: $(DONE_HALF)
+	$(call shorten,$(DONE_HALF))
 
+DONE_PDF = $(patsubst %,%.pdf,$(DONE2) $(DONE))
+done.book.pdf: blurb90.work.pdf $(DONE_PDF) half.done.pdf Makefile
+	pdfunite blurb90.work.pdf $(DONE_PDF) half.done.pdf $@
+# )
+# (
 WORK_HALF = $(patsubst %,crop.%.pdf,$(WORK_))
 half.work.pdf: $(WORK_HALF)
 	$(call shorten,$(WORK_HALF))
 
-
 WORK_PDF = $(patsubst %,%.pdf,$(WORK2) $(WORK))
 work.book.pdf: blurb90.work.pdf $(WORK_PDF) half.work.pdf Makefile
 	pdfunite blurb90.work.pdf $(WORK_PDF) half.work.pdf $@
+# )
+
+
+
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
