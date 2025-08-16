@@ -8,6 +8,7 @@ PDF  = evince
 
 
 include glue.mk
+include half.mk
 
 ALL = $(patsubst Music/%.src.ly,%,$(shell ls Music/*.src.ly))
 EG  = TUNE
@@ -264,27 +265,10 @@ LESNO  += zalongou     # might be half, after finalizing chords
 LESNO  += zapjevala
 
 
-
-# -- (
-# This is a workable but flawed attempt to put 2 short pieces on the same page.
-# The flaws are
-#   - there is no space between tunes
-#   - a tune that takes up exactly half a page (such as hamisa) is printed overlapping the other tune
-
-PAPERSIZE = "{792pt, 612pt}"
-PAPERSIZE = "{229mm, 196mm}"
-
 LESNO_HALF = $(patsubst %,crop.%.pdf,$(LESNO_))
+
 half.lesno.pdf: $(LESNO_HALF)
-	pdfjam \
-	  $(LESNO_HALF) \
-	  --outfile half.lesno.pdf \
-	  --nup "2x1" \
-	  --noautoscale true \
-	  --landscape \
-	  --delta "0 10pt" \
-	  --papersize $(PAPERSIZE)
-# -- )
+	$(call shorten,$(LESNO_HALF))
 
 
 LESNO_PDF = $(patsubst %,%.pdf,$(LESNO2) $(LESNO))
@@ -513,14 +497,7 @@ WORK  += zlatna
 
 WORK_HALF = $(patsubst %,crop.%.pdf,$(WORK_))
 half.work.pdf: $(WORK_HALF)
-	pdfjam \
-	  $(WORK_HALF) \
-	  --outfile half.work.pdf \
-	  --nup "2x1" \
-	  --noautoscale true \
-	  --landscape \
-	  --delta "0 10pt" \
-	  --papersize "{287mm, 217mm}"
+	$(call shorten,$(WORK_HALF))
 
 
 WORK_PDF = $(patsubst %,%.pdf,$(WORK2) $(WORK))
