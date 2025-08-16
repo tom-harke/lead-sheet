@@ -49,7 +49,7 @@ Melody = \transpose e e' {
     \repeat volta 2 {
         | gis8 a16 b8 b16 a
         | gis8 f16 e8 e16 f
-        | gis8 f16 g8 f
+        | gis8 f16 gis8 f
         | e8. e4
 
         | gis8 f16 e8 gis16 a

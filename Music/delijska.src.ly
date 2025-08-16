@@ -130,7 +130,7 @@ Melody = \transpose d d' {
     \repeat volta 2 {
         | g16[ a fis8] g16 a g
         | fis16[ \adrop d ees] fis8\prall d16
-        | g16[ \adrop fis8] ees16 d c
+        | g16[ \adrop fis8\prall] ees16 d c
     }
     \alternative {
         { d16[ ees fis g] a8\prall d16 }
@@ -150,6 +150,7 @@ Layout = {
         {| s4.. }
         {| s4.. }
     }
+\break
 	\bar "||"
     | s4..*4
     % A )

@@ -28,7 +28,7 @@ Chords = \chords {
         | a4.:7   | s4.
     }
 	\alternative {
-		{| d4.:min a:7 }
+		{| d4.:min d:min7 }
 		{| d4.:min s }
 	}
 	% B )

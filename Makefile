@@ -250,7 +250,7 @@ LESNO_ += mana_tourkoi
 LESNO  += melachroino
 LESNO_ += mia_papadia
 LESNO  += more_sokol_pie
-LESNO2 += ratevka
+LESNO  += ratevka
 LESNO_ += samiotissa
 LESNO_ += satovchensko
 LESNO  += sevda
@@ -456,7 +456,7 @@ WORK_ += rachenitsa_3654
 WORK  += rachenitsa_cooper_1
 WORK  += rachenitsa_cooper_2
 WORK  += ramush
-WORK2 += ratevka
+WORK  += ratevka
 
 WORK_ += samiotissa
 WORK_ += sansonette

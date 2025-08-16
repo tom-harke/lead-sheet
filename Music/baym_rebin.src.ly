@@ -1,18 +1,21 @@
 Title  = "Baym Rebin in Palestina"
 
 Chords = \chords {
+   % A
    \repeat volta 2 {
       | d4.   | s | s | s
       | d4.   | s | s | s
       | d4.   | s | s | s
       | a4.:7 | s | d | s
    }
+   % B
    \repeat volta 2 {
       | d4.   | s
-      | d4.:7 | s
-      | d4.:6 | s
-      | d4.:5 | s
+      | d4./c | s
+      | d4./b | s
+      | d4./a | s
    }
+   % C
    \repeat volta 2 {
       | d4.   | s | s | s
       | d4.   | s | s | s

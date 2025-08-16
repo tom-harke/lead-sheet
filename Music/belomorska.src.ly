@@ -1,5 +1,5 @@
 Title = "Belomorska Rъčenica"
-
+Order = "A²B²C⁴D⁴E⁴"
 
 C =
 \chords {

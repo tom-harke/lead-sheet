@@ -6,7 +6,7 @@ Chords = \chords {
     \repeat volta 2 {
         | d4.:min d:min7
         | g4.:min g:dim
-        | a4.:min a:min7
+        | a4.     a:7
     }
     \alternative {
         { d2.:min }
@@ -15,9 +15,9 @@ Chords = \chords {
     % A )
     % B (
     \repeat volta 2 {
-        | a2.:min
+        | a4. a:7
         | g2.:min
-        | a4.:min a:min7
+        | a4. a:7
     }
     \alternative {
         { d2.:min }

@@ -38,7 +38,7 @@ Melody = \transpose d d' {
     | a4.               | cis'4.
     \repeat percent 2  {| d'8. a'16 f' e' |}
     | d'4. ~            | d'4.
-    | gis'8. a'16 b' a' | g'8 a' b'
+    | gis'8. a'16 b' a' | gis'8 a' b'
     | c''4. ~           | c''8 r a'
 %\break
     | g'8. f'16 e' d'   | c'8. b16 c' d'

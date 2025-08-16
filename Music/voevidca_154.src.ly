@@ -25,12 +25,17 @@ Chords = \chords {
     % A )
     % B (
     \repeat volta 2 {
-        | r2.*2
+        | bes2.:dim
+        | f2.
     }
     \alternative {
-        { r2.*2 }
-        { r2.
-            | g4.:min
+        {
+			f2.:7
+			bes2.
+		}
+        {
+			| d2.:7
+            | g2.:min
         }
     }
     % B )
@@ -41,8 +46,8 @@ Chords = \chords {
         | d4. d:7
     }
     \alternative {
-        { g4.:min }
-        { g4.:min }
+        { g2.:min }
+        { g2.:min }
     }
     % C )
 }
@@ -116,6 +121,5 @@ Layout = {
     % C (
     \mark \default
     \repeat volta 2 {|s2.*3} \alternative {{s2.}{s2.}}
-    \break
     % C )
 }

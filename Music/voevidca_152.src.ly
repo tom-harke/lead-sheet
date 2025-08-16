@@ -6,6 +6,8 @@ Title = "v.152: Horă Veche"
 %   Cules, tr.: „Al. Voievidca, director [al] şcoalei primare în Vatra Boianului”
 %   Tip metro-ritmic/agogic 2.2.2.2.2.1.
 %   Tip melodic             A.II.2.2.2.
+%
+% The `ees` is correct, but sounds weird and is hard to fit a chord to
 
 Chords = \chords {
     % A (
@@ -16,14 +18,14 @@ Chords = \chords {
 
     | g2.:min
     | g2.:min
-    | r2.
-    | r2.
+    | a4. a:7
+    | d2.
     % A )
     % B (
     | c4. c:7
     | f2.
     | c4. c:7
-    | r2.
+    | f2.
 
     | c4. c:7
     | f2.
