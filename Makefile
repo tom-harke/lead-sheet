@@ -296,12 +296,12 @@ friday.book.pdf: $(FRIDAY_PDF) Makefile
 
 
 WORK_ += adelfades
-WORK  += ako_umram
-WORK  += ajshino
-WORK  += aleni_zvezdi
+DONE  += ako_umram
+DONE  += ajshino
+DONE  += aleni_zvezdi
 WORK2 += alfanska
 WORK_ += an_dro_25
-WORK  += araber
+DONE  += araber
 WORK  += ardeleana
 WORK  += ardeleana_5654345
 WORK  += ardeleana_timis
@@ -311,40 +311,40 @@ WORK  += babadag2
 WORK2 += balkandzhijska
 WORK  += banat
 WORK  += barla
-WORK  += basarabeasca
-WORK  += baym_rebin
-WORK  += belomorska
+DONE  += basarabeasca
+DONE  += baym_rebin
+DONE  += belomorska
 DONE_ += bilbilicos
-WORK  += bojerka
-WORK  += bubamara
+DONE  += bojerka
+DONE  += bubamara
 WORK  += buena
-WORK  += bughici
-WORK  += bukovinei
+DONE  += bughici
+DONE  += bukovinei
 WORK2 += bulcenska
-WORK  += bulchenska
+DONE  += bulchenska
 WORK  += buvchansko
 
-WORK  += campulung
-WORK  += caval
-WORK  += changu
+DONE  += campulung
+DONE  += caval
+DONE  += changu
 WORK  += charalampes
-WORK2 += chekurjankino
-WORK  += chetvorno
-WORK  += chto_mne_gore
+DONE2 += chekurjankino
+DONE  += chetvorno
+DONE  += chto_mne_gore
 WORK  += comida
-WORK2 += culesul
+DONE2 += culesul
 
-WORK  += daeni
+DONE  += daeni
 WORK  += danets
-WORK  += delijska
+DONE  += delijska
 WORK  += devoiko
 WORK  += dobrogeana
-WORK  += dobrogene
-WORK  += dorogoj
+DONE  += dobrogene
+DONE  += dorogoj
 WORK  += dospatsko
 
 WORK  += ederlezi
-WORK  += edinets
+DONE  += edinets
 WORK_ += eicha
 WORK  += erenaki
 
@@ -354,7 +354,7 @@ WORK2 += fetesti
 WORK  += fierbinte
 WORK  += freylekh_1
 
-WORK  += gankino
+DONE  += gankino
 WORK_ += garnphalia
 WORK  += geampara_53323
 WORK_ += geampara_partea_3
@@ -362,22 +362,22 @@ WORK  += gerakina
 WORK_ += ghiurghiuliu
 WORK2 += giushevska
 WORK2 += godfather
-WORK  += greceasca
-WORK  += guguleana
+DONE  += greceasca
+DONE  += guguleana
 
-WORK2 += haidim
+DONE2 += haidim
 WORK  += hamisha
-WORK2 += heiser
+DONE2 += heiser
 WORK  += hijaz
 
-WORK  += imate
+DONE  += imate
 
 WORK  += joc1
 WORK  += jovano
 
 WORK_ += kalamatiano
-WORK  += kandels_hora
-WORK  += koj_ti_gi
+DONE  += kandels_hora
+DONE  += koj_ti_gi
 WORK  += khasene
 WORK  += khupe
 WORK  += kishiniever
@@ -386,111 +386,111 @@ WORK  += kolomeyka_1
 DONE_ += kozak
 WORK  += kucata1
 
-WORK  += lebedik
+DONE  += lebedik
 WORK  += ljiljano
 
-WORK  += majko
+DONE  += majko
 WORK2 += makamlijsko
-WORK  += makedonsko
+DONE  += makedonsko
 WORK  += mala_loka
 WORK_ += mana_tourkoi
 WORK2 += marcus
-WORK  += mayne_tayere_odessa
-WORK  += mekhutonim
+DONE  += mayne_tayere_odessa
+DONE  += mekhutonim
 WORK  += melachroino
-WORK  += metsakukkia
+DONE  += metsakukkia
 WORK_ += mia_papadia
 WORK2 += mileva
-WORK  += moldova
-WORK  += moldovanskya
+DONE  += moldova
+DONE  += moldovanskya
 WORK  += more_sokol_pie
-WORK  += mouse
-WORK  += murfatlar1
-WORK  += murfatlar2
+DONE  += mouse
+DONE  += murfatlar1
+DONE  += murfatlar2
 WORK  += mushamaua
 
-WORK  += nakhes
-WORK  += navodari
+DONE  += nakhes
+DONE  += navodari
 WORK  += neamts
 WORK  += neshto
 WORK  += noche_al_lunar
 WORK  += nokh_a_glezl_vayn
 WORK2 += norbeck1
 WORK  += norbeck2
-WORK  += nu_sunt_negru
-WORK2 += nunta
+DONE  += nu_sunt_negru
+DONE2 += nunta
 
-WORK  += odesa
+DONE  += odesa
 WORK  += olimpijski
 WORK  += orashtie
-WORK  += ostropesul
-WORK  += other
+DONE  += ostropesul
+DONE  += other
 WORK  += ovchepolsko
 
 WORK  += pandalash
 WORK  += pandelasul
 WORK  += papirossen
-WORK  += pjatorka
+DONE  += pjatorka
 WORK  += povlekana
 
 
 WORK  += rachenitsa1
 WORK  += rachenitsa2
 WORK_ += rachenitsa_3654
-WORK  += rachenitsa_cooper_1
-WORK  += rachenitsa_cooper_2
+DONE  += rachenitsa_cooper_1
+DONE  += rachenitsa_cooper_2
 WORK  += ramush
-WORK  += ratevka
+DONE  += ratevka
 
 DONE_ += samiotissa
 WORK_ += sansonette
 DONE_ += sanuva
 DONE_ += satovchensko
-WORK  += serbian
-WORK  += sevda
-WORK  += sherele
+DONE  += serbian
+DONE  += sevda
+DONE  += sherele
 WORK  += sibiu
 WORK  += sibiu2
-WORK  += snijeg
+DONE  += snijeg
 WORK  += suceava
 WORK  += svatbarska
 WORK_ += syrto
 
-WORK  += tantz_tantz
-WORK  += tasaul
+DONE  += tantz_tantz
+DONE  += tasaul
 WORK  += thalassaki
 WORK  += tiganica
 WORK  += trakijska
 WORK_ += tria_paidia
 WORK  += tri_bilbila
-WORK  += trisker
+DONE  += trisker
 WORK  += turcitu
 
 WORK  += ukrainian
 
 WORK_ += vangelio
-WORK  += varshaver
+DONE  += varshaver
 WORK  += vassils
 WORK  += vchera
-WORK  += verxovina
+DONE  += verxovina
 WORK_ += vist_lop
 DONE  += voevidca_143
 WORK  += voevidca_149
 WORK  += voevidca_152
-WORK  += voevidca_153
-WORK  += voevidca_154
+DONE  += voevidca_153
+DONE  += voevidca_154
 WORK  += voevidca_159
-WORK  += voevidca_160
-WORK  += voevidca_165
+DONE  += voevidca_160
+DONE  += voevidca_165
 
 WORK  += west_rhodope
 
 WORK_ += xene
 
-WORK  += yishomah      # 1 Done
+DONE  += yishomah      # 1 Done
 
 WORK  += zalongou
-WORK  += zapjevala
+DONE  += zapjevala
 WORK  += zhiti
 WORK  += zlatna
 
