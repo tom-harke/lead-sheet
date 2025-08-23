@@ -34,15 +34,13 @@ C =
 
 	% C (
     \repeat volta 2 {
-        \repeat unfold 2 {
-            | e4..
-            | s4..
-            | d4..:min
-        }
-        \alternative {
-            {| e4.. | \break}
-            {| e4.. |}
-        }
+        | e4..
+        | s4..
+        | d4..:min
+    }
+    \alternative {
+        {| e4.. |}
+        {| e4.. |}
     }
 	% C )
 }
@@ -57,7 +55,7 @@ M =
 	% A (
     \break \mark \default
     \repeat volta 2 {
-        \repeat unfold 3 {
+        \repeat percent 3 {
             | gis16 a b e gis a b
             | c'8\prall a16 gis b8 e16
         }
@@ -89,15 +87,13 @@ M =
 	% C (
     \break \mark \default
     \repeat volta 2 {
-        \repeat unfold 2 {
-            | e16 f dis e f e f
-            | gis16 f gis a f gis a
-            | b8 a16 b gis a f
-        }
-        \alternative {
-            {| e16 f gis a b8. |}
-            {| e8 r8 r8. |}
-        }
+        | e16 f dis e f e f
+        | gis16 f gis a f gis a
+        | b8 a16 b gis a f
+    }
+    \alternative {
+        {| e16 f gis a b8. |}
+        {| e8 r8 r8. |}
     }
 	% C )
 }

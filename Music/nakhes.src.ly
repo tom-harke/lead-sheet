@@ -9,12 +9,15 @@ Melody = {
 			| d8 bes' a g
 			| fis4 g
 			| a2 ~ a2
+
 			| c8 bes a bes
 			| c4 d
 			| g,2 ~ g2
+
 			| g8 e d c
 			| c'4. bes8
-			| bes8 a4. ~ a2
+			| bes8 a8 ~ a4 ~ a2
+
 			| g8 f e f
 			| g4 a
 		}
@@ -49,7 +52,7 @@ Melody = {
 Chords = {
 	\chords {
 		\repeat volta 2 {
-			d2 s s s s s
+			d2 s s s d:7 s
 			g:min s
 			c:7 s
 			f s
@@ -57,20 +60,21 @@ Chords = {
 		}
 		\alternative {
 			{ d:min s }
-			{ s s }
+			{ d:min c }
 		}
 		\repeat volta 2 {
 			f
 			c:7
 			f4 c:7
-			f2 s s s s s
+			f2 s s s s
+			f2
 			c:7
 			f4 c:7
 			f2 s
 			c:min
 		}
 		\alternative {
-			{ d:min s }
+			{ d:min c }
 			{ d:min s }
 		}
 
@@ -89,6 +93,6 @@ Layout = {
 	\alternative { { | s2 * 2 | } { | s2 * 2 | } }
 	\break
 	\mark \default
-	\repeat volta 2 { | s2 * 14 }
+	\repeat volta 2 { | s2*8 \break | s2*6 }
 	\alternative { { | s2 * 2 | } { | s2 * 2 | } }
 }

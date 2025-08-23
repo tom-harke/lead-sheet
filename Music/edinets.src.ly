@@ -1,5 +1,5 @@
 Title    = "Edineţ Hostropăţ"
-Subtitle = "(chords need work)"
+% chords need work
 Order    = "A² B² C⁴ A²"
 
 % TODO: for each a chord, determine whether it's major or minor
@@ -97,8 +97,9 @@ Melody =
     \break \mark \default
     \repeat volta 2 {
         | ais8 b b\prall e16
-        | b16 e' b e' b8\prall e16
-        | b16 e' b e' b8\prall e16
+    	\repeat percent 2 {
+        	| b16 e' b e' b8\prall e16
+        }
         | c'16 c' b gis a8\prall e16
 \break
         | gis8 a a\prall e16

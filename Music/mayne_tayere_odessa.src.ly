@@ -1,4 +1,4 @@
-Title = "Mayne Tayere Odessa"
+Title = "Mayne Tayere Odesa"
 
 
 Chords = \chords {

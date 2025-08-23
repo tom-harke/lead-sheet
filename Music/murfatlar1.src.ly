@@ -92,7 +92,7 @@ M =
 
     \break \mark \default
     \repeat volta 2 {
-        \repeat unfold 2 {
+        \repeat percent 2 {
             | cis'16 a cis' a cis' d' e'
             | d'8 d'16 cis' bes a g
         }
@@ -116,7 +116,7 @@ M =
     \repeat volta 2 {
         | a'8 a' a16 cis' a'
         | g'8 g' a16 cis' g'
-        \repeat unfold 2 {
+        \repeat percent 2 {
             | f'8 f'16 e' d' e' d'
             | cis'8 cis'16 a bes a g
         }

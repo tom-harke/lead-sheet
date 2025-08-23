@@ -13,7 +13,7 @@ Chords = \chords {
         | d1:min | s1
         | d1:min | s1
         | d1:min | s1
-        | a1     | d1:min
+        | a1:7   | d1:min
     }
 	% A )
 	% B (
@@ -34,7 +34,7 @@ Chords = \chords {
         | d1     | s1
         | d1:min | s1
         | d1:min | s1
-        | a1     | d1:min
+        | a1:7   | d1:min
         | a1:7   | d1:min
     }
 	% C )

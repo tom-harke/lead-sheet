@@ -1,6 +1,7 @@
 Title    = "Geamparale de la Dobrogene"
-Subtitle = "(similar to Turcitu)"
 Order    = "A²B²C⁴D⁴E²A"
+
+% similar to Turcitu
 
 % From
 % BGKO

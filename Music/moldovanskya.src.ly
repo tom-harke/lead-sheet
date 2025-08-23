@@ -43,7 +43,9 @@ Layout = {
 	\set Score.markFormatter = #format-mark-box-letters
 	\mark \default
 	\repeat volta 2 {
-		\repeat unfold 14 { s2 }
+		s2*8
+		\break
+		s2*6
 	}
 	\alternative {
 		{ s2 | s2 }
@@ -69,8 +71,8 @@ Layout = {
 
 Chords = \chords {
 	\repeat volta 2 {
-		| d2:min | s2 | s2 | s2 | s2 | s2 | a:7 | s2
-		| s2     | s2 | s2 | s2 | s2 | s2
+		| d2:min | s2 | s2 | s2 | s2 | s2 | a2 | s2
+		| s2     | s2 | s2 | s2 | a2:7 | s2
 	}
 	\alternative {
 		{ d:min | s2 }
@@ -82,7 +84,7 @@ Chords = \chords {
 	}
 	\repeat volta 2 {
 		| f2 | c:7 | f2 | s2 | c:7 | s2 | f2 | s2
-		| s2 | c:7 | f2 | s2 | c:7 | s2
+		| f2 | c:7 | f2 | s2 | c:7 | s2
 	}
 	\alternative {
 		{ f2 | s2 }

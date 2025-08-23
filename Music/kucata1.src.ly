@@ -1,6 +1,6 @@
 Title = "Kucata"
 Order = "A⁴B⁴ (A⁴B⁴C⁴D⁴E⁴)²"
-Subtitle = "(needs chords)"
+Subtitle = "Nice! (needs chords)"
 
 % From hand-written melody on internet
 
@@ -8,29 +8,29 @@ Chords =
 \chords {
     % A (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
+        | a4..
+        | a4..
+        | e4..
     }
     \alternative {
-        { s4.. }
-        { s4.. }
+        { a4.. }
+        { a4.. }
     }
     % A )
     % B (
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
+        | e4..
+        | a4..
+        | e4..
     }
     \alternative {
-        { s4.. }
-        { s4.. }
+        { a4.. }
+        { a4.. }
     }
     % B )
     % C (
     \repeat volta 2 {
-        | s4..
+        | a4..
         | s4..
         | s4..
     }
