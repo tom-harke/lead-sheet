@@ -179,6 +179,9 @@ geampara.book.pdf: $(GEAMPARA_PDF) blurb90.geampara.pdf Makefile
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 EVEN  += an_dro_25     # 1/2 page
+EVEN  += an_dro_26     # 1/2 page
+EVEN  += an_dro_27     # 1/2 page
+EVEN  += an_dro_28     # 1/2 page
 EVEN  += basarabeasca  # 1 Done (does this belong here?)
 EVEN  += bubamara      # 1 Done (3 lines only)
 EVEN  += bughici       # 1 Done
@@ -186,6 +189,7 @@ EVEN  += caval
 EVEN  += changu
 EVEN  += dorogoj       # 1 Done (3 lines only)
 EVEN  += ederlezi      # 1
+EVEN  += fisel         # 1/2 page
 EVEN2 += heiser        # 2
 EVEN  += kishiniever
 EVEN  += khupe
@@ -196,6 +200,7 @@ EVEN  += mouse
 EVEN  += nakhes        # 1 Done
 EVEN  += odesa
 EVEN  += other         # 1 Done
+EVEN  += pach_pi_kozh  # 1/2 page
 EVEN  += papirossen   # 1
 EVEN  += sansonette   # 1/2 page
 EVEN  += tantz_tantz
@@ -301,6 +306,9 @@ DONE  += ajshino
 DONE  += aleni_zvezdi
 WORK2 += alfanska
 WORK_ += an_dro_25
+WORK_ += an_dro_26
+WORK_ += an_dro_27
+WORK_ += an_dro_28
 DONE  += araber
 WORK  += ardeleana
 WORK  += ardeleana_5654345
@@ -352,6 +360,7 @@ WORK  += fagarash
 WORK  += fecuresc
 WORK2 += fetesti
 WORK  += fierbinte
+WORK_ += fisel
 WORK  += freylekh_1
 
 DONE  += gankino
@@ -427,6 +436,7 @@ DONE  += ostropesul
 DONE  += other
 WORK  += ovchepolsko
 
+WORK_ += pach_pi_kozh  # 1/2 page
 WORK  += pandalash
 WORK  += pandelasul
 WORK  += papirossen

@@ -1,4 +1,4 @@
-Title  = "An Dro"
+Title  = "An Dro (#25)"
 
 Melody = \transpose c c' {
     \include "four.rhy"
@@ -17,13 +17,13 @@ Melody = \transpose c c' {
 	% A )
 	% B (
 	\repeat volta 2 {
-		| s1
-		| s1
-		| s1
+		| e4 e fis g8 fis
+		| e4 \times 2/3 { e8 e e } fis8 e fis g
+		| a4 b b a8 g
 	}
 	\alternative {
-		{| s1 }
-		{| s1 }
+		{| fis8 g e fis g4. fis8 }
+		{| fis8 e fis g e2 }
 	}
 	% B )
 }
