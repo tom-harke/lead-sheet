@@ -238,7 +238,7 @@ LESNO  += ako_umram
 LESNO  += aleni_zvezdi
 LESNO  += banat
 LESNO  += charalampes
-LESNO  += chetvorno
+LESNO  += chetvorno_shopsko
 LESNO_ += eicha
 LESNO  += erenaki
 LESNO  += hamisha      # may or may not fit on half page, depending
@@ -322,6 +322,7 @@ WORK  += barla
 DONE  += basarabeasca
 DONE  += baym_rebin
 DONE  += belomorska
+DONE  += bhettys
 DONE_ += bilbilicos
 DONE  += bojerka
 DONE  += bubamara
@@ -412,6 +413,7 @@ WORK_ += mia_papadia
 WORK2 += mileva
 DONE  += moldova
 DONE  += moldovanskya
+WORK  += morags
 WORK  += more_sokol_pie
 DONE  += mouse
 DONE  += murfatlar1
@@ -440,7 +442,9 @@ WORK_ += pach_pi_kozh  # 1/2 page
 WORK  += pandalash
 WORK  += pandelasul
 WORK  += papirossen
+DONE  += pastouriaux
 DONE  += pjatorka
+WORK  += poules
 WORK  += povlekana
 
 
@@ -477,6 +481,7 @@ DONE  += trisker
 WORK  += turcitu
 
 WORK  += ukrainian
+DONE2 += utpick
 
 WORK_ += vangelio
 DONE  += varshaver

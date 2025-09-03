@@ -1,4 +1,3 @@
-%    title    = "Chetvorno Shopsko Horo"
 % â č ƙ š ŭ ž
 %    Bulgaria
 
