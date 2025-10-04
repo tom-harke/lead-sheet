@@ -1,0 +1,6 @@
+\time 7/8
+\set Score.beamExceptions = #'()
+\set Score.baseMoment     = #(ly:make-moment 1/8)
+\set Score.beatStructure  = 3,2,2
+
+\set Score.markFormatter  = #format-mark-box-alphabet

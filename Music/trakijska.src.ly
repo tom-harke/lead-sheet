@@ -1,4 +1,5 @@
 Title = "Trakijska Rъčenica"
+Order = "ABABCDAB"
 
 % From an arrangement by Marcus Moskoff, in Bill Cope's booklet
 % 
@@ -59,15 +60,15 @@ Melody = \transpose d d' {
 
     % A (
     \repeat volta 2 {
-        | d'16 c'~c' \edrop d'8 \edrop
-        | c'16 bes~bes \edrop a8.
+        | d'16 c' c' \edrop d'8 \edrop
+        | c'16 bes bes \edrop a8.
         | g16 a c' \edrop bes8 g16
-        | a8.[ \edrop] c'16 d' \edrop
+        | a8 a16 \edrop c'16 d' \edrop
 
         | d'16 \edrop c' \edrop c' d' \edrop
         | c'16 \edrop bes \edrop a8.
         | g16 a c' \edrop bes8 g16
-        | a8.[ \edrop] a8 \edrop
+        | a8 a16 \edrop a8 \edrop
     }
     % A )
 	% B (
@@ -78,7 +79,7 @@ Melody = \transpose d d' {
     }
     \alternative {
         {| a8 g16 a bes8 a16 }
-        {| a8.[ \edrop] a8 \edrop }
+        {| a8 a16 \edrop a8 \edrop }
     }
     % B )
     % C (
@@ -93,7 +94,7 @@ Melody = \transpose d d' {
         | d'16 cis' cis' \edrop cis' d' e'
         | cis'16 \edrop bes \edrop a8.    % DUP
         | cis'16 \edrop bes cis' bes8 g16 % DUP
-        | a8.[ \edrop] a8 \edrop
+        | a8 a16 \edrop a8 \edrop
     }
     % C )
 	% D (
@@ -104,7 +105,7 @@ Melody = \transpose d d' {
     }
     \alternative {
         { a8 cis'16 d' e' a a }
-        { a8.[ \edrop] a8 \edrop }
+        { a8 a16 \edrop a8 \edrop }
     }
     % D )
 }

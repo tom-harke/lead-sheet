@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "trakijska.src.ly"
+\include "a_bre_kako_dilineja.src.ly"
 
 \include "landscape.ly"
 
@@ -8,6 +8,7 @@
     title = \Title
     opus = \Order
     tagline = ##f
+    ragged-last = ##t
 }
 
 \score {

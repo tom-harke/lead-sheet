@@ -1,12 +1,11 @@
 \version "2.22.1"
 
-\include "trakijska.src.ly"
+\include "fato.src.ly"
 
 \include "landscape.ly"
 
 \header {
     title = \Title
-    opus = \Order
     tagline = ##f
 }
 
