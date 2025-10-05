@@ -7,14 +7,15 @@ Melody = \transpose c c' {
 	\partial 4 d8 ees
 	| f4 f fis8 gis fis f | f2. d8   ees
 	| f4 f fis8 a   fis f | f2. bes8 bes
-	| bes4 bes8 a c' bes a g
-	| g8 f f2 g8 g
 
-	| g4 f8 a4 g8 f ees
-	| d4 ees8 f4 r8 bes bes
 	| bes4 bes8 a c' bes a g
-	| g8 f f2 g8 g
-	| g4 f8 a4 g8 f ees
+	| g8 f f4~f g8 g
+	| g4 f8 a8~a g8 f ees
+	| d4 ees8 f8~f r8 bes bes
+
+	| bes4 bes8 a c' bes a g
+	| g8 f f4~f g8 g
+	| g4 f8 a8~a g8 f ees
 	| d1 ~
 	| d2. r4
 }

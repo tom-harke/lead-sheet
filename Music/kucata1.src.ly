@@ -10,7 +10,7 @@ Chords =
     \repeat volta 2 {
         | a4..
         | a4..
-        | e4..
+        | e4..:7
     }
     \alternative {
         { a4.. }
@@ -19,9 +19,9 @@ Chords =
     % A )
     % B (
     \repeat volta 2 {
-        | e4..
+        | e4..:7
         | a4..
-        | e4..
+        | e4..:7
     }
     \alternative {
         { a4.. }

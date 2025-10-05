@@ -1,4 +1,4 @@
-Title = "v.152: Horă Veche"
+Title = "v.152: Horă Veche din Grăniceşti"
 
 
 %   Ms.22227_B_0142_BNro (357/1557)

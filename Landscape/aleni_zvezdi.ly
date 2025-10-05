@@ -2,7 +2,7 @@
 
 \include "aleni_zvezdi.src.ly"
 
-\include "landscape_27.ly"
+\include "landscape_26.ly"
 
 \header {
     title = \Title

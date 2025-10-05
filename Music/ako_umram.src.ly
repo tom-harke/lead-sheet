@@ -47,7 +47,7 @@ Melody = \transpose c c' {
 
 
 Layout = {
-   \break\mark\default {| s4..*9 |}
+   \break\mark\default \repeat volta 2 { | s4..*4 \break | s4..*5 }
    \break\mark\default \repeat volta 2 { | s4..*4 \break | s4..*4 }
    \break\mark\default \repeat volta 2 { | s4..*4 \break | s4..*4 }
 }

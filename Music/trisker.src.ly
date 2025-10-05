@@ -71,21 +71,21 @@ Chords = \chords {
 	}
 	\alternative {
 		{ d1:min }
-		{ d1:min }
+		{ d2:min a:7 }
 	}
 	\repeat volta 2 {
 		| f1
 		| s1
 
+		| f1
 		| s1
-		| s1
+		| f1
 		| s1
 
-		| c1:min
 		| d2:min c:min
 	}
 	\alternative {
-		{ d1:min }
+		{ d2:min a:7 }
 		{ d1:min }
 	}
 	\repeat volta 2 {

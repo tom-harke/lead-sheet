@@ -1,5 +1,5 @@
-Title    = "Samiotissa"
-Subtitle = "Σαμιωτισσα"
+%Title    = "Samiotissa"
+Title = "Σαμιωτισσα"
 
 %  Alevizos
 
@@ -48,7 +48,7 @@ Melody = \transpose c c' {
 	}
 	\alternative {
 		{ | g8 a16 b8 c' }
-		{ | g8. ~ g8 }
+		{ | g4.. }
 	}
 }
 

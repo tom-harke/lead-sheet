@@ -68,7 +68,7 @@ M =
         | fis'8\prall fis'16 dis' e' fis' e'
         | d'8\prall d'16 b c' d' c'
         | b8\prall b16 gis a b gis
-
+\break
         | a8 fis'8 e'16 dis' e'
         | dis'8 e'16 c' c' b a
         | g8 g16 fis g a fis

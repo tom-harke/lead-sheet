@@ -1,6 +1,6 @@
 Title = "Sherele"
 
-C =
+Chords =
 \chords {
     | d2 c:min | d1       | c1:min   | d1
     | d1       | c2:min d | d2 c:min | d1
@@ -8,12 +8,13 @@ C =
     | bes1     | f1       | ees2 d:7 | g1:min
 }
 
-M =
+Melody =
 \transpose d d' {
-
-    \set Score.markFormatter = #format-mark-box-alphabet
-
+	\include "four.rhy"
     \key d \phrygian
+
+    %\set Score.markFormatter = #format-mark-box-alphabet
+
     \break \mark \default
     | fis8 g ees fis g a fis g                  | a1
     | a8 bes c'4 d'8 c' \times 2/3 { bes8 a g } | a2. r8 a8
@@ -26,4 +27,15 @@ M =
     \break
     | d'2 d'                 | c'8 d' c' bes c'4 a
     | g8 a bes g a bes a fis | g1
+}
+
+Layout = {
+    \break \mark \default
+    | s1*4
+    \break
+    | s1*4
+    \break \mark \default
+    | s1*4
+    \break
+    | s1*4
 }

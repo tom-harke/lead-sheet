@@ -1,4 +1,4 @@
-Title = "v.153: Horă Veche"
+Title = "v.153: Horă Veche din Voloca"
 Order = "A B² C B₂"
 
 % only play 2nd part of B at end

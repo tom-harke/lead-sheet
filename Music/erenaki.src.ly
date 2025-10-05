@@ -1,5 +1,5 @@
-Title    = "Erenaki"
-Subtitle = "Έρηνακι"
+%Title    = "Erenaki"
+Title = "Έρηνακι"
 
 % Alevizos
 

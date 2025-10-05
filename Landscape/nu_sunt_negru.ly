@@ -6,7 +6,7 @@
 
 \header {
     title    = \Title
-    subtitle = \subtitle
+%    subtitle = \subtitle
     tagline  = ##f
 }
 

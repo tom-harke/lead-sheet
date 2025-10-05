@@ -246,7 +246,7 @@ LESNO_ += garnphalia
 LESNO  += gerakina
 LESNO  += greceasca
 LESNO  += imate
-LESNO  += jovano       # 1 TODO chords
+LESNO  += jovano
 LESNO_ += kalamatiano
 LESNO  += koj_ti_gi
 LESNO  += ljiljano
@@ -295,6 +295,18 @@ FRIDAY_PDF = $(patsubst %,%.pdf,$(FRIDAY))
 friday.book.pdf: $(FRIDAY_PDF) Makefile
 	pdfunite $(FRIDAY_PDF) $@
 
+# ---------------------------------------------------------------------------- )
+# ---------------------------------------------------------------------------- (
+HARP  += ako_umram
+HARP  += ajshino
+HARP  += basarabeasca
+HARP  += caval
+HARP  += greceasca
+HARP  += imate
+HARP  += jovano
+HARP  += koj_ti_gi
+HARP  += kucata1
+HARP  += ratevka
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 
@@ -369,7 +381,7 @@ WORK_ += garnphalia
 WORK  += geampara_53323
 WORK_ += geampara_partea_3
 WORK  += gerakina
-WORK_ += ghiurghiuliu
+DONE_ += ghiurghiuliu
 WORK2 += giushevska
 WORK2 += godfather
 DONE  += greceasca
@@ -444,7 +456,7 @@ WORK  += pandelasul
 WORK  += papirossen
 DONE  += pastouriaux
 DONE  += pjatorka
-WORK  += poules
+DONE  += poules
 WORK  += povlekana
 
 

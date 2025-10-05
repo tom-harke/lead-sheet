@@ -13,7 +13,7 @@
 
     \include "layout.ly"
 
-    << \C \M >>
+    << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}
 }

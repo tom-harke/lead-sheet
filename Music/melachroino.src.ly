@@ -1,5 +1,5 @@
-Title    = "To Melachroino"
-Subtitle = "Τό Μελαχροινό / A Dark Beauty"
+%Title    = "To Melachroino"
+Title = "Τό Μελαχροινό / A Dark Beauty"
 
 % Alevizos
 

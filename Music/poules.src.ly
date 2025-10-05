@@ -1,4 +1,5 @@
-Title  = "Crested Hens / Les Poules Huppes"
+Title  = "Crested Hens / Les Poules Huppées"
+Composer = "Gilles Chabenet"
 % bourree
 
 Melody = \transpose c c' {
@@ -15,8 +16,8 @@ Melody = \transpose c c' {
 		| d'8 cis' b a g a 
 	}
 	\alternative {
-		{ b4. b8 e' fis' }
 		{ b4. a8 g a }
+		{ b4. b8 e' fis' }
 	}
 	\key e \minor
 	\repeat volta 2 {
@@ -36,10 +37,16 @@ Melody = \transpose c c' {
 }
 
 Chords = \chords {
-	\repeat volta 2 { s2.*7 }
-	\alternative {{ s2. }{ s2. }}
-	\repeat volta 2 { s2.*7 }
-	\alternative {{ s2. }{ s2. }}
+	\repeat volta 2 {
+		| e2.:min | g2.  | b2.:min | d2.
+		| e2.:min | g2.  | d2.:6
+	}
+	\alternative {{ b2. }{ b2. }}
+	\repeat volta 2 {
+		| e2.:min | c2.  | a2.:min | b2.
+		| e2.:min | c2.  | a2:min d4
+	}
+	\alternative {{ e2.:min }{ e2.:min }}
 }
 
 

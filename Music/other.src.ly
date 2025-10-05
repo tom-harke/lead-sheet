@@ -45,9 +45,19 @@ Melody = \transpose c c' {
 	}
 }
 Chords = \chords {
-	\repeat volta 2 { d2:min s s s g:min s d:min s f s s g:min d:min s }
-	\alternative { { s2*2 } { s2*2 } }
-	\repeat volta 2 { bes2 s f s c:7 s f s s s s g:min s s }
+	\repeat volta 2 {
+		d2:min s s s
+		g:min s d:min s
+		f s s g:min
+		f s
+	}
+	\alternative { { d2:min s2 } { d2:min s2 } }
+	\repeat volta 2 {
+		bes2 s f s
+		c:7 s f s
+		s s s g:min
+		f s
+	}
 	\alternative { { d2:min s } { d2:min s } }
 }
 Layout = {

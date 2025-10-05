@@ -116,7 +116,11 @@ Layout = {
 	% A (
     \mark \default
     \repeat volta 2 {
-        | s2*18
+        | s2*8
+		\break
+        | s2*8
+		\break
+        | s2*2
     }
 	\alternative {
 		{| s2 s2 |}

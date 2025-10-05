@@ -13,6 +13,7 @@ Melody = \transpose c c' {
     | e16 fis e d cis b, cis
     | d8 cis16 d e cis b,
     | b,8. b,8 r
+
     \repeat volta 2 {
         | b,8 b,16 fis8 fis
         | fis8 e16 e d d8
@@ -63,11 +64,23 @@ Chords = \chords {
 }
 
 Layout = {
-    \mark \default { s4..*8 }
+    \mark \default \repeat volta 2 {
+		s4..*4
+		\break
+		s4..*4
+	}
     \break
     \mark \default \repeat volta 2 { s4..*4 }
     \break
-    \mark \default \repeat volta 2 { s4..*8 }
+    \mark \default \repeat volta 2 {
+		s4..*4
+		\break
+		s4..*4
+	}
     \break
-    \mark \default \repeat volta 2 { s4..*8 }
+    \mark \default \repeat volta 2 {
+		s4..*4
+		\break
+		s4..*4
+	}
 }

@@ -11,16 +11,14 @@ C =
 \chords {
 
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
-        | s4..
+        | e4..:min | s4..
+        | a4..:min | e4..:min
     }
     \repeat volta 2 {
-        | s4..
-        | s4..
-        | s4..
-        | s4..
+        | a4..:min
+        | a4:min d8.
+        | a4..:min
+        | e4..:min
     }
 }
 

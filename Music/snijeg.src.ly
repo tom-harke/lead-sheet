@@ -13,11 +13,7 @@ Chords = \chords {
 		| d8.     s4   | s8.     s4 | c8.:min s4     | ees8.   s4
 		| c8.:min d4   | s8.     s4 | bes8.   g4:7   | c8.:min s4
 		| d8.:7   s4   | g8.:min s4 | ees8.   c4:min | d8.     s4
-		| bes8.   g4:7 | c8.:min s4 | ees8.   c4:min
-	}
-	\alternative {
-		{ d8. s4 }
-		{ d8. s4 }
+		| bes8.   g4:7 | c8.:min s4 | ees8.   c4:min | d8.     s4
 	}
 }
 
@@ -51,23 +47,28 @@ Melody = \transpose d d' {
 		| d'8. d'8 d'16 c'
 		| c'8 bes16 bes a g32 fis g16
 		| a8 g16 g fis ees d
-	}
-	\alternative {
-		{ d16 ees c d4 }
-		{ d16 ees c d r r8 }
+		| d16 ees c d4
 	}
 }
 
 Layout = {
 	\mark \default
-	\repeat volta 2 {| s4..*8 |}
+	\repeat volta 2 {|
+		s4..*4
+		\break
+		s4..*4
+	|}
 	\break
 	\mark \default
-	\repeat volta 2 {| s4..*15 |}
-	\alternative {
-		{ s4.. }
-		{ s4.. }
-	}
+	\repeat volta 2 {|
+		s4..*4
+		\break
+		s4..*4
+		\break
+		s4..*4
+		\break
+		s4..*4
+	|}
 }
 
 

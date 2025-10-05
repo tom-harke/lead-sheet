@@ -1,4 +1,5 @@
-Title    = "Пятёрка / Five Rubles"
+Title    = "Пятёрка"
+%Title    = "Five Rubles"
 %Opus     = "Пять Рублей"
 
 Melody = \transpose c c' {
@@ -8,39 +9,39 @@ Melody = \transpose c c' {
     \repeat volta 2 {
         | e'2 e'
         | g'4 f' e' d'
-        | f'4 e' ~ e'2 ~
-        | e'4 e a c'
+        | f'4 e' ~ e'2
+        | r4 e a c'
 
         | e'2 e'
         | d'2 c'
-        | b1 ~
-        | b4 e b c'
+        | b1
+        | r4 e b c'
         | d'2. d'4
         | e'2. b4
-        | d'4 c' ~ c'2 ~
-        | c'4 e' g' f'
+        | d'4 c' ~ c'2
+        | r4 e' g' f'
         | e'2 d'
         | c'2 b
-        | a1 ~
+        | a1
     }
     \alternative {
-        { | a4 e a c' }
-        { | a4 c' b a }
+        { | r4 e a c' }
+        { | r4 c' b a }
     }
     \repeat volta 2 {
-        | e'1 ~
-        | e'4 c' b a
-        | f'1 ~
-        | f'4 d' e' f'
+        | e'1
+        | r4 c' b a
+        | f'1
+        | r4 d' e' f'
         | e'2 d'
         | c'2 b
-        | a1 ~
-        | a4 c' b a
+        | a1
+        | r4 c' b a
         | e'2. e'4
         | a'2. g'4
 
-        | g'4 f' ~ f'2 ~
-        | f'4 d' e' f'
+        | g'4 f' ~ f'2
+        | r4 d' e' f'
         | e'2 d'
         | c'2 b
         | a1 ~

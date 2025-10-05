@@ -1,5 +1,5 @@
-Title    = "E Gerakina"
-Subtitle = "Η Γερακινα"
+%Title    = "E Gerakina"
+Title = "Η Γερακινα"
 
 % from Alevizos
 % Puscoiu has a version too

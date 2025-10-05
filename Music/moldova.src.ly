@@ -1,5 +1,5 @@
 Title  = "Freylekh from Moldova"
-% rom NW Folklife 2010
+% from NW Folklife 2010
 
 
 Melody = {
@@ -52,11 +52,11 @@ Chords = \chords {
 		| d1:min
 	}
 	\repeat volta 2 {
-		| d1:min
+		| d1:7
 		| g1:min
-		| c1
+		| c1:7
 		| f1
-		| d1:min
+		| d1:7
 		| g1:min
 		| d2:min a:7
 		| d1:min

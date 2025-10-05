@@ -9,6 +9,7 @@ Order = "ABABCDAB"
 %     - checking chords
 
 edrop   = <\tweak font-size #-3 e16>
+etop    = <\tweak font-size #-3 e'16>
 
 Chords = \chords {
     % A (
@@ -91,7 +92,7 @@ Melody = \transpose d d' {
         | cis'16 \edrop bes cis' bes8 g16 % DUP
         | a8 cis'16 d' e' a a
 
-        | d'16 cis' cis' \edrop cis' d' e'
+        | d'16 cis' cis' \edrop cis' d' \etop
         | cis'16 \edrop bes \edrop a8.    % DUP
         | cis'16 \edrop bes cis' bes8 g16 % DUP
         | a8 a16 \edrop a8 \edrop
