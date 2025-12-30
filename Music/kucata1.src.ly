@@ -1,6 +1,5 @@
-Title = "Kucata"
+Title = "Kucata -- (needs chords)"
 Order = "A⁴B⁴ (A⁴B⁴C⁴D⁴E⁴)²"
-Subtitle = "Nice! (needs chords)"
 
 % From hand-written melody on internet
 

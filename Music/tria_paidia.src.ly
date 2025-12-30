@@ -1,5 +1,5 @@
-Title    = "Tria Paidia Voltiotika"
-Subtitle = "Τρία Παιδιά Βολιώτικα"
+%Title    = "Tria Paidia Voltiotika"
+Title = "Τρία Παιδιά Βολιώτικα"
 
 % Alevizos
 

@@ -3,10 +3,11 @@ Title = "Greceasca"
 % TODO: find, add chords
 % TODO: change <x x> to single notes
 
-% based on:
+% closely based on:
 %   CONSTANTIN ARVINTE
 %   FOLCLOR MUZICAL DIN MUNTENIA
 %   Ploieşti, Editura Mythos, 2016
+% chords by TSH
 
 % Page says this:
 %
@@ -29,7 +30,7 @@ Chords = \chords {
     % B (
     \repeat volta 2 {
         | d4..:7 | g4..  | d4..    | s4..
-        | d4..:7 | g4..  | d4 c8.  | d4..
+        | d4..:7 | g4..  | d8. c4  | d4..
     }
     % B )
     % C (

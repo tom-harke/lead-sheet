@@ -1,4 +1,4 @@
-Title = "Trakijska Rъčenica"
+Title = "Trakijska Rъčenica -- (chords need work)"
 Order = "ABABCDAB"
 
 % From an arrangement by Marcus Moskoff, in Bill Cope's booklet

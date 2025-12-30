@@ -15,6 +15,8 @@ J = { | fis16 e fis e dis8. dis16 | }
 K = { | e8 dis e e | }
 
 Melody = \transpose c c'' {
+
+    %\include "four.rhy"
 	\key a \dorian
 	\time 2/4
 
@@ -45,7 +47,7 @@ A = \chordmode { | a2:min     | }
 B = \chordmode { | s4     b:7 | }
 C = \A
 D = \chordmode { | b4:7   e:7 | }
-E = \chordmode { | a4:min e:7 | }
+E = \chordmode { | e2:7 | }
 F = \A
 G = \A
 H = \B

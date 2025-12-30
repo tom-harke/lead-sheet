@@ -5,7 +5,6 @@
 \include "landscape.ly"
 
 \header {
-    subtitle = \Subtitle
     title   = \Title
     opus    = \Order
     tagline = ##f

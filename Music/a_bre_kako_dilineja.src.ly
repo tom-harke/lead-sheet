@@ -19,22 +19,22 @@ Melody = \transpose c c' {
 	}
 	\alternative {
 		{| c'16 r r g c' g d'8  }
-		{| s2 }
+		{| <c' e'>16 r8. e16 f f8 }
 	}
 	% A )
 	% B (
 	\repeat volta 2 {
-		| s2
-		| s2
-		| s2
-		| s2
-		| s2
-		| s2
-		| s2
+		| f8 e16 f e8. c16
+		| e8 d16 e d8. c16
+		| c8 d e4
+		 ~e16 r8. e16 f f8
+		| f8 e16 f e8. c16 % DUP
+		| e8 d16 e d8. c16 % DUP
+		| c16 d d c c4
 	}
 	\alternative {
-		{| s2 }
-		{| s2 }
+		{ ~c16 r8. e16 f f8 }
+		{ ~c16 r r g c8 d }
 	}
 	% B )
 	% C (

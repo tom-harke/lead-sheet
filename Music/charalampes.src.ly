@@ -1,5 +1,5 @@
-Title    = "O Charalampes"
-Subtitle = "Ό Χαραλάμπης"
+%Title    = "O Charalampes"
+Title = "Ό Χαραλάμπης"
 
 % Alevizos
 

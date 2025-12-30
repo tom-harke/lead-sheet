@@ -1,8 +1,5 @@
 Title    = "Edineţ Hostropăţ"
-% chords need work
 Order    = "A² B² C⁴ A²"
-
-% TODO: for each a chord, determine whether it's major or minor
 
 Chords = \chords {
 
@@ -11,7 +8,7 @@ Chords = \chords {
         | e4..:min
         | a4..:min
         | a4..:min
-        | s4..      % TOD indicate ossia 1
+        | s4..      % TODO indicate ossia 1
         | a4..
         | a4..:min
         | a4..:min

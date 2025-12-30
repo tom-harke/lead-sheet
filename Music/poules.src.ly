@@ -1,4 +1,5 @@
-Title  = "Crested Hens / Les Poules Huppées"
+Title  = "Les Poules Huppées"
+% Title  = "Crested Hens / Les Poules Huppées"
 Composer = "Gilles Chabenet"
 % bourree
 

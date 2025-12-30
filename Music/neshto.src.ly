@@ -1,32 +1,46 @@
 Title = "Što me se Nešto Belee"
+Order = "A²BC²D²E²F²"
 
 % From Balkanalia 2024
 % Transcribed by David Bilides
 % From the Well of Pirin Mountain -- Stefče Stojkovski -- CD-SS015
 
-ChordsA = {
-    | g8 s8. | s8 s8.
-    | d8 s8. | g8 s8.
-    | g8 s8. | s8 s8.
-    | d8 s8. | g8 s8.
-}
 
 ChordsE = {
-    | a8 s8. | s8 s8.
-    | e8 s8. | a8 s8.
-    | a8 s8. | s8 s8.
-    | e8 s8. | a8 s8.
+    \repeat volta 2 {
+        | a8 s8. | s8 s8.
+        | e8 s8.
+    }
+    \alternative {
+        {| a8 s8. }
+        {| a8 s8. }
+    }
 }
 
 Chords = \chords {
-    \ChordsA                % A
-    \transpose g d \ChordsA % B
-    % X (
-    | d8 s8.  | s8 s8.
-    | d8 s8.  | s8 s8.
-    | d8 s8.  | s8 s8.
-    | d8 s8.  | s8 s8.
-    % X )
+    % A (
+    \repeat volta 2 {
+        | g8 s8. | s8 s8.
+        | d8 s8.
+    }
+    \alternative {
+        {| g8 s8. }
+        {| g8 s8. }
+    }
+    % A )
+    % B (
+    | d8 s8.  | s8 s8.  | a8 s8.  | d8 s8.
+    | d8 s8.  | s8 s8.  | a8 s8.  | d8 s8.
+    % B )
+    % C (
+    \repeat volta 2 {
+        | d8 s8.  | s8 s8.  | d8 s8.
+    }
+    \alternative {
+        {| s8 s8. }
+        {| s8 s8. }
+    }
+    % C )
     % X (
     \repeat volta 2 {
         | d8 s8.  | s8 s8.
@@ -46,7 +60,7 @@ MelodyA = {
 }
 
 MelodyE = {
-    \repeat unfold 2 {
+    \repeat volta 2 {
         | a8 e' d'16
         | cis'8 b a16
         | b16 cis' b8 a16
@@ -59,10 +73,16 @@ MelodyE = {
 Melody = \transpose d d' {
     \include "pajdushko.rhy"
 
-    % A (
     \key g \major
-    \MelodyA | b16 c' d'8.
-    \MelodyA | g8 g8 r16
+
+    % A (
+    \repeat volta 2 {
+        \MelodyA
+    }
+    \alternative {
+        {| b16 c' d'8. }
+        {| g8 g8 r16 }
+    }
     % A )
     % B (
     \key d \major
@@ -75,7 +95,7 @@ Melody = \transpose d d' {
     | d8 d16 r8
     % B )
     % C (
-    \repeat unfold 2 {
+    \repeat volta 2 {
         | d8 d8 d16
         | fis16 g a8.
         | a16 g fis8 e16
@@ -101,19 +121,25 @@ Melody = \transpose d d' {
 
 
 Layout = {
+
+    % A
+    \break\mark\default
+    \repeat volta 2 { | s8 s8.  | s8 s8.  | s8 s8.  }
+    \alternative { {| s8 s8. } {| s8 s8. } }
+    % B
     \break\mark\default\repeat unfold 8 {| s8 s8. |}
+    % C
+    \break\mark\default
+    \repeat volta 2 { | s8 s8.  | s8 s8.  | s8 s8.  }
+    \alternative { {| s8 s8. } {| s8 s8. } }
+    % D
     \break\mark\default\repeat unfold 8 {| s8 s8. |}
-    \break\mark\default\repeat unfold 8 {| s8 s8. |}
-    \break \mark \default
-    \repeat volta 2 {
-        \repeat unfold 8 {| s8 s8. |}
-    }
-    \break\mark\default\repeat unfold 8 {| s8 s8. |}
-    \break\mark\default\repeat unfold 8 {| s8 s8. |}
+    % E
+    \break\mark\default
+    \repeat volta 2 { | s8 s8.  | s8 s8.  | s8 s8.  }
+    \alternative { {| s8 s8. } {| s8 s8. } }
+    % F
+    \break\mark\default
+    \repeat volta 2 { | s8 s8.  | s8 s8.  | s8 s8.  }
+    \alternative { {| s8 s8. } {| s8 s8. } }
 }
-
-
-%    \alternative {
-%        {| s8 s8. |}
-%        {| s8 s8. |}
-%    }

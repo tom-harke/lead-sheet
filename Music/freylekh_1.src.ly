@@ -70,13 +70,13 @@ Chords = \chords {
     % B
     \repeat volta 2 {
         | g1:min | g1:min | g1:min | d1
-        | c1:min | c1:min | d1:7   | g1:min
+        | b1     | c1:min | d1:7   | g1:min
     }
 
     % C
     \repeat volta 2 {| d1 |}
     \alternative {
-        {| c2:min d |}
+        {| d1       |}
         {| c2:min d |}
     }
 }

@@ -1,5 +1,10 @@
 #!/usr/bin/make -f
 
+$(warning Kishiniever Bulgar)
+$(warning Ukrainian Kolomeyka bars 41 & 42)
+$(warning Nokh a Glezl Vayn bar 46 & 47)
+$(warning Orashie last note of bar 3 may be wrong)
+
 # ---------------------------------------------------------------------------- (
 # Software
 MIDI = wildmidi
@@ -287,7 +292,13 @@ FRIDAY  += makamlijsko
 FRIDAY  += buvchansko
 FRIDAY  += danets
 FRIDAY  += dospatsko
+FRIDAY  += iz_dolu_ide
+#FRIDAY  += kondolovsko
+#FRIDAY  += lyavata
+FRIDAY  += pustono
+#FRIDAY  += sedi_donka
 FRIDAY  += tri_bilbila
+FRIDAY  += tropanka
 
 
 
@@ -300,236 +311,268 @@ friday.book.pdf: $(FRIDAY_PDF) Makefile
 HARP  += ako_umram
 HARP  += ajshino
 HARP  += basarabeasca
+HARP  += buvchansko
 HARP  += caval
+HARP  += changu
+HARP  += chetvorno_shopsko
+HARP  += comida
+HARP  += daeni
+HARP  += danets
+HARP  += delijska
+HARP  += dobrogene
+HARP  += dospatsko
+HARP  += ederlezi
+HARP  += erenaki
+HARP  += gerakina
 HARP  += greceasca
+HARP  += haidim
+HARP  += hamisha
 HARP  += imate
 HARP  += jovano
 HARP  += koj_ti_gi
 HARP  += kucata1
+HARP  += lebedik
+HARP  += ljiljano
+HARP  += majko
+HARP  += makedonsko
+HARP  += mileva
+HARP  += murfatlar1
+HARP  += neshto
+HARP  += norbeck2
+HARP  += nu_sunt_negru
+HARP  += odesa
+HARP  += olimpijski
 HARP  += ratevka
+HARP  += sanuva
+HARP  += trakijska
+
+HARP_PDF = $(patsubst %,%.pdf,$(HARP))
+harp.book.pdf: $(HARP_PDF) Makefile
+	pdfunite $(HARP_PDF) $@
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 
 
 
 WORK_ += adelfades
-DONE  += ako_umram
-DONE  += ajshino
-DONE  += aleni_zvezdi
+MEMOR  += ako_umram
+LEARN  += ajshino
+MEMOR  += ajshino
+LEARN  += aleni_zvezdi
+MEMOR  += alta_sierra
 WORK2 += alfanska
 WORK_ += an_dro_25
 WORK_ += an_dro_26
 WORK_ += an_dro_27
 WORK_ += an_dro_28
-DONE  += araber
+MEMOR  += araber
 WORK  += ardeleana
 WORK  += ardeleana_5654345
-WORK  += ardeleana_timis
+LEARN  += ardeleana_timis
 
 WORK  += babadag1
 WORK  += babadag2
 WORK2 += balkandzhijska
 WORK  += banat
-WORK  += barla
-DONE  += basarabeasca
-DONE  += baym_rebin
-DONE  += belomorska
-DONE  += bhettys
-DONE_ += bilbilicos
-DONE  += bojerka
-DONE  += bubamara
+LEARN  += barla
+LEARN  += basarabeasca
+MEMOR  += basarabeasca
+MEMOR  += baym_rebin
+MEMOR  += belomorska
+LEARN  += bhettys
+LEARN_ += bilbilicos
+LEARN  += bojerka
+LEARN  += bubamara
+MEMOR  += bubamara
 WORK  += buena
-DONE  += bughici
-DONE  += bukovinei
+LEARN  += bughici
+LEARN  += bukovinei
 WORK2 += bulcenska
-DONE  += bulchenska
+LEARN  += bulchenska
 WORK  += buvchansko
 
-DONE  += campulung
-DONE  += caval
-DONE  += changu
+LEARN  += campulung
+MEMOR  += campulung
+LEARN  += caval
+LEARN  += changu
 WORK  += charalampes
-DONE2 += chekurjankino
-DONE  += chetvorno
-DONE  += chto_mne_gore
+LEARN2 += chekurjankino
+LEARN2 += chetvorno
+LEARN  += chto_mne_gore
 WORK  += comida
-DONE2 += culesul
+LEARN2 += culesul
 
-DONE  += daeni
+LEARN  += daeni
 WORK  += danets
-DONE  += delijska
+MEMOR  += delijska
 WORK  += devoiko
 WORK  += dobrogeana
-DONE  += dobrogene
-DONE  += dorogoj
+MEMOR  += dobrogene
+LEARN  += dorogoj
 WORK  += dospatsko
 
 WORK  += ederlezi
-DONE  += edinets
+MEMOR  += edinets
 WORK_ += eicha
-WORK  += erenaki
+LEARN  += erenaki
 
 WORK  += fagarash
 WORK  += fecuresc
-WORK2 += fetesti
+MEMOR += fetesti
 WORK  += fierbinte
 WORK_ += fisel
-WORK  += freylekh_1
+LEARN  += freylekh_1
 
-DONE  += gankino
+LEARN  += gankino
 WORK_ += garnphalia
 WORK  += geampara_53323
 WORK_ += geampara_partea_3
-WORK  += gerakina
-DONE_ += ghiurghiuliu
+LEARN  += gerakina
+LEARN_ += ghiurghiuliu
 WORK2 += giushevska
 WORK2 += godfather
-DONE  += greceasca
-DONE  += guguleana
+MEMOR  += greceasca
+LEARN  += guguleana
 
-DONE2 += haidim
+LEARN2 += haidim
 WORK  += hamisha
-DONE2 += heiser
+LEARN2 += heiser
 WORK  += hijaz
 
-DONE  += imate
+LEARN  += imate
+MEMOR  += iz_dolu_ide
 
 WORK  += joc1
 WORK  += jovano
 
-WORK_ += kalamatiano
-DONE  += kandels_hora
-DONE  += koj_ti_gi
+MEMOR_ += kalamatiano
+LEARN  += kandels_hora
+LEARN  += koj_ti_gi
 WORK  += khasene
 WORK  += khupe
-WORK  += kishiniever
+LEARN  += kishiniever
 WORK2 += kolevs_11
-WORK  += kolomeyka_1
-DONE_ += kozak
+LEARN  += kolomeyka_1
+MEMOR_ += kozak
 WORK  += kucata1
 
-DONE  += lebedik
+LEARN  += lebedik
 WORK  += ljiljano
 
-DONE  += majko
+MEMOR  += majko
 WORK2 += makamlijsko
-DONE  += makedonsko
+MEMOR  += makedonsko
 WORK  += mala_loka
 WORK_ += mana_tourkoi
 WORK2 += marcus
-DONE  += mayne_tayere_odessa
-DONE  += mekhutonim
+MEMOR  += mayne_tayere_odessa
+LEARN  += mekhutonim
 WORK  += melachroino
-DONE  += metsakukkia
+LEARN  += metsakukkia
 WORK_ += mia_papadia
 WORK2 += mileva
-DONE  += moldova
-DONE  += moldovanskya
+LEARN  += moldova
+LEARN  += moldovanskya
 WORK  += morags
 WORK  += more_sokol_pie
-DONE  += mouse
-DONE  += murfatlar1
-DONE  += murfatlar2
+LEARN  += mouse
+MEMOR  += murfatlar1
+MEMOR  += murfatlar2
 WORK  += mushamaua
 
-DONE  += nakhes
-DONE  += navodari
+LEARN  += nakhes
+LEARN  += nakht_gan_eydn
+MEMOR  += navodari
 WORK  += neamts
-WORK  += neshto
-WORK  += noche_al_lunar
+LEARN  += neshto
+LEARN  += noche_al_lunar
 WORK  += nokh_a_glezl_vayn
 WORK2 += norbeck1
 WORK  += norbeck2
-DONE  += nu_sunt_negru
-DONE2 += nunta
+LEARN  += nu_sunt_negru
+LEARN2 += nunta
 
-DONE  += odesa
+LEARN  += odesa
 WORK  += olimpijski
 WORK  += orashtie
-DONE  += ostropesul
-DONE  += other
+LEARN  += ostropesul
+MEMOR  += ostropesul
+LEARN  += other
 WORK  += ovchepolsko
 
 WORK_ += pach_pi_kozh  # 1/2 page
 WORK  += pandalash
 WORK  += pandelasul
 WORK  += papirossen
-DONE  += pastouriaux
-DONE  += pjatorka
-DONE  += poules
+LEARN  += pastouriaux
+LEARN  += pjatorka
+LEARN  += poules
 WORK  += povlekana
 
 
 WORK  += rachenitsa1
 WORK  += rachenitsa2
 WORK_ += rachenitsa_3654
-DONE  += rachenitsa_cooper_1
-DONE  += rachenitsa_cooper_2
+LEARN  += rachenitsa_cooper_1
+LEARN  += rachenitsa_cooper_2
 WORK  += ramush
-DONE  += ratevka
+LEARN  += ratevka
 
-DONE_ += samiotissa
+LEARN_ += samiotissa
 WORK_ += sansonette
-DONE_ += sanuva
-DONE_ += satovchensko
-DONE  += serbian
-DONE  += sevda
-DONE  += sherele
+LEARN_ += sanuva
+LEARN_ += satovchensko
+LEARN  += serbian
+MEMOR  += sevda
+LEARN  += sherele
 WORK  += sibiu
 WORK  += sibiu2
-DONE  += snijeg
+MEMOR  += snijeg
+MEMOR  += steciaks
 WORK  += suceava
 WORK  += svatbarska
 WORK_ += syrto
 
-DONE  += tantz_tantz
-DONE  += tasaul
+LEARN  += tantz_tantz
+LEARN  += tasaul
 WORK  += thalassaki
 WORK  += tiganica
-WORK  += trakijska
+LEARN  += trakijska
 WORK_ += tria_paidia
 WORK  += tri_bilbila
-DONE  += trisker
+LEARN  += trisker
 WORK  += turcitu
 
 WORK  += ukrainian
-DONE2 += utpick
+LEARN2 += utpick
 
 WORK_ += vangelio
-DONE  += varshaver
+LEARN  += varshaver
 WORK  += vassils
 WORK  += vchera
-DONE  += verxovina
+LEARN  += verxovina
 WORK_ += vist_lop
-DONE  += voevidca_143
+LEARN  += voevidca_143
 WORK  += voevidca_149
 WORK  += voevidca_152
-DONE  += voevidca_153
-DONE  += voevidca_154
+LEARN  += voevidca_153
+LEARN  += voevidca_154
 WORK  += voevidca_159
-DONE  += voevidca_160
-DONE  += voevidca_165
+LEARN  += voevidca_160
+LEARN  += voevidca_165
+MEMOR  += voevidca_165
 
 WORK  += west_rhodope
 
 WORK_ += xene
 
-DONE  += yishomah      # 1 Done
+LEARN  += yishomah      # 1 Done
 
 WORK  += zalongou
-DONE  += zapjevala
+LEARN  += zapjevala
 WORK  += zhiti
 WORK  += zlatna
 
-# (
-DONE_HALF = $(patsubst %,crop.%.pdf,$(DONE_))
-half.done.pdf: $(DONE_HALF)
-	$(call shorten,$(DONE_HALF))
-
-DONE_PDF = $(patsubst %,%.pdf,$(DONE2) $(DONE))
-done.book.pdf: blurb90.work.pdf $(DONE_PDF) half.done.pdf Makefile
-	pdfunite blurb90.work.pdf $(DONE_PDF) half.done.pdf $@
-# )
 # (
 WORK_HALF = $(patsubst %,crop.%.pdf,$(WORK_))
 half.work.pdf: $(WORK_HALF)
@@ -539,7 +582,26 @@ WORK_PDF = $(patsubst %,%.pdf,$(WORK2) $(WORK))
 work.book.pdf: blurb90.work.pdf $(WORK_PDF) half.work.pdf Makefile
 	pdfunite blurb90.work.pdf $(WORK_PDF) half.work.pdf $@
 # )
+# (
+# These are in good shape, but I've not yet memorized
+LEARN_HALF = $(patsubst %,crop.%.pdf,$(LEARN_))
+half.learn.pdf: $(LEARN_HALF)
+	$(call shorten,$(LEARN_HALF))
 
+LEARN_PDF = $(patsubst %,%.pdf,$(LEARN2) $(LEARN))
+learn.book.pdf: blurb90.work.pdf $(LEARN_PDF) half.learn.pdf Makefile
+	pdfunite blurb90.work.pdf $(LEARN_PDF) half.learn.pdf $@
+# )
+# (
+# These are in good shape, but I've not yet memorized
+MEMOR_HALF = $(patsubst %,crop.%.pdf,$(MEMOR_))
+half.memorized.pdf: $(MEMOR_HALF)
+	$(call shorten,$(MEMOR_HALF))
+
+MEMOR_PDF = $(patsubst %,%.pdf,$(MEMOR2) $(MEMOR))
+memorized.book.pdf: blurb90.work.pdf $(MEMOR_PDF) half.memorized.pdf Makefile
+	pdfunite blurb90.work.pdf $(MEMOR_PDF) half.memorized.pdf $@
+# )
 
 
 

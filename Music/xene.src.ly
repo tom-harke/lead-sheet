@@ -1,5 +1,6 @@
-Title = "Xene San Thes Na Pantreutes"
-Subtitle = "Ξένε Σάν Θές Νά Παντρευτης / Friend, Since You Want To Marry"
+%Title = "Xene San Thes Na Pantreutes"
+Title = "Ξένε Σάν Θές Νά Παντρευτης"
+Subtitle = "Friend, Since You Want To Marry"
 
 % Alevizos
 

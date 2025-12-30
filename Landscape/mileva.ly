@@ -6,7 +6,6 @@
 
 \header {
     title    = \Title
-    subtitle = \Subtitle
     opus     = \Order
     tagline = ##f
 }

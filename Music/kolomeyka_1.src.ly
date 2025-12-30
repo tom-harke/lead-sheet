@@ -1,8 +1,8 @@
+% From Crowder
 Title    = "Ukrainian Kolomeyka"
-Opus = "קאָלעמײקע"
 Melody = \transpose c c' {
     \key d \phrygian
-    \time 2/4
+    \include "even.rhy"
     \partial 8 d8
     %( A
     \repeat volta 2 {
@@ -27,12 +27,18 @@ Melody = \transpose c c' {
     %)
     %( C
     \repeat volta 2 {
-        \repeat unfold 3 { g8 bes d' cis' }
-        \alternative {
-            { d'4 c'16 bes a g }
-            { d'4 c'16 bes a g }
-            { d'4 c' }
+        \repeat percent 2 {
+            g8 bes d' cis'
+            d'4 c'16 bes a g
         }
+        | g8 bes d' cis'
+        | d'4 c'
+%       \repeat unfold 3 { g8 bes d' cis' }
+%       \alternative {
+%           { d'4 c'16 bes a g }
+%           { d'4 c'16 bes a g }
+%           { d'4 c' }
+%       }
         | bes16 a bes c' d'8 d
         | g4 r8 d
     }
@@ -72,14 +78,14 @@ Chords = \chords {
     \repeat volta 2 {| g2 | s2 |}
     \alternative {
         { s4 d | g4:min d }
-        { s4 d | g2:min   }
+        { d2:7 | g2:min   }
     }
 
     \repeat volta 2 {
        \repeat unfold 2 { bes2 | s2 }
        \alternative {
            { s2 | s4 f }
-           { d2 | g2   }
+           { d2:7 | g2   }
        }
     }
 
@@ -90,17 +96,17 @@ Chords = \chords {
            { s2 }
            { s4 c:min }
        }
-       | d2 | g2:min
+       | d2:7 | g2:min
     }
 
     \repeat volta 2 {
-       \repeat unfold 3 { d2 }
+       \repeat unfold 3 { d2:7 }
        \alternative {
            { g2:min }
            { g2:min }
-           { g4:min c:min }
+           { g2:min }
        }
-       | d2 | g2:min
+       | d2:7 | g2:min
     }
 
     \repeat volta 2 {
@@ -110,7 +116,7 @@ Chords = \chords {
        | s2
        | s2
        | s2
-       | d2
+       | d2:7
        | g2:min
     }
 

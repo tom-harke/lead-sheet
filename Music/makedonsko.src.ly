@@ -34,7 +34,7 @@ Melody = \transpose c c'' {
 	\repeat unfold 1 {
 	   \repeat unfold 2 {
 		   | a,8 a16 g8 a
-		   | g16 a8 e4
+		   | g8 a16 e4
       }
       \alternative {
 		   { | f8 e16 d8 f  | e4.. }
@@ -47,7 +47,7 @@ Melody = \transpose c c'' {
 		| f8 e16 d8 d16 f
 		| e4..
 		| f8 e16 d8 d16 f
-		| e16 d8 c d
+		| e8 d16 c8 d
 		| e8 d16 c8 b,
 		| a,4..
 	}

@@ -1,5 +1,4 @@
-Title    = "Geampara fără nume"
-Subtitle    = "(needs chords)"
+Title    = "Geampara fără nume -- (needs chords)"
 Arranger = "Norbeck's #2"
 Order    = "..."
 

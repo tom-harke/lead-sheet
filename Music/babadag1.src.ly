@@ -1,5 +1,5 @@
 Title = "Geamparalele de la Babadag (1)"
-Subtitle = "(need chords; ++; merge with Taşaul)"
+Subtitle = "(need chords; ++; merge with Taşaul; #24 is messed up)"
 
 % Simplified from a score on Free-scores.com
 % by Andrei Baicoianu

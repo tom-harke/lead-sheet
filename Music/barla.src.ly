@@ -46,6 +46,7 @@ M =
 \transpose d d' {
     \include "geampara.rhy"
 
+%\key d \phrygian
     % A (
     \break \mark \default
     \repeat volta 2 {

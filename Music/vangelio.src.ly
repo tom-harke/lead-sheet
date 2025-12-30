@@ -1,5 +1,5 @@
-Title    = "E Vangelio"
-Subtitle = "Ή Βαγγελιώ"
+%Title    = "E Vangelio"
+Title = "Ή Βαγγελιώ"
 
 % Alevizos
 %  - same tune as Puscoiu's Kalamatiano

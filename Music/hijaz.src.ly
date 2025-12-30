@@ -1,4 +1,4 @@
-Title  = "Hijaz"
+Title  = "Hijaz -- (needs chords)"
 
 Rhythm = { c8 c8 c8 c16 }
 Bar    = { s8 s8 s8 s16 }

@@ -3,34 +3,29 @@ Title = "Hamisha Asar"
 % Flory Jagoda
 
 Chords = \chords {
-    | s4..
-    | s4..
+    | d4..
+    | ees8. d4
+    | d4..
+    | ees8. d4
     | s4..
 
-    | s4..
-    | s4..
     \repeat volta 2 {
-        | s4..
-        | s4..
-
-        | s4..
+        | c4..:min
+    	| ees8. d4
+        | c4..:min
     }
     \alternative {
-        { s4.. | s4.. }
-        { s4..
-
-        | s4.. }
+        { ees4.. | d4.. }
+        { d4..   | s4.. }
     }
 
     \repeat volta 2 {
-        | s4..
+        | d4..
         | s4..
     }
     \alternative {
-        { s4..
-
-        | s4.. | s4.. }
-        { s4.. | s4.. | s4.. }
+        { c4..:min | d4.. | s4.. }
+        { c4..:min | d4.. | s4.. }
     }
 }
 

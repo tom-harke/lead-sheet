@@ -17,7 +17,7 @@ Melody = \transpose c c' {
     }
     \alternative {
         { | c2. r8 a, | }
-        { | a,2 ~ a,8 e a b | }
+        { | a,2 r8 e a b | }
         % { | c8 d d c e d c b | }
     }
    \repeat volta 2 {
@@ -31,7 +31,7 @@ Melody = \transpose c c' {
        | c8 d d c e d c b,
    }
    \alternative {
-       {| c2 ~ c8 e a b }
+       {| c2 r8 e a b }
        {| a,2. r8 }
    }
 }

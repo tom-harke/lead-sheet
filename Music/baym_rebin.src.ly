@@ -1,4 +1,4 @@
-Title  = "Baym Rebin in Palestina"
+Title  = "Baym Rebin in Palestina -- (fix #38-39)"
 
 Chords = \chords {
    % A

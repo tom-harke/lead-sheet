@@ -1,8 +1,12 @@
 Title = "Olimpijski Čoček"
 
+% See wrapper for custom key signature
+
 % AKA: Mi Daj Mo Dad
 % From Mark Levy @ Balkanalia 2024
 % Ferus Mustafov - Jugoton LSY 81994
+
+% gFreygish = { \set Staff.keySignature = #'((5 . -1/2)(2 . -1/2)(-1 . 0)) }
 
 Chords = \chords {
     % A (
@@ -29,10 +33,14 @@ Chords = \chords {
 }
 
 
+
 Melody = \transpose c c' {
     \include "nine.rhy"
 
 %    \key c \dorian
+
+%	\set Staff.keySignature = #'((5 . -1/2)(2 . -1/2)(-1 . 0))
+%	\gFreygish
 
     % A (
     \repeat volta 2 {

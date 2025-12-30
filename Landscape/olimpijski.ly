@@ -13,7 +13,15 @@
 
     \include "layout.ly"
 
-    << \Chords \new Staff {<< \Layout\Melody >>}  >>
+    << \Chords \new Staff {
+        \set Staff.keyAlterations = #`(
+            (1 . ,FLAT)
+            (2 . ,NATURAL)
+            (6 . ,FLAT)
+        )
+            %(5 . ,FLAT)
+        << \Layout\Melody >>
+    }  >>
 
     \midi {}
 }

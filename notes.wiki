@@ -1,16 +1,18 @@
+`timidity -Q 0,-1` mutes (`0`) all tracks except the first (`-1`).
+
 midi + unfold repeats requires a separate \score block for each of pdf & midi.
 Otherwise the \layout & \midi can cohabit the same \score
     \layout ==> pdf
     \midi   ==> midi
 
-|          | a | b  | c  | d | e     |f | g|
-| 3 flats  |   |    |    |   |       |
-| 2 flats  |   |    |    |   |       |
-| 1 flat   |   |    |    |   |       |
-|          |   |    |    |   |       |
-| 1 sharp  |   |    |    |   | minor |
-| 2 sharps |   |    |    |   |       |
-| 3 sharps |   |    |    |   |       |
+|          | a | b  | c      | d | e     |f | g|
+| 3 flats  |   |    | minor  |   |       |
+| 2 flats  |   |    | dorian |   |       |
+| 1 flat   |   |    |        |   |       |
+|          |   |    |        |   |       |
+| 1 sharp  |   |    |        |   | minor |
+| 2 sharps |   |    |        |   |       |
+| 3 sharps |   |    |        |   |       |
 
 Keys:
 

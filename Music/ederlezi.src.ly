@@ -1,5 +1,4 @@
-Title  = "Ederlezi"
-Subtitle  = "Đurđevdan"
+Title  = "Ederlezi / Đurđevdan"
 
 Melody = \transpose e e' {
 	\key e \minor

@@ -1,5 +1,7 @@
 Title  = "Una Noche Al Lunar"
 
+% is this a terkish?
+
 Melody = \transpose c c' {
     \include "Lib/four.rhy"
 	\key d \phrygian
@@ -17,7 +19,7 @@ Melody = \transpose c c' {
 	| g8 f f4~f g8 g
 	| g4 f8 a8~a g8 f ees
 	| d1 ~
-	| d2. r4
+	| d2.
 }
 Chords = \chords {
 	\partial 4 s4
@@ -30,10 +32,12 @@ Chords = \chords {
 	| bes1
 	| f1
 	| bes1
-	| s1
+	| s2.
 }
 Layout = {
 	\partial 4 s4
+    \mark \default
+    \bar "||"
 	%\break \mark \default
 	| s1
 	| s1
@@ -50,5 +54,5 @@ Layout = {
 	| s1
 	| s1
 	| s1
-	| s1
+	| s2.
 }

@@ -1,5 +1,4 @@
-Title    = "Mileva Rъčenica"
-Subtitle = "(needs chords)"
+Title    = "Mileva Rъčenica -- (needs chords)"
 Order    = "..."
 
 % 2 quite different versions

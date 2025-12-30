@@ -7,7 +7,7 @@ C =
     \repeat volta 2 {
         | d2.:min | d2.:min | d2.:min     | d2.:min
         | d2.:min | d2.:min | d4.:min a:7 | d2.:min
-        | d8.:min a:7
+        | d4:min a8:7
     }
     \alternative {
         { d4.:min }
