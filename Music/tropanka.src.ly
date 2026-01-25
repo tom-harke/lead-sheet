@@ -1,5 +1,5 @@
 Title  = "Tropanka"
-
+Order  = "A²B²C²D²E⁴"
 Melody = \transpose c c' {
     \include "even.rhy"
     \key g \major

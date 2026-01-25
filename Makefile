@@ -288,17 +288,30 @@ lesno.book.pdf: blurb90.lesno.pdf $(LESNO_PDF) half.lesno.pdf Makefile
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 
-FRIDAY  += makamlijsko
+
 FRIDAY  += buvchansko
+FRIDAY  += dada_sali
 FRIDAY  += danets
+#FRIDAY  += djelem
+#FRIDAY  += djuguritsa
 FRIDAY  += dospatsko
+#FRIDAY  += hora_veche
 FRIDAY  += iz_dolu_ide
-#FRIDAY  += kondolovsko
-#FRIDAY  += lyavata
+#FRIDAY  += jovano_jovanke
+FRIDAY  += karagouna
+FRIDAY  += kondolovsko
+#FRIDAY  += kopanica
+FRIDAY  += lyavata
+FRIDAY  += makamlijsko
+FRIDAY  += nacimov
+#FRIDAY  += oj_jesenske
+FRIDAY  += pirava
 FRIDAY  += pustono
+FRIDAY  += rampi
 #FRIDAY  += sedi_donka
 FRIDAY  += tri_bilbila
 FRIDAY  += tropanka
+#FRIDAY  += vačkovsko horo
 
 
 
@@ -328,6 +341,7 @@ HARP  += greceasca
 HARP  += haidim
 HARP  += hamisha
 HARP  += imate
+HARP  += iz_dolu_ide
 HARP  += jovano
 HARP  += koj_ti_gi
 HARP  += kucata1
@@ -337,14 +351,20 @@ HARP  += majko
 HARP  += makedonsko
 HARP  += mileva
 HARP  += murfatlar1
+HARP  += nacimov
 HARP  += neshto
 HARP  += norbeck2
 HARP  += nu_sunt_negru
 HARP  += odesa
 HARP  += olimpijski
+HARP  += pirava
+HARP  += pustono
+HARP  += rampi
 HARP  += ratevka
 HARP  += sanuva
 HARP  += trakijska
+HARP  += tri_bilbila
+HARP  += tropanka
 
 HARP_PDF = $(patsubst %,%.pdf,$(HARP))
 harp.book.pdf: $(HARP_PDF) Makefile
@@ -355,10 +375,12 @@ harp.book.pdf: $(HARP_PDF) Makefile
 
 
 WORK_ += adelfades
+LEARN  += adiyo
 MEMOR  += ako_umram
 LEARN  += ajshino
 MEMOR  += ajshino
 LEARN  += aleni_zvezdi
+LEARN  += alija
 MEMOR  += alta_sierra
 WORK2 += alfanska
 WORK_ += an_dro_25
@@ -471,6 +493,7 @@ WORK  += melachroino
 LEARN  += metsakukkia
 WORK_ += mia_papadia
 WORK2 += mileva
+LEARN += moj_dilbere
 LEARN  += moldova
 LEARN  += moldovanskya
 WORK  += morags
@@ -489,6 +512,7 @@ LEARN  += noche_al_lunar
 WORK  += nokh_a_glezl_vayn
 WORK2 += norbeck1
 WORK  += norbeck2
+LEARN += no_vo_comer
 LEARN  += nu_sunt_negru
 LEARN2 += nunta
 
@@ -631,11 +655,15 @@ kopanitsa.book.pdf: $(KOPANITSA_PDF) blurb90.kopanitsa.pdf Makefile
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
 # Songs with terkish rhythm: 8 = (3+1)+2+2
+TERKISH += adiyo
 TERKISH += ajshino    # 1 Done
+TERKISH += alija
 TERKISH += araber     # 1 Done
 TERKISH += bilbilicos # 1 Done
 TERKISH += buena      # 1 Done -- 3 lines
+TERKISH += moj_dilbere
 TERKISH += noche_al_lunar #
+TERKISH += no_vo_comer
 TERKISH += sherele    # 1 Done
 
 TERKISH_PDF = $(patsubst %,%.pdf,$(TERKISH))

@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "jovano.src.ly"
+\include "rampi.src.ly"
 
 \include "landscape.ly"
 
@@ -13,7 +13,6 @@
 
     \include "layout.ly"
 
-	\transpose b, a,
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

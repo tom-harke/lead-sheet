@@ -1,11 +1,12 @@
 \version "2.22.1"
 
-\include "jovano.src.ly"
+\include "lyavata.src.ly"
 
 \include "landscape.ly"
 
 \header {
     title = \Title
+    opus  = \Order
     tagline = ##f
 }
 
@@ -13,7 +14,6 @@
 
     \include "layout.ly"
 
-	\transpose b, a,
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}
