@@ -7,3 +7,18 @@
 %\set Score.beatStructure = 4,2
 
 \set Score.markFormatter  = #format-mark-box-alphabet
+
+
+\set Score.subdivideBeams = ##t
+
+\set strictBeatBeaming = ##t
+
+\set Timing.beamExceptions = #'()
+\set Timing.baseMoment     = #(ly:make-moment 1/4)
+\set Timing.beatStructure  = #'(1,1,1,1)
+\set Timing.baseMoment     = #(ly:make-moment 1 8)
+\set Timing.beatStructure  = #'(2 2 2 2)
+
+\numericTimeSignature
+
+\set beatGrouping = #'(4 4 4 4)
