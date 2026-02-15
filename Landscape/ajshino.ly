@@ -2,7 +2,7 @@
 
 \include "ajshino.src.ly"
 
-\include "landscape_7.ly"
+\include "landscape.ly"
 
 \header {
     title = \Title
@@ -12,7 +12,7 @@
 \score {
     \include "layout.ly"
 
-    \transpose a d
+    \transpose a e % for harp
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

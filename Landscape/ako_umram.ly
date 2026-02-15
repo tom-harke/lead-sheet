@@ -12,8 +12,7 @@
 \score {
     \include "layout.ly"
 
- 	\transpose e d
-    << \Chords \new Staff {<< \Layout\Melody >>}  >>
+    << \Chords \new Staff {<< \Layout\Melody\Bassline >>} >>
 
     \midi {}
 }

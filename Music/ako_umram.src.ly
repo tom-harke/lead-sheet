@@ -30,10 +30,10 @@ Melody = \transpose c c' {
    | dis'8. c'4
    | b8. a4
    \repeat volta 2 {
-      \repeat unfold 2 { | g16 fis e b8 b }
+      \repeat percent 2 { | g16 fis e b8 b }
       | e'8 e'16 d'8 c'
       | b8 a16 b a g fis
-      \repeat unfold 2 { | g16 fis e b8 b }
+      \repeat percent 2 { | g16 fis e b8 b }
       | fis8 g16   a8 b
       | g8   fis16 e8 r
    }
@@ -42,6 +42,21 @@ Melody = \transpose c c' {
       | e'8 e'16 d'8 c'8  | b4..
       | c'8 c'16 b8  a    | g8. ~ g8 a8
       | b8  a16  g8  fis8 | e4..
+   }
+}
+
+Bassline = {
+   | s4..*9
+   \repeat volta 2 {
+      | s4.. | s
+      | s8-1 s16-8 s8-2 s8-4 | s8-1 s16-8 s8-3 s8-5
+      | s4.. | s
+      | s | s
+   }
+   \repeat volta 2 {
+      | s8-1 s16-8 s8-2 s8-4 | s8-1 s16-8 s8-3 s8-5
+      | s8-1 s16-8 s8-2 s8-4 | s8-1 s16-8 s8-5 s8-3
+      | s4.. | s | s | s
    }
 }
 

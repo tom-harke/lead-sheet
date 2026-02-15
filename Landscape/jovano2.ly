@@ -13,6 +13,7 @@
 
     \include "layout.ly"
 
+\transpose a b
     << \Chords \new Staff {<< \Layout\Melody\Bassline >>}
 %    \new Lyrics \Lyrics
 	>>

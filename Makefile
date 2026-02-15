@@ -321,49 +321,63 @@ friday.book.pdf: $(FRIDAY_PDF) Makefile
 
 # ---------------------------------------------------------------------------- )
 # ---------------------------------------------------------------------------- (
+# Lesnoto
 HARP  += ako_umram
-HARP  += ajshino
-HARP  += basarabeasca
-HARP  += buvchansko
-HARP  += caval
-HARP  += changu
 HARP  += chetvorno_shopsko
-HARP  += comida
-HARP  += daeni
-HARP  += danets
-HARP  += delijska
-HARP  += dobrogene
 HARP  += dospatsko
-HARP  += ederlezi
 HARP  += erenaki
 HARP  += gerakina
 HARP  += greceasca
-HARP  += haidim
 HARP  += hamisha
 HARP  += imate
 HARP  += iz_dolu_ide
 HARP  += jovano
+HARP  += jovano2
 HARP  += koj_ti_gi
-HARP  += kucata1
-HARP  += lebedik
-HARP  += ljiljano
+HARP  += sevda
 HARP  += majko
 HARP  += makedonsko
-HARP  += mileva
+HARP  += ratevka
+HARP  += tri_bilbila
+HARP  += zapjevala
+
+# Terkeshe
+HARP  += adiyo
+HARP  += ajshino
+HARP  += bilbilicos
+HARP  += sherele
+
+# Zhok
+HARP  += baym_rebin
+HARP  += kandels_hora
+
+# Rachenitsa
+HARP  += barla
+HARP  += comida
+HARP  += daeni
+HARP  += delijska
+HARP  += dobrogene
+HARP  += kucata1
 HARP  += murfatlar1
+HARP  += trakijska
+
+# Misc
+
+HARP  += buvchansko
+HARP  += caval
+HARP  += changu
+HARP  += danets
+HARP  += dorogoj
+HARP  += ederlezi
+HARP  += guguleana
+
+HARP  += lebedik
 HARP  += nacimov
 HARP  += neshto
-HARP  += norbeck2
 HARP  += nu_sunt_negru
 HARP  += odesa
-HARP  += olimpijski
-HARP  += pirava
 HARP  += pustono
-HARP  += rampi
-HARP  += ratevka
 HARP  += sanuva
-HARP  += trakijska
-HARP  += tri_bilbila
 HARP  += tropanka
 
 HARP_PDF = $(patsubst %,%.pdf,$(HARP))

@@ -12,4 +12,5 @@
 
 \include "layout.ly"
 
+\transpose d e
 << \C \M >>

@@ -13,7 +13,8 @@
 \score {
 
     \include "layout.ly"
-    \transpose e a, { << \C \M >> }
+    \transpose e b,
+		{ << \C \M >> }
 
 }
 

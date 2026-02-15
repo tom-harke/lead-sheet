@@ -13,9 +13,7 @@
 
     \include "layout.ly"
 
-	% either of the 2 transpositions seems find:
-	%\transpose a ees
-	\transpose a f
+	\transpose c f,
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

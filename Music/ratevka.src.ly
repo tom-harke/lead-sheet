@@ -96,7 +96,11 @@ Layout = {
    \break\mark\default \repeat volta 2 { | s4..*2 }
    \alternative { {| s4..*2} {| s4..*2} }
    % B
-   \break \mark \default \repeat volta 2 { | s4..*6 }
+   \break \mark \default \repeat volta 2 {
+      | s4..*4
+      \break
+      | s4..*2
+   }
    \alternative { {| s4..*2} {| s4..*2} }
    % C
    \break\mark\default \repeat volta 2 { | s4..*4 s4..*4 }
