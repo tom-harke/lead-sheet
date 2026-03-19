@@ -333,17 +333,21 @@ HARP  += imate
 HARP  += iz_dolu_ide
 HARP  += jovano
 HARP  += jovano2
+HARP  += kalamatiano
 HARP  += koj_ti_gi
 HARP  += sevda
 HARP  += majko
 HARP  += makedonsko
 HARP  += ratevka
+HARP  += samiotissa
 HARP  += tri_bilbila
+HARP  += vangelio
 HARP  += zapjevala
 
 # Terkeshe
 HARP  += adiyo
 HARP  += ajshino
+HARP  += alija
 HARP  += bilbilicos
 HARP  += sherele
 
@@ -357,25 +361,30 @@ HARP  += comida
 HARP  += daeni
 HARP  += delijska
 HARP  += dobrogene
+HARP  += ghiurghiuliu
 HARP  += kucata1
 HARP  += murfatlar1
+HARP  += pandalas.3
 HARP  += trakijska
 
-# Misc
+# Ardeleana
+HARP  += guguleana
+HARP  += nu_sunt_negru
 
+# Misc
 HARP  += buvchansko
 HARP  += caval
 HARP  += changu
 HARP  += danets
 HARP  += dorogoj
 HARP  += ederlezi
-HARP  += guguleana
-
 HARP  += lebedik
 HARP  += nacimov
 HARP  += neshto
-HARP  += nu_sunt_negru
+HARP  += niculitel
 HARP  += odesa
+HARP  += pastouriaux
+HARP  += poules
 HARP  += pustono
 HARP  += sanuva
 HARP  += tropanka
@@ -841,3 +850,4 @@ books: \
 	misc.book.view \
 	balkanalia-2024.book.view \
 	ejc.book.view
+bhettys.pdf

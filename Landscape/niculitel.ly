@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "alija.src.ly"
+\include "niculitel.src.ly"
 
 \include "landscape.ly"
 
@@ -12,7 +12,7 @@
 \score {
 
     \include "layout.ly"
-\transpose d e
+
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
 
     \midi {}

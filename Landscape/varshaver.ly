@@ -12,4 +12,4 @@
 \include "layout.ly"
 
 %\transpose d c
-<< \C \M >>
+    << \Chords \new Staff {<< \Layout\Melody >>}  >>

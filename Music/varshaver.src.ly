@@ -1,7 +1,7 @@
 Title = "Varshaver Freylekhs"
 
 
-C =
+Chords =
 \chords {
     \repeat volta 2 {
         \repeat unfold 2 {
@@ -36,7 +36,7 @@ TAG = {
     | d2
 }
 
-M =
+Melody =
 \transpose d d' {
     \include "two.rhy"
 
@@ -95,4 +95,7 @@ M =
             }
         }
     }
+}
+
+Layout = {
 }

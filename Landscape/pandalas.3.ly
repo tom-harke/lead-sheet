@@ -1,6 +1,6 @@
 \version "2.22.1"
 
-\include "alija.src.ly"
+\include "pandalas.3.src.ly"
 
 \include "landscape.ly"
 
@@ -10,10 +10,8 @@
 }
 
 \score {
-
     \include "layout.ly"
-\transpose d e
+\transpose c d
     << \Chords \new Staff {<< \Layout\Melody >>}  >>
-
     \midi {}
 }
