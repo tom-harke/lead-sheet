@@ -371,6 +371,10 @@ HARP  += trakijska
 HARP  += guguleana
 HARP  += nu_sunt_negru
 
+# Waltz
+HARP  += bhettys
+HARP  += pastouriaux
+
 # Misc
 HARP  += buvchansko
 HARP  += caval
@@ -383,7 +387,6 @@ HARP  += nacimov
 HARP  += neshto
 HARP  += niculitel
 HARP  += odesa
-HARP  += pastouriaux
 HARP  += poules
 HARP  += pustono
 HARP  += sanuva
@@ -850,4 +853,3 @@ books: \
 	misc.book.view \
 	balkanalia-2024.book.view \
 	ejc.book.view
-bhettys.pdf
